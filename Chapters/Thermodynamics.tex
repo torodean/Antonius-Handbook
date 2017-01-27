@@ -1,0 +1,85 @@
+\chapter{Thermodynamics}
+\thispagestyle{fancy}
+\begin{multicols}{2}
+Useful constants: the specific heat of water is $c$
+\begin{align}
+c &\textrm{ = 4186 J/(kg$\cdot$K)}. \\
+1 \textrm{ cal} &= 4.186 \textrm{ J}
+\end{align}
+Temperature relationships.
+\begin{align}
+^\circ F &= \frac{9}{5}^\circ C + 32 \\
+ ^\circ C &= \frac{5}{9}(^\circ F - 32) \\
+ ^\circ K &= ^\circ C + 273.15
+\end{align}
+The heat required to raise the temperature of a mass $m$ by $\Delta T$ is
+\begin{align}
+Q=cm\Delta T
+\end{align}he temperature of an object determines the radiated power of the object, which is given by the \textbf{Stefan-Boltzmann equation}
+\begin{align}
+P_{radiated} &=\sigma \epsilon A T^4 \\
+\sigma &= 5.67 \times 10^{-8} \textrm{ W/$K^4m^2$} \\
+\epsilon &= \textrm{emissivity, and }0 \leq \epsilon \leq 1
+\end{align}
+The work done on a system in going from initial volume ($V_i$) to a final volume ($V_f$) is
+\begin{align}
+W=\int dW = \int_{V_i}^{V_f} pdV.
+\end{align}
+The first law of thermodynamics, with internal energy ($dU$), heat transferred ($dQ$), pressure ($P$) and volume ($dV$)
+\begin{align}
+\Delta E_{internal}&=Q-W \\
+dU &= dQ - PdV
+\end{align}
+
+different processes include
+\begin{enumerate}[(i)]
+	\item An adiabatic process is one where $dQ=0$.
+	\item In a constant-volume process, $W=0$.
+	\item In a closed-loop process, $Q=W$.
+	\item In an adiabatic free expansion, $Q=W=\Delta E_{internal}=0$.
+\end{enumerate}
+The efficiency of a system is defined by
+\begin{align}
+Eff = \frac{W_{cycle}}{Q_{in}}=1-\frac{Q_c}{Q_h}<100\%
+\end{align}
+If heat is added to an object, its change in temperature (with $C=$heat capacity of the object) is given by 
+\begin{align}
+\Delta T &= \frac{Q}{C}
+\end{align}
+If heat is added to an object with mass m, its change in temperature (with $c=$specific heat of the object) is given by 
+\begin{align}
+\Delta T &= \frac{Q}{cm}
+\end{align}
+The ideal gas law: For an ideal gas of n particles in a volume V at pressure and temperature P and T, the equation of state is
+\begin{align}
+PV &=nN_AkT\equiv nRT
+\end{align}
+With a constant number of moles we get from the ideal gas law the following relation:
+\begin{align}
+\frac{P_1V_1}{T_1}=\frac{P_2V_2}{T_2}
+\end{align}
+Dalton's law - The total pressure exerted by a mixture of gases is equal to the sum of the partial pressures pf the gases in the mixture.
+\begin{align}
+P_{total}=P_1+P_2+P_3+\dots + P_n
+\end{align}
+The work done by an ideal gas at constant temperature is
+\begin{align}
+W=nRT\ln\bigg(\frac{V_f}{V_i}\bigg)
+\end{align}
+The average kinetic energy of an ideal gas
+\begin{align}
+K_{ave} &=\frac{1}{N}\sum_{i=1}^{N}K_i\\&=\frac{1}{N}\sum_{i=1}^{N}\frac{1}{2}mv_i^2\\&= \frac{1}{2}mv_{rms}^2
+\end{align}
+The root-mean-square speed of gas molecules is
+\begin{align}
+v_{rms}=\sqrt{\frac{1}{N}\sum_{i=1}^{N}v_i^2}=\sqrt{\frac{3RT}{m}}
+\end{align}
+For an adiabatic process (with $C_V$=specific heat at constant volume, $C_P$=specific heat at constant pressure), we have
+\begin{align}
+dE_{internal} &=-PdV=nC_VdT \\
+PV^\gamma &= \textrm{constant} \\
+\gamma &= \frac{C_P}{C_V} \\
+P_fV_f^\gamma &= P_iV_i^\gamma \\
+T_fV_f^{\gamma-1} &= T_iV_i^{\gamma-1}
+\end{align}
+\end{multicols}

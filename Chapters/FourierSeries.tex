@@ -1,0 +1,32 @@
+\chapter{Fourier Series}
+\thispagestyle{fancy}
+The computation of the (usual) Fourier series is based on the integral identities 
+\begin{multicols}{2}\noindent
+\begin{align}
+&\int_{-\pi}^{\pi}\sin(mx)\sin(nx)dx=\pi\delta_{mn} \\
+&\int_{-\pi}^{\pi}\cos(mx)\cos(nx)dx=\pi\delta_{mn} \\
+&\int_{-\pi}^{\pi}\sin(mx)\cos(nx)dx=0 
+\end{align}
+\begin{align}
+&\int_{-\pi}^{\pi}\sin(mx)dx=0 \\
+&\int_{-\pi}^{\pi}\cos(mx)dx=0 \\
+&\delta_{mn} = \frac{1}{2\pi i}\oint_\gamma z^{m-n-1}dz
+\end{align}
+\end{multicols}
+Using the method for a generalized Fourier series, the usual Fourier series involving sines and cosines is obtained by taking $f_1(x)=cosx$ and $f_2(x)=sinx$. Since these functions form a complete orthogonal system over $[-\pi,\pi]$, the Fourier series of a function $f(x)$ is given by (with $n\in \mathbb{N}$)
+\begin{align}
+f(x)&=\frac{1}{2}a_0+\sum_{n=1}^{\infty}a_n\cos(nx)+\sum_{n=1}^{\infty}b_n\sin(nx) \\
+a_0&= \frac{1}{\pi} \int_{-\pi}^{\pi}f(x)dx \\
+a_n&= \frac{1}{\pi} \int_{-\pi}^{\pi}f(x)\cos(nx)dx \\
+b_n&= \frac{1}{\pi} \int_{-\pi}^{\pi}f(x)\sin(nx)dx
+\end{align}
+The notion of a Fourier series can also be extended to complex coefficients. 
+\begin{align}
+	f(x) &= \sum_{n=-\infty}^{\infty} A_n e^{inx} \hspace{0.5cm}\textrm{with}\hspace{0.5cm}
+	A_n = \frac{1}{2\pi} \int_{-\pi}^{\pi}f(x)e^{-inx}dx
+\end{align}
+For a function f(x) periodic on an interval [-L,L] instead of [-pi,pi], a simple change of variables can be used to transform the interval of integration from [-pi,pi] to [-L,L]. Let 
+\begin{align}
+x &\equiv \frac{\pi x'}{L}  \Longleftrightarrow x'\equiv\frac{Lx}{\pi} \implies
+dx = \frac{\pi dx'}{L}
+\end{align}

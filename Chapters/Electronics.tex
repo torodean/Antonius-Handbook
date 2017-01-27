@@ -1,0 +1,146 @@
+\chapter{Electronics}
+\thispagestyle{fancy}
+
+Circuit diagrams are a major part of understanding and representing electronic circuits. Some common \textbf{circuit diagram symbols} follow:
+
+\vspace{0.5cm}
+
+\begin{circuitikz} 
+	\draw 
+	(0,0) to[ammeter, o-o, l=ammeter] (1.75,0)
+	(1.75,0) to[voltmeter, o-o, l=voltmeter] (3.75,0)
+	(3.75,0) to[ohmmeter, o-o, l=ohmmeter] (5.75,0)
+	(5.75,0) to[lamp, o-o, l=lamp] (7,0)
+	(7,0) to[american voltage source, o-o, l=voltage source] (9.5,0)
+	(9.5,0) to[american current source, o-o, l=current source] (12.5,0)
+	(12.5,0) to[sV, o-o, l=sinusoidal voltage source] (17,0)
+	;
+\end{circuitikz}
+
+\begin{circuitikz}
+	\draw 
+	(0,0) to[sqV, o-o, l=square voltage source] (4,0)
+	(4,0) to[esource, o-o, l=empty voltage source] (8,0)
+	(8,0) to[dcisource, o-o, l=DC current source] (11.5,0)
+	(11.5,0) to[dcvsource, o-o, l=DC voltage source] (15,0)
+	(15,0) to[vsourcetri, o-o, l=$\Delta$ voltage source] (18,0)
+	;
+\end{circuitikz}
+
+\begin{circuitikz}
+	\draw
+	(0,0) to[R, o-o, l=resistor] (2,0)
+	(2,0) to[vR, o-o, l=variable resistor] (5,0)
+	(5,0) to[pR, o-o, l=potentiometer] (8,0)
+	(8,0) to[fuse, o-o, l=fuse] (10,0)
+	(10,0) to[afuse, o-o, l=asymmetric fuse] (13,0)
+	(13,0) to[Do, o-o, l=empty diode] (15.5,0)
+	(15.5,0) to[D*, o-o, l=full diode] (18,0)	
+	;
+\end{circuitikz}
+
+\begin{circuitikz}
+	\draw
+	(0,0) to[C, o-o, l=capacitor] (2,0)
+	(2,0) to[vC, o-o, l=variable capacitor] (5,0)
+	(5,0) to[L, o-o, l=inductor] (7,0)
+	(7,0) to[vL, o-o, l=variable inductor] (10,0)
+	(10,0) to[american inductor, o-o, l=inductor] (12,0)
+	(12,0) to[variable american inductor, o-o, l=variable inductor] (15,0)
+	(15,0) to[transmission line, o-o, l=transmission line] (18,0)
+	;
+\end{circuitikz}
+
+\begin{circuitikz}
+	\draw
+	(0,0) to[battery1, o-o, l=battery] (2,0)
+	(2,0) to[battery, o-o, l=battery] (4,0)
+	(4,0) to[switch, o-o, l=switch] (6,0)
+	(6,0) to[push button, o-o, l=push button] (9,0)
+	(9,0) to[amp, o-o, l=amplifier] (11,0)
+	(11,0) to[vamp, o-o, l=VGA] (13,0)
+	(13,0) -- (13,0.3) -- (14.5,0.3) node[pground]{} -- (15,0.3) -- (17.3,0.3) node[ground]{}
+	;
+	\draw (14.5,0.3)node[above]{protective ground};
+	\draw (17.3,0.3)node[above]{ground};
+\end{circuitikz}
+
+An elementary building block of a circuit is a \textbf{logic gate}. At any given time, the 3 nodes of a logic gate are either true (1) or false (0). The common notation for the logic gates follow:
+
+\vspace{0.5cm}
+
+\begin{circuitikz}
+	\draw (0,0) node[american and port]{};
+	\draw (-0.7,0.7)node[above]{AND};
+	\draw (2,0) node[american or port]{};
+	\draw (1.3,0.7)node[above]{OR};
+	\draw (4,0) node[american nand port]{};
+	\draw (3.3,0.7)node[above]{NAND};
+	\draw (6,0) node[american nor port]{};
+	\draw (5.3,0.7)node[above]{NOR};
+	\draw (7.5,0) node[american not port]{};
+	\draw (7.3,0.7)node[above]{NOT};
+	\draw (10,0) node[american xor port]{};
+	\draw (9.3,0.7)node[above]{XOR};
+	\draw (12,0) node[american xnor port]{};
+	\draw (11.3,0.7)node[above]{XNOR};
+\end{circuitikz}
+
+When dealing with circuit diagrams, it is often helpful to simplify a circuit using an equivalent circuit. Some basic \textbf{circuit equivalences} follow:
+
+\begin{circuitikz}
+	\draw (0,0) to[battery1, i=I,  l=V] (0,2)
+	(0,2) to[R, l=$R_1$] (2,2)
+	(2,2) to[R, l=$R_2$] (2,0)
+	(2,0) -- (0,0); 
+	
+	\draw (3.5,1) node[]{$\Longleftrightarrow$} (3.5,1);
+	
+	\draw (5,0) to[battery1, i=I, l=V] (5,2)
+	(7,2) -- (7,0)
+	(5,2) to[R, l={$R_1+R_2$}] (7,2)
+	(7,0) -- (5,0); 
+	
+	\draw (9,0) to[battery1, i=I,  l=V] (9,2)
+	(9,2) -- (10.5,2)
+	(10.5,2) to[C, l=$C_1$] (10.5,0)
+	(10.5,2) to[C, l=$C_2$] (12,2)
+	(12,2) -- (12,0)
+	(9,0) -- (12,0); 
+	
+	\draw (13,1) node[]{$\Longleftrightarrow$} (13,1);
+	
+	\draw (14.5,0) to[battery1, i=I, l=V] (14.5,2)
+	(14.5,2) to[C, l=$C_1+C_2$] (16,2)
+	(16,2) -- (16,0)
+	(16,0) -- (14.5,0); 
+\end{circuitikz}
+
+\vspace{0.5cm}
+
+\begin{circuitikz}
+	\draw (0,0) to[battery1, i=I,  l=V] (0,2)
+	(1.5,0) to[R, l=$R_1$] (1.5,2)
+	(3,0) to[R, l=$R_2$] (3,2)
+	(0,0) -- (3,0)
+	(0,2) -- (3,2); 
+	
+	\draw (4,1) node[]{$\Longleftrightarrow$} (4,1);
+	
+	\draw (5.5,0) to[battery1, i=I, l=V] (5.5,2)
+	(5.5,2) to[R, l=\hspace{0.5cm}$\left(\frac{1}{R_1}+\frac{1}{R_2}\right)^{-1}$] (7.5,2)
+	(7.5,2) -- (7.5,0)
+	(7.5,0) -- (5.5,0); 
+	
+	\draw (10,0) to[battery1, i=I,  l=V] (10,2)
+	(10,2) to[C, l=$C_1$] (11.5,2)
+	(11.5,2) to[C, l=$C_2$] (11.5,0)
+	(11.5,0) -- (10,0); 
+	
+	\draw (13,1) node[]{$\Longleftrightarrow$} (13,1);
+	
+	\draw (14.5,0) to[battery1, i=I, l=V] (14.5,2)
+	(14.5,2) to[C, l=\hspace{0.5cm}$\left(\frac{1}{C_1}+\frac{1}{C_2}\right)^{-1}$] (16,2)
+	(16,2) -- (16,0)
+	(16,0) -- (14.5,0); 
+\end{circuitikz}
