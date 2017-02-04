@@ -38,6 +38,7 @@
 \contentsline {section}{\numberline {16.1}States of a Model System}{51}{section.16.1}
 \contentsline {section}{\numberline {16.2}Entropy And Temperature}{51}{section.16.2}
 \contentsline {section}{\numberline {16.3}Boltzmann Distribution\\ \& Helmholtz Free Energy}{52}{section.16.3}
+\contentsline {section}{\numberline {16.4}Thermal Radiation \\ \& Planck Distribution}{52}{section.16.4}
 \contentsline {chapter}{\numberline {17}Elementary Quantum Physics}{53}{chapter.17}
 \contentsline {chapter}{\numberline {18}Quantum Mechanics}{56}{chapter.18}
 \contentsline {chapter}{\numberline {19}Nuclear and High Energy Physics}{60}{chapter.19}
