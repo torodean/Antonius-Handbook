@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  27 JAN 2017 16:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  3 FEB 2017 21:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1108,11 +1108,12 @@ LaTeX Warning: Label `' multiply defined.
 LaTeX Warning: Label `1' multiply defined.
 
 ) (./Chapters/Integrals.aux) (./Chapters/FourierSeries.aux)
-(./Chapters/Statistics.aux) (./Chapters/Astronomy.aux)
-(./Chapters/Mechanics.aux) (./Chapters/Electrostatics.aux)
-(./Chapters/Electronics.aux) (./Chapters/SpecialRelativity.aux)
-(./Chapters/Thermodynamics.aux) (./Chapters/Quantum.aux) (./Chapters/QM.aux)
-(./Chapters/Nuclear.aux) (./Chapters/Advanced.aux))
+(./Chapters/Astronomy.aux) (./Chapters/Mechanics.aux)
+(./Chapters/Electrostatics.aux) (./Chapters/Electronics.aux)
+(./Chapters/SpecialRelativity.aux) (./Chapters/Statistics.aux)
+(./Chapters/Thermodynamics.aux) (./Chapters/ThermalStatistical.aux)
+(./Chapters/Quantum.aux) (./Chapters/QM.aux) (./Chapters/Nuclear.aux)
+(./Chapters/Advanced.aux))
 \openout1 = `Handbook.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -1225,7 +1226,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
-<./Images/Covers/AH2.jpg, id=187, 2616.77625pt x 716.6775pt>
+<./Images/Covers/AH2.jpg, id=203, 2616.77625pt x 716.6775pt>
 File: ./Images/Covers/AH2.jpg Graphic file (type jpg)
 
 <use ./Images/Covers/AH2.jpg>
@@ -1246,7 +1247,7 @@ LaTeX Font Info:    Try loading font information for U+wasy on input line 28.
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-<./Images/Covers/background.png, id=188, 930.47626pt x 555.07375pt>
+<./Images/Covers/background.png, id=204, 930.47626pt x 555.07375pt>
 File: ./Images/Covers/background.png Graphic file (type png)
 
 <use ./Images/Covers/background.png>
@@ -1725,23 +1726,14 @@ Chapter 8.
 
 
 ]
-\openout2 = `./Chapters/Statistics.aux'.
-
- (./Chapters/Statistics.tex
-Chapter 9.
-) [34
-
-
-
-]
 \openout2 = `./Chapters/Astronomy.aux'.
 
  (./Chapters/Astronomy.tex
-Chapter 10.
+Chapter 9.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-[35
+[34
 
 
 
@@ -1749,20 +1741,20 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [36]
-<./Images/Diagrams/meanfreepath.png, id=955, 368.37625pt x 414.54875pt>
+ [35]
+<./Images/Diagrams/meanfreepath.png, id=963, 368.37625pt x 414.54875pt>
 File: ./Images/Diagrams/meanfreepath.png Graphic file (type png)
 
 <use ./Images/Diagrams/meanfreepath.png>
 Package pdftex.def Info: ./Images/Diagrams/meanfreepath.png used on input line 
 189.
 (pdftex.def)             Requested size: 199.55719pt x 224.56776pt.
- [37 <./Images/Diagrams/meanfreepath.png (PNG copy)>]) [38]
+ [36 <./Images/Diagrams/meanfreepath.png (PNG copy)>]) [37]
 \openout2 = `./Chapters/Mechanics.aux'.
 
  (./Chapters/Mechanics.tex
-Chapter 11.
-[39
+Chapter 10.
+[38
 
 
 
@@ -1770,20 +1762,20 @@ Chapter 11.
 Overfull \vbox (10.83464pt too high) has occurred while \output is active []
 
 
-[40])
+[39])
 \openout2 = `./Chapters/Electrostatics.aux'.
 
  (./Chapters/Electrostatics.tex
-Chapter 12.
-[41
+Chapter 11.
+[40
 
 
 
-] [42] [43] [44]) [45]
+] [41] [42] [43]) [44]
 \openout2 = `./Chapters/Electronics.aux'.
 
  (./Chapters/Electronics.tex
-Chapter 13.
+Chapter 12.
 
 Overfull \hbox (2.61809pt too wide) in paragraph at lines 28--29
 [][] 
@@ -1804,7 +1796,7 @@ Overfull \hbox (1.30219pt too wide) in paragraph at lines 66--67
 [][] 
  []
 
-) [46
+) [45
 
 
 
@@ -1812,6 +1804,15 @@ Overfull \hbox (1.30219pt too wide) in paragraph at lines 66--67
 \openout2 = `./Chapters/SpecialRelativity.aux'.
 
  (./Chapters/SpecialRelativity.tex
+Chapter 13.
+) [46
+
+
+
+]
+\openout2 = `./Chapters/Statistics.aux'.
+
+ (./Chapters/Statistics.tex
 Chapter 14.
 ) [47
 
@@ -1827,16 +1828,30 @@ Chapter 15.
 
 
 ]) [49]
-\openout2 = `./Chapters/Quantum.aux'.
+\openout2 = `./Chapters/ThermalStatistical.aux'.
 
- (./Chapters/Quantum.tex
+ (./Chapters/ThermalStatistical.tex
 Chapter 16.
+
+Overfull \hbox (10.72751pt too wide) in paragraph at lines 67--67
+|\OT1/cmr/bx/n/14.4 Boltzmann Dis-tri-bu-tion & Helmholtz
+ []
+
 [50
 
 
 
+]) [51]
+\openout2 = `./Chapters/Quantum.aux'.
+
+ (./Chapters/Quantum.tex
+Chapter 17.
+[52
+
+
+
 ]
-<./Images/Diagrams/1280px-BraggPlaneDiffraction.png, id=1245, 1284.8pt x 602.25
+<./Images/Diagrams/1280px-BraggPlaneDiffraction.png, id=1305, 1284.8pt x 602.25
 pt>
 File: ./Images/Diagrams/1280px-BraggPlaneDiffraction.png Graphic file (type png
 )
@@ -1845,348 +1860,349 @@ Package pdftex.def Info: ./Images/Diagrams/1280px-BraggPlaneDiffraction.png use
 d on input line 123.
 (pdftex.def)             Requested size: 256.95544pt x 120.44786pt.
 
-<./Images/Diagrams/crystalscattering.png, id=1247, 760.8425pt x 562.1pt>
+<./Images/Diagrams/crystalscattering.png, id=1307, 760.8425pt x 562.1pt>
 File: ./Images/Diagrams/crystalscattering.png Graphic file (type png)
 
 <use ./Images/Diagrams/crystalscattering.png>
 Package pdftex.def Info: ./Images/Diagrams/crystalscattering.png used on input 
 line 123.
 (pdftex.def)             Requested size: 190.21016pt x 140.52466pt.
- [51 <./Images/Diagrams/1280px-BraggPlaneDiffraction.png> <./Images/Diagrams/cr
-ystalscattering.png>]) [52]
+ [53 <./Images/Diagrams/1280px-BraggPlaneDiffraction.png> <./Images/Diagrams/cr
+ystalscattering.png>]) [54]
 \openout2 = `./Chapters/QM.aux'.
 
 
 (./Chapters/QM.tex
-Chapter 17.
-[53
+Chapter 18.
+[55
 
 
 
-] [54] [55]) [56]
+] [56] [57]) [58]
 \openout2 = `./Chapters/Nuclear.aux'.
 
  (./Chapters/Nuclear.tex
-Chapter 18.
-[57
+Chapter 19.
+[59
 
 
 
-] [58]) [59]
+] [60]) [61]
 \openout2 = `./Chapters/Advanced.aux'.
 
  (./Chapters/Advanced.tex
-Chapter 19.
-) [60
+Chapter 20.
+) [62
 
 
 
 ]
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1407, 614.295pt x 794.97pt>
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1467, 614.295pt x 794.97pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
-ut line 115.
+ut line 118.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
-ut line 115.
+ut line 118.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1410, page=1, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1470, page=1, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 1>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page1 used
- on input line 115.
+ on input line 118.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 1>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page1 used
- on input line 115.
+ on input line 118.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 1>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page1 used
- on input line 115.
+ on input line 118.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 1>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page1 used
- on input line 115.
+ on input line 118.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 1>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page1 used
- on input line 115.
+ on input line 118.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [61
+ [63
 
  <./Resources/IsotopicMassNaturalAbundance.pdf>]
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
-ut line 116.
+ut line 119.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
-ut line 116.
+ut line 119.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1429, page=2, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1488, page=2, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page2 used
- on input line 116.
+ on input line 119.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page2 used
- on input line 116.
+ on input line 119.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page2 used
- on input line 116.
+ on input line 119.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page2 used
- on input line 116.
+ on input line 119.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page2 used
- on input line 116.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [62 <./Resources/IsotopicMassNaturalAbundance.pdf>]
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
- <use Resources/IsotopicMassNaturalAbundance.pdf>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
-ut line 117.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-
-<use Resources/IsotopicMassNaturalAbundance.pdf>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
-ut line 117.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1436, page=3, 614.295pt x 794.9
-7pt>
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
- <use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page3 used
- on input line 117.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page3 used
- on input line 117.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page3 used
- on input line 117.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page3 used
- on input line 117.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page3 used
- on input line 117.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [63 <./Resources/IsotopicMassNaturalAbundance.pdf>]
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
- <use Resources/IsotopicMassNaturalAbundance.pdf>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
-ut line 118.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-
-<use Resources/IsotopicMassNaturalAbundance.pdf>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
-ut line 118.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1443, page=4, 614.295pt x 794.9
-7pt>
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
- <use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page4 used
- on input line 118.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page4 used
- on input line 118.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page4 used
- on input line 118.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page4 used
- on input line 118.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page4 used
- on input line 118.
+ on input line 119.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [64 <./Resources/IsotopicMassNaturalAbundance.pdf>]
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
-ut line 119.
+ut line 120.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
-ut line 119.
+ut line 120.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1450, page=5, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1495, page=3, 614.295pt x 794.9
+7pt>
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+ <use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page3 used
+ on input line 120.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page3 used
+ on input line 120.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page3 used
+ on input line 120.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page3 used
+ on input line 120.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page3 used
+ on input line 120.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [65 <./Resources/IsotopicMassNaturalAbundance.pdf>]
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+ <use Resources/IsotopicMassNaturalAbundance.pdf>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
+ut line 121.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+
+<use Resources/IsotopicMassNaturalAbundance.pdf>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
+ut line 121.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1502, page=4, 614.295pt x 794.9
+7pt>
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+ <use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page4 used
+ on input line 121.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page4 used
+ on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page4 used
+ on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page4 used
+ on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page4 used
+ on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [66 <./Resources/IsotopicMassNaturalAbundance.pdf>]
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+ <use Resources/IsotopicMassNaturalAbundance.pdf>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
+ut line 122.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+
+<use Resources/IsotopicMassNaturalAbundance.pdf>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
+ut line 122.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1509, page=5, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 5>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page5 used
- on input line 119.
+ on input line 122.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 5>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page5 used
- on input line 119.
+ on input line 122.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 5>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page5 used
- on input line 119.
+ on input line 122.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 5>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page5 used
- on input line 119.
+ on input line 122.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 5>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page5 used
- on input line 119.
+ on input line 122.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [65 <./Resources/IsotopicMassNaturalAbundance.pdf>]
-<Resources/PeriodicTableMuted2.pdf, id=1455, 1927.2pt x 1084.05pt>
+ [67 <./Resources/IsotopicMassNaturalAbundance.pdf>]
+<Resources/PeriodicTableMuted2.pdf, id=1515, 1927.2pt x 1084.05pt>
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 
 <use Resources/PeriodicTableMuted2.pdf>
 Package pdftex.def Info: Resources/PeriodicTableMuted2.pdf used on input line 1
-23.
+26.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 
 <use Resources/PeriodicTableMuted2.pdf>
 Package pdftex.def Info: Resources/PeriodicTableMuted2.pdf used on input line 1
-23.
+26.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
 
-<Resources/PeriodicTableMuted2.pdf, id=1458, page=1, 1927.2pt x 1084.05pt>
+<Resources/PeriodicTableMuted2.pdf, id=1518, page=1, 1927.2pt x 1084.05pt>
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 
 <use Resources/PeriodicTableMuted2.pdf, page 1>
 Package pdftex.def Info: Resources/PeriodicTableMuted2.pdf, page1 used on input
- line 123.
-(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
-File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
-
-<use Resources/PeriodicTableMuted2.pdf, page 1>
-Package pdftex.def Info: Resources/PeriodicTableMuted2.pdf, page1 used on input
- line 123.
+ line 126.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 
 <use Resources/PeriodicTableMuted2.pdf, page 1>
 Package pdftex.def Info: Resources/PeriodicTableMuted2.pdf, page1 used on input
- line 123.
+ line 126.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 
 <use Resources/PeriodicTableMuted2.pdf, page 1>
 Package pdftex.def Info: Resources/PeriodicTableMuted2.pdf, page1 used on input
- line 123.
+ line 126.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 
 <use Resources/PeriodicTableMuted2.pdf, page 1>
 Package pdftex.def Info: Resources/PeriodicTableMuted2.pdf, page1 used on input
- line 123.
+ line 126.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
- [66 <./Resources/PeriodicTableMuted2.pdf>] (./Resources/References.tex
+File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
+
+<use Resources/PeriodicTableMuted2.pdf, page 1>
+Package pdftex.def Info: Resources/PeriodicTableMuted2.pdf, page1 used on input
+ line 126.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+ [68 <./Resources/PeriodicTableMuted2.pdf>] (./Resources/References.tex
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 []\OT1/cmr/m/n/9 ``Table of Iso-topic Masses and Nat-u-ral Abun-dances." (n.d.)
 : n. pag. NC State Uni-ver-sity. Web.
  []
 
-) [67
+) [69
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
  (./Handbook.aux (./Resources/Copywrite.aux) (./Resources/Preface.aux)
 (./Chapters/Constants.aux) (./Chapters/Mathematics.aux)
 (./Chapters/ComplexAnalysis.aux) (./Chapters/MatrixAlgebra.aux)
 (./Chapters/AbstractAlgebra.aux) (./Chapters/DiffEQ.aux)
 (./Chapters/Integrals.aux) (./Chapters/FourierSeries.aux)
-(./Chapters/Statistics.aux) (./Chapters/Astronomy.aux)
-(./Chapters/Mechanics.aux) (./Chapters/Electrostatics.aux)
-(./Chapters/Electronics.aux) (./Chapters/SpecialRelativity.aux)
-(./Chapters/Thermodynamics.aux) (./Chapters/Quantum.aux) (./Chapters/QM.aux)
-(./Chapters/Nuclear.aux) (./Chapters/Advanced.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
+(./Chapters/Astronomy.aux) (./Chapters/Mechanics.aux)
+(./Chapters/Electrostatics.aux) (./Chapters/Electronics.aux)
+(./Chapters/SpecialRelativity.aux) (./Chapters/Statistics.aux)
+(./Chapters/Thermodynamics.aux) (./Chapters/ThermalStatistical.aux)
+(./Chapters/Quantum.aux) (./Chapters/QM.aux) (./Chapters/Nuclear.aux)
+(./Chapters/Advanced.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
 Package rerunfilecheck Info: File `Handbook.out' has not changed.
-(rerunfilecheck)             Checksum: 905AC894836F91974991E19705FF93C9;7188.
+(rerunfilecheck)             Checksum: DA0DD1784D6DC1CE556206DC1D341610;8049.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 39168 strings out of 494953
- 783535 string characters out of 6180977
- 982848 words of memory out of 5000000
- 40833 multiletter control sequences out of 15000+600000
+ 39217 strings out of 494953
+ 784303 string characters out of 6180977
+ 982399 words of memory out of 5000000
+ 40838 multiletter control sequences out of 15000+600000
  21000 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,20n,54p,10456b,845s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2213,10 +2229,10 @@ c/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/wasy2-ps/
 wasy10.pfb>
-Output written on Handbook.pdf (73 pages, 4451220 bytes).
+Output written on Handbook.pdf (75 pages, 4461932 bytes).
 PDF statistics:
- 2559 PDF objects out of 2984 (max. 8388607)
- 1638 compressed objects within 17 object streams
- 956 named destinations out of 1000 (max. 500000)
- 498 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2626 PDF objects out of 2984 (max. 8388607)
+ 1702 compressed objects within 18 object streams
+ 993 named destinations out of 1000 (max. 500000)
+ 530 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,111 @@
+\chapter{Thermal \& Statistical Physics}
+\thispagestyle{fancy}
+
+\begin{multicols}{2}
+	\section{States of a Model System}
+	The multiplicity function for a system of N magnets with a spin excess $2s=	N_{\uparrow}-N_{\downarrow}$ is
+	\begin{align}
+		g(N,s)=\frac{N!}{(\frac{N}{2}+s)!(\frac{N}{2}-s)!} = \frac{N!}{N_{\uparrow}!N_{\downarrow}!}.
+	\end{align}
+	It is often useful to evaluate $g(N,s)$ within a logarithm in which the \textbf{Stirling approximation} becomes useful.
+	\begin{align}
+		N! \approx N^N\sqrt{2\pi N} \exp\left(-N+\frac{1}{12N}+\cdots\right).
+	\end{align}
+	It is often useful to take the logarithm of this which gives
+	\begin{align}
+		\log N!\cong \frac{\log 2\pi}{2}+\left(N+\frac{1}{2}\right)
+		\log N-.
+	\end{align}
+	In the limit $s/N << 1$, with $N>>1$, we have the Gaussian approximation 
+	\begin{align}
+		g(N,s) &\cong g(N,0)\exp\left(\frac{-2s^2}{N}\right) \\
+		g(N,0)&\simeq 2^N\sqrt{\frac{2}{\pi N}}.
+	\end{align}
+	The exact value of $g(N,0)$ is given by
+	\begin{align}
+		g(N,0) = \frac{N!}{(N/2)!(N/2)!}.
+	\end{align}
+	The average value, or mean value, of a function f(s) taken over a probability distribution P(s) is defined as
+	\begin{align}
+		\langle f \rangle &=\sum_{s} f(s)P(s), \\
+		1 &= \sum_{s} P(s).
+	\end{align}
+	The binomial distribution has the property 
+	\begin{align}
+		\sum_{s}g(N,s)=2^N.
+	\end{align}
+	If all states of the model spin system are equally likely, the average value of $s^2$ is
+	\begin{align}
+		\langle s^2 \rangle = \frac{\int_{-\infty}^{\infty}s^2 g(N,s) ds }{\int_{-\infty}^{\infty} g(N,s) ds } = \frac{N}{4}
+	\end{align}
+	The energy interaction of a single magnetic moment $\vec{m}$ with a fixed external magnetic field $\vec{B}$ is
+	\begin{align}
+		U=-\vec{m}\cdot \vec{B}.
+	\end{align}
+	For a model system of N elementary magnets, each with two allowed orientations in a uniform magnetic field $\vec{B}$, the total potential energy U is
+	\begin{align}
+		U &=\sum_{i=0}^{N}U_i=-\vec{B}\cdot \sum_{i=0}^{N}m_i \\
+		&=-2smB = -MB.
+	\end{align}
+	\section{Etropy And Temperature}
+	If $P(s)$ is the probability that a system is in the state $X$, the average value of a quantity $X$ is 
+	\begin{align}
+		\langle X \rangle = \sum_{s}X(s)P(s).
+	\end{align}
+	The number of combined systems 1 and 2 (with $s=s_1+s_2$) is
+	\begin{align}
+		g(s) = \sum_s g_1(s_1)g_2(s-s_1).
+	\end{align}
+	The relation $s=k_B\sigma$ connects the conventional entropy S with the fundamental entropy $\sigma$. The \textbf{entropy} $\sigma(N,U)$ is given by 
+	\begin{align}
+		\sigma(N,U) = \log g(N,U).
+	\end{align}
+	The fundamental temperature $\tau$ is defined by the relation
+	\begin{align}
+		\frac{1}{\tau} = \left(\frac{\partial \sigma}{\partial U}\right)_{N,V}.
+	\end{align}
+	\section{Boltzmann Distribution \& Helmholtz Free Energy}
+	The partition function Z is
+	\begin{align}
+		Z \equiv \sum_{s} \exp\left(-\frac{\epsilon_s}{\tau}\right).
+	\end{align}
+	The probability of finding a system of N particles in a state s of energy $\epsilon_s$ when the system is in thermal contact with a large reservoir at temperature $\tau$ is
+	\begin{align}
+		P(\epsilon_s) = \frac{1}{Z}\exp\left(-\frac{\epsilon_s}{\tau}\right).
+	\end{align} 
+	The pressure is given by
+	\begin{align}
+		P = -\left(\frac{\partial U}{\partial V}\right)_\sigma = \tau\left(\frac{\partial \sigma}{\partial V}\right)_U.
+	\end{align}
+	The \textbf{Helmholtz Free Energy} is a minimum in equilibrium for a system held at constant $\tau, V$ and is defined as
+	\begin{align}
+		F\equiv U-\tau \sigma.	
+	\end{align}
+	From this we have
+	\begin{align}
+		\sigma &= -\left(\frac{\partial F}{\partial \tau}\right)_V \\
+		P &= -\left(\frac{\partial F}{\partial V}\right)_\tau.
+	\end{align}
+	For an ideal monotonic gas of N atoms of spin zero with $n=N/V << n_Q$,
+	\begin{align}
+		Z_n = \frac{Z_1^N}{N!}=\frac{(n_Q V)^N}{N!},
+	\end{align}
+	The quantum concentration $n_Q$ is defined by
+	\begin{align}
+		n_Q \equiv \left(\frac{M\tau}{2\pi\hbar^2}\right)^{3/2}.
+	\end{align}
+	Furthermore, we have
+	\begin{align}
+		PV&=N\tau \\
+		\sigma &=N\left[\log\left(\frac{n_Q}{n}\right)+\frac{5}{2}\right] \\
+		C_V&=\frac{3}{2}N.  
+	\end{align}
+	The thermal average energy of an atom a a box is
+	\begin{align}
+		U = \langle \epsilon \rangle = \tau^2 \frac{\partial \log (Z_1)}{\partial \tau}.
+	\end{align}
+	For a system of fixed volume in thermal contact with a reservoir, the mean square fluctuation in energy of the system is
+	\begin{align}
+		\langle(\epsilon - 	\langle\epsilon \rangle)^2 \rangle = \tau^2\left(\frac{\partial U}{\partial \tau}\right)_V
+	\end{align}  
+\end{multicols}
