@@ -1,6 +1,6 @@
 \chapter{Electronics}
 \thispagestyle{fancy}
-
+\section{Electronic Symbols \& Circuit Diagrams}
 Circuit diagrams are a major part of understanding and representing electronic circuits. Some common \textbf{circuit diagram symbols} follow:
 
 \vspace{0.5cm}
@@ -86,6 +86,7 @@ An elementary building block of a circuit is a \textbf{logic gate}. At any given
 	\draw (11.3,0.7)node[above]{XNOR};
 \end{circuitikz}
 
+\section{Equivalent Circuits}
 When dealing with circuit diagrams, it is often helpful to simplify a circuit using an equivalent circuit. Some basic \textbf{circuit equivalences} follow:
 
 \begin{circuitikz}
@@ -144,3 +145,44 @@ When dealing with circuit diagrams, it is often helpful to simplify a circuit us
 	(16,2) -- (16,0)
 	(16,0) -- (14.5,0); 
 \end{circuitikz}
+
+\vspace{0.5cm}
+\begin{multicols}{2}
+A \textbf{voltage divider}:
+\begin{center}
+\begin{circuitikz}
+	\draw (0,0) to[battery1, i=I,  l=V] (0,2)
+	(0,2) to[R, l=$R_1$] (2,2)
+	(2,2) to[R, l=$R_2$] (2,0)
+	(2,0) -- (0,0)
+	(2,2) -- (3.5,2)
+	(2,0) -- (3.5,0); 
+	\draw[-latex] (3.5,1.3) -- (3.5,1.9) {};
+	\draw[-latex] (3.5,0.7) -- (3.5,0.1) {};
+	\draw (3.5,1) node[]{$V_2$} (3.5,1);	
+\end{circuitikz}
+\end{center}
+
+\begin{align}
+V_2 &= \frac{VR_2}{R_1+R_2} \\
+V &= I_1(R_1+R_2) = I_2(R_1+R_2)
+\end{align}
+
+A \textbf{Current divider}:
+\begin{center}
+	\begin{circuitikz}
+		\draw (0,0) to[american current source,  l=I] (0,2)
+		(1.5,0) to[R, l=$R_1$] (1.5,2)
+		(3,0) to[R, l=$R_2$] (3,2)
+		(0,0) -- (3,0)
+		(0,2) -- (3,2)
+		(2,0) -- (0,0);
+		\draw[-latex] (3.4,1.5) -> (3.4,0.5);
+		\draw (3.7,1) node[]{$I_2$} (3.5,1);	
+	\end{circuitikz}
+\end{center}
+
+\begin{align}
+I_2 &= \frac{I R_1  }{R_1+R_2}
+\end{align}
+\end{multicols}

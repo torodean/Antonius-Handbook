@@ -17,6 +17,17 @@
 	\addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}%
 	\sectionmark{#1}}
 
+%Makes a chapter with no title
+\makeatletter
+\newcommand{\unchapter}[1]{%
+	\begingroup
+	\let\@makechapterhead\@gobble % make \@makechapterhead do nothing
+	\chapter{#1}
+	\endgroup
+}
+\makeatother
+
+
 %%% This defines the solution environment for you to write your solutions
 \newenvironment{soln}
 {\let\oldqedsymbol=\qedsymbol
