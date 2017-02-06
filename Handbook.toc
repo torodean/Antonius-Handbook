@@ -48,6 +48,7 @@
 \contentsline {chapter}{\numberline {20}Advanced Physics}{63}{chapter.20}
 \contentsline {section}{\numberline {20.1}Quantum Chromodynamics}{63}{section.20.1}
 \contentsline {chapter}{\numberline {21}Resources}{64}{chapter.21}
-\contentsline {section}{\numberline {21.1}Table of Isotopic Masses and Natural Abundances}{64}{section.21.1}
-\contentsline {section}{\numberline {21.2}Periodic Table of Elements}{69}{section.21.2}
-\contentsline {chapter}{References}{70}{chapter*.2}
+\contentsline {section}{\numberline {21.1}Clebsch-Gordan Coefficients, spherical harmonics, and d functions.}{64}{section.21.1}
+\contentsline {section}{\numberline {21.2}Table of Isotopic Masses and Natural Abundances}{65}{section.21.2}
+\contentsline {section}{\numberline {21.3}Periodic Table of Elements}{70}{section.21.3}
+\contentsline {chapter}{References}{71}{chapter*.2}
