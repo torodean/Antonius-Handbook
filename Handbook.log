@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  6 FEB 2017 11:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  6 FEB 2017 21:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2248,10 +2248,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 39365 strings out of 494953
- 787693 string characters out of 6180977
- 984542 words of memory out of 5000000
- 40961 multiletter control sequences out of 15000+600000
+ 39347 strings out of 494953
+ 787249 string characters out of 6180977
+ 984133 words of memory out of 5000000
+ 40943 multiletter control sequences out of 15000+600000
  21000 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,20n,54p,10456b,871s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2278,7 +2278,7 @@ c/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/wasy2-ps/
 wasy10.pfb>
-Output written on Handbook.pdf (77 pages, 4520381 bytes).
+Output written on Handbook.pdf (77 pages, 4520379 bytes).
 PDF statistics:
  2693 PDF objects out of 2984 (max. 8388607)
  1760 compressed objects within 18 object streams
