@@ -25,7 +25,7 @@ A complex number can thus be expressed in terms of magnitude and the phase angle
 \begin{align}
 z=|z|(\cos(\theta)+i\sin(\theta))
 \end{align}
-Euler's Identity/relation
+Euler's Identity\index{Euler's Identity}/relation
 \begin{align}
 e^{i\theta}&=cos(\theta)+i\sin(\theta)
 \end{align}
@@ -70,7 +70,7 @@ The derivative of $f(z)$ is defined by
 \begin{defn}[Analytic Function \cite{bib:Methods_Of_Theoretical}]{AnalyticFunc}
 A function $f(z)$ is \textbf{analytic} (or regular or holomorphic or mono-genic) in a region$^∗$ of the complex plane if it has a (unique) derivative at every point of the region. The statement “$f(z)$ is analytic at a point $z = a$” means that $f(z)$ has a derivative at every point inside some small circle about $z = a$.
 \end{defn}
-The \textbf{Cauchy-Riemann conditions} state that if $f(z) = u(x, y) + iv(x, y)$ is analytic in a region, then in that region
+The \textbf{Cauchy-Riemann conditions}\index{Cauchy-Riemann conditions} state that if $f(z) = u(x, y) + iv(x, y)$ is analytic in a region, then in that region
 \begin{align}
 	\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \hspace{1cm}\textrm{and}\hspace{1cm} \frac{\partial v}{\partial x} = - \frac{\partial u}{\partial y}.
 \end{align}
@@ -78,7 +78,7 @@ From this we also have
 \begin{align}
 	\frac{\partial f}{\partial x} =\frac{\partial u}{\partial x} + i\frac{\partial v}{\partial x}, \hspace{1cm}\textrm{and}\hspace{1cm} \frac{\partial f}{\partial y} =\frac{\partial u}{\partial y} + i\frac{\partial v}{\partial y}.
 \end{align}
-\begin{defn}[Regular and Singular Points \cite{bib:Methods_Of_Theoretical}]{singularPoints}
+\begin{defn}[Regular and Singular Points\index{Singular Points} \cite{bib:Methods_Of_Theoretical}]{singularPoints}
 	A \textbf{regular point} of $f(z)$ is a point at which $f (z)$ is analytic.
 	A \textbf{singular point} or singularity of $f (z)$ is a point at which $f (z)$ is not analytic.
 	It is called an isolated singular point if $f (z)$ is analytic everywhere else inside
@@ -98,14 +98,14 @@ A few useful theorems \cite{bib:Methods_Of_Theoretical} include
 	\begin{align}
 		\int_\ell f(z) dz = \int_\ell f(x+iy) (dx+idy) = \int_\ell u(x,y)dx - v(x,y)dy + i\int_\ell u(x,y)dy + v(x,y)dx.
 	\end{align}
-\begin{fancybox}[Cauchy's Theorem \cite{bib:Methods_Of_Theoretical}]{}
+\begin{fancybox}[Cauchy's Theorem\index{Cauchy's Theorem} \cite{bib:Methods_Of_Theoretical}]{}
 Let C be a simple closed curve (one which does not cross itself) with a continuously turning tangent except possibly at a finite number of points (that is, we allow a finite number of corners, but otherwise the curve must be “smooth”). If $f(z)$ is analytic on and inside $C$, then
 \begin{align}
 	\oint_C f(z) dz =0
 \end{align}
 \end{fancybox}
 
-\begin{fancybox}[Cauchy's Integral Formula \cite{bib:Methods_Of_Theoretical}]{}
+\begin{fancybox}[Cauchy's Integral Formula\index{Cauchy's Integral Formula} \cite{bib:Methods_Of_Theoretical}]{}
 	If $f(z)$ is analytic on and inside a simple closed curve $C$, the value of $f (z)$ at a point $z = a$ inside $C$ is given by the following contour integral along $C$:
 	\begin{align}
 		f(a) = \frac{1}{2\pi i}\oint_C \frac{f(z)}{z-a}dz	

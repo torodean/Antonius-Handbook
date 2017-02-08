@@ -14,29 +14,29 @@ Definitions
 	&= \cos(ix)
 	\end{align}
 \end{multicols}
-\textbf{Curl Theorem:} A special case of Stokes' theorem in which $\vec{F}$ is a vector field and $M$ is an oriented, compact embedded 2-manifold with boundary in $\mathbb{R}^3$, and a generalization of Green's theorem from the plane into three-dimensional space. The curl theorem states 
+\textbf{Curl Theorem:}\index{Curl Theorem} A special case of Stokes' theorem\index{Stokes' theorem} in which $\vec{F}$ is a vector field and $M$ is an oriented, compact embedded 2-manifold with boundary in $\mathbb{R}^3$, and a generalization of Green's theorem from the plane into three-dimensional space. The curl theorem states 
 \begin{align}
 	\int_S (\nabla \times \vec{F})\cdot d\vec{a} = \int_{\partial S}\vec{F} \cdot d\vec{s}
 \end{align}
-\textbf{Green's theorem} is a vector identity which is equivalent to the curl theorem 
+\textbf{Green's theorem}\index{Green's theorem} is a vector identity which is equivalent to the curl theorem 
 \begin{align}
 	\iint_S \left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right) dxdy = \oint_{\partial S} P(x,y)dx+Q(x,y)dy
 \end{align}
-The \textbf{divergence theorem} is also known as Gauss's theorem (e.g., Arfken 1985) or the Gauss-Ostrogradsky theorem. Let $V$	 be a region in space with boundary $\partial V$. Then the volume integral of the divergence $\nabla \cdot \vec{F}$ of $\vec{F}$ over $V$ and the surface integral of $\vec{F}$ over the boundary $\partial V$ of $V$ are related by 
+The \textbf{divergence theorem}\index{Divergence theorem} is also known as Gauss's theorem (e.g., Arfken 1985) or the Gauss-Ostrogradsky theorem. Let $V$	 be a region in space with boundary $\partial V$. Then the volume integral of the divergence $\nabla \cdot \vec{F}$ of $\vec{F}$ over $V$ and the surface integral of $\vec{F}$ over the boundary $\partial V$ of $V$ are related by 
 \begin{align}
 	\int_V (\nabla \cdot \vec{F}) dV = \int_{\partial V}\vec{F} \cdot d\vec{a}
 \end{align}
-The \textbf{gradient theorem} (where the integral is a line integral) is
+The \textbf{gradient theorem}\index{Gradient theorem} (where the integral is a line integral) is
 \begin{align}
 	\int_a^b (\nabla f) \cdot d\vec{s} = f(b)-f(a)
 \end{align}
-The \textbf{Gamma function} $\Gamma$ and the \textbf{Riemann zeta function} $\zeta$ are given by
+The \textbf{Gamma function}\index{Gamma function} $\Gamma$ and the \textbf{Riemann zeta function} $\zeta$ are given by
 \begin{align}
 \Gamma(z) &\equiv\int_{0}^{\infty}t^{z-1}e^{-t}dt \\
 \zeta(z)&=\sum_{k=1}^{\infty}\frac{1}{k^z}\implies \zeta'(z)=-\sum_{k=1}^{\infty}\frac{\ln(k)}{k^z} \\
 \zeta(z)\Gamma(z)&=\int_{0}^{\infty}\frac{u^{z-1}}{e^u-1}du
 \end{align}
-The most general case of the binomial theorem is the binomial series identity 
+The most general case of the \textbf{binomial theorem} \index{Binomial theorem} is the binomial series identity 
 \begin{align}
 (x+y)^n &= \sum_{i=1}^{n} {{n}\choose{k}}x^{n-k}y^{k}
 \end{align}
@@ -49,11 +49,11 @@ The general formula for the power sum of the first $n$ positive integers,
 \begin{align}
 \sum_{k=1}^{n}k^p=\frac{1}{p+1}\sum_{i=1}^{p+1}(-1)^{\delta_{ip}}{{p+1}\choose{i}}B_{p+1-i}n^i,
 \end{align}
-where $\delta_{ip}$ is the Kronecker delta and $B_i$ is the $i$th Bernoulli number. The Bernoulli numbers $B_n$ are a sequence of signed rational numbers that can be defined by the exponential generating function 
+where $\delta_{ip}$ is the Kronecker delta  and $B_i$ is the $i$th Bernoulli number. The Bernoulli numbers $B_n$ are a sequence of signed rational numbers that can be defined by the exponential generating function 
 \begin{align}
 \frac{x}{e^x-1}\equiv\sum_{n=0}^{\infty}\frac{B_nx^n}{n!}.
 \end{align}
-The simplest interpretation of the \textbf{Kronecker delta} is as the discrete version of the delta function defined by 
+The simplest interpretation of the \textbf{Kronecker delta}\index{Kronecker delta} is as the discrete version of the delta function defined by 
 \begin{align}
 \delta_{ij}\equiv
 \begin{cases}
@@ -69,7 +69,7 @@ Determining the sums for the first few terms of the power sum give
 \sum_{i=0}^{n}i^4 &=\frac{1}{30}(6n^5+15n^4+10n^3-n) \\
 \sum_{i=0}^{n}i^5 &=\frac{1}{12}(2n^6+6n^5+5n^4-n^2).
 \end{align}
-A Taylor series is an expansion of a function about a point. A one-dimensional Taylor series of a real function $f(x)$ about the point x=a is given by 
+A \textbf{Taylor series}\index{Taylor series} is an expansion of a function about a point. A one-dimensional Taylor series of a real function $f(x)$ about the point x=a is given by 
 \begin{align}
 f(x)&=f(a)+f'(a)(x-a)+\frac{1}{2!}f''(a)(x-a)^2+\frac{1}{3!}f'''(a)(x-a)^4+\cdots 
 \end{align}
@@ -85,7 +85,7 @@ e^x&=\sum_{n=0}^{\infty} \frac{x^n}{n!}=1+x+\frac{1}{2!}x^2 +\frac{1}{3!}x^3 +\c
 \tanh(x)&= x-\frac{1}{3}x^3+\frac{2}{15}x^5-\cdots[|x|<\pi/2]\\
 (1+x)^n&=1+nx+\frac{n(n-1)}{2!}x^2+\cdots[|x| < 1]
 \end{align}	
-\textbf{Dirac Delta Function:} The delta function is a generalized function that can be defined as the limit of a class of delta sequences.
+\textbf{Dirac Delta Function:}\index{Dirac Delta Function} The delta function is a generalized function that can be defined as the limit of a class of delta sequences.
 \begin{align}
 	\delta(x) = \frac{1}{\pi}\lim_{\epsilon\rightarrow 0}\frac{\epsilon}{x^2+\epsilon^2} = \frac{1}{2}\lim_{\epsilon\rightarrow 0}\epsilon|x|^{\epsilon-1} =\lim_{\epsilon\rightarrow 0} \frac{1}{\pi x}\sin\left(\frac{x}{\epsilon}\right) = \lim_{\epsilon\rightarrow 0^+}\frac{1}{2\sqrt{\pi \epsilon}}e^{-x^2/(4\epsilon)}
 \end{align}
@@ -120,7 +120,7 @@ A few identities and common expressions using the delta function are
 
 \section{Coordinate Systems}
 \begin{multicols}{2}
-Cylindrical coordinates
+Cylindrical coordinates\index{Cylindrical coordinates}
 \begin{align}
 r&=\sqrt{x^2+y^2} \\
 x&=r\cos(\theta) \\
@@ -128,7 +128,7 @@ y&=r\sin(\theta) \\
 z&=z \\
 dV&= r \textrm{ dr d$\theta$ dz}
 \end{align}
-Spherical coordinates
+Spherical coordinates\index{Spherical coordinates}
 \begin{align}
 r&=\sqrt{x^2+y^2+z^2} \\
 x&=r\sin(\theta)\cos(\phi) \\
@@ -136,14 +136,14 @@ y&=r\sin(\theta)\sin(\phi) \\
 z&=r\cos(\theta) \\
 dV&=r^2\sin(\theta)\textrm{dr d$\theta$ d$\phi$}
 \end{align}
-Polar Coordinates
+Polar Coordinates\index{Polar Coordinates}
 \begin{align}
 	r&=\sqrt{x^2+y^2} \\
 	x&=r\cos(\theta) \\
 	y&=r\sin(\theta) \\
 	dA&= r \textrm{ dr d$\theta$}
 \end{align}
-Elliptic cylindrical coordinates
+Elliptic cylindrical coordinates\index{Elliptic cylindrical coordinates}
 \begin{align}
 	x&= a \cosh(u) \cos(v) \\
 	y&= a \sinh(u) sin(v) \\
@@ -204,20 +204,20 @@ The area of a triangle can be given by
 A&=\sqrt{s(s-a)(s-b)(s-c)} \\
 s&=(a+b+c)/2
 \end{align}		
-Law of Cosines:
+Law of Cosines:\index{Law of Cosines}
 \begin{align}
 c^2=a^2+b^2-2ab\cos(C)
 \end{align}
-Law of Sines:
+Law of Sines:\index{Law of Sines}
 \begin{align}
 \frac{\sin(A)}{a}=\frac{\sin(B)}{b}=\frac{\sin(C)}{c}
 \end{align}
-Law of tangents
+Law of tangents:\index{Law of tangents}
 \begin{align}
 \frac{a-b}{a+b}=\frac{\tan((A-B)/2)}{\tan((A+B)/2)}
 \end{align}
 \end{multicols}
-Mollweide's Formulas
+Mollweide's Formulas:\index{Mollweide's Formulas:}
 \begin{align}
 \frac{b-c}{a} &=\frac{\sin[(B-C)/2]}{\cos(A/2)} \\
 \frac{c-a}{b} &=\frac{\sin[(C-A)/2]}{\cos(B/2)} \\
@@ -234,9 +234,9 @@ Mollweide's Formulas
 
 
 \newpage
-\section{Trigonometric Identities}
+\section{Trigonometric Identities}\index{Trigonometric Identities}
 \begin{multicols}{2}
-Pythagorean identities
+Pythagorean identities:
 \begin{align}
 1 &= \sin^2(\theta)+\cos^2(\theta)\\
 1 &= \sec^2(\theta)-\tan^2(\theta) \\
@@ -244,13 +244,13 @@ Pythagorean identities
 1 &= \cosh^2(\theta)-\sinh^2(\theta) \\
 1 &= \textrm{sech}^2(\theta)+\tanh^2(\theta)
 \end{align}
-Sum-Difference Formulas
+Sum-Difference Formulas:
 \begin{align}
 \sin(\theta \pm \phi) &= \sin(\theta)\cos(\phi)\pm \cos(\theta)sin(\phi) \\
 \cos(\theta \pm \phi) &= \cos(\theta)\cos(\phi)\mp \sin(\theta)sin(\phi) \\
 \tan(\theta \pm \phi) &= \frac{\tan(\theta)\pm \tan (\phi)}{1 \mp \tan(\theta)\tan(\phi)}
 \end{align}
-Double Angle formulas
+Double Angle formulas:
 \begin{align}
 \sin(2\theta) &= 2\sin(\theta)\cos(\theta) \\
 \cos(2\theta) &= \cos^2(\theta)-\sin^2(\theta)\\
@@ -258,7 +258,7 @@ Double Angle formulas
 &= 1 - 2\sin^2(\theta) \\
 \tan(2\theta) &= \frac{2 \tan(\theta)}{1-\tan^2(\theta)}
 \end{align}
-Power-Reducing/Half Angle Formulas
+Power-Reducing/Half Angle Formulas:
 \begin{align}
 \sin^2(\theta) &= \frac{1-\cos(2\theta)}{2}\\
 \cos^2(\theta) &= \frac{1+\cos(2\theta)}{2}\\
@@ -278,7 +278,7 @@ Half-angle formulas
 \sin\bigg(\frac{\theta}{2}\bigg)=(-1)^{\theta/(2\pi)}\sqrt{\frac{1-\cos(\theta)}{2}} \\
 \cos\bigg(\frac{\theta}{2}\bigg)=(-1)^{(\theta+\pi)/(2\pi)}\sqrt{\frac{1+\cos(\theta)}{2}}
 \end{align}
-The Weierstrass substitution makes use of the half-angle formulas 
+The \textbf{Weierstrass substitution}\index{Weierstrass substitution} makes use of the half-angle formulas 
 \begin{align}
 \cos(\theta)=\frac{1-\tan^2(\theta/2)}{1+\tan^2(\theta/2)} \\
 \sin(\theta)=\frac{2\tan(\theta/2)}{1+\tan^2(\theta/2)}
@@ -309,7 +309,7 @@ Multiple-angle formulas are given by
 
 
 
-\section{Arbitrary Orthogonal Curvilinear Coordinates}
+\section{Arbitrary Orthogonal Curvilinear Coordinates}\index{Orthogonal Coordinates}
 A coordinate system composed of intersecting surfaces. If the intersections are all at right angles, then the curvilinear coordinates are said to form an orthogonal coordinate system. The scale factors are $h_i$,
 \begin{align}
 	\vec{a}_i &\equiv\frac{\partial \vec{r}}{\partial e_i} =  \frac{\partial x}{\partial e_i} \hat{x} + \frac{\partial y}{\partial e_i}\hat{y} + \frac{\partial x}{\partial e_i} \hat{z} = h_i \hat{e}_i = |\vec{a}_i| \hat{e}_i \\
@@ -338,7 +338,7 @@ The divergence in arbitrary curvilinear coordinates such that the divergence the
 \begin{align}
 	\nabla \cdot \vec{v} = \frac{1}{h_1h_2h_3}\left[\frac{\partial v_1}{\partial x_1}h_2h_3+\frac{\partial v_2}{\partial x_2}h_1h_3+\frac{\partial v_3}{\partial x_3}h_1h_2\right]
 \end{align}
-The Laplacian for a scalar function $\phi$ (where the $h_i$ are the scale factors of the coordinate system - Weinberg 1972, p. 109; Arfken 1985, p. 92) is a scalar differential operator defined by
+The Laplacian\index{Laplacian} for a scalar function $\phi$ (where the $h_i$ are the scale factors of the coordinate system - Weinberg 1972, p. 109; Arfken 1985, p. 92 \cite{bib:Wolfram}) is a scalar differential operator defined by
 \begin{align}
 	\nabla^2 \phi = \frac{1}{h_1h_2h_3} \bigg[	\frac{\partial}{\partial u_1} \bigg( \frac{h_2h_3}{h_1} \frac{\partial}{\partial u_1} \bigg) + \frac{\partial}{\partial u_2} \bigg( \frac{h_1h_3}{h_2} \frac{\partial}{\partial u_2} \bigg) + \frac{\partial}{\partial u_3} \bigg( \frac{h_1h_2}{h_3} \frac{\partial}{\partial u_3} \bigg) \bigg] \phi
 \end{align}
@@ -349,9 +349,9 @@ The form of the Laplacian in several common coordinate systems (cartesian, cylin
 	\nabla^2 f &= \frac{1}{uv(u^2+v^2)}\bigg[\frac{\partial}{\partial u}\bigg( uv\frac{\partial f}{\partial u} \bigg) + \frac{\partial}{\partial v}\bigg(u v \frac{\partial f}{\partial v}\bigg)\bigg]+\frac{1}{v^2u^2}\frac{\partial^2 f}{\partial \theta^2} \\
 	\nabla^2 f &= \frac{1}{u^2+v^2}\bigg(\frac{\partial^2 f}{\partial u^2}+\frac{\partial^2 f}{\partial v^2} \bigg)+\frac{\partial^2 f}{\partial z^2} \\
 	\nabla^2 f &= \frac{1}{r^2} \frac{\partial}{\partial r}\bigg(r^2 \frac{\partial f}{\partial r} \bigg)+\frac{1}{r^2 \sin^2 \phi}\frac{\partial^2 f}{\partial \theta^2} +\frac{1}{r^2\sin\phi}\frac{\partial}{\partial\phi}\bigg(\sin\phi \frac{\partial f}{\partial \phi} \bigg) \\
-	\nabla^2 f&= \frac{1}{a^2(\zeta^2+\xi^2)}\left[\frac{\partial}{\partial \zeta}\left((1+\zeta^2)\frac{\partial f}{\partial \zeta}\right) +\frac{\partial}{\partial \xi}\left((1-\xi^2)\frac{\partial f}{\partial \xi}\right) \right] +\frac{1}{a^2(1+\zeta^2)(1-\xi^2)} \frac{\partial^2 f}{\partial \phi^2}
+	\nabla^2 f&= \frac{1}{a^2(\zeta^2+\xi^2)}\left[\frac{\partial}{\partial \zeta}\left((1+\zeta^2)\frac{\partial f}{\partial \zeta}\right) +\frac{\partial}{\partial \xi}\left((1-\xi^2)\frac{\partial f}{\partial \xi}\right) \right] +\frac{1}{a^2(1+\zeta^2)(1-\xi^2)} \frac{\partial^2 f}{\partial \phi^2}.
 \end{align}
-The curl can be similarly defined in arbitrary orthogonal curvilinear coordinates as
+The \textbf{curl}\index{Curl} can be similarly defined in arbitrary orthogonal curvilinear coordinates as
 \begin{align}
 	\nabla \times \vec{F} &\equiv \frac{1}{h_1h_2h_3}
 	\begin{vmatrix}
@@ -360,10 +360,10 @@ The curl can be similarly defined in arbitrary orthogonal curvilinear coordinate
 		h_1F_1 & h_2F_2 & h_3F_3  
 	\end{vmatrix} \\
 	&= \frac{1}{h_2h_3}\left[\frac{\partial}{\partial u_2}(h_3F_3)-\frac{\partial}{\partial u_3}(h_2F_2)\right]\hat{u}_1+\frac{1}{h_1h_3}\left[\frac{\partial}{\partial u_3}(h_1F_1)-\frac{\partial}{\partial u_1}(h_3F_3)\right]\hat{u}_2 \nonumber\\
-	&\hspace{6.72cm}+\frac{1}{h_1h_2}\left[\frac{\partial}{\partial u_1}(h_2F_2)-\frac{\partial}{\partial u_2}(h_1F_1)\right]\hat{u}_3
+	&\hspace{6.72cm}+\frac{1}{h_1h_2}\left[\frac{\partial}{\partial u_1}(h_2F_2)-\frac{\partial}{\partial u_2}(h_1F_1)\right]\hat{u}_3.
 \end{align} 
 
-The \textbf{Jacobian} is defined as the determinant of a matrix of partial derivatives \cite{bib:StellarAstrophysics},
+The \textbf{Jacobian}\index{Jacobian} is defined as the determinant of a matrix of partial derivatives \cite{bib:StellarAstrophysics},
 \begin{align}
 	\frac{\partial(a,b)}{\partial(c,d)} \equiv \begin{vmatrix}
 		\left(\frac{\partial a}{\partial c}\right)_d & \left(\frac{\partial a}{\partial d}\right)_c \\
@@ -372,9 +372,9 @@ The \textbf{Jacobian} is defined as the determinant of a matrix of partial deriv
 \end{align}
 By the above definition, we can show the relations,
 \begin{align}
-	\frac{\partial(b,a)}{\partial(c,d)}=-\frac{\partial(a,b)}{\partial(c,d)} \andspace{1cm} \frac{\partial(a,b)}{\partial(c,d)}=-\frac{\partial(a,b)}{\partial(d,c)} 
+	\frac{\partial(b,a)}{\partial(c,d)}=-\frac{\partial(a,b)}{\partial(c,d)} \andspace{1cm} \frac{\partial(a,b)}{\partial(c,d)}=-\frac{\partial(a,b)}{\partial(d,c)}.
 \end{align}
 It then follows directly that
 \begin{align}
-	\frac{\partial(a,s)}{\partial(c,s)} = \left(\frac{\partial a}{\partial c}\right)_s \andspace{1cm} \frac{\partial(a,b)}{\partial(a,b)} = 1 \andspace{1cm} \frac{\partial(a,b)}{\partial(c,d)}\frac{\partial(c,d)}{\partial(s,t)} = \frac{\partial(a,b)}{\partial(s,t)}
+	\frac{\partial(a,s)}{\partial(c,s)} = \left(\frac{\partial a}{\partial c}\right)_s \andspace{1cm} \frac{\partial(a,b)}{\partial(a,b)} = 1 \andspace{1cm} \frac{\partial(a,b)}{\partial(c,d)}\frac{\partial(c,d)}{\partial(s,t)} = \frac{\partial(a,b)}{\partial(s,t)}.
 \end{align}

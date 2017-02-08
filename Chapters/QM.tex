@@ -25,7 +25,7 @@ A periodic wave can be constructed from a sum of plane waves
 \begin{align}
 	\psi(x,t) &= \sum_{i=1}^{n} A_i \cos(k_ix_i-\omega_i t) 
 \end{align}
-The cubit is defined as
+The \textbf{cubit}\index{Cubit} is defined as
 \begin{align}
 	|\psi\rangle &= c_1|1\rangle + c_0|0\rangle \\
 	|\psi\rangle &= c_{11}|11\rangle+c_{01}|01\rangle+c_{10}|10\rangle+c_{00}|00\rangle \\
@@ -47,11 +47,15 @@ The normalization of a wave function implies the probability over all space is 1
 \begin{align}
 	P_{x\in -\infty:\infty}(t) = \int_{-\infty}^{\infty}|\psi(x,t)|^2dx=1
 \end{align}
-The \textbf{Schr\"{o}dingr Equation} is a partial differential equation that describes how the wavefunction of a physical system evolves over time. The (non-relativistic) Schr\"{o}dingr Equation for a particle moving in a 3-dimensional potential energy field $V(\vec{r})$ is
+The \textbf{Schr\"{o}dingr Equation}\index{Schr\"{o}dingr Equation} is a partial differential equation that describes how the wavefunction of a physical system evolves over time. The (non-relativistic) Schr\"{o}dingr Equation for a particle moving in a 3-dimensional potential energy field $V(\vec{r})$ is
 \begin{align}
 	\hat{E}\psi(\vec{r},t) &= \frac{-\hbar^2}{2m} \nabla^2 \psi(\vec{r},t)+V(\vec{r})\psi(\vec{r},t)  \equiv \hat{H}\psi(\vec{r},t)
 \end{align}
-\textbf{The Dirac equation}: the generalization of the time dependent Schr\"{o}dinger equation for the relativistically correct relationship between energy and momentum. It leads to negative energy states and antiparticles.
+The general solution to the time-dependent \textbf{Schr\"{o}dingr Equation} is
+\begin{align}
+	\psi(\vec{r},t) = \sum c_n \psi_n(\vec{r})e^{-iE_n t/\hbar}.
+\end{align}
+\textbf{The Dirac equation}\index{Dirac equation}: the generalization of the time dependent Schr\"{o}dinger equation for the relativistically correct relationship between energy and momentum. It leads to negative energy states and antiparticles.
 \begin{align}
 	\bigg[\gamma^0mc^2+\sum_{i=1}^{3}\gamma^i\hat{p}_ic \bigg]\psi(\vec{r},t)=i\hbar\frac{\partial}{\partial t}\psi(\vec{r},t)
 \end{align}
@@ -134,12 +138,28 @@ Atomic quantum numbers
 	m_\ell &= \textrm{ Magnetic Quantum Number }[m_\ell \in [-\ell, \ell], m_\ell \in \mathbb{Z}]
 \end{align}
 
-For a simple harmonic oscillator, the energies and eigenfunctions are given by,
+For a simple harmonic oscillator\index{Harmonic oscillator}, the energies and eigenfunctions are given by,
 \begin{align}
 	V(x)&=\frac{1}{2}kx^2=\frac{1}{2}m\omega^2x^2\implies k=m\omega^2 \Longleftrightarrow \omega=\sqrt{\frac{k}{m}} \\
 	E_n&=\left(n+\frac{1}{2}\right)\hbar\omega=\left(n+\frac{1}{2}\right)\hbar\sqrt{\frac{k}{m}}=\left(n+\frac{1}{2}\right)\frac{\hbar}{x}\sqrt{\frac{2V(x)}{m}} \\
 	H | n \rangle &= E_n |n \rangle, \hspace{1cm} H = \hbar \omega \left(a^\dagger a + \frac{1}{2}\right), \hspace{1cm}[a,a^\dagger]=1 \\	
 	|n\rangle &= \frac{(a^\dagger)^n|0\rangle}{\sqrt{n!}}, \hspace{1cm} a^\dagger|n\rangle = \sqrt{n+1}|n+1\rangle, \hspace{1cm}a|n \rangle = \sqrt{n}|n-1\rangle
+\end{align}
+The normalized angular wave functions are called \textbf{spherical harmonics}\index{Spherical harmonics} and are given by
+\begin{align}
+	Y_\ell^m(\theta,\phi) = \epsilon\sqrt{\frac{(2\ell+1)}{4\pi}\frac{(\ell-|m|)!}{(\ell+|m|)!}}e^{im\phi}P_\ell^m(\cos\theta), \hspace{1cm} \textrm{with} \hspace{1cm}\epsilon = \begin{cases} (-1)^m & m \geq 0 \\ 1 & m < 0 \end{cases}.
+\end{align}
+The \textbf{spherical harmonics} are automatically orthogonal so,
+\begin{align}
+	\int_0^{2\pi}\int_0^\pi[Y_\ell^m(\theta,\phi)]^*[Y_{\ell'}^{m'}(\theta,\phi)]\sin\theta d\theta d\phi=\delta_{\ell \ell'}\delta_{m m'}
+\end{align}
+The normalized \textbf{hydrogen wave functions} containing the quantum numbers $n, m,$ and $\ell$ are
+\begin{align}
+	\Psi_{n\ell m}(r,\theta,\phi) = \sqrt{\left(\frac{2}{na}\right)^3\frac{(n-\ell-1)!}{2n[(n+\ell)!]^3}}e^{-r/na}\left(\frac{2r}{na}\right)^\ell\left[L_{n-\ell-1}^{2\ell+1}(2r/na)\right]Y_{\ell}^{m}(\theta,\phi).
+\end{align}
+The ground state wave functions and energy of Hydrogen is
+\begin{align}
+	\Psi_{100}(r,\theta,\phi) = \frac{1}{\sqrt{\pi a^3}}e^{-r/a} \andspace{1cm} E_1 = -\left[\frac{m}{2\hbar^2}\left(\frac{e^2}{4\pi\epsilon_0}\right)^2\right] = -13.6 eV
 \end{align}
 Each operator $\hat{Y}$ has a set of eigenvalues y which are the possible values you can get on doing a measurement of Y. Each eigenvalues y is associated with an eigenstate $\phi_y(x)$ which is the state for which the values of Y is exactly y with no uncertainty. You can find the eigenstates and eigenvalues of an operator by 
 \begin{align}

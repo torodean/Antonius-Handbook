@@ -1,4 +1,4 @@
-\chapter{Matrix Algebra}
+\chapter{Matrix Algebra}\index{Matrix Algebra}
 \thispagestyle{fancy}
 The product $C$ of two matrices $A$ and $B$ is defined (where $j$ is summed over for all possible values of $i$ and k) as (using the Einstein summation convention)
 \begin{align}
@@ -46,11 +46,11 @@ Matrix multiplication is also distributive. If $A$ and $B$ are $m\times n$ matri
 A(C+D)	&=	AC+AD\hspace{1.4cm}\textrm{and}\hspace{1.4cm}
 (A+B)C	=	AC+BC
 \end{align}
-The trace of an $n\times n$ square matrix $A$ is defined to be 
+The \textbf{trace}\index{Trace} of an $n\times n$ square matrix $A$ is defined to be 
 \begin{align}
 \textrm{Tr($A$)}\equiv\sum_{i=1}^{n}a_{ii}
 \end{align}
-The determinant of an arbitrary $2 \times 2$ matrix $A$ is given by
+The determinant\index{Determinant} of an arbitrary $2 \times 2$ matrix $A$ is given by
 \begin{align}
 	\det(M) = \begin{vmatrix}
 		a_{11} & a_{12} \\
@@ -93,7 +93,7 @@ For a $3\times 3$ matrix $A$, the diagonal space can be helpful in finding eigen
 	\end{array} \right[  = \frac{1}{2}\sum_{n=1}^{3}\sum_{k=1}^{3}\left(a_{kn}a_{nk}-a_{nn}a_{kk}\right)\\
 	&= (a_{12}a_{21}+a_{13}a_{31}+a_{23}a_{32})-(a_{11}a_{22}+a_{11}a_{33}+a_{22}a_{33})
 \end{align}
-The eigenvalues $\lambda_i$ and eigenvectors $\vec{v}_i$ of a matrix $A$ are given by solving 
+The eigenvalues\index{Eigenvalues} $\lambda_i$ and eigenvectors\index{Eigenvectors} $\vec{v}_i$ of a matrix $A$ are given by solving 
 \begin{align}
 	\det(A-\lambda I)=0	\hspace{1cm}\textrm{and}\hspace{1cm}A\vec{v}_i=\lambda_i\vec{v}_i\hspace{1cm}\textrm{or}\hspace{1cm}(A-\lambda_i I)\vec{v}_i=0.
 \end{align}

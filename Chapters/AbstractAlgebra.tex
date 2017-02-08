@@ -1,7 +1,7 @@
 \chapter{Abstract Algebra and Number Theory}
 \thispagestyle{fancy}
 \begin{defn}[Ring]{Ring}
-	A ring is a triple $(R,\oplus, \odot)$ such that
+	A \textbf{ring}\index{Ring} is a triple $(R,\oplus, \odot)$ such that
 	\begin{enumerate}[(i)]
 		\item $R$ is a set.
 		\item $\oplus$ is a function (called ring addition) and $R\times R$ is a subset of the domain of $\oplus$. For $(a, b) \in
@@ -39,7 +39,7 @@
 \begin{defn}[Subring]{subring}
 	Let $(R, \oplus, \odot)$ be a ring and $S$ a subset of $R$. Then $(S, \oplus, \odot)$ is called a subring of	$(R, \oplus, \odot)$ provided that $(S, \oplus, \odot)$ is a ring.
 \end{defn}
-\begin{theo}[Subring Theorem]{SubringTheorem}
+\begin{theo}[Subring Theorem\index{Subring Theorem}]{SubringTheorem}
 	Suppose that $R$ is a ring and $S \subseteq R$. Then $S$ is a subring of $R$ if and only if the following four conditions hold:
 	\begin{enumerate}[(i)]
 		\item $0_R \in S$.
@@ -48,10 +48,10 @@
 		\item $S$ is closed under negatives (that is: if $a \in S$, then $-a \in S$).
 	\end{enumerate}
 \end{theo}
-\begin{defn}[Integral Domain]{1}
+\begin{defn}[Integral Domain\index{Integral Domain}]{1}
 	An ring $R$ is called an integral domain provided that $R$ is commutative, $R$ has identity, $1_R \neq 0_R$ and for any $a,b \in R$, $ab=0_R \implies a=0_R$ or $b=0_R$.
 \end{defn}
-\begin{defn}[Injective \& Surjective]{Injective and Surjective}
+\begin{defn}[Injective\index{Injective} \& Surjective\index{Surjective}]{Injective and Surjective}
 	Let $f:R\rightarrow S$ be a function.
 	\begin{enumerate}[(a)]
 		\item $f$ is said to be injective provided: $f(a)=f(b)\implies a=b$ for all $a,b \in R$.
@@ -88,7 +88,7 @@
 		\end{enumerate}
 	\end{enumerate}
 \end{defn}
-\begin{defn}[Isomorphism and Homomorphism]{1}
+\begin{defn}[Isomorphism\index{Isomorphism} and Homomorphism\index{Homomorphism}]{1}
 	Let $(R,+,\cdot)$ and $(S,\oplus,\odot)$ be rings and let $f:R\rightarrow S$ be a function.
 	\begin{enumerate}[(a)]
 		\item $f$ is called a homomorphism from $(R, +, \cdot)$ to $(S, \oplus,\odot)$ if
@@ -109,7 +109,7 @@
 		\item We say that $I$ is an ideal of $R$ (denoted $I \lhd R$) if $I$ is a subring of $R$ and $I$ absorbs $R$. 
 	\end{enumerate}
 \end{defn}
-\begin{theo}[Ideal Theorem]{Ideal theorem}
+\begin{theo}[Ideal Theorem\index{Ideal Theorem}]{Ideal theorem}
 	Let $I$ be a subset of the ring $R$. Then $I$ is an ideal in $R$ ($I \lhd R$) if and only if the following four conditions hold:
 	\begin{enumerate}[(i)]
 		\item $0_R \in I$.
@@ -129,7 +129,7 @@
 \begin{defn}[Ideal modulus]{modIdeal}
 	Let $I$ be an ideal in the ring $R$. The relation `$\equiv ($mod $I)$' on $R$ is defined by $a \equiv b$ (mod $I$) if $a-b \in I$.
 \end{defn}
-\begin{defn}[Cosets]{1}
+\begin{defn}[Cosets\index{Cosets}]{1}
 	\begin{enumerate}[(a)]
 		\item Let $a \in I$. Then $a+I$ (the coset of $I$ in $R$ containing a) denotes the equivalence class of `$\equiv $mod $I$' containing $a$. so
 		\begin{align}
@@ -148,7 +148,7 @@
 	\end{align*}
 	for all $a,b \in R$.
 \end{defn}
-\begin{defn}[Kernal]{1}
+\begin{defn}[Kernal\index{Kernal}]{1}
 	Let $f: R\rightarrow S$ be a homomorphism of rings. Then $\ker f$ (the kernel of $f$) is
 	\begin{align*}
 	\ker f = \{a \in R | f(a)=0_R \}.
@@ -161,7 +161,7 @@
 	\end{align*} 
 	is called the natural homomorphism from $R$ to $R/I$.
 \end{defn}
-\begin{theo}[First Isomorphism Theorem]{1}
+\begin{theo}[First Isomorphism Theorem\index{First Isomorphism Theorem}]{1}
 	Let $f: R \rightarrow S$ be a ring homomorphism. Recall that $\Im f=\{f(a) |a \in R \}$. The function
 	\begin{align}
 	\bar{f}: R/\ker f \rightarrow \Im f, \hspace{.3 cm} (a+\ker f)\longmapsto f(a)
