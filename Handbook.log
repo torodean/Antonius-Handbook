@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  7 FEB 2017 20:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  7 FEB 2017 21:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1942,7 +1942,7 @@ Chapter 20.
 
 ]
 Chapter 21.
-<Resources/Clebsch-Gordan.pdf, id=1522, 720.6925pt x 540.0175pt>
+<Resources/Clebsch-Gordan.pdf, id=1529, 720.6925pt x 540.0175pt>
 File: Resources/Clebsch-Gordan.pdf Graphic file (type pdf)
 
 <use Resources/Clebsch-Gordan.pdf>
@@ -1953,7 +1953,7 @@ File: Resources/Clebsch-Gordan.pdf Graphic file (type pdf)
 Package pdftex.def Info: Resources/Clebsch-Gordan.pdf used on input line 121.
 (pdftex.def)             Requested size: 720.69075pt x 540.01617pt.
 
-<Resources/Clebsch-Gordan.pdf, id=1525, page=1, 720.6925pt x 540.0175pt>
+<Resources/Clebsch-Gordan.pdf, id=1532, page=1, 720.6925pt x 540.0175pt>
 File: Resources/Clebsch-Gordan.pdf Graphic file (type pdf)
 
 <use Resources/Clebsch-Gordan.pdf, page 1>
@@ -1988,7 +1988,7 @@ Package pdftex.def Info: Resources/Clebsch-Gordan.pdf, page1 used on input line
 
 
  <./Resources/Clebsch-Gordan.pdf, page is rotated 90 degrees>]
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1538, 614.295pt x 794.97pt>
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1545, 614.295pt x 794.97pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf>
@@ -2002,7 +2002,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 125.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1541, page=1, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1548, page=1, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 1>
@@ -2046,7 +2046,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 126.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1559, page=2, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1566, page=2, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
@@ -2090,7 +2090,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 127.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1567, page=3, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1574, page=3, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
@@ -2134,7 +2134,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 128.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1574, page=4, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1581, page=4, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
@@ -2178,7 +2178,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 129.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1581, page=5, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1588, page=5, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 5>
@@ -2210,7 +2210,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page5 used
  on input line 129.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [70 <./Resources/IsotopicMassNaturalAbundance.pdf>]
-<Resources/PeriodicTableMuted2.pdf, id=1586, 1927.2pt x 1084.05pt>
+<Resources/PeriodicTableMuted2.pdf, id=1593, 1927.2pt x 1084.05pt>
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 
 <use Resources/PeriodicTableMuted2.pdf>
@@ -2224,7 +2224,7 @@ Package pdftex.def Info: Resources/PeriodicTableMuted2.pdf used on input line 1
 33.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
 
-<Resources/PeriodicTableMuted2.pdf, id=1589, page=1, 1927.2pt x 1084.05pt>
+<Resources/PeriodicTableMuted2.pdf, id=1596, page=1, 1927.2pt x 1084.05pt>
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 
 <use Resources/PeriodicTableMuted2.pdf, page 1>
@@ -2294,8 +2294,8 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 39552 strings out of 494953
- 791056 string characters out of 6180977
+ 39559 strings out of 494953
+ 791168 string characters out of 6180977
  985726 words of memory out of 5000000
  41124 multiletter control sequences out of 15000+600000
  21000 words of font info for 79 fonts, out of 8000000 for 9000
@@ -2324,10 +2324,10 @@ c/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/wasy2-ps/
 wasy10.pfb>
-Output written on Handbook.pdf (79 pages, 4529269 bytes).
+Output written on Handbook.pdf (79 pages, 4531385 bytes).
 PDF statistics:
- 2810 PDF objects out of 2984 (max. 8388607)
- 1874 compressed objects within 19 object streams
- 1024 named destinations out of 1200 (max. 500000)
+ 2819 PDF objects out of 2984 (max. 8388607)
+ 1883 compressed objects within 19 object streams
+ 1031 named destinations out of 1200 (max. 500000)
  590 words of extra memory for PDF output out of 10000 (max. 10000000)
 

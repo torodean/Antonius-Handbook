@@ -192,17 +192,62 @@ The angular momentum operators are related via commutation by the following:
 \begin{align}
 	[L_x,L_y]=i\hbar L_z \andspace{1cm} &[L_y,L_z]=i\hbar L_x \andspace{1cm} [L_z,L_x]=i\hbar L_y \\
 	[L_x,\vec{r}]=i\hbar (z-y) \andspace{1cm} &[L_x,\vec{L}] = i\hbar (L_z-L_y) \andspace{1cm} [L_x,\vec{p}] = i\hbar(p_z-p_y) \\
-	&[\vec{L}^2,L_z] = 0 
+	[\vec{L}^2,L_\pm]=0 \andspace{1cm}&[\vec{L}^2,L_z] = 0 \andspace{1cm} [L_z,L_\pm]=\pm \hbar L_\pm
 \end{align}
 The angular momentum operators as well as the raising and lowering operators are given by
 \begin{align}
 	\vec{L} &= \frac{\hbar}{i}\left(\hat{\phi}\frac{\partial}{\partial \theta}- \frac{\hat{\theta}}{\sin \theta}\frac{\partial}{\partial \phi}\right) \hspace{1cm} \textrm{and} \hspace{1cm} L_z =\frac{\hbar}{i} \frac{\partial}{\partial \phi}\\
 	L_x &= \frac{L_++L_-}{2}= \frac{\hbar}{i}\left(-\sin\phi \frac{\partial}{\partial \theta}-\cot\theta \cos \phi \frac{\partial}{\partial \phi}\right) \\  L_y &= \frac{L_+-L_-}{2i}= \frac{\hbar}{i}\left(\cos\phi \frac{\partial}{\partial \theta}-\cot\theta \sin \phi \frac{\partial}{\partial \phi}\right) \\
-	L_{\pm} &= L_x\pm i L_y = \hbar e^{\pm i \phi} \left(\pm \frac{\partial}{\partial \theta}+ i \cot(\theta)\frac{\partial}{\partial \phi}\right)
+	L_{\pm} &= L_x\pm i L_y = \pm \hbar e^{\pm i \phi} \left(\frac{\partial}{\partial \theta}\pm  i \cot(\theta)\frac{\partial}{\partial \phi}\right) \\
+	\vec{L}^2 &= L_x+L_y+L_z =-\hbar^2 \left[\frac{1}{\sin\theta}\frac{\partial}{\partial \theta}\left(\sin\theta\frac{\partial }{\partial \theta}\right)+\frac{1}{\sin^2\theta}\frac{\partial^2}{\partial \phi^2}\right]
 \end{align}
 The angular momentum operators satisfy
 \begin{align}
 	\vec{L}^2 | \ell, m \rangle = \hbar^2\ell(\ell+1)| \ell, m \rangle \andspace{1cm} L_z| \ell, m \rangle = \hbar m | \ell, m \rangle \\
-	L_{\pm} | \ell, m \rangle = \hbar \sqrt{(\ell \mp m)(\ell \pm m +1)} | \ell, m \rangle
+	L_{\pm} | \ell, m \rangle = \hbar \sqrt{(\ell \mp m)(\ell \pm m +1)} | \ell, m \pm 1 \rangle
+\end{align}
+The fundamental commutation relations for spin are
+\begin{align}
+[S_x,S_y]=i\hbar S_z \andspace{1cm} [S_y,S_z]=i\hbar S_x \andspace{1cm} [S_z,S_x]=i\hbar S_y.
+\end{align}
+The general state of a spin-1/2 particle can be expressed as a two element column matrix (or spinor):
+\begin{align}
+\chi= \begin{pmatrix}
+a\\b
+\end{pmatrix} = a \begin{pmatrix}
+1\\0
+\end{pmatrix}+b\begin{pmatrix}
+0\\1
+\end{pmatrix}= a \chi_++b\chi_-.
+\end{align}
+The spin matrices are given by
+\begin{align}
+\vec{S}_x &= \frac{\hbar}{2}\begin{pmatrix}
+0 & 1 \\ 1 & 0
+\end{pmatrix}, \hspace{1cm}\vec{S}_y = \frac{\hbar}{2}\begin{pmatrix}
+0 & -i \\ i & 0
+\end{pmatrix}, \hspace{1cm}\vec{S}_z = \frac{\hbar}{2}\begin{pmatrix}
+1 & 0 \\ 0 & -1
+\end{pmatrix}, \\ \vec{S}_+ &= \hbar\begin{pmatrix}
+0 & 1 \\ 0 & 0
+\end{pmatrix}, \hspace{1cm}\vec{S}_- = \hbar\begin{pmatrix}
+0 & 0 \\ 1 & 0
+\end{pmatrix}, \hspace{1.3cm}\vec{S}^2 = \frac{3\hbar^2}{4}\begin{pmatrix}
+1 & 0 \\ 0 & 1
+\end{pmatrix}
+\end{align}
+The \textbf{Pauli Spin Matrices}\index{Pauli Spin Matrices} are then given by
+\begin{align}
+\sigma_x \equiv \begin{pmatrix}
+0 & 1 \\ 1 & 0
+\end{pmatrix}, \hspace{1cm}\sigma_y \equiv \begin{pmatrix}
+0 & -i \\ i & 0
+\end{pmatrix}, \hspace{1cm}\sigma_z \equiv \begin{pmatrix}
+1 & 0 \\ 0 & -1
+\end{pmatrix}
+\end{align}
+The combined state $| s, m \rangle$  with total spin s and z-component m will be some linear combination of the composite states $| s_1, m_1 \rangle$ and $| s_2, m_2 \rangle$:
+\begin{align}
+| s, m \rangle = \sum_{m=m_1+m_2} C_{m_1m_2m}^{s_1s_2s}| s_1, m_1 \rangle| s_2, m_2 \rangle
 \end{align}
 
