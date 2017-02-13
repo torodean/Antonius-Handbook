@@ -22,6 +22,7 @@
   \item Curl, \hyperpage{11}, \hyperpage{22}
   \item Curl Theorem, \hyperpage{4}
   \item Current, \hyperpage{42}
+  \item Current divider, \hyperpage{46}
   \item Cylindrical coordinates, \hyperpage{7}
 
   \indexspace
@@ -67,6 +68,7 @@
   \item Hamilton's equations, \hyperpage{39}
   \item Harmonic oscillator, \hyperpage{58}
   \item Helmholtz Free Energy, \hyperpage{52}
+  \item High pass filter, \hyperpage{46}
   \item Homomorphism, \hyperpage{19}
   \item Hooke's Law, \hyperpage{38}
 
@@ -74,6 +76,7 @@
 
   \item Ideal gas law, \hyperpage{49}
   \item Ideal Theorem, \hyperpage{20}
+  \item Impedance, \hyperpage{46}
   \item Injective, \hyperpage{18}
   \item Integral Domain, \hyperpage{18}
   \item Isomorphism, \hyperpage{19}
@@ -98,6 +101,7 @@
   \item Legendre polynomials, \hyperpage{24}
   \item Lorentz force law, \hyperpage{42}
   \item Lorentz Transformations, \hyperpage{47}
+  \item Low pass filter, \hyperpage{46}
 
   \indexspace
 
@@ -112,9 +116,11 @@
   \indexspace
 
   \item Nuclear Decay, \hyperpage{62}
+  \item Nuclear Force, \hyperpage{61}
 
   \indexspace
 
+  \item Ohms law, \hyperpage{46}
   \item Orthogonal Coordinates, \hyperpage{10}
 
   \indexspace
@@ -123,6 +129,7 @@
   \item parseval's theorem, \hyperpage{39}
   \item Partition function, \hyperpage{52}
   \item Pauli Spin Matrices, \hyperpage{60}
+  \item Phaser, \hyperpage{46}
   \item Planck distribution function, \hyperpage{52}
   \item Planck radiation law, \hyperpage{52}
   \item Poisson's equation, \hyperpage{41}
@@ -154,6 +161,10 @@
   \item Taylor series, \hyperpage{5}
   \item Trace, \hyperpage{15}
   \item Trigonometric Identities, \hyperpage{9}
+
+  \indexspace
+
+  \item Voltage divider, \hyperpage{46}
 
   \indexspace
 

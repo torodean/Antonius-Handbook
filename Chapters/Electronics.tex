@@ -148,7 +148,7 @@ When dealing with circuit diagrams, it is often helpful to simplify a circuit us
 
 \vspace{0.5cm}
 \begin{multicols}{2}
-A \textbf{voltage divider}:
+A \textbf{voltage divider}\index{Voltage divider}:
 \begin{center}
 \begin{circuitikz}
 	\draw (0,0) to[battery1, i=I,  l=V] (0,2)
@@ -168,7 +168,7 @@ V_2 &= \frac{VR_2}{R_1+R_2} \\
 V &= I_1(R_1+R_2) = I_2(R_1+R_2)
 \end{align}
 
-A \textbf{Current divider}:
+A \textbf{current divider}\index{Current divider}:
 \begin{center}
 	\begin{circuitikz}
 		\draw (0,0) to[american current source,  l=I] (0,2)
@@ -185,4 +185,49 @@ A \textbf{Current divider}:
 \begin{align}
 I_2 &= \frac{I R_1  }{R_1+R_2}
 \end{align}
+\end{multicols}
+
+Electrical \textbf{impedance}\index{Impedance} is "the total opposition to alternating current by an electric circuit." \cite{bib:dictionary}
+\begin{align}
+	Z_{\textrm{series}} = \sum_{i} Z_{i} \andspace{1cm} Z_{\textrm{parallel}} = \left[\sum_{i} \frac{1}{Z_i}\right]^{-1}.
+\end{align}
+The electrical impedance for a resistor, capacitor, and inductor is given by
+\begin{align}
+Z_{\textrm{resistor}} = R \andspace{1cm} Z_{\textrm{capacitor}} = \frac{1}{i \omega C} \andspace{1cm} Z_{\textrm{inductor}} = i \omega L. 
+\end{align}
+The complex form of \textbf{Ohm's Law}\index{Ohms law} can be written in terms of \textbf{phasers}\index{Phaser} (denoted with a tilde overhead, i.e \~{X}): $\textrm{\~{V}}\equiv \textrm{\~{I}}Z$.
+For cases with an alternating power source, we can use the phasers to find the voltage and current at a given time
+\begin{align}
+V(t) \equiv \mathfrak{R}[\textrm{\~{V}}e^{i \omega t}] \andspace{1cm} I(t) \equiv \mathfrak{R}[\textrm{\~{I}}e^{i \omega t}]
+\end{align}
+
+\begin{multicols}{2}
+	A \textbf{low pass filter}\index{Low pass filter}:
+	\begin{center}
+		\begin{circuitikz}
+			\draw (0,0) to[battery1, i=I,  l=$V_{in}$] (0,2)
+			(0,2) to[R, l=$R$] (2,2)
+			(2,2) to[C, l=$C$] (2,0)
+			(2,0) -- (0,0)
+			(2,2) -- (3.5,2)
+			(2,0) -- (3.5,0); 
+			\draw[-latex] (3.5,1.3) -- (3.5,1.9) {};
+			\draw[-latex] (3.5,0.7) -- (3.5,0.1) {};
+			\draw (3.5,1) node[]{$V_{out}$} (3.5,1);	
+		\end{circuitikz}
+	\end{center}
+	A \textbf{high pass filter}\index{High pass filter}:
+	\begin{center}
+		\begin{circuitikz}
+			\draw (0,0) to[battery1, i=I,  l=$V_{in}$] (0,2)
+			(0,2) to[C, l=$C$] (2,2)
+			(2,2) to[R, l=$R$] (2,0)
+			(2,0) -- (0,0)
+			(2,2) -- (3.5,2)
+			(2,0) -- (3.5,0); 
+			\draw[-latex] (3.5,1.3) -- (3.5,1.9) {};
+			\draw[-latex] (3.5,0.7) -- (3.5,0.1) {};
+			\draw (3.5,1) node[]{$V_{out}$} (3.5,1);	
+		\end{circuitikz}
+	\end{center}
 \end{multicols}
