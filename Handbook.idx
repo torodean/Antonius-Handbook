@@ -54,6 +54,7 @@
 \indexentry{Parsec|hyperpage}{34}
 \indexentry{Flux|hyperpage}{34}
 \indexentry{Distance modulus|hyperpage}{34}
+\indexentry{Hydrostatic equilibrium|hyperpage}{35}
 \indexentry{Boltzmann’s formula|hyperpage}{35}
 \indexentry{Dynamical timescale|hyperpage}{36}
 \indexentry{Hooke's Law|hyperpage}{38}
@@ -84,7 +85,10 @@
 \indexentry{Stefan-Boltzmann equation|hyperpage}{49}
 \indexentry{Ideal gas law|hyperpage}{49}
 \indexentry{Dalton's law|hyperpage}{49}
+\indexentry{Multiplicity function|hyperpage}{51}
 \indexentry{Stirling approximation|hyperpage}{51}
+\indexentry{Magnetic moment|hyperpage}{51}
+\indexentry{Entropy|hyperpage}{51}
 \indexentry{Partition function|hyperpage}{52}
 \indexentry{Helmholtz Free Energy|hyperpage}{52}
 \indexentry{Planck distribution function|hyperpage}{52}
@@ -108,4 +112,5 @@
 \indexentry{Nuclear Decay|hyperpage}{62}
 \indexentry{Gamma decay|hyperpage}{62}
 \indexentry{Rutherford cross section|hyperpage}{63}
+\indexentry{Separation energy|hyperpage}{63}
 \indexentry{Clebsch-Gordan|hyperpage}{65}
