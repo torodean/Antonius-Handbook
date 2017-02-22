@@ -1,5 +1,6 @@
 \begin{theindex}
 
+  \item Absolute activity, \hyperpage{53}
   \item Ampere's Law, \hyperpage{43}
 
   \indexspace
@@ -7,18 +8,19 @@
   \item Binomial theorem, \hyperpage{4}
   \item Biot-Savart law, \hyperpage{42}
   \item Boltzmann’s formula, \hyperpage{35}
-  \item Bragg's Law, \hyperpage{54}
+  \item Bragg's Law, \hyperpage{55}
 
   \indexspace
 
   \item Cauchy's Integral Formula, \hyperpage{14}
   \item Cauchy's Theorem, \hyperpage{14}
   \item Cauchy-Riemann conditions, \hyperpage{13}
-  \item Clebsch-Gordan, \hyperpage{60}, \hyperpage{65}
-  \item Compton effect, \hyperpage{53}
+  \item Chemical potential, \hyperpage{53}
+  \item Clebsch-Gordan, \hyperpage{61}, \hyperpage{67}
+  \item Compton effect, \hyperpage{54}
   \item Continuity equation, \hyperpage{42}
   \item Cosets, \hyperpage{20}
-  \item Cubit, \hyperpage{56}
+  \item Cubit, \hyperpage{57}
   \item Curl, \hyperpage{11}, \hyperpage{22}
   \item Curl Theorem, \hyperpage{4}
   \item Current, \hyperpage{42}
@@ -28,11 +30,11 @@
   \indexspace
 
   \item Dalton's law, \hyperpage{49}
-  \item De Broglie, \hyperpage{53}
+  \item De Broglie, \hyperpage{54}
   \item Debye, \hyperpage{52}
   \item Determinant, \hyperpage{15}
   \item Dirac Delta Function, \hyperpage{6}
-  \item Dirac equation, \hyperpage{57}
+  \item Dirac equation, \hyperpage{58}
   \item Distance modulus, \hyperpage{34}
   \item Divergence, \hyperpage{22}
   \item Divergence theorem, \hyperpage{4}
@@ -43,12 +45,12 @@
   \item Eigenvalues, \hyperpage{16}
   \item Eigenvectors, \hyperpage{16}
   \item Elliptic cylindrical coordinates, \hyperpage{7}
-  \item Entropy, \hyperpage{51}
+  \item Entropy, \hyperpage{51}, \hyperpage{53}
   \item Euler's Identity, \hyperpage{12}
 
   \indexspace
 
-  \item Fermi energy, \hyperpage{62}
+  \item Fermi energy, \hyperpage{64}
   \item First Isomorphism Theorem, \hyperpage{21}
   \item Flux, \hyperpage{34}
   \item Fourier Series, \hyperpage{33}
@@ -57,9 +59,11 @@
 
   \indexspace
 
-  \item Gamma decay, \hyperpage{62}
+  \item Gamma decay, \hyperpage{64}
   \item Gamma function, \hyperpage{4}
   \item Gauss's Law, \hyperpage{41}
+  \item Gibbs factor, \hyperpage{53}
+  \item Gibbs sum, \hyperpage{53}
   \item Gradient, \hyperpage{22}
   \item Gradient theorem, \hyperpage{4}
   \item Green's theorem, \hyperpage{4}
@@ -67,7 +71,7 @@
   \indexspace
 
   \item Hamilton's equations, \hyperpage{39}
-  \item Harmonic oscillator, \hyperpage{58}
+  \item Harmonic oscillator, \hyperpage{59}
   \item Helmholtz Free Energy, \hyperpage{52}
   \item High pass filter, \hyperpage{46}
   \item Homomorphism, \hyperpage{19}
@@ -96,7 +100,7 @@
   \indexspace
 
   \item Laguerre polynomials, \hyperpage{26}
-  \item Laplacian, \hyperpage{11}
+  \item Laplacian, \hyperpage{10}
   \item Law of Cosines, \hyperpage{8}
   \item Law of Sines, \hyperpage{8}
   \item Law of tangents, \hyperpage{8}
@@ -114,13 +118,14 @@
   \item Matrix Algebra, \hyperpage{15}
   \item Maxwell's Equations, \hyperpage{40}
   \item Mollweide's Formulas:, \hyperpage{8}
+  \item Monatomic gas, \hyperpage{53}
   \item Multi-pole expansion, \hyperpage{41}
   \item Multiplicity function, \hyperpage{51}
 
   \indexspace
 
-  \item Nuclear Decay, \hyperpage{62}
-  \item Nuclear Force, \hyperpage{61}
+  \item Nuclear Decay, \hyperpage{64}
+  \item Nuclear Force, \hyperpage{63}
 
   \indexspace
 
@@ -132,7 +137,7 @@
   \item Parsec, \hyperpage{34}
   \item parseval's theorem, \hyperpage{39}
   \item Partition function, \hyperpage{52}
-  \item Pauli Spin Matrices, \hyperpage{60}
+  \item Pauli Spin Matrices, \hyperpage{61}
   \item Phaser, \hyperpage{46}
   \item Planck distribution function, \hyperpage{52}
   \item Planck radiation law, \hyperpage{52}
@@ -143,17 +148,17 @@
   \indexspace
 
   \item Ring, \hyperpage{17}
-  \item Rutherford cross section, \hyperpage{63}
-  \item Ruthford Scattering Formula, \hyperpage{53}
-  \item Rydberg formula, \hyperpage{54}
+  \item Rutherford cross section, \hyperpage{65}
+  \item Ruthford Scattering Formula, \hyperpage{54}
+  \item Rydberg formula, \hyperpage{55}
 
   \indexspace
 
-  \item Schr\"{o}dingr Equation, \hyperpage{57}
-  \item Separation energy, \hyperpage{63}
+  \item Schr\"{o}dingr Equation, \hyperpage{58}
+  \item Separation energy, \hyperpage{65}
   \item Singular Points, \hyperpage{13}
   \item Spherical coordinates, \hyperpage{7}
-  \item Spherical harmonics, \hyperpage{59}
+  \item Spherical harmonics, \hyperpage{60}
   \item Stefan-Boltzmann equation, \hyperpage{49}
   \item Stefan-Boltzmann law, \hyperpage{52}
   \item Stirling approximation, \hyperpage{51}

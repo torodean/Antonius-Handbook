@@ -19,7 +19,7 @@
 \indexentry{Trigonometric Identities|hyperpage}{9}
 \indexentry{Weierstrass substitution|hyperpage}{9}
 \indexentry{Orthogonal Coordinates|hyperpage}{10}
-\indexentry{Laplacian|hyperpage}{11}
+\indexentry{Laplacian|hyperpage}{10}
 \indexentry{Curl|hyperpage}{11}
 \indexentry{Jacobian|hyperpage}{11}
 \indexentry{Euler's Identity|hyperpage}{12}
@@ -95,22 +95,28 @@
 \indexentry{Stefan-Boltzmann law|hyperpage}{52}
 \indexentry{Planck radiation law|hyperpage}{52}
 \indexentry{Debye|hyperpage}{52}
-\indexentry{Ruthford Scattering Formula|hyperpage}{53}
-\indexentry{Compton effect|hyperpage}{53}
-\indexentry{De Broglie|hyperpage}{53}
-\indexentry{Rydberg formula|hyperpage}{54}
-\indexentry{Bragg's Law|hyperpage}{54}
-\indexentry{Cubit|hyperpage}{56}
-\indexentry{Schr\"{o}dingr Equation|hyperpage}{57}
-\indexentry{Dirac equation|hyperpage}{57}
-\indexentry{Harmonic oscillator|hyperpage}{58}
-\indexentry{Spherical harmonics|hyperpage}{59}
-\indexentry{Pauli Spin Matrices|hyperpage}{60}
-\indexentry{Clebsch-Gordan|hyperpage}{60}
-\indexentry{Nuclear Force|hyperpage}{61}
-\indexentry{Fermi energy|hyperpage}{62}
-\indexentry{Nuclear Decay|hyperpage}{62}
-\indexentry{Gamma decay|hyperpage}{62}
-\indexentry{Rutherford cross section|hyperpage}{63}
-\indexentry{Separation energy|hyperpage}{63}
-\indexentry{Clebsch-Gordan|hyperpage}{65}
+\indexentry{Chemical potential|hyperpage}{53}
+\indexentry{Monatomic gas|hyperpage}{53}
+\indexentry{Gibbs factor|hyperpage}{53}
+\indexentry{Gibbs sum|hyperpage}{53}
+\indexentry{Absolute activity|hyperpage}{53}
+\indexentry{Entropy|hyperpage}{53}
+\indexentry{Ruthford Scattering Formula|hyperpage}{54}
+\indexentry{Compton effect|hyperpage}{54}
+\indexentry{De Broglie|hyperpage}{54}
+\indexentry{Rydberg formula|hyperpage}{55}
+\indexentry{Bragg's Law|hyperpage}{55}
+\indexentry{Cubit|hyperpage}{57}
+\indexentry{Schr\"{o}dingr Equation|hyperpage}{58}
+\indexentry{Dirac equation|hyperpage}{58}
+\indexentry{Harmonic oscillator|hyperpage}{59}
+\indexentry{Spherical harmonics|hyperpage}{60}
+\indexentry{Pauli Spin Matrices|hyperpage}{61}
+\indexentry{Clebsch-Gordan|hyperpage}{61}
+\indexentry{Nuclear Force|hyperpage}{63}
+\indexentry{Fermi energy|hyperpage}{64}
+\indexentry{Nuclear Decay|hyperpage}{64}
+\indexentry{Gamma decay|hyperpage}{64}
+\indexentry{Rutherford cross section|hyperpage}{65}
+\indexentry{Separation energy|hyperpage}{65}
+\indexentry{Clebsch-Gordan|hyperpage}{67}

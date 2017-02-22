@@ -131,4 +131,73 @@
 		C_V &= \frac{12\pi^4Nk_B}{5}\left(\frac{T}{\vartheta}\right)^3 \\
 		\vartheta &= \frac{\hbar c}{k_B}\left(\frac{6\pi^2N}{V}\right)^{1/3}.
 	\end{align}
+	\section{Chemical Potential and Gibbs Distribution}
+	The \textbf{chemical potential}\index{Chemical potential} is defined as follows. Two systems are in diffusive equilibrium if $\mu_1=\mu_2$.
+	\begin{align}
+		\mu(\tau,V,N)&\equiv \left(\frac{\partial F}{\partial N}\right)_{\tau,V} \\ \mu 	&= \left(\frac{\partial U}{\partial N}\right)_{\sigma,V} = -\tau\left(\frac{\partial \sigma}{\partial N}\right)_{U,V}.
+	\end{align}
+	The chemical potential is made up of two parts, external and internal. The external part is the potential energy of a particle in an external field of force. The internal part is of thermal origin; for an ideal \textbf{monatomic gas}\index{Monatomic gas}
+	\begin{align}
+		\mu(int) = \tau \log\left(\frac{n}{n_Q}\right).
+	\end{align}
+	The \textbf{Gibbs factor}\index{Gibbs factor} gives the probability that a system at chemical potential $\mu$ and temperature $\tau$ will have N particles and be in a quantum state s of energy $\epsilon_s$.
+	\begin{align}
+		P(N,\epsilon_s) = \frac{1}{\mathscr{Z}}\exp\left[\frac{N\mu-\epsilon_{s}}{\tau}\right]. 
+	\end{align} 
+	The \textbf{Gibbs sum}\index{Gibbs sum} is taken over all states for all numbers of particles.
+	\begin{align}
+	\mathscr{Z} \equiv \sum_{ASN} \exp\left[\frac{N\mu-\epsilon_{s(N)}}{\tau}\right].
+	\end{align}
+	The \textbf{absolute activity}\index{Absolute activity} $\lambda$ is defined by
+	\begin{align}
+	\lambda \equiv \exp\left[\frac{\mu}{\tau}\right].
+	\end{align}
+	The thermal average number of particles is
+	\begin{align}
+	\langle N \rangle = \lambda \frac{\partial}{\partial \lambda}\log(\mathscr{Z}).
+	\end{align}
+	For a system in diffusive contact with a reservoir, the number of particles is not constant and
+	\begin{align}
+	\langle N \rangle &= \frac{\tau}{\mathscr{Z}}\left(\frac{\partial \mathscr{Z}}{\partial \mu}\right)_{\tau,V} \\
+	\langle N^2 \rangle &= \frac{\tau^2}{\mathscr{Z}}\left(\frac{\partial^2 \mathscr{Z}}{\partial \mu^2}\right).
+	\end{align}
+	\section{Ideal Gas}
+	Occupancy of an orbital in the classical limit of $f(\epsilon) << 1$
+	\begin{align}
+	f(\epsilon) = \lambda \exp(-\epsilon/\tau).
+	\end{align}
+	Given N, we can determine $\lambda$ in the classical limit as
+	\begin{align}
+	\lambda = \frac{N}{\sum \exp(-\epsilon_n/\tau)} = \frac{N}{n_Q V}.
+	\end{align}
+	The energy of a free particle orbital of quantum number n in a cube of volume V is
+	\begin{align}
+	\epsilon_n = \frac{1}{2M}\left(\frac{n \pi \hbar}{V^{1/3}}\right)^2.
+	\end{align}
+	A useful transformation from the summation to the integral follows as
+	\begin{align}
+	\sum_n e^{-\epsilon_n/\tau} = \frac{\pi}{2}\int n^2 e^{-\epsilon_n/\tau} dn.
+	\end{align}
+	Some important relationships are
+	\begin{align}
+	F &= \int \mu(N, \tau, V) dN = N\tau[\log(n/n_Q)-1] \\
+	P&= -\left(\frac{\partial F}{\partial V}\right)_{\tau,N} = \frac{N\tau}{V}.
+	\end{align}
+	For an ideal gas, the \textbf{entropy}\index{Entropy} (with $\sigma_1$ beign a constant independent of $\tau$ and V)is
+	\begin{align}
+	\sigma = C_v \log(\tau)+N\log(V)+\sigma_1.
+	\end{align}
+	The average pressure in a system in thermal contact with a heat reservoir is given by 
+	\begin{align}
+	P= -\frac{1}{Z}\sum_s \left(\frac{\partial \epsilon_s}{\partial  V}\right)_N e^{-\epsilon_s/\tau}.
+	\end{align}
+	For a gas of free particles
+	\begin{align}
+	\left(\frac{\partial \epsilon_s}{\partial  V}\right)_N = -\frac{2\epsilon_s}{3V}.
+	\end{align}
+	The Gibbs sum for an ideal gas with identical atoms and the probability that there are N atoms in the gas in a volume V in diffusive contact with a reservoir is
+	\begin{align}
+	\mathcal{Z} &= \exp(\lambda n_Q V) \\
+	P(N) &= \frac{\langle N \rangle^N}{N!} e^{-\langle N \rangle}.
+	\end{align}
 \end{multicols}

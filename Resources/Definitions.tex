@@ -71,7 +71,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Lemma
 \newcounter{lemm}[section] \setcounter{lemm}{0}
-\renewcommand{\thelemm}{\arabic{section}.\arabic{lemm}}
+\renewcommand{\thelemm}{\arabic{chapter}.\arabic{lemm}}
 \newenvironment{lemm}[2][]{%
 	\refstepcounter{lemm}%
 	\ifstrempty{#1}%
@@ -96,7 +96,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Proof
 \newcounter{prf}[section]\setcounter{prf}{0}
-\renewcommand{\theprf}{\arabic{section}.\arabic{prf}}
+\renewcommand{\theprf}{\arabic{chapter}.\arabic{prf}}
 \newenvironment{prf}[2][]{%
 	\refstepcounter{prf}%
 	\ifstrempty{#1}%
@@ -121,7 +121,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Definition
 \newcounter{defn}[section] \setcounter{defn}{0}
-\renewcommand{\thedefn}{\arabic{section}.\arabic{defn}}
+\renewcommand{\thedefn}{\arabic{chapter}.\arabic{defn}}
 \newenvironment{defn}[2][]{%
 	\refstepcounter{defn}%
 	\ifstrempty{#1}%
@@ -145,7 +145,7 @@
 		\label{#2}}{\end{mdframed}}
 %Fancy Box
 \newcounter{fancybox}[section] \setcounter{fancybox}{0}
-\renewcommand{\thefancybox}{\arabic{section}.\arabic{fancybox}}
+\renewcommand{\thefancybox}{\arabic{chapter}.\arabic{fancybox}}
 \newenvironment{fancybox}[2][]{%
 	\refstepcounter{fancybox}%
 	\ifstrempty{#1}%
