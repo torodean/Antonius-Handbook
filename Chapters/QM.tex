@@ -137,14 +137,26 @@ Atomic quantum numbers
 	\ell &= \textrm{ Orbital Angular Momentum Quantum Number } [\ell \in \mathbb{N}\union\{0\}, \ell < n] \\
 	m_\ell &= \textrm{ Magnetic Quantum Number }[m_\ell \in [-\ell, \ell], m_\ell \in \mathbb{Z}]
 \end{align}
-
-For a simple harmonic oscillator\index{Harmonic oscillator}, the energies and eigenfunctions are given by,
+\section{Simple Harmonic Oscillator\index{Harmonic oscillator}}
+For a simple harmonic oscillator\index{Harmonic oscillator}, the potential energy is given by
 \begin{align}
-	V(x)&=\frac{1}{2}kx^2=\frac{1}{2}m\omega^2x^2\implies k=m\omega^2 \Longleftrightarrow \omega=\sqrt{\frac{k}{m}} \\
-	E_n&=\left(n+\frac{1}{2}\right)\hbar\omega=\left(n+\frac{1}{2}\right)\hbar\sqrt{\frac{k}{m}}=\left(n+\frac{1}{2}\right)\frac{\hbar}{x}\sqrt{\frac{2V(x)}{m}} \\
-	H | n \rangle &= E_n |n \rangle, \hspace{1cm} H = \hbar \omega \left(a^\dagger a + \frac{1}{2}\right), \hspace{1cm}[a,a^\dagger]=1 \\	
-	|n\rangle &= \frac{(a^\dagger)^n|0\rangle}{\sqrt{n!}}, \hspace{1cm} a^\dagger|n\rangle = \sqrt{n+1}|n+1\rangle, \hspace{1cm}a|n \rangle = \sqrt{n}|n-1\rangle
+	V(x)&=\frac{1}{2}kx^2=\frac{1}{2}m\omega^2x^2\implies k=m\omega^2 \Longleftrightarrow \omega=\sqrt{\frac{k}{m}} 
 \end{align}
+The energies and wave functions are then given by
+\begin{align}
+	\psi_n & = \frac{1}{\sqrt{n!}}(a_+)^n\psi_0 \hspace{1.5cm} \psi_0(x) = \left(\frac{m\omega}{\pi \hbar}\right)^{1/4}e^{-\frac{m\omega}{2\hbar}x^2}  \\ E_n&=\left(n+\frac{1}{2}\right)\hbar\omega=\left(n+\frac{1}{2}\right)\hbar\sqrt{\frac{k}{m}}=\left(n+\frac{1}{2}\right)\frac{\hbar}{x}\sqrt{\frac{2V(x)}{m}}
+\end{align}
+The eigenfunctions, raising, and lowering operators are related to the eigenstates/vectors by
+\begin{align}
+	a_\pm = \frac{1}{ \sqrt{2\hbar m\omega} }(\mp i p + m\omega x), \hspace{1cm}
+	H | n \rangle &= E_n |n \rangle, \hspace{1cm} H = \hbar \omega \left(a^\dagger a + \frac{1}{2}\right), \hspace{1cm}[a,a^\dagger]=1 \\	
+	|n\rangle = \frac{(a^\dagger)^n|0\rangle}{\sqrt{n!}}, \hspace{1cm} a^\dagger|n\rangle \equiv a_+|n \rangle &= \sqrt{n+1}|n+1\rangle, \hspace{1cm} a|n \rangle \equiv a_-|n \rangle = \sqrt{n}|n-1\rangle
+\end{align}
+For the harmonic oscillator, x and p can be expressed in terms of the raising and lowering operators
+\begin{align}
+	x = \sqrt{\frac{\hbar}{2m\omega}}(a_++a_-) \hspace{2cm} p =i\sqrt{\frac{\hbar m \omega}{2}}(a_+-a_-).
+\end{align}
+\section{Spherical Harmonics}
 The normalized angular wave functions are called \textbf{spherical harmonics}\index{Spherical harmonics} and are given by
 \begin{align}
 	Y_\ell^m(\theta,\phi) = \epsilon\sqrt{\frac{(2\ell+1)}{4\pi}\frac{(\ell-|m|)!}{(\ell+|m|)!}}e^{im\phi}P_\ell^m(\cos\theta), \hspace{1cm} \textrm{with} \hspace{1cm}\epsilon = \begin{cases} (-1)^m & m \geq 0 \\ 1 & m < 0 \end{cases}.
@@ -188,6 +200,7 @@ Position and momentum are related via commutation by the following:
 	[x,p_x]=[y,p_y]=[z,p_z]=i\hbar \\
 	[x,p_y]=[x,p_z]=[y,p_x]=[y,p_z]=[z,p_x]=[z,p_y]=0.
 \end{align} 
+\section{Angular Momentum and Spin}
 The angular momentum operators are related via commutation by the following:
 \begin{align}
 	[L_x,L_y]=i\hbar L_z \andspace{1cm} &[L_y,L_z]=i\hbar L_x \andspace{1cm} [L_z,L_x]=i\hbar L_y \\
@@ -248,7 +261,7 @@ The \textbf{Pauli Spin Matrices}\index{Pauli Spin Matrices} are then given by
 \end{align}
 The combined state $| s, m \rangle$  with total spin s and z-component m will be some linear combination of the composite states $| s_1, m_1 \rangle$ and $| s_2, m_2 \rangle$ and depends on the Clebsch-Gordan\index{Clebsch-Gordan} Coefficients $C_{m_1m_2m}^{s_1s_2s}$ (page \pageref{Clebsch-Gordan}):
 \begin{align}
-| s, m \rangle &= \sum_{m=m_1+m_2} C_{m_1m_2m}^{s_1s_2s}| s_1, m_1 \rangle| s_2, m_2 \rangle \\ | s_1, m_1 \rangle| s_2, m_2 \rangle &= \sum_{s} C_{m_1m_2m}^{s_1s_2s}| s, m \rangle
+| s, m \rangle = \sum_{m=m_1+m_2} C_{m_1m_2m}^{s_1s_2s}| s_1, m_1 \rangle| s_2, m_2 \rangle, \hspace{1.5cm} | s_1, m_1 \rangle| s_2, m_2 \rangle = \sum_{s} C_{m_1m_2m}^{s_1s_2s}| s, m \rangle
 \end{align}
 
 \begin{fancybox}[Hund's Rules]{}
@@ -261,7 +274,7 @@ To find the state with the lowest energy configuration,
 \end{fancybox}
 
 \section{Perturbation Theory}
-From the \textbf{Time-independent perturbation theory} at a first order approximation gives the correction energy and wave function as
+From the \textbf{Time-independent perturbation theory} at an approximation gives the correction energy ($1^{st}$ and $2^{nd}$ order given) and wave function ($1^{st}$ order) as
 \begin{align}
-	| \psi_n^{(1)} \rangle = \sum_{\ell \neq n} | \psi_\ell^{(0)} \rangle \frac{\langle \psi_\ell^{(0)}|H^1| \psi_n^{(0)} \rangle }{E_n^{(0)}-E_\ell^{(0)}} \hspace{2cm} E_n^{(1)}=\langle \psi_n^{(0)}|H^1| \psi_n^{(0)} \rangle  
+	| \psi_n^{(1)} \rangle = \sum_{\ell \neq n} | \psi_\ell^{(0)} \rangle \frac{\langle \psi_\ell^{(0)}|H^1| \psi_n^{(0)} \rangle }{E_n^{(0)}-E_\ell^{(0)}} \hspace{1cm} E_n^{(1)}=\langle \psi_n^{(0)}|H^1| \psi_n^{(0)} \hspace{1cm} E_n^{(2)} = \sum_{m \neq n} \frac{|\langle \psi_m^{(0)}|H^1| \psi_n^{(0)} \rangle|^2 }{E_n^{(0)}-E_m^{(0)}} \rangle  
 \end{align}

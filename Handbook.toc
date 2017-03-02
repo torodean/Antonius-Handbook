@@ -43,7 +43,10 @@
 \contentsline {section}{\numberline {16.6}Ideal Gas}{52}{section.16.6}
 \contentsline {chapter}{\numberline {17}Elementary Quantum Physics}{53}{chapter.17}
 \contentsline {chapter}{\numberline {18}Quantum Mechanics}{56}{chapter.18}
-\contentsline {section}{\numberline {18.1}Perturbation Theory}{61}{section.18.1}
+\contentsline {section}{\numberline {18.1}Simple Harmonic Oscillator}{58}{section.18.1}
+\contentsline {section}{\numberline {18.2}Spherical Harmonics}{59}{section.18.2}
+\contentsline {section}{\numberline {18.3}Angular Momentum and Spin}{60}{section.18.3}
+\contentsline {section}{\numberline {18.4}Perturbation Theory}{61}{section.18.4}
 \contentsline {chapter}{\numberline {19}Nuclear and High Energy Physics}{62}{chapter.19}
 \contentsline {section}{\numberline {19.1}Nuclear Physics}{62}{section.19.1}
 \contentsline {section}{\numberline {19.2}Nuclear Decay}{63}{section.19.2}
