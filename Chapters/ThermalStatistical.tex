@@ -38,7 +38,7 @@
 	\begin{align}
 		\langle s^2 \rangle = \frac{\int_{-\infty}^{\infty}s^2 g(N,s) ds }{\int_{-\infty}^{\infty} g(N,s) ds } = \frac{N}{4}
 	\end{align}
-	The energy interaction of a single magnetic moment\index{Magnetic moment} $\vec{m}$ with a fixed external magnetic field $\vec{B}$ is
+	The energy interaction of a single magnetic moment\index{Magnetic!Moment} $\vec{m}$ with a fixed external magnetic field $\vec{B}$ is
 	\begin{align}
 		U=-\vec{m}\cdot \vec{B}.
 	\end{align}
@@ -140,11 +140,11 @@
 	\begin{align}
 		\mu(int) = \tau \log\left(\frac{n}{n_Q}\right).
 	\end{align}
-	The \textbf{Gibbs factor}\index{Gibbs factor} gives the probability that a system at chemical potential $\mu$ and temperature $\tau$ will have N particles and be in a quantum state s of energy $\epsilon_s$.
+	The \textbf{Gibbs factor}\index{Gibbs!Factor} gives the probability that a system at chemical potential $\mu$ and temperature $\tau$ will have N particles and be in a quantum state s of energy $\epsilon_s$.
 	\begin{align}
 		P(N,\epsilon_s) = \frac{1}{\mathscr{Z}}\exp\left[\frac{N\mu-\epsilon_{s}}{\tau}\right]. 
 	\end{align} 
-	The \textbf{Gibbs sum}\index{Gibbs sum} is taken over all states for all numbers of particles.
+	The \textbf{Gibbs sum}\index{Gibbs!Sum} is taken over all states for all numbers of particles.
 	\begin{align}
 	\mathscr{Z} \equiv \sum_{ASN} \exp\left[\frac{N\mu-\epsilon_{s(N)}}{\tau}\right].
 	\end{align}
@@ -204,4 +204,74 @@
 	\mathcal{Z} &= \exp(\lambda n_Q V) \\
 	P(N) &= \frac{\langle N \rangle^N}{N!} e^{-\langle N \rangle}.
 	\end{align}
+	
+	\section{Heat and Work}
+	\textbf{Heat}\index{Heat} is the transfer of energy by thermal contact with a reservoir. In a reversible process
+	\begin{align}
+		dQ = \tau d\sigma.
+	\end{align} 
+	The \textbf{Carnot Energy}\index{Carnot!Energy} conversion efficiency $\eta_C$ is the upper limit to the ratio $W/Q_h$ of the work generated to the heat added:
+	\begin{align}
+		\eta_C = \left(\frac{W}{Q_h}\right)_{rev} = \frac{(\tau_h-\tau_l)}{\tau_h}=\frac{(T_h-T_l)}{T_h}.
+	\end{align}
+	The \textbf{Carnot coefficient}\index{Carnot!Coefficient} of refrigerator performance is the upper limit of $Q_l/W$ of the heat extracted to the work consumed:
+	\begin{align}
+		\gamma_C = \left(\frac{Q_l}{W}\right)_{rev} = \frac{\tau_l}{\tau_h-\tau_l} = \frac{T_l}{T_h-T_l}.
+	\end{align} 
+	The effective work performed on a system at constant temperature and pressure in a reversible process is equal to the change in the Gibbs free energy:
+	\begin{align}
+		G\equiv U-\tau \sigma+pV. 
+	\end{align}
+	The chemical work performed on a system in the reversible transfer of dN particles to the system is 
+	\begin{align}
+		W_\mu = \mu dN.
+	\end{align} 
+	The change in the free energy density of a superconductor of type I caused by an external magnetic field is $B^2/	2\mu_0$ in SI units and $B^2 8 \pi$ in CGS units.
+	\section{Gibbs Free Energy and Chemical Reactions}
+	From the \textbf{Gibbs free energy}\index{Gibbs!Free energy}, we have
+	\begin{align}
+		dG=\mu dN-\sigma d\tau + Vdp.
+	\end{align}
+	From this we can determine the following relations:
+	\begin{align}
+		\mu &= \left(\frac{\partial G}{\partial N}\right)_{\tau, p}  \\
+	-\sigma &= \left(\frac{\partial G}{\partial \tau}\right)_{N, p} \\
+	V &= \left(\frac{\partial G}{\partial p}\right)_{N, \tau}.
+	\end{align}
+	The Gibbs Free energy is related to chemical potential via
+	\begin{align}
+		G(\tau, p, V) = N \mu(\tau,p).
+	\end{align}
+	The \textbf{Law of mass action}\index{Law of!mass action} for a chemical reaction is
+	\begin{align}
+		K(\tau) = \prod_{j}n_j^{\mu_j}
+	\end{align}
+	The \textbf{Maxwell Relations}\index{Maxwell Relations} are
+	\begin{align}
+		\left(\frac{\partial V}{\partial \tau}\right)_{p,N} &=	-\left(\frac{\partial \sigma}{\partial p}\right)_{\tau,N} \\
+		\left(\frac{\partial V}{\partial N}\right)_p &=	\left(\frac{\partial \mu}{\partial p}\right)_N \\
+		\left(\frac{\partial \mu}{\partial \tau}\right)_N &=	-\left(\frac{\partial \sigma}{\partial N}\right)_\tau \\
+	\end{align}
+	The \textbf{acidity}\index{Acidity} or alkalinity of a solution in terms of pH is defined as
+	\begin{align}
+		pH \equiv -\log_{10}[H^+].
+	\end{align}
+	The \textbf{reaction quotient}\index{Reaction quotient} for the chemical reaction $\alpha A+\beta B \rightleftharpoons \gamma C + \delta D$ is
+	\begin{align}
+		Q = \frac{[C]^\gamma [D]^\delta}{[A]^\alpha[B]^\beta}.
+	\end{align}
+	\section{Phase Transformations}
+	\textbf{Enthalpy}\index{Enthalpy} is defined as
+	\begin{align}
+		H \equiv U - pV.
+	\end{align}
+	The coexistence curve in the $p-\tau$ plane between two phases must satisfy the \textbf{Clausius-Clapeyron equation}\index{Clausius-Clapeyron equation} (L is the latent heat $L=H_1-H_2$)
+	\begin{align}
+		\frac{dp}{d\tau} = \frac{L}{\tau \Delta v}.
+	\end{align}
+	The \textbf{van der Waals}\index{Van der Waals} equation of state is
+	\begin{align}
+		(p+N^2a/V^2)(V-Nb) = N\tau.
+	\end{align}
+	
 \end{multicols}

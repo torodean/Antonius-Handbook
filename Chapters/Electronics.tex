@@ -65,27 +65,6 @@ Circuit diagrams are a major part of understanding and representing electronic c
 	\draw (17.3,0.3)node[above]{ground};
 \end{circuitikz}
 
-An elementary building block of a circuit is a \textbf{logic gate}. At any given time, the 3 nodes of a logic gate are either true (1) or false (0). The common notation for the logic gates follow:
-
-\vspace{0.5cm}
-
-\begin{circuitikz}
-	\draw (0,0) node[american and port]{};
-	\draw (-0.7,0.7)node[above]{AND};
-	\draw (2,0) node[american or port]{};
-	\draw (1.3,0.7)node[above]{OR};
-	\draw (4,0) node[american nand port]{};
-	\draw (3.3,0.7)node[above]{NAND};
-	\draw (6,0) node[american nor port]{};
-	\draw (5.3,0.7)node[above]{NOR};
-	\draw (7.5,0) node[american not port]{};
-	\draw (7.3,0.7)node[above]{NOT};
-	\draw (10,0) node[american xor port]{};
-	\draw (9.3,0.7)node[above]{XOR};
-	\draw (12,0) node[american xnor port]{};
-	\draw (11.3,0.7)node[above]{XNOR};
-\end{circuitikz}
-
 \section{Equivalent Circuits}
 When dealing with circuit diagrams, it is often helpful to simplify a circuit using an equivalent circuit. Some basic \textbf{circuit equivalences} follow:
 
@@ -231,3 +210,75 @@ V(t) \equiv \mathfrak{R}[\textrm{\~{V}}e^{i \omega t}] \andspace{1cm} I(t) \equi
 		\end{circuitikz}
 	\end{center}
 \end{multicols}
+
+\section{Logic, Gates, and Truth Tables}
+An elementary building block of a circuit is a \textbf{logic gate}. At any given time, the 3 nodes of a logic gate are either true (1) or false (0). The common notation for the logic gates follow:
+
+\begin{center}
+	\begin{circuitikz}
+		\draw (0,0) node[american and port]{};
+		\draw (-0.7,0.7)node[above]{AND};
+		\draw (2,0) node[american or port]{};
+		\draw (1.3,0.7)node[above]{OR};
+		\draw (4,0) node[american nand port]{};
+		\draw (3.3,0.7)node[above]{NAND};
+		\draw (6,0) node[american nor port]{};
+		\draw (5.3,0.7)node[above]{NOR};
+		\draw (7.5,0) node[american not port]{};
+		\draw (7.3,0.7)node[above]{NOT};
+		\draw (10,0) node[american xor port]{};
+		\draw (9.3,0.7)node[above]{XOR};
+		\draw (12,0) node[american xnor port]{};
+		\draw (11.3,0.7)node[above]{XNOR};
+	\end{circuitikz}
+\end{center}
+
+The logic gates generally have two inputs (A and B) as well as an output which is used to determine an operation on the inputs and perform 'logic' to determine the appropriate output. The truth tables (using notation "A B $\lvert$ OUT") for the above logic gates is given as
+
+\begin{center}
+	\begin{tabular}{|| c c|c||c c|c||c c|c||c c|c||c|c||c c|c||cc|c||}
+		\hline
+		\multicolumn{3}{||c||}{AND}&
+		\multicolumn{3}{|c||}{OR}&
+		\multicolumn{3}{|c||}{NAND}&
+		\multicolumn{3}{|c||}{NOR}&
+		\multicolumn{2}{|c||}{NOT}&
+		\multicolumn{3}{|c||}{XOR}&
+		\multicolumn{3}{|c||}{XNOR}\\
+		\hline
+		0 & 0 & 0 & 
+		0 & 0 & 0 & 
+		0 & 0 & 1 & 
+		0 & 0 & 1 & 
+		0 & 1 & 
+		0 & 0 & 0 & 
+		0 & 0 & 1 \\
+		0 & 1 & 0 & 
+		0 & 1 & 1 & 
+		0 & 1 & 1 & 
+		0 & 1 & 0 & 
+		1 & 0 & 
+		0 & 1 & 1 & 
+		0 & 1 & 0 \\
+		1 & 0 & 0 & 
+		1 & 0 & 1 & 
+		1 & 0 & 1 & 
+		1 & 0 & 0 & 
+		& & 
+		1 & 0 & 1 & 
+		1 & 1 & 0 \\
+		1 & 1 & 1 & 
+		1 & 1 & 1 & 
+		1 & 1 & 0 & 
+		1 & 1 & 0 & 
+		&  & 
+		1 & 1 & 0 & 
+		1 & 1 & 1 \\
+		\hline
+	\end{tabular}
+\end{center}
+
+Logic circuits can be combined by writing them into expressions using the output OUT as an function of the inputs A, B, C, etc...
+\begin{align}
+A + B \equiv A \textrm{ or } B \hspace{2cm} A + B \equiv A \textrm{ and } B
+\end{align}

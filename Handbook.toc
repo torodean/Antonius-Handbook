@@ -33,30 +33,34 @@
 \contentsline {chapter}{\numberline {12}Electronics}{46}{chapter.12}
 \contentsline {section}{\numberline {12.1}Electronic Symbols \& Circuit Diagrams}{46}{section.12.1}
 \contentsline {section}{\numberline {12.2}Equivalent Circuits}{46}{section.12.2}
-\contentsline {chapter}{\numberline {13}Special Relativity}{48}{chapter.13}
-\contentsline {chapter}{\numberline {14}Statistics}{49}{chapter.14}
-\contentsline {chapter}{\numberline {15}Thermodynamics}{50}{chapter.15}
-\contentsline {chapter}{\numberline {16}Thermal \& Statistical Physics}{52}{chapter.16}
-\contentsline {section}{\numberline {16.1}States of a Model System}{52}{section.16.1}
-\contentsline {section}{\numberline {16.2}Entropy And Temperature}{52}{section.16.2}
-\contentsline {section}{\numberline {16.3}Boltzmann Distribution and Helmholtz Free Energy}{53}{section.16.3}
-\contentsline {section}{\numberline {16.4}Thermal Radiation and Planck Distribution}{53}{section.16.4}
-\contentsline {section}{\numberline {16.5}Chemical Potential and Gibbs Distribution}{54}{section.16.5}
-\contentsline {section}{\numberline {16.6}Ideal Gas}{54}{section.16.6}
-\contentsline {chapter}{\numberline {17}Elementary Quantum Physics}{55}{chapter.17}
-\contentsline {chapter}{\numberline {18}Quantum Mechanics}{58}{chapter.18}
-\contentsline {section}{\numberline {18.1}Simple Harmonic Oscillator}{60}{section.18.1}
-\contentsline {section}{\numberline {18.2}Spherical Harmonics}{61}{section.18.2}
-\contentsline {section}{\numberline {18.3}Angular Momentum and Spin}{62}{section.18.3}
-\contentsline {section}{\numberline {18.4}Perturbation Theory}{63}{section.18.4}
-\contentsline {chapter}{\numberline {19}Nuclear and High Energy Physics}{64}{chapter.19}
-\contentsline {section}{\numberline {19.1}Nuclear Physics}{64}{section.19.1}
-\contentsline {section}{\numberline {19.2}Nuclear Decay}{65}{section.19.2}
-\contentsline {section}{\numberline {19.3}Elementary Particle Physics}{65}{section.19.3}
-\contentsline {chapter}{\numberline {20}Advanced Physics}{67}{chapter.20}
-\contentsline {section}{\numberline {20.1}Quantum Chromodynamics}{67}{section.20.1}
-\contentsline {chapter}{\numberline {21}Resources}{68}{chapter.21}
-\contentsline {section}{\numberline {21.1}Clebsch-Gordan Coefficients, spherical harmonics, and d functions.}{68}{section.21.1}
-\contentsline {section}{\numberline {21.2}Table of Isotopic Masses and Natural Abundances}{69}{section.21.2}
-\contentsline {section}{\numberline {21.3}Periodic Table of Elements}{74}{section.21.3}
-\contentsline {chapter}{References}{75}{chapter*.2}
+\contentsline {section}{\numberline {12.3}Logic, Gates, and Truth Tables}{47}{section.12.3}
+\contentsline {chapter}{\numberline {13}Special Relativity}{49}{chapter.13}
+\contentsline {chapter}{\numberline {14}Statistics}{50}{chapter.14}
+\contentsline {chapter}{\numberline {15}Thermodynamics}{51}{chapter.15}
+\contentsline {chapter}{\numberline {16}Thermal \& Statistical Physics}{53}{chapter.16}
+\contentsline {section}{\numberline {16.1}States of a Model System}{53}{section.16.1}
+\contentsline {section}{\numberline {16.2}Entropy And Temperature}{53}{section.16.2}
+\contentsline {section}{\numberline {16.3}Boltzmann Distribution and Helmholtz Free Energy}{54}{section.16.3}
+\contentsline {section}{\numberline {16.4}Thermal Radiation and Planck Distribution}{54}{section.16.4}
+\contentsline {section}{\numberline {16.5}Chemical Potential and Gibbs Distribution}{55}{section.16.5}
+\contentsline {section}{\numberline {16.6}Ideal Gas}{55}{section.16.6}
+\contentsline {section}{\numberline {16.7}Heat and Work}{56}{section.16.7}
+\contentsline {section}{\numberline {16.8}Gibbs Free Energy and Chemical Reactions}{56}{section.16.8}
+\contentsline {section}{\numberline {16.9}Phase Transformations}{56}{section.16.9}
+\contentsline {chapter}{\numberline {17}Elementary Quantum Physics}{57}{chapter.17}
+\contentsline {chapter}{\numberline {18}Quantum Mechanics}{60}{chapter.18}
+\contentsline {section}{\numberline {18.1}Simple Harmonic Oscillator}{62}{section.18.1}
+\contentsline {section}{\numberline {18.2}Spherical Harmonics}{63}{section.18.2}
+\contentsline {section}{\numberline {18.3}Angular Momentum and Spin}{64}{section.18.3}
+\contentsline {section}{\numberline {18.4}Perturbation Theory}{65}{section.18.4}
+\contentsline {chapter}{\numberline {19}Nuclear and High Energy Physics}{66}{chapter.19}
+\contentsline {section}{\numberline {19.1}Nuclear Physics}{66}{section.19.1}
+\contentsline {section}{\numberline {19.2}Nuclear Decay}{67}{section.19.2}
+\contentsline {section}{\numberline {19.3}Elementary Particle Physics}{67}{section.19.3}
+\contentsline {chapter}{\numberline {20}Advanced Physics}{69}{chapter.20}
+\contentsline {section}{\numberline {20.1}Quantum Chromodynamics}{69}{section.20.1}
+\contentsline {chapter}{\numberline {21}Resources}{70}{chapter.21}
+\contentsline {section}{\numberline {21.1}Clebsch-Gordan Coefficients, spherical harmonics, and d functions.}{70}{section.21.1}
+\contentsline {section}{\numberline {21.2}Table of Isotopic Masses and Natural Abundances}{71}{section.21.2}
+\contentsline {section}{\numberline {21.3}Periodic Table of Elements}{76}{section.21.3}
+\contentsline {chapter}{References}{77}{chapter*.2}
