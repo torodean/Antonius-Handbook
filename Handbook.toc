@@ -52,7 +52,6 @@
 \contentsline {section}{\numberline {18.1}Simple Harmonic Oscillator}{62}{section.18.1}
 \contentsline {section}{\numberline {18.2}Spherical Harmonics}{63}{section.18.2}
 \contentsline {section}{\numberline {18.3}Angular Momentum and Spin}{64}{section.18.3}
-\contentsline {section}{\numberline {18.4}Perturbation Theory}{65}{section.18.4}
 \contentsline {chapter}{\numberline {19}Nuclear and High Energy Physics}{66}{chapter.19}
 \contentsline {section}{\numberline {19.1}Nuclear Physics}{66}{section.19.1}
 \contentsline {section}{\numberline {19.2}Nuclear Decay}{67}{section.19.2}

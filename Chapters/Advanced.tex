@@ -5,9 +5,20 @@ The classical Lagrangian density for $n$ non-interacting quarks with masses $m_i
 \begin{align}
 \mathcal{L}_{\textrm{quarks}}=\sum_{i}^{n}q_i^{-a}(i\eth-m_i)_{ab}a_i^b.
 \end{align}
-The Quantum Chromodynamic Lagrangian is given by
+The \textbf{Quantum Chromodynamic Lagrangian}\index{Quantum!Chromodynamics}, with the color fields tensor $G_\alpha^{\mu c} = \partial^\mu G_\alpha^v-\partial^v G_\alpha^\mu-g f^{\alpha \beta \gamma}G_\beta^\mu G_\gamma^v$, the four potential of the gluon fields ($\alpha = 1,...8$) $G_\alpha^\mu$, the $3 \times 3$ Gell-Mann matrices - generators of the SU(3) color group $t_\alpha$, the structure constants of the SU(3) color group $f^{\alpha \beta \gamma}$, the Dirac spinor of the quark field (i represents color) $\psi_i$, and units where $g=\sqrt{4\pi\alpha_s}$ ($\hbar=c=1$) \cite{Nazarewicz_PHY802}.
 \begin{align}
-\mathcal{L}_{\textrm{QCD}}=-\frac{1}{4}F^A_{\mu\nu}F^{\mu\nu}_A+\sum_{i}^{n}q_i^{-a}(i\eth-m_i)_{ab}a_i^b-\frac{1}{2\lambda}(\partial^\mu A^A_\mu)^2+\mathcal{L}_{\textrm{ghost}}.
+	\mathcal{L}_{\textrm{QCD}} &=\sum_{q}\left(\psi_{qi}^*i\gamma^\mu\left[\delta_{ij}\partial_\mu+ig(G_\mu^\alpha t_\alpha)_{ij}\right]\psi_{qj}-m_q\psi_{qi}^*\psi_{qi}\right)-\frac{1}{4}G^\alpha_{\mu v}G^{\mu v}_\alpha \\
+	&=\mathcal{L}_{\textrm{quarks}}+\mathcal{L}_{\textrm{ghost}}-\frac{1}{2\lambda}(\partial^\mu A^\alpha_\mu)^2-\frac{1}{4}G^\alpha_{\mu\nu}G^{\mu\nu}_\alpha.
+\end{align}
+
+The \textbf{Quantum Electrodynamic Lagrange}\index{Quantum!Electrodynamics}, with the EM field tensor $F^{\mu v} = \partial ^\mu A^v - \partial^vA^\mu$, the four potential of the photon field $A^\mu$, the Dirac 4x4 matrices $\gamma^\mu$, the Dirac four-spinor of the electron field $\psi_e$, and using units $e=\sqrt{4\pi\alpha}$, $1/\alpha \approx 137$, and $\hbar=c=1$ \cite{Nazarewicz_PHY802}.
+\begin{align}
+	\mathcal{L}_{QED} = \psi_e^*i\gamma^\mu[\partial_\mu+ieA_\mu]\psi_e-m_e\psi_e^*\psi_e-\frac{1}{4}F_{\mu v}F^{\mu v}
+\end{align}
+From the Euler–Lagrange equation of motion for a field, we can get both the Dirac equation for the electron and Maxwell equations for the EM fields 
+in the Lorentz gauge.
+\begin{align}
+	\underbrace{(i\gamma^\mu\partial_\mu-me)\psi_e=e\gamma^\mu A_\mu\psi_e}_{Dirac} \hspace{2cm} \underbrace{\partial^\mu\partial_\mu A^\mu = e\psi_e^*\gamma^\mu\psi_e}_{Maxwell}
 \end{align}
 The Lagrange equation for a multiple pendulum system with n number of rods, where the $i^{th}$ rod has a length $L_i$, and mass $m_i$.
 \begin{align}
