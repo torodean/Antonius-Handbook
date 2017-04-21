@@ -21,7 +21,7 @@
   \item Cauchy-Riemann conditions, \hyperpage{13}
   \item Chemical potential, \hyperpage{55}
   \item Clausius-Clapeyron equation, \hyperpage{56}
-  \item Clebsch-Gordan, \hyperpage{65}, \hyperpage{70}
+  \item Clebsch-Gordan, \hyperpage{65}, \hyperpage{71}
   \item Compton effect, \hyperpage{57}
   \item Continuity equation, \hyperpage{44}
   \item Cosets, \hyperpage{20}
@@ -56,7 +56,7 @@
 
   \indexspace
 
-  \item Fermi energy, \hyperpage{67}
+  \item Fermi energy, \hyperpage{68}
   \item First Isomorphism Theorem, \hyperpage{21}
   \item Flux, \hyperpage{36}
   \item Fourier Series, \hyperpage{35}
@@ -65,7 +65,7 @@
 
   \indexspace
 
-  \item Gamma decay, \hyperpage{67}
+  \item Gamma decay, \hyperpage{68}
   \item Gamma function, \hyperpage{4}
   \item Gauss's Law, \hyperpage{43}
   \item Gibbs
@@ -79,6 +79,7 @@
   \indexspace
 
   \item Hamilton's equations, \hyperpage{41}
+  \item hard sphere scattering, \hyperpage{66}
   \item Harmonic oscillator, \hyperpage{62}
   \item Heat, \hyperpage{56}
   \item Helmholtz Free Energy, \hyperpage{54}
@@ -137,8 +138,8 @@
 
   \indexspace
 
-  \item Nuclear Decay, \hyperpage{67}
-  \item Nuclear Force, \hyperpage{66}
+  \item Nuclear Decay, \hyperpage{68}
+  \item Nuclear Force, \hyperpage{67}
 
   \indexspace
 
@@ -149,6 +150,7 @@
 
   \item Parsec, \hyperpage{36}
   \item parseval's theorem, \hyperpage{41}
+  \item partial wave amplitude, \hyperpage{66}
   \item Partition function, \hyperpage{54}
   \item Pauli Spin Matrices, \hyperpage{65}
   \item Phaser, \hyperpage{47}
@@ -161,24 +163,26 @@
   \indexspace
 
   \item Quantum
-    \subitem Chromodynamics, \hyperpage{69}
-    \subitem Electrodynamics, \hyperpage{69}
+    \subitem Chromodynamics, \hyperpage{70}
+    \subitem Electrodynamics, \hyperpage{70}
 
   \indexspace
 
+  \item Rabi-Flopping frequency, \hyperpage{66}
   \item Reaction quotient, \hyperpage{56}
   \item Ring, \hyperpage{17}
-  \item Rutherford cross section, \hyperpage{68}
+  \item Rutherford cross section, \hyperpage{69}
   \item Ruthford Scattering Formula, \hyperpage{57}
   \item Rydberg formula, \hyperpage{58}
 
   \indexspace
 
   \item Schr\"{o}dingr Equation, \hyperpage{61}
-  \item Separation energy, \hyperpage{68}
+  \item Separation energy, \hyperpage{69}
   \item Singular Points, \hyperpage{13}
   \item Spherical coordinates, \hyperpage{7}
   \item Spherical harmonics, \hyperpage{63}
+  \item Spontaneous emission, \hyperpage{66}
   \item Stefan-Boltzmann equation, \hyperpage{51}
   \item Stefan-Boltzmann law, \hyperpage{54}
   \item Stirling approximation, \hyperpage{53}
@@ -190,12 +194,13 @@
 
   \item Taylor series, \hyperpage{5}
   \item Trace, \hyperpage{15}
+  \item Transition rate, \hyperpage{66}
   \item Trigonometric Identities, \hyperpage{9}
 
   \indexspace
 
   \item Van der Waals, \hyperpage{56}
-  \item Variational principle, \hyperpage{65}
+  \item Variational principle, \hyperpage{66}
   \item Voltage divider, \hyperpage{47}
 
   \indexspace

@@ -278,7 +278,57 @@ From the \textbf{Time-independent perturbation theory} at an approximation gives
 	| \psi_n^{(1)} \rangle = \sum_{\ell \neq n} | \psi_\ell^{(0)} \rangle \frac{\langle \psi_\ell^{(0)}|H^1| \psi_n^{(0)} \rangle }{E_n^{(0)}-E_\ell^{(0)}} \hspace{1cm} E_n^{(1)}=\langle \psi_n^{(0)}|H^1| \psi_n^{(0)}\rangle  \hspace{1cm} E_n^{(2)} = \sum_{m \neq n} \frac{|\langle \psi_m^{(0)}|H^1| \psi_n^{(0)} \rangle|^2 }{E_n^{(0)}-E_m^{(0)}}  
 \end{align}
 
+For a two state system and a time dependent Hamiltonian, we can derive a relationship for the probability coefficients of the system by solving Shr\"{o}dinger's equation which is used with $H_{ij}'(t)=\langle \psi_i|H(t)|\psi_j\rangle$ (and with $\omega = \frac{E_2-E_1}{\hbar}$) which gives
+\begin{align}
+	\frac{dc_1(t)}{dt} = -\frac{i}{\hbar}H_{12}'(t)e^{-i \omega t}c_2(t) \hspace{2cm} 	\frac{dc_2(t)}{dt} = -\frac{i}{\hbar}H_{21}'(t)e^{i \omega t}c_1(t).
+\end{align}
+
+For a two state system the coefficients of the system up to second order given an initial state of $c_a^{(0)}(t)=a$ and $c_b^{(0)}(t)=b$, with $\omega_0=(E_b-E_a)/\hbar$ are
+\begin{align}
+	c_a^{(2)}(t) &= a-\frac{ib}{\hbar}\int_{0}^{t}H_{ab}'(t')e^{-i \omega_0 t'}dt' - \frac{a}{\hbar^2}\int_{0}^{t}H_{ab}'e^{-i\omega_0 t'} \left[\int_{0}^{t'}H_{ba}'(t'')e^{i\omega_0 t}dt''\right]dt' \\
+	c_b^{(2)}(t) &= b-\frac{ia}{\hbar}\int_{0}^{t}H_{ba}'(t')e^{i \omega_0 t'}dt' - \frac{b}{\hbar^2}\int_{0}^{t}H_{ba}'e^{i\omega_0 t'} \left[\int_{0}^{t'}H_{ab}'(t'')e^{-i\omega_0 t}dt''\right]dt'
+\end{align}
+
 The \textbf{variational principle}\index{Variational principle} will give an upper bound for the ground state energy for a system described by the Hamiltonian H. This is often useful when you are unable to solve Schr\"{o}dinger's equation.
 \begin{align}
 	E_{gs} \leq \langle \psi|H|\psi\rangle
 \end{align}
+The \textbf{Rabi-Flopping frequency}\index{Rabi-Flopping frequency} is defined as
+\begin{align}
+	\omega_r \equiv \frac{1}{2}\sqrt{(\omega-\omega_0)^2+(|V|/\hbar)^2}
+\end{align}
+The \textbf{transition rate}\index{Transition rate} for stimulated emmision from state b to state a, under the influence of incoherent, unpolarized light incident from all directions (where $\mathfrak{p}$ is the matrix element of the electric dipole moment between the two states and $\rho(\omega_0)$ is the energy density in the fields with $\omega_0=(E_b-E_a)/\hbar$ \cite{bib:Griffiths_QM} is
+\begin{align}
+	R_{b\rightarrow a} = \frac{\pi}{3\epsilon_0 \hbar^2}|\mathfrak{p}|^2\rho(\omega_0)
+\end{align} 
+The \textbf{spontaneous emission}\index{Spontaneous emission} rate is
+\begin{align}
+	A=\frac{\omega_0^3|\mathfrak{p}|^2}{3\pi\epsilon_0\hbar c^3}
+\end{align}
+
+\section{Scattering}
+The impact parameter b is given by
+\begin{align}
+	b=R\sin\left(\frac{\pi}{2}-\frac{\theta}{2}\right) = R\cos\left(\frac{\theta}{2}\right).	
+\end{align}
+Particles incident in the area $d\sigma$ scatter into the solid angle $d\Omega$,
+\begin{align}
+	d\sigma = D(\theta)d\Omega = \underbrace{\frac{b}{\sin(\theta)}\left|\frac{db}{d\theta}\right|}_{D(\theta)} \underbrace{\sin(\theta) d\theta d\phi}_{d\Omega} = b db d\phi \implies D(\theta) = \frac{d\sigma}{d\Omega} = |f(\theta)|^2
+\end{align}
+In the case of \textbf{hard sphere scattering}\index{hard sphere scattering},
+\begin{align}
+	\frac{db}{d\theta} = -\frac{1}{2}R\sin\left(\frac{\theta}{2}\right) \implies D(\theta) = \frac{R\cos(\theta/2)}{\sin(\theta)}\left(\frac{\sin(\theta/2)}{2}\right) =\frac{R^2}{4}
+\end{align}
+In the quantum theory of scattering, for an incident plane wave $\psi=e^{ikz}$ traveling in the z direction and for large r we can find solutions to the Schr\"{o}dinger equation (with $k\equiv \frac{\sqrt{2mE}}{\hbar}$ and $a_\ell$ which is called the partial wave amplitude\index{partial wave amplitude}) of the general form
+\begin{align}
+	\psi(r,\theta) = A\left( e^{ikz}+k\sum_{\ell=0}^\infty i^{\ell+1}(2\ell+1)a_{\ell}h_{\ell}^{(1)}(kr)P_\ell(\cos\theta)\right)\approx A\left(e^{ikz}+f(\theta)\frac{e^{ikr}}{r}\right)
+\end{align}
+The differential cross section can be written as
+\begin{align}
+	D(\theta) = |f(\theta)|^2 = \left|\sum_{\ell=0}^\infty(2\ell+1)a_{\ell}P_\ell(\cos\theta)\right|^2= \sum_{\ell}\sum_{\ell'}(2\ell+1)(2\ell'+1)a_\ell^*a_{\ell'}P_\ell(\cos\theta)P_{\ell'}(\cos\theta)
+\end{align}
+The total cross section is then given by
+\begin{align}
+	\sigma=4\pi\sum_{\ell=0}^{\infty}(2\ell+1)|a_\ell|^2
+\end{align}
+
