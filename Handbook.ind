@@ -12,8 +12,9 @@
 
   \item Binomial theorem, \hyperpage{4}
   \item Biot-Savart law, \hyperpage{44}
+  \item Boltzmann transport equation, \hyperpage{58}
   \item Boltzmann’s formula, \hyperpage{37}
-  \item Bragg's Law, \hyperpage{59}
+  \item Bragg's Law, \hyperpage{60}
 
   \indexspace
 
@@ -25,11 +26,11 @@
   \item Cauchy-Riemann conditions, \hyperpage{13}
   \item Chemical potential, \hyperpage{56}
   \item Clausius-Clapeyron equation, \hyperpage{57}
-  \item Clebsch-Gordan, \hyperpage{66}, \hyperpage{72}
-  \item Compton effect, \hyperpage{58}
+  \item Clebsch-Gordan, \hyperpage{67}, \hyperpage{73}
+  \item Compton effect, \hyperpage{59}
   \item Continuity equation, \hyperpage{44}
   \item Cosets, \hyperpage{20}
-  \item Cubit, \hyperpage{61}
+  \item Cubit, \hyperpage{62}
   \item Curl, \hyperpage{11}, \hyperpage{22}
   \item Curl Theorem, \hyperpage{4}
   \item Current, \hyperpage{44}
@@ -39,11 +40,12 @@
   \indexspace
 
   \item Dalton's law, \hyperpage{52}
-  \item De Broglie, \hyperpage{58}
+  \item De Broglie, \hyperpage{59}
   \item Debye, \hyperpage{55}
   \item Determinant, \hyperpage{15}
+  \item Diffusion, \hyperpage{58}
   \item Dirac Delta Function, \hyperpage{6}
-  \item Dirac equation, \hyperpage{62}
+  \item Dirac equation, \hyperpage{63}
   \item Distance modulus, \hyperpage{36}
   \item Divergence, \hyperpage{22}
   \item Divergence theorem, \hyperpage{4}
@@ -60,7 +62,7 @@
 
   \indexspace
 
-  \item Fermi energy, \hyperpage{69}
+  \item Fermi energy, \hyperpage{70}
   \item First Isomorphism Theorem, \hyperpage{21}
   \item Flux, \hyperpage{36}
   \item Fourier Series, \hyperpage{35}
@@ -69,7 +71,7 @@
 
   \indexspace
 
-  \item Gamma decay, \hyperpage{69}
+  \item Gamma decay, \hyperpage{70}
   \item Gamma function, \hyperpage{4}
   \item Gauss's Law, \hyperpage{43}
   \item Gibbs
@@ -83,8 +85,8 @@
   \indexspace
 
   \item Hamilton's equations, \hyperpage{41}
-  \item hard sphere scattering, \hyperpage{67}
-  \item Harmonic oscillator, \hyperpage{63}
+  \item hard sphere scattering, \hyperpage{68}
+  \item Harmonic oscillator, \hyperpage{64}
   \item Heat, \hyperpage{57}
   \item Helmholtz Free Energy, \hyperpage{55}
   \item High pass filter, \hyperpage{47}
@@ -133,6 +135,7 @@
     \subitem Susceptibility, \hyperpage{45}
   \item Magnetizing field, \hyperpage{45}
   \item Matrix Algebra, \hyperpage{15}
+  \item Maxwell distribution, \hyperpage{58}
   \item Maxwell Relations, \hyperpage{57}
   \item Maxwell's Equations, \hyperpage{42}
   \item Minkowski Force, \hyperpage{50}
@@ -143,8 +146,8 @@
 
   \indexspace
 
-  \item Nuclear Decay, \hyperpage{69}
-  \item Nuclear Force, \hyperpage{68}
+  \item Nuclear Decay, \hyperpage{70}
+  \item Nuclear Force, \hyperpage{69}
 
   \indexspace
 
@@ -155,9 +158,9 @@
 
   \item Parsec, \hyperpage{36}
   \item parseval's theorem, \hyperpage{41}
-  \item partial wave amplitude, \hyperpage{67}
+  \item partial wave amplitude, \hyperpage{68}
   \item Partition function, \hyperpage{55}
-  \item Pauli Spin Matrices, \hyperpage{66}
+  \item Pauli Spin Matrices, \hyperpage{67}
   \item Phaser, \hyperpage{47}
   \item Planck distribution function, \hyperpage{55}
   \item Planck radiation law, \hyperpage{55}
@@ -168,27 +171,27 @@
   \indexspace
 
   \item Quantum
-    \subitem Chromodynamics, \hyperpage{71}
-    \subitem Electrodynamics, \hyperpage{71}
+    \subitem Chromodynamics, \hyperpage{72}
+    \subitem Electrodynamics, \hyperpage{72}
 
   \indexspace
 
-  \item Rabi-Flopping frequency, \hyperpage{67}
+  \item Rabi-Flopping frequency, \hyperpage{68}
   \item Reaction quotient, \hyperpage{57}
   \item Ring, \hyperpage{17}
-  \item Rutherford cross section, \hyperpage{70}
-  \item Ruthford Scattering Formula, \hyperpage{58}
-  \item Rydberg formula, \hyperpage{59}
+  \item Rutherford cross section, \hyperpage{71}
+  \item Ruthford Scattering Formula, \hyperpage{59}
+  \item Rydberg formula, \hyperpage{60}
 
   \indexspace
 
-  \item Schr\"{o}dingr Equation, \hyperpage{62}
-  \item Separation energy, \hyperpage{70}
+  \item Schr\"{o}dingr Equation, \hyperpage{63}
+  \item Separation energy, \hyperpage{71}
   \item Singular Points, \hyperpage{13}
   \item Space-time interval, \hyperpage{50}
   \item Spherical coordinates, \hyperpage{7}
-  \item Spherical harmonics, \hyperpage{64}
-  \item Spontaneous emission, \hyperpage{67}
+  \item Spherical harmonics, \hyperpage{65}
+  \item Spontaneous emission, \hyperpage{68}
   \item Stefan-Boltzmann equation, \hyperpage{52}
   \item Stefan-Boltzmann law, \hyperpage{55}
   \item Stirling approximation, \hyperpage{54}
@@ -199,19 +202,22 @@
   \indexspace
 
   \item Taylor series, \hyperpage{5}
+  \item Thermal conductivity, \hyperpage{58}
   \item Trace, \hyperpage{15}
-  \item Transition rate, \hyperpage{67}
+  \item Transition rate, \hyperpage{68}
   \item Trigonometric Identities, \hyperpage{9}
 
   \indexspace
 
   \item Van der Waals, \hyperpage{57}
-  \item Variational principle, \hyperpage{67}
+  \item Variational principle, \hyperpage{68}
+  \item viscosity, \hyperpage{58}
   \item Voltage divider, \hyperpage{47}
 
   \indexspace
 
   \item Wave equation, \hyperpage{42}
   \item Weierstrass substitution, \hyperpage{9}
+  \item Wiedemann-Franz ratio, \hyperpage{58}
 
 \end{theindex}

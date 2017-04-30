@@ -279,4 +279,49 @@
 		p_c &= \frac{a}{27b^2} \\
 		V_c &= 3Nb.
 	\end{align}	
+	\subsection{Kinetic Theory}
+	The \textbf{Maxwell distribution}\index{Maxwell distribution} describes the probability that an atom has a velocity $v$ in $dv$,
+	\begin{align}
+		P(v)dv = 4\pi\left(\frac{M}{2\pi\tau}\right)^{3/2}v^2e^{\frac{-Mv^2}{2\tau}}dv
+	\end{align}
+	The root mean square velocity is given by
+	\begin{align}
+		v_{rms} = \sqrt{\langle v^2 \rangle} = \sqrt{\frac{3\tau}{M}}.
+	\end{align}
+	The most probably value of the speed is
+	\begin{align}
+		v_{mp} = \sqrt{\frac{2\tau}{M}}.
+	\end{align}
+	The mean speed is
+	\begin{align}
+		\bar{c} = \langle v \rangle = \int_0^\infty v P(v) dv = \sqrt{\frac{8\tau}{\pi M}}
+	\end{align}
+	\textbf{Diffusion}\index{Diffusion} is described by the mean free path $\ell$ and the mean speed $\bar{c}\equiv \langle v \rangle$,
+	\begin{align}
+		\vec{J}_n=-D\nabla n, \hspace{1cm} D = \frac{1}{3}\bar{c}\ell
+	\end{align}
+	\textbf{Thermal conductivity}\index{Thermal conductivity} is described by the specific heat per unit volume $\bar{C}_V$,
+	\begin{align}
+		\vec{J}_\mu = -K \nabla \tau, \hspace{1cm} K = D\bar{C}_V =  \frac{1}{3}\bar{C}_V \bar{c}\ell
+	\end{align}
+	The coefficient of \textbf{viscosity}\index{viscosity} is given in terms of the mass density (where d is the molecular diameter) as
+	\begin{align}
+		\eta = D\rho = \frac{1}{3}\rho \bar{c} \ell = \frac{M\bar{c}}{3\pi d^2}
+	\end{align}
+	The electrical conductivity of a Fermi gas is given in terms of the relaxation time $\tau_c$,
+	\begin{align}
+		\sigma = \frac{nq^2\tau_c}{m}
+	\end{align} 
+	The electric current density is
+	\begin{align}
+		\vec{J}_q = \sigma\vec{E}
+	\end{align}
+	The \textbf{Wiedemann-Franz ratio}\index{Wiedemann-Franz ratio} holds for a classical gas of particles of charge q,
+	\begin{align}
+		\frac{K}{\tau \sigma}=\frac{3}{2q^2},\hspace{0.25cm} \textrm{ or }\hspace{0.25cm} \frac{K}{T\sigma} = \frac{3k_B^2}{2q^2}.
+	\end{align}
+	The \textbf{Boltzmann transport equation}\index{Boltzmann transport equation} in the relaxation time approximation is
+	\begin{align}
+		\frac{\partial f}{\partial t} + \alpha \nabla_V f+v\nabla_r f=-\frac{f-f_0}{\tau_c} 
+	\end{align}
 \end{multicols}
