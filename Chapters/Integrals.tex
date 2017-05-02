@@ -1,24 +1,48 @@
 \chapter{Integrals}
 \thispagestyle{fancy}
-Basic indefinite integrals ($c=$constant)
+Basic indefinite integrals. Add $c$ to each result for completion ($c=$constant).
+\begin{multicols}{2}
+\noindent
 \begin{align}
-	&\int \frac{dx}{a^2+x^2} = \frac{1}{a}\arctan\bigg(\frac{x}{a}\bigg) +c\\
-	&\int \frac{dx}{\sqrt{a^2-x^2}}= \textrm{arcsin}\bigg(\frac{x}{|a|} \bigg)+c =\arctan\bigg(\frac{x}{\sqrt{a^2-x^2}} \bigg)+c\\
-	&\int \frac{dx}{x+x^2} =\ln\bigg(\frac{x}{1+x} \bigg) +c\\
-	&\int \frac{dx}{\sqrt{x^2-1}}= \textrm{arccosh}(x) +c\\
-	&\int \frac{dx}{x\sqrt{x^2-1}}= \arccos\bigg(\frac{1}{x}\bigg)+c \\
-	&\int \frac{dx}{(a^2+x^2)^{3/2}} = \frac{x}{a^2\sqrt{a^2+x^2}} +c\\
-	&\int \frac{xdx}{(a^2+x^2)^{3/2}} = -\frac{1}{\sqrt{a^2+x^2}} +c\\
-	&\int \frac{dx}{1-x^2} = \textrm{arctanh}(x) +c\\
-	&\int \frac{dx}{\sqrt{a^2+x^2}} = \textrm{arcsinh}\bigg(\frac{x}{a}\bigg) +c = \ln\big|x+\sqrt{a^2+x^2}\big|+c\\
-	&\int \frac{xdx}{1+x^2} =\frac{1}{2}\ln(1+x^2) +c\\
-	&\int \frac{xdx}{\sqrt{1+x^2}}= \sqrt{1+x^2} +c\\
-	&\int \frac{\sqrt{x}dx}{\sqrt{1-x}}= \arcsin(\sqrt{x})-\sqrt{x(1-x)} +c\\
-	&\int \frac{x^2}{a^2+x^2} dx=\frac{-x}{2}\sqrt{a^2-x^2}+\frac{a^2}{2}\sin^{-1}\left(\frac{x}{a}\right)+c\\
-	&\int \frac{1}{(a^2+x^2)^2}dx = \frac{x}{2a^2(x^2+a^2)}+\frac{1}{2a^3}\arctan\left(\frac{x}{a}\right) +c \\
-	&\int \frac{x^2}{(a^2+x^2)^2}dx = \frac{-x}{2(x^2+a^2)}+\frac{1}{2a}\arctan\left(\frac{x}{a}\right) +c \\
-	&\int \ln(x)=x\ln(x)-x+c 
+	&\int \frac{dx}{a^2+x^2} = \frac{1}{a}\arctan\bigg(\frac{x}{a}\bigg) \\
+	&\int \frac{dx}{\sqrt{a^2-x^2}}= \textrm{arcsin}\bigg(\frac{x}{|a|} \bigg) \\&\hspace{2.1cm}=\arctan\bigg(\frac{x}{\sqrt{a^2-x^2}} \bigg)\\
+	&\int \frac{dx}{x+x^2} =\ln\bigg(\frac{x}{1+x} \bigg) \\
+	&\int \frac{dx}{\sqrt{x^2-1}} = \textrm{arccosh}(x) \\
+	&\int \frac{dx}{x\sqrt{x^2-1}}= \arccos\bigg(\frac{1}{x}\bigg) \\
+	&\int \frac{dx}{(a^2+x^2)^{3/2}} = \frac{x}{a^2\sqrt{a^2+x^2}} \\
+	&\int \frac{xdx}{(a^2+x^2)^{3/2}} = -\frac{1}{\sqrt{a^2+x^2}} \\
+	&\int \frac{dx}{\sqrt{a^2+x^2}} = \textrm{arcsinh}\bigg(\frac{x}{a}\bigg) \\ &\hspace{2.1cm}= \ln\big|x+\sqrt{a^2+x^2}\big|
+	\end{align}
+	\begin{align}
+	&\int \frac{xdx}{1+x^2} =\frac{1}{2}\ln(1+x^2) \\
+	&\int \frac{dx}{1-x^2} = \textrm{arctanh}(x) \\
+	&\int \frac{xdx}{\sqrt{1+x^2}}= \sqrt{1+x^2} \\
+	&\int \frac{\sqrt{x}dx}{\sqrt{1-x}}= \arcsin(\sqrt{x})-\sqrt{x(1-x)} \\
+	&\int \frac{x^2}{a^2+x^2} dx=\frac{a^2}{2}\sin^{-1}\left(\frac{x}{a}\right)-\frac{x}{2}\sqrt{a^2-x^2}\\
+	&\int \frac{dx}{(a^2+x^2)^2} = \frac{x}{2a^2(x^2+a^2)}+\frac{1}{2a^3}\arctan\left(\frac{x}{a}\right)  \\
+	&\int \frac{x^2dx}{(a^2+x^2)^2} = \frac{-x}{2(x^2+a^2)}+\frac{1}{2a}\arctan\left(\frac{x}{a}\right)  \\
+	&\int \ln(x)=x\ln(x)-x
 \end{align}
+\end{multicols}
+By use of the product rule $\frac{d}{dx}[f(x)g(x)]=f'(x)g(x)+f(x)g'(x)$, we can integrate both sides to arive at a useful formula for solving various integrals known as \textbf{integration by parts}\index{Integration by parts}
+\begin{align}
+\int f(x)g'(x)=f(x)g(x)-\int g(x)f'(x) \hspace{1cm}\textrm{ or }\hspace{1cm} \int udv=uv-\int vdu
+\end{align} 
+Generalizing this result gives us integration by parts as
+\begin{align}
+\int f^{(n)}(x)g(x) dx = g(x)f^{(n-1)}(x)-g'(x)f^{(n-2)(x)} + g''(x)f^{(n-3)}(x) - \cdots +(-1)^n \int f(x)g^{(n)}(x)dx
+\end{align}
+Some numerical results (with $\zeta$ being the usual zeta function) include
+\begin{multicols}{2}
+	\noindent
+	\begin{align}
+		&\int_{-\infty}^{\infty} \frac{x^2e^x}{(e^x+1)^2}dx=\frac{\pi^2}{3} \\
+		&\int_{0}^{\infty} \frac{x}{e^{ax}+1}dx=\frac{\pi^2}{12a^2}
+	\end{align}
+	\begin{align}
+	&\int_{0}^{\infty} \frac{\sqrt{x}dx}{e^x-1}=\frac{\sqrt{\pi}}{2}\zeta\left(\frac{3}{2}\right)\approx1.306\sqrt{\pi} 
+	\end{align}
+\end{multicols}
 
 \invisiblesection{Brief Table of Integrals}
 \includepdf[pages=1,pagecommand=\thispagestyle{fancy}, scale=0.8, pagecommand={\footnotetext{This "Brief Table of Integrals" is taken directly from Dennis G. Zill - A First Course in Differential Equations, 10th Ed. When time permits it will be re-created in an original format.}}]{Resources/IntegralTable}
@@ -42,7 +66,7 @@ Trigonometric integrals
 	&\int x^n \sin(ax)dx = -\frac{x^n}{a}\cos(ax)+ \frac{n}{a}\int x^{n-1}\cos(ax)dx \\
 	&\int x^n \cos(ax)dx = \frac{x^n}{a}\sin(ax)- \frac{n}{a}\int x^{n-1}\sin(ax)dx		
 \end{align}
-The Wallis Cosine Formula
+The \textbf{Wallis cosine formula}\index{Wallis cosine formula}:
 \begin{align}
 \int_{0}^{\pi/2}\cos^n(x) dx = \int_{0}^{\pi/2}\sin^n(x) dx = \frac{(n-1)!!}{n!!}
 \begin{cases}
@@ -99,3 +123,9 @@ The below form of a gaussian integral evaluates to zero when $n$ is odd due to t
 \begin{align}
 \int_{-\infty}^{\infty} x^ne^{-\alpha x^2+\beta x}=\sqrt{\frac{\pi}{\alpha}}e^{\beta^2/(4\alpha)}\sum_{k=0}^{\lfloor n/2\rfloor} {{n}\choose{2k}} (2k-1)!!(2a)^{k-n}\beta^{n-2k}
 \end{align}
+One can use the \textbf{saddle point approximation}\index{Saddle point approximation} to approximate integrals of a certain form (where $x_0$ is the critical point of $f'(x)=0$ - specifically the minimum)
+\begin{align}
+I = \int_{-\infty}^{\infty}g(x)e^{-f(x)}dx \approx g(x_0)e^{-f(x)}\sqrt{\frac{2\pi}{f''(x_0)
+}}
+\end{align}
+

@@ -325,3 +325,20 @@
 		\frac{\partial f}{\partial t} + \alpha \nabla_V f+v\nabla_r f=-\frac{f-f_0}{\tau_c} 
 	\end{align}
 \end{multicols}
+\begin{fancybox}[Table from chapter 14 of Kittel and Kroemer's ``Thermal Physics'' \cite{bib:Kittel_ThermalPhysics}.]{}
+	\begin{center}
+	\begin{tabular}{|c|c|c|c|c|c|c|}
+		\hline
+		Effect&\multicolumn{1}{|p{2cm}|}{\centering Flux of \\ Particle Property}&Gradient&Coefficient&Law&\multicolumn{1}{|p{2cm}|}{\centering Name of \\Law}&\multicolumn{1}{|p{2cm}|}{\centering Expression for \\ Coefficient}\\
+		\hline
+		Diffusion&\multicolumn{1}{|p{2cm}|}{\centering Particle \\Number}&$\nabla n$&Diffusivity, $D$&$\mathbf{J}_n = -D\nabla n$&\multicolumn{1}{|p{2cm}|}{\centering Fick's \\Law}&$D = \frac{\lambda <v>}{3}$\\
+		\hline
+		\multicolumn{1}{|p{2cm}|}{\centering Electrical \\Conductivity}&Charge&$\nabla \phi$&Conductivity, $\sigma$&$\mathbf{J}_q = -\sigma \nabla \phi$& \multicolumn{1}{|p{2cm}|}{\centering Ohm's \\Law}&$\sigma = \frac{n q^2 \lambda}{M <v>}$\\
+		\hline
+		\multicolumn{1}{|p{2cm}|}{\centering Thermal \\Conductivity}&Energy&$\nabla \tau$& \multicolumn{1}{|p{2cm}|}{\centering Thermal \\Conductivity, $\kappa$}&$\mathbf{J}_U = -\kappa \nabla \tau$&\multicolumn{1}{|p{2cm}|}{\centering Fourier's \\Law}& $\kappa = \frac{\hat{C_v} \lambda <v>}{3}$\\
+		\hline
+		Viscosity&\multicolumn{1}{|p{2cm}|}{\centering Transverse \\Momentum}&$\frac{d v_x}{dz}$&Viscosity, $\eta$&$\mathbf{J}_{p_x} = -\eta \frac{d v_x}{dz}$&	\multicolumn{1}{|p{2cm}|}{\centering Newtonian \\ Viscosity}&$\eta = \frac{M <v>}{3 \pi d^2}$\\
+		\hline
+	\end{tabular}
+\end{center}
+\end{fancybox}

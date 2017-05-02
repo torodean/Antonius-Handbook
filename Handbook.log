@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  30 APR 2017 16:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  2 MAY 2017 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -25,10 +25,6 @@ File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 (./Resources/Packages.tex
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
-Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count88
-)
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip43
 \f@ncyO@elh=\skip44
@@ -66,9 +62,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count89
-\Gm@cntv=\count90
-\c@Gm@tempcnt=\count91
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
 \Gm@bindingoffset=\dimen103
 \Gm@wd@mp=\dimen104
 \Gm@odd@mp=\dimen105
@@ -99,13 +95,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count92
+\inf@bad=\count91
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count93
-\leftroot@=\count94
+\uproot@=\count92
+\leftroot@=\count93
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count95
-\DOTSCASE@=\count96
+\classnum@=\count94
+\DOTSCASE@=\count95
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
@@ -114,15 +110,15 @@ LaTeX Info: Redefining \cdots on input line 518.
 \big@size=\dimen113
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count97
-\c@MaxMatrixCols=\count98
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
 \dotsspace@=\muskip10
-\c@parentequation=\count99
-\dspbrk@lvl=\count100
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
 \tag@help=\toks18
-\row@=\count101
-\column@=\count102
-\maxfields@=\count103
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
 \andhelp@=\toks19
 \eqnshift@=\dimen114
 \alignsep@=\dimen115
@@ -204,24 +200,24 @@ L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
 L3 Module: l3str 2016/01/03 v6357 L3 Strings
 L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
 L3 Module: l3int 2016/01/05 v6366 L3 Integers
-\c_max_int=\count104
-\l_tmpa_int=\count105
-\l_tmpb_int=\count106
-\g_tmpa_int=\count107
-\g_tmpb_int=\count108
+\c_max_int=\count103
+\l_tmpa_int=\count104
+\l_tmpb_int=\count105
+\g_tmpa_int=\count106
+\g_tmpb_int=\count107
 L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
 L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
-\g__prg_map_int=\count109
+\g__prg_map_int=\count108
 L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
 L3 Module: l3token 2015/11/11 v6249 L3 Experimental token manipulation
 L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
 L3 Module: l3msg 2015/09/28 v6113 L3 Messages
 L3 Module: l3file 2015/12/03 v6317 L3 File and I/O operations
-\l_iow_line_count_int=\count110
-\l__iow_target_count_int=\count111
-\l__iow_current_line_int=\count112
-\l__iow_current_word_int=\count113
-\l__iow_current_indentation_int=\count114
+\l_iow_line_count_int=\count109
+\l__iow_target_count_int=\count110
+\l__iow_current_line_int=\count111
+\l__iow_current_word_int=\count112
+\l__iow_current_indentation_int=\count113
 L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \c_zero_dim=\dimen123
 \c_max_dim=\dimen124
@@ -242,18 +238,18 @@ L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
 L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
-\g__keyval_level_int=\count115
-\l_keys_choice_int=\count116
+\g__keyval_level_int=\count114
+\l_keys_choice_int=\count115
 L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
-\c__fp_leading_shift_int=\count117
-\c__fp_middle_shift_int=\count118
-\c__fp_trailing_shift_int=\count119
-\c__fp_big_leading_shift_int=\count120
-\c__fp_big_middle_shift_int=\count121
-\c__fp_big_trailing_shift_int=\count122
-\c__fp_Bigg_leading_shift_int=\count123
-\c__fp_Bigg_middle_shift_int=\count124
-\c__fp_Bigg_trailing_shift_int=\count125
+\c__fp_leading_shift_int=\count116
+\c__fp_middle_shift_int=\count117
+\c__fp_trailing_shift_int=\count118
+\c__fp_big_leading_shift_int=\count119
+\c__fp_big_middle_shift_int=\count120
+\c__fp_big_trailing_shift_int=\count121
+\c__fp_Bigg_leading_shift_int=\count122
+\c__fp_Bigg_middle_shift_int=\count123
+\c__fp_Bigg_trailing_shift_int=\count124
 L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
 \c_empty_box=\box28
 \l_tmpa_box=\box29
@@ -303,18 +299,18 @@ L3 Module: l3luatex 2015/11/11 v6250 L3 Experimental LuaTeX-specific functions
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2015/11/11 v6250 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count126
+\l__driver_color_stack_int=\count125
 ))
 Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count127
-\l__xparse_m_args_int=\count128
-\l__xparse_mandatory_args_int=\count129
-\l__xparse_processor_int=\count130
-\l__xparse_v_nesting_int=\count131
+\l__xparse_current_arg_int=\count126
+\l__xparse_m_args_int=\count127
+\l__xparse_mandatory_args_int=\count128
+\l__xparse_processor_int=\count129
+\l__xparse_v_nesting_int=\count130
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count132
+\etb@tempcnta=\count131
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
 Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
@@ -343,7 +339,7 @@ Package zref Info: New property: page on input line 761.
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 )
-\c@abspage=\count133
+\c@abspage=\count132
 Package zref Info: New property: abspage on input line 62.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
@@ -359,10 +355,10 @@ Package color Info: Driver file: pdftex.def on input line 143.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count134
+\Gread@gobject=\count133
 ))
 \mdf@templength=\skip64
-\c@mdf@globalstyle@cnt=\count135
+\c@mdf@globalstyle@cnt=\count134
 \mdf@skipabove@length=\skip65
 \mdf@skipbelow@length=\skip66
 \mdf@leftmargin@length=\skip67
@@ -438,7 +434,7 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@horizontalspaceofbox=\skip128
 \mdfsubtitleheight=\skip129
 \mdfsubsubtitleheight=\skip130
-\c@mdfcountframes=\count136
+\c@mdfcountframes=\count135
 
 ****** mdframed patching \endmdf@trivlist
 
@@ -454,10 +450,10 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 . 
 . Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
 .................................................
-\mdf@envdepth=\count137
-\c@mdf@env@i=\count138
-\c@mdf@env@ii=\count139
-\c@mdf@zref@counter=\count140
+\mdf@envdepth=\count136
+\c@mdf@env@i=\count137
+\c@mdf@env@ii=\count138
+\c@mdf@zref@counter=\count139
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
@@ -483,14 +479,14 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
-\c@tracingmulticols=\count141
+\c@tracingmulticols=\count140
 \mult@box=\box49
 \multicol@leftmargin=\dimen159
-\c@unbalance=\count142
-\c@collectmore=\count143
-\doublecol@number=\count144
-\multicoltolerance=\count145
-\multicolpretolerance=\count146
+\c@unbalance=\count141
+\c@collectmore=\count142
+\doublecol@number=\count143
+\multicoltolerance=\count144
+\multicolpretolerance=\count145
 \full@width=\dimen160
 \page@free=\dimen161
 \premulticols=\dimen162
@@ -521,14 +517,14 @@ Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \@tempa=\box70
 \@tempa=\box71
 \@tempa=\box72
-\c@columnbadness=\count147
-\c@finalcolumnbadness=\count148
+\c@columnbadness=\count146
+\c@finalcolumnbadness=\count147
 \last@try=\dimen165
 \multicolovershoot=\dimen166
 \multicolundershoot=\dimen167
 \mult@nat@firstbox=\box73
 \colbreak@box=\box74
-\mc@col@check@num=\count149
+\mc@col@check@num=\count148
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
@@ -544,7 +540,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen173
 \caption@hangindent=\dimen174
 )
-\c@ContinuedFloat=\count150
+\c@ContinuedFloat=\count149
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -582,13 +578,13 @@ Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
 \@linkdim=\dimen175
-\Hy@linkcounter=\count151
-\Hy@pagecounter=\count152
+\Hy@linkcounter=\count150
+\Hy@pagecounter=\count151
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count153
+\Hy@SavedSpaceFactor=\count152
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -605,7 +601,7 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count154
+\c@Hy@tempcnt=\count153
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
@@ -613,7 +609,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen176
-\Fld@menulength=\count155
+\Fld@menulength=\count154
 \Field@Width=\dimen177
 \Fld@charsize=\dimen178
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -625,18 +621,18 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count156
-\c@Item=\count157
-\c@Hfootnote=\count158
+\Hy@abspage=\count155
+\c@Item=\count156
+\c@Hfootnote=\count157
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\HyAnn@Count=\count159
-\Fld@listcount=\count160
-\c@bookmark@seq@number=\count161
+\HyAnn@Count=\count158
+\Fld@listcount=\count159
+\c@bookmark@seq@number=\count160
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -710,10 +706,10 @@ ex
 \pgf@yc=\dimen190
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count162
-\c@pgf@countb=\count163
-\c@pgf@countc=\count164
-\c@pgf@countd=\count165
+\c@pgf@counta=\count161
+\c@pgf@countb=\count162
+\c@pgf@countc=\count163
+\c@pgf@countd=\count164
 \t@pgf@toka=\toks37
 \t@pgf@tokb=\toks38
 \t@pgf@tokc=\toks39
@@ -732,8 +728,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count166
-\pgfsyssoftpath@bigbuffer@items=\count167
+\pgfsyssoftpath@smallbuffer@items=\count165
+\pgfsyssoftpath@bigbuffer@items=\count166
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -764,7 +760,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen191
-\pgfmath@count=\count168
+\pgfmath@count=\count167
 \pgfmath@box=\box76
 \pgfmath@toks=\toks40
 \pgfmath@stack@operand=\toks41
@@ -788,7 +784,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count169
+\c@pgfmathroundto@lastzeros=\count168
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
@@ -826,7 +822,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box77
 \pgf@hbox=\box78
 \pgf@layerbox@main=\box79
-\pgf@picture@serial@count=\count170
+\pgf@picture@serial@count=\count169
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -859,7 +855,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen271
-\pgf@sys@shading@range@num=\count171
+\pgf@sys@shading@range@num=\count170
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -916,7 +912,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count172
+\pgf@plot@mark@count=\count171
 \pgfplotmarksize=\dimen276
 )
 \tikz@lastx=\dimen277
@@ -929,18 +925,18 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box83
 \tikz@tempbox=\box84
 \tikz@tempbox@bg=\box85
-\tikztreelevel=\count173
-\tikznumberofchildren=\count174
-\tikznumberofcurrentchild=\count175
-\tikz@fig@count=\count176
+\tikztreelevel=\count172
+\tikznumberofchildren=\count173
+\tikznumberofcurrentchild=\count174
+\tikz@fig@count=\count175
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count177
-\pgfmatrixcurrentcolumn=\count178
-\pgf@matrix@numberofcolumns=\count179
+\pgfmatrixcurrentrow=\count176
+\pgfmatrixcurrentcolumn=\count177
+\pgf@matrix@numberofcolumns=\count178
 )
-\tikz@expandcount=\count180
+\tikz@expandcount=\count179
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -948,7 +944,7 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/polynom/polynom.sty
 Package: polynom 2006/04/20 0.17 (CH,HA)
-\pld@currstage=\count181
+\pld@currstage=\count180
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
@@ -958,15 +954,15 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count182
-\calc@Bcount=\count183
+\calc@Acount=\count181
+\calc@Bcount=\count182
 \calc@Adimen=\dimen283
 \calc@Bdimen=\dimen284
 \calc@Askip=\skip136
 \calc@Bskip=\skip137
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count184
+\calc@Ccount=\count183
 \calc@Cskip=\skip138
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -980,7 +976,7 @@ File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box86
 \AM@toc@title=\toks45
-\c@AM@survey=\count185
+\c@AM@survey=\count184
 \AM@templatesizebox=\box87
 )
 (/usr/share/texlive/texmf-dist/tex/latex/circuitikz/circuitikz.sty
@@ -1021,6 +1017,9 @@ File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \pgf@circ@res@temp=\dimen296
 \pgfstartlinewidth=\dimen297
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
 (/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
@@ -1028,12 +1027,9 @@ Package tocbibind Info: The document has chapter divisions on input line 50.
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) (/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
-Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
-)
-(/usr/share/texlive/texmf-dist/tex/latex/idxlayout/idxlayout.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/idxlayout/idxlayout.sty
 Package: idxlayout 2012/03/30 v0.4d Configurable index layout
-\c@idxcols=\count186
+\c@idxcols=\count185
 \indexcolsep=\skip139
 \indexrule=\skip140
 \ila@indentunit=\skip141
@@ -1054,11 +1050,11 @@ LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 \bigstrutjot=\dimen298
 ))
 (./Resources/Settings.tex) (./Resources/Definitions.tex
-\c@theo=\count187
-\c@lemm=\count188
-\c@prf=\count189
-\c@defn=\count190
-\c@fancybox=\count191
+\c@theo=\count186
+\c@lemm=\count187
+\c@prf=\count188
+\c@defn=\count189
+\c@fancybox=\count190
 )
 \@indexfile=\write4
 \openout4 = `Handbook.idx'.
@@ -1166,8 +1162,11 @@ LaTeX Warning: Label `1' multiply defined.
 (./Chapters/Astronomy.aux) (./Chapters/Mechanics.aux)
 (./Chapters/Electrostatics.aux) (./Chapters/Electronics.aux)
 (./Chapters/SpecialRelativity.aux) (./Chapters/Statistics.aux)
-(./Chapters/Thermodynamics.aux) (./Chapters/ThermalStatistical.aux)
-(./Chapters/Quantum.aux) (./Chapters/QM.aux
+(./Chapters/Thermodynamics.aux) (./Chapters/ThermalStatistical.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+) (./Chapters/Quantum.aux) (./Chapters/QM.aux
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -1228,16 +1227,16 @@ LaTeX Font Info:    ... okay on input line 23.
 \AtBeginShipoutBox=\box88
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count192
+\scratchcounter=\count191
 \scratchdimen=\dimen299
 \scratchbox=\box89
-\nofMPsegments=\count193
-\nofMParguments=\count194
+\nofMPsegments=\count192
+\nofMParguments=\count193
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count195
+\MPscratchCnt=\count194
 \MPscratchDim=\dimen300
-\MPnumerator=\count196
-\makeMPintoPDFobject=\count197
+\MPnumerator=\count195
+\makeMPintoPDFobject=\count196
 \everyMPtoPDFconversion=\toks47
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -1250,7 +1249,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count198
+\c@section@level=\count197
 )
 LaTeX Info: Redefining \ref on input line 23.
 LaTeX Info: Redefining \pageref on input line 23.
@@ -1831,11 +1830,11 @@ Chapter 7.
 File: Resources/IntegralTable.pdf Graphic file (type pdf)
 
 <use Resources/IntegralTable.pdf>
-Package pdftex.def Info: Resources/IntegralTable.pdf used on input line 24.
+Package pdftex.def Info: Resources/IntegralTable.pdf used on input line 48.
 (pdftex.def)             Requested size: 514.56116pt x 660.5462pt.
 File: Resources/IntegralTable.pdf Graphic file (type pdf)
  <use Resources/IntegralTable.pdf>
-Package pdftex.def Info: Resources/IntegralTable.pdf used on input line 24.
+Package pdftex.def Info: Resources/IntegralTable.pdf used on input line 48.
 (pdftex.def)             Requested size: 514.56116pt x 660.5462pt.
 
 <Resources/IntegralTable.pdf, id=968, page=1, 514.56241pt x 660.54782pt>
@@ -1843,13 +1842,13 @@ File: Resources/IntegralTable.pdf Graphic file (type pdf)
 
 <use Resources/IntegralTable.pdf, page 1>
 Package pdftex.def Info: Resources/IntegralTable.pdf, page1 used on input line 
-24.
+48.
 (pdftex.def)             Requested size: 514.56116pt x 660.5462pt.
 File: Resources/IntegralTable.pdf Graphic file (type pdf)
 
 <use Resources/IntegralTable.pdf, page 1>
 Package pdftex.def Info: Resources/IntegralTable.pdf, page1 used on input line 
-24.
+48.
 (pdftex.def)             Requested size: 411.65048pt x 528.43896pt.
  [31
 
@@ -1860,25 +1859,25 @@ File: Resources/IntegralTable.pdf Graphic file (type pdf)
 
 <use Resources/IntegralTable.pdf, page 1>
 Package pdftex.def Info: Resources/IntegralTable.pdf, page1 used on input line 
-24.
+48.
 (pdftex.def)             Requested size: 411.65048pt x 528.43896pt.
 File: Resources/IntegralTable.pdf Graphic file (type pdf)
 
 <use Resources/IntegralTable.pdf, page 1>
 Package pdftex.def Info: Resources/IntegralTable.pdf, page1 used on input line 
-24.
+48.
 (pdftex.def)             Requested size: 411.65048pt x 528.43896pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 ...iginal format.}}]{Resources/IntegralTable}
+l.48 ...iginal format.}}]{Resources/IntegralTable}
                                                   
 File: Resources/IntegralTable.pdf Graphic file (type pdf)
 
 <use Resources/IntegralTable.pdf, page 1>
 Package pdftex.def Info: Resources/IntegralTable.pdf, page1 used on input line 
-24.
+48.
 (pdftex.def)             Requested size: 411.65048pt x 528.43896pt.
  [32 <./Resources/IntegralTable.pdf>]
 [33]) [34]
@@ -1907,7 +1906,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
  [37]
-<./Images/Diagrams/meanfreepath.png, id=1108, 368.37625pt x 414.54875pt>
+<./Images/Diagrams/meanfreepath.png, id=1116, 368.37625pt x 414.54875pt>
 File: ./Images/Diagrams/meanfreepath.png Graphic file (type png)
 
 <use ./Images/Diagrams/meanfreepath.png>
@@ -2015,7 +2014,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--67
 
 
 
-] [55] [56] [57]) [58]
+] [55] [56] [57]
+Package mdframed Info: mdframed works in twoside mode on input line 328.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 328.
+
+Overfull \hbox (5.44878pt too wide) in paragraph at lines 336--336
+ []\OT1/cmr/m/n/10.95 Conductivity| 
+ []
+
+
+Overfull \hbox (5.44878pt too wide) in paragraph at lines 338--338
+ []\OT1/cmr/m/n/10.95 Conductivity| 
+ []
+
+
+Overfull \hbox (7.57793pt too wide) in paragraph at lines 338--338
+ []\OT1/cmr/m/n/10.95 Conductivity, 
+ []
+
+
+Overfull \hbox (0.19545pt too wide) in paragraph at lines 330--343
+ [] 
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 344.
+) [58]
 \openout2 = `./Chapters/Quantum.aux'.
 
  (./Chapters/Quantum.tex
@@ -2025,7 +2052,7 @@ Chapter 17.
 
 
 ]
-<./Images/Diagrams/1280px-BraggPlaneDiffraction.png, id=1576, 1284.8pt x 602.25
+<./Images/Diagrams/1280px-BraggPlaneDiffraction.png, id=1587, 1284.8pt x 602.25
 pt>
 File: ./Images/Diagrams/1280px-BraggPlaneDiffraction.png Graphic file (type png
 )
@@ -2034,7 +2061,7 @@ Package pdftex.def Info: ./Images/Diagrams/1280px-BraggPlaneDiffraction.png use
 d on input line 123.
 (pdftex.def)             Requested size: 256.95544pt x 120.44786pt.
 
-<./Images/Diagrams/crystalscattering.png, id=1577, 760.8425pt x 562.1pt>
+<./Images/Diagrams/crystalscattering.png, id=1588, 760.8425pt x 562.1pt>
 File: ./Images/Diagrams/crystalscattering.png Graphic file (type png)
 
 <use ./Images/Diagrams/crystalscattering.png>
@@ -2083,7 +2110,7 @@ Missing character: There is no “ in font cmr10!
 
 ]
 Chapter 21.
-<Resources/CGtable.pdf, id=1800, 614.295pt x 794.97pt>
+<Resources/CGtable.pdf, id=1811, 614.295pt x 794.97pt>
 File: Resources/CGtable.pdf Graphic file (type pdf)
 
 <use Resources/CGtable.pdf>
@@ -2094,7 +2121,7 @@ File: Resources/CGtable.pdf Graphic file (type pdf)
 Package pdftex.def Info: Resources/CGtable.pdf used on input line 121.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/CGtable.pdf, id=1803, page=1, 614.295pt x 794.97pt>
+<Resources/CGtable.pdf, id=1814, page=1, 614.295pt x 794.97pt>
 File: Resources/CGtable.pdf Graphic file (type pdf)
 
 <use Resources/CGtable.pdf, page 1>
@@ -2122,7 +2149,7 @@ Package pdftex.def Info: Resources/CGtable.pdf, page1 used on input line 121.
 
 
  <./Resources/CGtable.pdf>]
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1813, 614.295pt x 794.97pt>
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1824, 614.295pt x 794.97pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf>
@@ -2136,7 +2163,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 125.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1816, page=1, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1827, page=1, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 1>
@@ -2180,7 +2207,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 126.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1834, page=2, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1845, page=2, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
@@ -2224,7 +2251,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 127.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1841, page=3, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1852, page=3, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
@@ -2268,7 +2295,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 128.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1848, page=4, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1859, page=4, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
@@ -2312,7 +2339,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 129.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1855, page=5, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1866, page=5, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 5>
@@ -2344,7 +2371,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page5 used
  on input line 129.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [78 <./Resources/IsotopicMassNaturalAbundance.pdf>]
-<Resources/PeriodicTableMuted2.pdf, id=1860, 1927.2pt x 1084.05pt>
+<Resources/PeriodicTableMuted2.pdf, id=1871, 1927.2pt x 1084.05pt>
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 
 <use Resources/PeriodicTableMuted2.pdf>
@@ -2358,7 +2385,7 @@ Package pdftex.def Info: Resources/PeriodicTableMuted2.pdf used on input line 1
 33.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
 
-<Resources/PeriodicTableMuted2.pdf, id=1863, page=1, 1927.2pt x 1084.05pt>
+<Resources/PeriodicTableMuted2.pdf, id=1874, page=1, 1927.2pt x 1084.05pt>
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 
 <use Resources/PeriodicTableMuted2.pdf, page 1>
@@ -2428,11 +2455,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 40174 strings out of 494953
- 801255 string characters out of 6180977
- 1079791 words of memory out of 5000000
- 41548 multiletter control sequences out of 15000+600000
- 24827 words of font info for 95 fonts, out of 8000000 for 9000
+ 39980 strings out of 494953
+ 798758 string characters out of 6180977
+ 978607 words of memory out of 5000000
+ 41347 multiletter control sequences out of 15000+600000
+ 25444 words of font info for 97 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,20n,54p,10456b,869s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -2460,10 +2487,10 @@ nts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/s
 ymbols/msbm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
-Output written on Handbook.pdf (87 pages, 4501155 bytes).
+Output written on Handbook.pdf (87 pages, 4505887 bytes).
 PDF statistics:
- 3178 PDF objects out of 3580 (max. 8388607)
- 2213 compressed objects within 23 object streams
- 1179 named destinations out of 1200 (max. 500000)
+ 3192 PDF objects out of 3580 (max. 8388607)
+ 2227 compressed objects within 23 object streams
+ 1188 named destinations out of 1200 (max. 500000)
  750 words of extra memory for PDF output out of 10000 (max. 10000000)
 
