@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  2 MAY 2017 17:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  3 MAY 2017 12:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2015,33 +2015,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--67
 
 
 ] [55] [56] [57]
-Package mdframed Info: mdframed works in twoside mode on input line 328.
+Package mdframed Info: mdframed works in twoside mode on input line 334.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 328.
+(mdframed)              on input line 334.
 
-Overfull \hbox (5.44878pt too wide) in paragraph at lines 336--336
+Overfull \hbox (5.44878pt too wide) in paragraph at lines 342--342
  []\OT1/cmr/m/n/10.95 Conductivity| 
  []
 
 
-Overfull \hbox (5.44878pt too wide) in paragraph at lines 338--338
+Overfull \hbox (5.44878pt too wide) in paragraph at lines 344--344
  []\OT1/cmr/m/n/10.95 Conductivity| 
  []
 
 
-Overfull \hbox (7.57793pt too wide) in paragraph at lines 338--338
+Overfull \hbox (7.57793pt too wide) in paragraph at lines 344--344
  []\OT1/cmr/m/n/10.95 Conductivity, 
  []
 
 
-Overfull \hbox (0.19545pt too wide) in paragraph at lines 330--343
+Overfull \hbox (0.19545pt too wide) in paragraph at lines 336--349
  [] 
  []
 
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 344.
+(mdframed)              on input line 350.
 ) [58]
 \openout2 = `./Chapters/Quantum.aux'.
 
@@ -2052,7 +2052,7 @@ Chapter 17.
 
 
 ]
-<./Images/Diagrams/1280px-BraggPlaneDiffraction.png, id=1587, 1284.8pt x 602.25
+<./Images/Diagrams/1280px-BraggPlaneDiffraction.png, id=1590, 1284.8pt x 602.25
 pt>
 File: ./Images/Diagrams/1280px-BraggPlaneDiffraction.png Graphic file (type png
 )
@@ -2061,7 +2061,7 @@ Package pdftex.def Info: ./Images/Diagrams/1280px-BraggPlaneDiffraction.png use
 d on input line 123.
 (pdftex.def)             Requested size: 256.95544pt x 120.44786pt.
 
-<./Images/Diagrams/crystalscattering.png, id=1588, 760.8425pt x 562.1pt>
+<./Images/Diagrams/crystalscattering.png, id=1591, 760.8425pt x 562.1pt>
 File: ./Images/Diagrams/crystalscattering.png Graphic file (type png)
 
 <use ./Images/Diagrams/crystalscattering.png>
@@ -2110,7 +2110,7 @@ Missing character: There is no “ in font cmr10!
 
 ]
 Chapter 21.
-<Resources/CGtable.pdf, id=1811, 614.295pt x 794.97pt>
+<Resources/CGtable.pdf, id=1814, 614.295pt x 794.97pt>
 File: Resources/CGtable.pdf Graphic file (type pdf)
 
 <use Resources/CGtable.pdf>
@@ -2121,7 +2121,7 @@ File: Resources/CGtable.pdf Graphic file (type pdf)
 Package pdftex.def Info: Resources/CGtable.pdf used on input line 121.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/CGtable.pdf, id=1814, page=1, 614.295pt x 794.97pt>
+<Resources/CGtable.pdf, id=1817, page=1, 614.295pt x 794.97pt>
 File: Resources/CGtable.pdf Graphic file (type pdf)
 
 <use Resources/CGtable.pdf, page 1>
@@ -2149,7 +2149,7 @@ Package pdftex.def Info: Resources/CGtable.pdf, page1 used on input line 121.
 
 
  <./Resources/CGtable.pdf>]
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1824, 614.295pt x 794.97pt>
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1827, 614.295pt x 794.97pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf>
@@ -2163,7 +2163,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 125.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1827, page=1, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1830, page=1, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 1>
@@ -2207,7 +2207,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 126.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1845, page=2, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1848, page=2, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
@@ -2251,7 +2251,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 127.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1852, page=3, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1855, page=3, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
@@ -2295,7 +2295,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 128.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1859, page=4, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1862, page=4, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
@@ -2339,7 +2339,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 129.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1866, page=5, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1869, page=5, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 5>
@@ -2371,7 +2371,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page5 used
  on input line 129.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [78 <./Resources/IsotopicMassNaturalAbundance.pdf>]
-<Resources/PeriodicTableMuted2.pdf, id=1871, 1927.2pt x 1084.05pt>
+<Resources/PeriodicTableMuted2.pdf, id=1874, 1927.2pt x 1084.05pt>
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 
 <use Resources/PeriodicTableMuted2.pdf>
@@ -2385,7 +2385,7 @@ Package pdftex.def Info: Resources/PeriodicTableMuted2.pdf used on input line 1
 33.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
 
-<Resources/PeriodicTableMuted2.pdf, id=1874, page=1, 1927.2pt x 1084.05pt>
+<Resources/PeriodicTableMuted2.pdf, id=1877, page=1, 1927.2pt x 1084.05pt>
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 
 <use Resources/PeriodicTableMuted2.pdf, page 1>
@@ -2455,10 +2455,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 39980 strings out of 494953
- 798758 string characters out of 6180977
+ 40001 strings out of 494953
+ 799249 string characters out of 6180977
  978607 words of memory out of 5000000
- 41347 multiletter control sequences out of 15000+600000
+ 41365 multiletter control sequences out of 15000+600000
  25444 words of font info for 97 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,20n,54p,10456b,869s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2487,10 +2487,10 @@ nts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/s
 ymbols/msbm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
-Output written on Handbook.pdf (87 pages, 4505887 bytes).
+Output written on Handbook.pdf (87 pages, 4506491 bytes).
 PDF statistics:
- 3192 PDF objects out of 3580 (max. 8388607)
- 2227 compressed objects within 23 object streams
- 1188 named destinations out of 1200 (max. 500000)
+ 3197 PDF objects out of 3580 (max. 8388607)
+ 2232 compressed objects within 23 object streams
+ 1191 named destinations out of 1200 (max. 500000)
  750 words of extra memory for PDF output out of 10000 (max. 10000000)
 

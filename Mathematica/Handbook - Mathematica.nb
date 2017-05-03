@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      8232,        286]
-NotebookOptionsPosition[      7377,        250]
-NotebookOutlinePosition[      7710,        265]
-CellTagsIndexPosition[      7667,        262]
+NotebookDataLength[      9601,        339]
+NotebookOptionsPosition[      8486,        294]
+NotebookOutlinePosition[      8823,        309]
+CellTagsIndexPosition[      8780,        306]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -245,11 +245,55 @@ Cell[BoxData[
       RowBox[{
        RowBox[{"-", "1"}], "+", "n"}]]}]}], "}"}], "}"}]], "Output",
  CellChangeTimes->{3.696703346419197*^9}]
+}, Open  ]],
+
+Cell["\<\
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Integration:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\
+\>", "Text",
+ CellChangeTimes->{{3.702752346642187*^9, 3.70275235222359*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Sqrt", "[", "x", "]"}], "/", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"Exp", "[", "x", "]"}], "-", "1"}], ")"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "0", ",", "Infinity"}], "}"}]}], "]"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["1", "2"], " ", 
+  SqrtBox["\[Pi]"], " ", 
+  RowBox[{"Zeta", "[", 
+   FractionBox["3", "2"], "]"}]}]], "Output",
+ CellChangeTimes->{3.702752362813344*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{
+   FractionBox["1", "2"], "  ", 
+   RowBox[{"Zeta", "[", 
+    FractionBox["3", "2"], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7027523709404507`*^9, 3.702752371630332*^9}},
+ NumberMarks->False],
+
+Cell[BoxData["1.3061876743427443`"], "Output",
+ CellChangeTimes->{{3.702752366208725*^9, 3.702752372898842*^9}}]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{1325, 744},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowMargins->{{-41, Automatic}, {Automatic, -24}},
 FrontEndVersion->"10.0 for Linux x86 (64-bit) (June 27, 2014)",
 StyleDefinitions->"Default.nb"
 ]
@@ -285,7 +329,16 @@ Cell[5345, 177, 402, 13, 52, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[5784, 195, 483, 14, 32, "Input"],
-Cell[6270, 211, 1079, 35, 124, "Output"]
+Cell[6270, 211, 1079, 35, 67, "Output"]
+}, Open  ]],
+Cell[7364, 249, 185, 5, 77, "Text"],
+Cell[CellGroupData[{
+Cell[7574, 258, 293, 9, 32, "Input"],
+Cell[7870, 269, 192, 6, 49, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8099, 280, 244, 7, 56, "Input"],
+Cell[8346, 289, 112, 1, 65, "Output"]
 }, Open  ]]
 }, Open  ]]
 }
