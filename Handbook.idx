@@ -7,9 +7,9 @@
 \indexentry{Binomial theorem|hyperpage}{4}
 \indexentry{Kronecker delta|hyperpage}{5}
 \indexentry{Taylor series|hyperpage}{5}
-\indexentry{Dirac Delta Function|hyperpage}{6}
+\indexentry{Dirac!Delta Function|hyperpage}{6}
 \indexentry{Cylindrical coordinates|hyperpage}{7}
-\indexentry{Spherical coordinates|hyperpage}{7}
+\indexentry{Spherical!coordinates|hyperpage}{7}
 \indexentry{Polar Coordinates|hyperpage}{7}
 \indexentry{Elliptic cylindrical coordinates|hyperpage}{7}
 \indexentry{Law of!Cosines|hyperpage}{8}
@@ -25,8 +25,8 @@
 \indexentry{Euler's Identity|hyperpage}{12}
 \indexentry{Cauchy-Riemann conditions|hyperpage}{13}
 \indexentry{Singular Points|hyperpage}{13}
-\indexentry{Cauchy's Theorem|hyperpage}{14}
-\indexentry{Cauchy's Integral Formula|hyperpage}{14}
+\indexentry{Cauchy's!Theorem|hyperpage}{14}
+\indexentry{Cauchy's!Integral Formula|hyperpage}{14}
 \indexentry{Matrix Algebra|hyperpage}{15}
 \indexentry{Trace|hyperpage}{15}
 \indexentry{Determinant|hyperpage}{15}
@@ -63,7 +63,7 @@
 \indexentry{Hooke's Law|hyperpage}{40}
 \indexentry{parseval's theorem|hyperpage}{41}
 \indexentry{Hamilton's equations|hyperpage}{41}
-\indexentry{Maxwell's Equations|hyperpage}{42}
+\indexentry{Maxwell!'s Equations|hyperpage}{42}
 \indexentry{Wave equation|hyperpage}{42}
 \indexentry{Polarization field|hyperpage}{42}
 \indexentry{Gauss's Law|hyperpage}{43}
@@ -98,9 +98,9 @@
 \indexentry{Entropy|hyperpage}{54}
 \indexentry{Partition function|hyperpage}{55}
 \indexentry{Helmholtz Free Energy|hyperpage}{55}
-\indexentry{Planck distribution function|hyperpage}{55}
+\indexentry{Planck!distribution function|hyperpage}{55}
 \indexentry{Stefan-Boltzmann law|hyperpage}{55}
-\indexentry{Planck radiation law|hyperpage}{55}
+\indexentry{Planck!radiation law|hyperpage}{55}
 \indexentry{Debye|hyperpage}{55}
 \indexentry{Chemical potential|hyperpage}{56}
 \indexentry{Monatomic gas|hyperpage}{56}
@@ -113,13 +113,13 @@
 \indexentry{Carnot!Coefficient|hyperpage}{57}
 \indexentry{Gibbs!Free energy|hyperpage}{57}
 \indexentry{Law of!mass action|hyperpage}{57}
-\indexentry{Maxwell Relations|hyperpage}{57}
+\indexentry{Maxwell!Relations|hyperpage}{57}
 \indexentry{Acidity|hyperpage}{57}
 \indexentry{Reaction quotient|hyperpage}{57}
 \indexentry{Enthalpy|hyperpage}{57}
 \indexentry{Clausius-Clapeyron equation|hyperpage}{57}
 \indexentry{Van der Waals|hyperpage}{57}
-\indexentry{Maxwell distribution|hyperpage}{58}
+\indexentry{Maxwelldistribution|hyperpage}{58}
 \indexentry{Diffusion|hyperpage}{58}
 \indexentry{Thermal conductivity|hyperpage}{58}
 \indexentry{viscosity|hyperpage}{58}
@@ -132,10 +132,10 @@
 \indexentry{Bragg's Law|hyperpage}{60}
 \indexentry{Cubit|hyperpage}{62}
 \indexentry{Schr\"{o}dingr Equation|hyperpage}{63}
-\indexentry{Dirac equation|hyperpage}{63}
+\indexentry{Dirac!equation|hyperpage}{63}
 \indexentry{Harmonic oscillator|hyperpage}{64}
 \indexentry{Harmonic oscillator|hyperpage}{64}
-\indexentry{Spherical harmonics|hyperpage}{65}
+\indexentry{Spherical!harmonics|hyperpage}{65}
 \indexentry{Pauli Spin Matrices|hyperpage}{67}
 \indexentry{Clebsch-Gordan|hyperpage}{67}
 \indexentry{Variational principle|hyperpage}{68}
