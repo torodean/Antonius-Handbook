@@ -17,7 +17,7 @@ The current maintainer of this work is: Antonius Torode.
 
 Published by Antonius Torode.
 
-Hosted at: https://msu.edu/ ∼ torodean/AHandbook.html
+Hosted at: https://msu.edu/~torodean/AHandbook.html
 
 Github Repository: https://github.com/torodean/Antonius-Handbook
 
