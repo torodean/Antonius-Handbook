@@ -1,0 +1,198 @@
+\chapter{Electricity and Magnetism}
+\thispagestyle{fancy}
+\textbf{Maxwell's Equations:\index{Maxwell!'s Equations}} The system of partial differential equations describing classical electromagnetism. $\vec{P}$ is the polarization field, $\vec{D}$ is the electric displacement field, $\rho$ is the charge density, $\vec{E}$ is the electric field, $\vec{B}$ is the magnetic field, and $\vec{J}$ is the current density. In the so-called cgs system of units, the Maxwell equations are given by 
+\begin{multicols}{2}
+	\noindent
+\begin{align}
+	\nabla \cdot \vec{E} &= 4\pi\rho \\
+	\nabla \times \vec{E} &= -\frac{1}{c}\frac{\partial \vec{B}}{\partial t} 
+\end{align}
+\begin{align}
+	\nabla \cdot \vec{B} &= 0 \\
+	\nabla \times \vec{B} &= \frac{4\pi}{c}\vec{J}+\frac{1}{c}\frac{\partial \vec{E}}{\partial t} 
+\end{align}
+\end{multicols}
+In the MKS system of units (where $\epsilon_0$ is the permittivity of free space and $\mu_0$ is the permeability of free space), the equations are written 
+\begin{multicols}{2}
+	\noindent
+	\begin{align}
+		\nabla \cdot \vec{E} &= \frac{\rho}{\epsilon_0}\\
+		\nabla \times \vec{E} &= -\frac{\partial \vec{B}}{\partial t} 
+	\end{align}
+	\begin{align}
+		\nabla \cdot \vec{B} &= 0 \\
+		\nabla \times \vec{B} &= \mu_0\vec{J}+\epsilon_0\mu_0\frac{\partial \vec{E}}{\partial t} 
+	\end{align}
+\end{multicols}
+From the field tensor and dual tensors, Maxwell's equations (where $J^{\mu}$ is the current density 4-vector) are given by
+\begin{align}
+\dfrac{\partial F^{\mu\nu}}{\partial x^{\nu}} = \mu_0 J^{\mu}, \qquad \dfrac{\partial G^{\mu\nu}}{\partial x^{\nu}} = 0 \hspace{1cm}\textrm{with}\hspace{1cm} J^{\mu} = (c\rho,J_x,J_y,J_z).
+\end{align}
+From Maxwell's equations, electric and magnetic fields can be shown to satisfy the wave equation\index{Wave equation} in a vacuum allowing us to derive a speed for both fields which is equivalent to the speed of light (electromagnetic waves) in a vacuum.
+\begin{align}
+	\nabla^2 \vec{E} = \mu_0\epsilon_0 \frac{\partial^2 \vec{E}}{\partial t^2} \andspace{0.5cm} \nabla^2 \vec{B} = \mu_0\epsilon_0 \frac{\partial^2 \vec{B}}{\partial t^2} \implies c=\frac{1}{\sqrt{\mu_0\epsilon_0}}.
+\end{align}
+\begin{multicols}{2}
+In the special case of a steady state, known as \textbf{electrostatics}, with stationary charges and currents, \begin{align}
+ \nabla \times \vec{E} = 0 \implies \oint \vec{E} \cdot d\vec{\ell} = 0 
+\end{align}	
+The dipole moment is defined by
+\begin{align}
+	\vec{p} &\equiv \sum_{i}^{}q_i \vec{r}_i \\ \vec{p} &\equiv \int_V \rho(\vec{r}')\vec{r}' d\tau'
+\end{align}
+If we consider both bound and free charges (where the free charges are the charges we place within a system), we have
+\begin{align}
+	\nabla \cdot \vec{E} &= \frac{\rho}{\epsilon_0} = \frac{\rho_{bound}+\rho_{free}}{\epsilon_0} \\ &= \frac{-\nabla \cdot \vec{P}}{\epsilon_0}+\frac{\rho_{free}}{\epsilon_0} \\ \implies &\nabla \cdot \vec{D} = \rho_{free} \\ \implies &\oint_S \vec{D} \cdot d\vec{a} = Q_{free} = \int \rho_{free} d\tau'.
+\end{align}
+\end{multicols}
+The \textbf{polarization field}\index{Polarization field} of a linearly polarized dielectric is characterized by its dipole moment per unit volume and can be defined by the susceptibility constant $\chi_e$ and the dielectric constant $\epsilon_R$,
+\begin{align}
+	\vec{P} =\lim \frac{\Delta \vec{p}}{\Delta v} = \frac{1}{\Delta v}\sum_{i}\vec{p}_i\equiv \epsilon_0 \chi_e \vec{E}  = \frac{\chi_e}{1+\chi_e}\vec{D} = \frac{\chi_e}{\epsilon_R}\vec{D}\hspace{0.3cm}\longrightarrow \hspace{0.3cm}\begin{cases}
+		\chi_e \rightarrow 0 & \implies \vec{P} \textrm{ for a vacuum} \\ \chi_e \rightarrow \infty & \implies \vec{P} \textrm{ for a metal}
+		\end{cases}
+\end{align}
+From this, the bound charge densities for both the surface and volume are defined by
+\begin{align}
+	\rho_B = -\nabla \cdot \vec{P} \hspace{1cm}\textrm{and}\hspace{1cm}	\sigma_B = \vec{P} \cdot \hat{n}.
+\end{align} 
+The electric displacement field is defined such that
+\begin{align}
+	\vec{D} = \epsilon_0\vec{E}+\vec{P} \implies \vec{D} = \epsilon_0(1+\chi_e)\vec{E}=\epsilon_0 \epsilon_R \vec{E}\Longleftrightarrow \vec{P} = \epsilon_0(1-\epsilon_R)\vec{E}.
+\end{align}
+\begin{multicols}{2}
+\textbf{Coulomb's Law:} The force on a test charge Q due to a single point charge $q$ with the separation between them being $|\vec{\mathfrak{r}}|$ (note: $\vec{\mathfrak{r}}=\vec{r}-\vec{r}'$ is the separation vector from the location of $q$ - denoted $\vec{r}'$ - to the location of Q - denoted $\vec{r}$)) is given by
+\begin{align}
+	\vec{F} = \frac{1}{4\pi\epsilon_0}\frac{qQ}{|\vec{\mathfrak{r}}|^2}\hat{\mathfrak{r}}
+\end{align}
+Given stationary charges and currents, the electric field $\vec{E}(\vec{r})$ can be written as
+\begin{align}
+	\vec{E}(\vec{r}) &= \frac{1}{4\pi\epsilon_0}\int \frac{dq}{|\vec{\mathfrak{r}}|^2}\hat{\mathfrak{r}} \\
+	&\equiv \frac{1}{4\pi\epsilon_0}\iiint_V \frac{\rho(\vec{r}')}{|\vec{\mathfrak{r}}|^2}\hat{\mathfrak{r}}d\tau'\hspace{0.5cm}\textrm{(volume)}\\
+	&\equiv \frac{1}{4\pi\epsilon_0}\iint_A \frac{\sigma(\vec{r}')}{|\vec{\mathfrak{r}}|^2}\hat{\mathfrak{r}}da'\hspace{0.5cm}\textrm{(area)}\\
+	&\equiv \frac{1}{4\pi\epsilon_0}\int_l \frac{\lambda(\vec{r}')}{|\vec{\mathfrak{r}}|^2}\hat{\mathfrak{r}}d\ell'\hspace{0.5cm}\textrm{(line)}
+\end{align}
+\textbf{Gauss's Law:\index{Gauss's Law}} The electric flux $\Phi_E$ through a surface $S$ enclosing any volume is proportional to the total charge enclosed within the volume. This is an alternate form of one of Maxwell's equations.
+\begin{align}
+	\Phi_E = \oiint_S \vec{E} \cdot d\vec{a} = \oiint_S (\vec{E} \cdot \hat{n}) da = \frac{Q_{enc}}{\epsilon_0}
+\end{align}
+An electric potential $V$ is a continuous function and is defined as
+\begin{align}
+	V(\vec{r}) &\equiv -\int_{\mathcal{O}}^{r}\vec{E}(\vec{r}')\cdot d\vec{\ell}' \\ &\equiv \frac{1}{4\pi\epsilon_0}\iiint_V \frac{\rho(\vec{r}')}{|\vec{\mathfrak{r}}|}d\tau'
+\end{align} 
+Using this and the fundamental theorem for gradients, we have
+\begin{align}
+	\int_{a}^{b}(\nabla V)\cdot d\vec{\ell}=-\int_{a}^{b}\vec{E}\cdot d\vec{\ell} \\ \implies &\vec{E} = -\nabla V
+\end{align} 
+\textbf{Poisson's equation}\index{Poisson's equation} can be used to determine the charge density of a function from the electric potential. 
+\begin{align}
+	\nabla^2 V(\vec{r}) = -\frac{\rho(\vec{r}')}{\epsilon_0}
+\end{align} 
+Using a special case of Poisson's equation when $\rho =0$, we can derive the multi-pole expansion.
+\begin{align}
+	V(\vec{r}) = \frac{1}{4\pi\epsilon_0}\sum_{i}\frac{q_i}{|\vec{\mathfrak{r}}_i|}\frac{1}{4\pi\epsilon_0}\sum_{i}\frac{q_i}{|\vec{r}-\vec{r}_i'|}
+\end{align}
+From \textbf{the multi-pole expansion\index{Multi-pole expansion}}, we can approximate the potential as
+\begin{align}
+	V(r,&\theta) \approx \underbrace{\frac{Q_{tot}}{4\pi\epsilon_0 r}}_{monopole} + \underbrace{\frac{\vec{p} \cdot \hat{r}}{4\pi\epsilon_0 r^2}}_{dipole} \\ &= \frac{Q_{tot}}{4\pi\epsilon_0 r} + \frac{1}{4\pi\epsilon_0r^2}\int_V \rho(\vec{r}')\vec{r}'\cdot \hat{r} d\tau'
+\end{align}
+\end{multicols}
+The work on a system due to an electric field is given by
+\begin{align}
+	W_{sys} \equiv \sum_{j=1}^{m} W_j= \sum_{j=1}^{m} \left(\sum_{k=1}^{j-1} \frac{q_jq_k}{4\pi\epsilon_0r_{jk}}\right) \equiv \frac{1}{2}\int \rho(\vec{r})V(\vec{r})d\tau \implies W_{sys}= \frac{\epsilon_0}{2}\int E^2 d\tau
+\end{align}
+The energy stored due to an electric field and magnetic field is given by
+\begin{align}
+	U= \frac{1}{2}\int \bigg(\epsilon_0E^2+\frac{1}{\mu_0}B^2\bigg) d\tau
+\end{align}
+\textbf{The Lorentz force law\index{Lorentz force law}:} The magnetic force on a charge $q$, moving with velocity $\vec{v}$ due to a magnetic field $\vec{B}$ and an electric field $\vec{E}$ is
+\begin{align}
+	\vec{F} = q[\vec{E}+(\vec{v}\times \vec{B})]
+\end{align}
+A line charge $\lambda$ traveling down a wire at speed $v$ constitutes a \textbf{current} $\vec{I}=\lambda \vec{v}$ \cite{bib:Griffiths}. The magnetic force on a segment of current-carrying wire is
+\begin{align}
+	\vec{F}_{mag} = \int (\vec{v}\times \vec{B})dq = \int (\vec{v}\times \vec{B})\lambda d\ell = \int (\vec{I}\times \vec{B})d\ell = \int I (d\vec{\ell}\times \vec{B}).
+\end{align} 
+When charge (q) flows over a surface or through a volume, we describe it by the surface current density $\vec{K}$ and the volume current density $\vec{J}$ respectively. By definition (where N is number of charge carriers for unit volume with some velocity $\vec{v}$), these are
+\begin{align}
+	\vec{K} \equiv \frac{d\vec{I}}{d\ell_\perp} \hspace{1cm}\textrm{and}\hspace{1cm}\vec{J}\equiv \frac{d\vec{I}}{da_\perp} = \vec{J}_{bound}+\vec{J}_{free} \equiv \sum_{i}N_iq_i\vec{v}_i.
+\end{align}
+\begin{multicols}{2}
+The total \textbf{current}\index{Current} through a surface can be defined
+\begin{align}
+	I = \int_S (\vec{J}\cdot \hat{n})da = \frac{dQ}{dt} 
+\end{align}
+From the surface and volume currents, we can express the magnetic force as
+\begin{align}
+	\vec{F}_{mag} &\equiv \int (\vec{v}\times \vec{B})\sigma da = \int (\vec{K}\times \vec{B})da \\
+	\vec{F}_{mag} &\equiv \int (\vec{v}\times \vec{B})\rho d\tau = \int (\vec{J}\times \vec{B})d\tau.
+\end{align} 
+The \textbf{Biot-Savart law\index{Biot-Savart law}} gives the magnetic field of a steady state line current
+\begin{align}
+	\vec{B}(\vec{r})&=\frac{\mu_0}{4\pi}\int \frac{\vec{I}\times \mathfrak{\hat{r}}}{|\vec{\mathfrak{r}}|^2}d\ell' \\ &=\frac{\mu_0}{4\pi}I\int \frac{d\vec{\ell}'\times \mathfrak{\hat{r}}}{|\vec{\mathfrak{r}}|^2}. 
+\end{align}
+Magneto-statics is defined when 
+\begin{align}
+	\nabla \cdot \vec{J} = 0
+\end{align}
+The \textbf{continuity equation}\index{Continuity equation} is a precise mathematical statement of local charge conservation.
+\begin{align}
+	\nabla \cdot \vec{J} &= -\frac{\partial \rho}{\partial t}
+\end{align}
+When dealing with surface and volume currents, the Biot-Savart law becomes
+\begin{align}
+	\vec{B}(\vec{r})&=\frac{\mu_0}{4\pi}\int \frac{\vec{K}(\vec{r}')\times \mathfrak{\hat{r}}}{|\vec{\mathfrak{r}}|^2}da'\ \\ \vec{B}(\vec{r})&=\frac{\mu_0}{4\pi}\int \frac{\vec{J}(\vec{r}')\times \mathfrak{\hat{r}}}{|\vec{\mathfrak{r}}|^2}d\tau'
+\end{align}
+\textbf{Ampere's Law:\index{Ampere's Law}} For a straight line current, the integral of $\vec{B}$ around an Amperien path centered at a wire is related to the total enclosed current by
+\begin{align}
+	\oint\vec{B}\cdot d\vec{\ell} &= \mu_0 I_{enc} = \mu_0 \int \vec{J} \cdot d\vec{a} \\ &= \int (\nabla \times \vec{B})\cdot d\vec{a}
+\end{align}
+\end{multicols}
+From Maxwell's equation $\nabla \cdot \vec{B}=0$, we can define the vector potential $\vec{A}$ such that $\nabla \cdot (\nabla \times \vec{A}) = 0 \implies \vec{B} = \nabla \times \vec{A}$. From this, we can also define the gauge freedom such that $\nabla \cdot (\nabla \vec{A})=0$ which gives us
+\begin{align}
+	\nabla^2\vec{A} = -\mu_0 \vec{J} \implies \vec{A}(\vec{r}) = \frac{\mu_0}{4\pi}\int \frac{\vec{J}(\vec{r}')d\tau'}{|\vec{\mathfrak{r}}|} \equiv \frac{\mu_0}{4\pi}\int \frac{\vec{K}(\vec{r}')da'}{|\vec{\mathfrak{r}}|}
+\end{align}
+We can define the \textbf{magnetic dipole moment}\index{Magnetic!Dipole moment} $\vec{m}$ (which is a measurable quantity) and the magnetization $\vec{M}$ of a material in terms of a line current or surface current density to be
+\begin{align}
+	\vec{m} \equiv I \int_S d\vec{a} = I\vec{a}, \hspace{0.5cm}&\textrm{or}\hspace{0.5cm} \vec{m} \equiv \frac{1}{2}\int_V(\vec{r}\times \vec{J})dV= \int_V \vec{M}  dV = \frac{I}{2}\oint_C \vec{r}\times d\vec{\ell}, \\ &\textrm{with}\hspace{0.5cm} \vec{M} = \frac{d\vec{m}}{dV} \equiv \lim\limits_{\Delta v \rightarrow 0}\frac{1}{\Delta v}\sum_{i}\vec{m}_i 
+\end{align} 
+From this, we can do a multi-pole expansion of the vector potential. The mono-pole term evaluates to zero and the dipole term becomes useful in many cases and can be written as follows by use of Stokes theorem.
+\begin{align}
+	\vec{A}(\vec{r}) = \frac{\mu_0 I}{4\pi}\oint\frac{d\vec{\ell}}{|\vec{\mathfrak{r}}|} &= \frac{\mu_0 I}{4\pi}\sum_{n=0}^{\infty}\frac{1}{r^{n+1}}\oint(\vec{r}')^nP_n(\cos\alpha)
+	d\vec{\ell}\implies \vec{A}_{dip}(\vec{r}) = \frac{\mu_0}{4\pi}\frac{\vec{m}\times\hat{r}}{r^2} \\
+	&\vec{A}(\vec{r})=\frac{\mu_0}{4\pi}\int_S\frac{\vec{K}_B(\vec{r}')}{|\vec{\mathfrak{r}}|}da'+\frac{\mu_0}{4\pi}\int_V\frac{\vec{J}_B(\vec{r}')}{|\vec{\mathfrak{r}}|}d\tau'
+\end{align}
+Using the solution form of the Biot-Savart law, we can write an expression for the vector potential
+\begin{align}
+	\vec{A}(\vec{r}) = \frac{1}{4\pi}\int\frac{\vec{B}(\vec{r}')\times \hat{\mathfrak{r}}}{|\vec{\mathfrak{r}}|^2}d\tau'
+\end{align}
+From this, if we place $\vec{m}$ at the origin pointing in the $\hat{z}$ direction, the magnetic field of a perfect dipole is calculated as follows. 
+\begin{align}
+	\vec{B}_{dip}(\vec{r}) = \underbrace{\frac{\mu_0}{4\pi r^3}\left[3(\vec{m}\cdot \hat{r})\hat{r}-\vec{m}\right]+\frac{2\mu_0}{3}\vec{m}\delta^3(\vec{r})}_{\textrm{The true field of a magnetic dipole.\footnotemark}} \equiv \frac{\mu_0 m}{4\pi r^3}\left(2\cos\theta\hat{r}+\sin\theta\hat{\theta}\right).
+\end{align}
+\footnotetext{The delta-function is responsible for the hyperfine splitting in atomic spectra\cite{bib:Griffiths}}
+We can define the potential of a bound volume current $\vec{J}_B$ and bound surface current $\vec{K}_B$ as
+\begin{align}
+	\vec{J}_B = \nabla \times \vec{M} \hspace{1cm}\textrm{and}\hspace{1cm}\vec{K}_B = \vec{M}\times \hat{n}
+\end{align}
+From Ampere's Law we can define the \textbf{magnetizing field}\index{Magnetizing field} $\vec{H}$ and thus have,
+\begin{align}
+	&\frac{1}{\mu_0}(\nabla \times \vec{B}) = \vec{J}_{f}+(\nabla \times \vec{M}) \implies \nabla \times \left(\frac{\vec{B}}{\mu_0}-\vec{M}\right) = \nabla \times \vec{H}=\vec{J}_f \\ \implies \oint &\vec{H}\cdot d\vec{\ell} = I_{free} = \int \vec{J}_{free}\cdot d\vec{a}  \andspace{1cm}
+	\int (\nabla \times \vec{H})\cdot d\vec{a} = \int \vec{J}\cdot d\vec{a}
+\end{align}
+The \textbf{magnetic susceptibility}\index{Magnetic!Susceptibility} $\chi_m$ is a dimensionless quantity that is dependent on the substance. For a linear media, we have the relation
+\begin{align}
+	\vec{M} = \chi_m \vec{H} \implies \vec{B} = \mu_0(1+\chi_m)\vec{H}\hspace{1cm}\textrm{with}\hspace{1cm}
+	\begin{cases}
+		\chi_m > 0, & \textrm{paramagnetic} \\
+		\chi_m < 0, & \textrm{diamagnetic} \\
+		\chi_m = 0, & \textrm{vacuum}
+	\end{cases}
+\end{align}
+The force on a magnetic dipole due to a varying magnetic field is
+\begin{align}
+	F=\nabla (\vec{m}\cdot \vec{B})
+\end{align}
+\textbf{Kirchhoff's Laws}\index{Kirchhoff's Laws} apply for electric circuits and are derived from the static equations $\nabla \cdot \vec{J}=0$ and $\nabla \times \vec{E}=0$ which become
+\begin{align}
+	\sum I_i = 0 \textrm{ at a branch point}\hspace{2cm}\sum V_i = 0 \textrm{ around a loop}
+\end{align}

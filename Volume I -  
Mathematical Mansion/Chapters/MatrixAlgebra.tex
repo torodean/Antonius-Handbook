@@ -1,0 +1,120 @@
+\chapter{Matrix Algebra}\index{Matrix Algebra}
+\thispagestyle{fancy}
+The product $C$ of two matrices $A$ and $B$ is defined (where $j$ is summed over for all possible values of $i$ and k) as (using the Einstein summation convention)
+\begin{align}
+c_{ik}=a_{ij}b_{jk} = \sum_{j=1}^{m}a_{ij}b_{jk}
+\end{align}
+In order for matrix multiplication to be defined, the dimensions of the matrices must satisfy
+\begin{align}
+(n\times m)(m\times p)=(n\times p)
+\end{align}
+where $(a \times b)$ denotes a matrix with $a$ rows and $b$ columns. Writing out the product explicitly,
+\begin{align}
+\begin{bmatrix}
+a_{11} & a_{12} & \cdots & a_{1m} \\
+a_{21} & a_{22} & \cdots & a_{2m} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{n1} & a_{n2} & \cdots & a_{nm}
+\end{bmatrix}
+\begin{bmatrix}
+b_{11} & b_{12} & \cdots & b_{1p} \\
+b_{21} & b_{22} & \cdots & b_{2p} \\
+\vdots & \vdots & \ddots & \vdots \\
+b_{n1} & b_{n2} & \cdots & b_{np}
+\end{bmatrix}
+=\begin{bmatrix}
+c_{11} & c_{12} & \cdots & c_{1p} \\
+c_{21} & c_{22} & \cdots & c_{2p} \\
+\vdots & \vdots & \ddots & \vdots \\
+c_{n1} & c_{n2} & \cdots & c_{np}
+\end{bmatrix}
+\end{align}
+where,
+\begin{align}
+c_{11}	&=  a_{11}b_{11}+a_{12}b_{21}+\cdots+a_{1m}b_{m1}	\\
+c_{12}	&=	a_{11}b_{12}+a_{12}b_{22}+\cdots+a_{1m}b_{m2}	\\
+c_{1p}	&=	a_{11}b_{1p}+a_{12}b_{2p}+\cdots+a_{1m}b_{mp}	\\
+c_{21}	&=	a_{21}b_{11}+a_{22}b_{21}+\cdots+a_{2m}b_{m1}	\\
+c_{22}	&=	a_{21}b_{12}+a_{22}b_{22}+\cdots+a_{2m}b_{m2}	\\
+c_{2p}	&=	a_{21}b_{1p}+a_{22}b_{2p}+\cdots+a_{2m}b_{mp}	\\
+c_{n1}	&=	a_{n1}b_{11}+a_{n2}b_{21}+\cdots+a_{nm}b_{m1}	\\
+c_{n2}	&=	a_{n1}b_{12}+a_{n2}b_{22}+\cdots+a_{nm}b_{m2}	\\
+c_{np}	&=	a_{n1}b_{1p}+a_{n2}b_{2p}+\cdots+a_{nm}b_{mp}
+\end{align}
+Matrix multiplication is also distributive. If $A$ and $B$ are $m\times n$ matrices and $C$ and $D$ are $n \times p$ matrices, then
+\begin{align}
+A(C+D)	&=	AC+AD\hspace{1.4cm}\textrm{and}\hspace{1.4cm}
+(A+B)C	=	AC+BC
+\end{align}
+The \textbf{trace}\index{Trace} of an $n\times n$ square matrix $A$ is defined to be 
+\begin{align}
+\textrm{Tr($A$)}\equiv\sum_{i=1}^{n}a_{ii}
+\end{align}
+The determinant\index{Determinant} of an arbitrary $2 \times 2$ matrix $A$ is given by
+\begin{align}
+	\det(M) = \begin{vmatrix}
+		a_{11} & a_{12} \\
+		a_{21} & a_{22}
+	\end{vmatrix} = a_{11}a_{22}-a_{12}a_{21}
+\end{align}
+The determinant of an arbitrary $3 \times 3$ matrix $A$ is given by
+\begin{align}
+	\det(A) &= \begin{vmatrix}
+		a_{11} & a_{12} & a_{13} \\
+		a_{21} & a_{22} & a_{23} \\
+		a_{31} & a_{32} & a_{33}
+	\end{vmatrix}  = a_{11}\begin{vmatrix}
+	a_{22} & a_{23} \\
+	a_{32} & a_{33}
+\end{vmatrix} -a_{12}\begin{vmatrix}
+a_{21} & a_{23} \\
+a_{31} & a_{33}
+\end{vmatrix} + a_{13}\begin{vmatrix}
+a_{21} & a_{22} \\
+a_{31} & a_{32}
+\end{vmatrix} \\
+&=a_{11}(a_{22}a_{33}-a_{23}a_{32})-a_{12}(a_{21}a_{33}-a_{23}a_{31})+a_{13}(a_{21}a_{32}-a_{22}a_{31})
+\end{align}
+The diagonal space of an $n \times n$ matrix $A$, denoted dis($A$) is defined as
+\begin{align}
+	\textrm{dis}(A) &\equiv \left] \begin{array}{cccc}
+		a_{11} & a_{12} & \cdots & a_{1n} \\
+		a_{21} & a_{22} & \cdots & a_{2n} \\
+		\vdots & \vdots & \ddots  & \vdots \\
+		a_{n1} & a_{n2} & \cdots & a_{nn}
+	\end{array} \right[  = \frac{1}{2}\sum_{n=1}^{n}\sum_{k=1}^{n}\left(a_{kn}a_{nk}-a_{nn}a_{kk}\right)
+\end{align}
+For a $3\times 3$ matrix $A$, the diagonal space can be helpful in finding eigenvalues and is given by
+\begin{align}
+	\textrm{dis}(A) &\equiv \left] \begin{array}{ccc}
+		a_{11} & a_{12} & a_{13} \\
+		a_{21} & a_{22} & a_{23} \\
+		a_{31} & a_{32} & a_{33}
+	\end{array} \right[  = \frac{1}{2}\sum_{n=1}^{3}\sum_{k=1}^{3}\left(a_{kn}a_{nk}-a_{nn}a_{kk}\right)\\
+	&= (a_{12}a_{21}+a_{13}a_{31}+a_{23}a_{32})-(a_{11}a_{22}+a_{11}a_{33}+a_{22}a_{33})
+\end{align}
+The eigenvalues\index{Eigenvalues} $\lambda_i$ and eigenvectors\index{Eigenvectors} $\vec{v}_i$ of a matrix $A$ are given by solving 
+\begin{align}
+	\det(A-\lambda I)=0	\hspace{1cm}\textrm{and}\hspace{1cm}A\vec{v}_i=\lambda_i\vec{v}_i\hspace{1cm}\textrm{or}\hspace{1cm}(A-\lambda_i I)\vec{v}_i=0.
+\end{align}
+By defining the determinant, trace, and diagonal space the way we have above, the eigenvalues of a $3 \times 3$ matrix A become the solutions for $\lambda$ of
+\begin{align}
+	0=-\lambda^3 + \textrm{Tr}(A) \lambda^2 + \textrm{dis}(A) \lambda + \det(A)
+\end{align}
+Similarly, the eigenvalues $\lambda_\pm$ of a $2 \times 2$ matrix A become the solutions for $\lambda$ of
+\begin{align}
+	0=\lambda^2 - \textrm{Tr}(A) \lambda + \det(A) &\implies \lambda_\pm = \frac{1}{2}\left(\textrm{Tr}(A)\pm\sqrt{\textrm{Tr}(A)^2-4\det(A)}\right) \\
+	&\implies \lambda_\pm = \frac{1}{2}\left((a_{11}+a_{22})\pm\sqrt{(a_{11}-a_{22})^2+4a_{12}a_{21}}\right)
+\end{align}
+
+\textbf{Properties of Matrices: } A matrix has an inverse if and only if it has a non-zero determinant (it is non singular). 
+\begin{align}
+	A^T=A &\implies \textrm{ Symmetric} \\
+	A^T=A^{-1} &\implies \textrm{ Anti-Symmetric} \\
+	A^*=A &\implies \textrm{ Real} \\
+	A^*=-A &\implies \textrm{ Imaginary} \\
+	A^\dagger=A &\implies \textrm{ Hermitian} \\
+	A^TA=AA^T=I \implies A^T=A^{-1} &\implies \textrm{ Orthogonal} \\
+	A^\dagger A=AA^\dagger \implies A^\dagger = A^{-1} &\implies \textrm{ Unitary} \\
+	\det(A)=0 &\implies \textrm{ Singular}
+\end{align}

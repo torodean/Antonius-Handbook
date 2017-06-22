@@ -1,0 +1,146 @@
+\chapter{Complex Analysis}
+\thispagestyle{fancy}
+\section{Complex Numbers}
+\begin{multicols}{2}
+The set of complex numbers is defined such that
+\begin{align}
+\mathbb{C}=\{a+bi : a,b \in \mathbb{R}\}.
+\end{align}
+A complex number can be defined by its real part and it's imaginary part
+\begin{align}
+i^2 = -1 &\Longleftrightarrow i=\sqrt{-1} \Longleftrightarrow \frac{1}{i}=-i\\
+z = x+iy &\Longleftrightarrow z^*=x-iy 
+\end{align}
+We can express the real and imaginary parts of a complex number in terms of the number and its complex conjugate
+\begin{align}
+\mathfrak{R}(z)&= \frac{1}{2}(z+z^*) \\
+\mathfrak{I}(z)&= \frac{1}{2}i(z-z^*) 
+\end{align}
+Just like a two-dimensional vector, a complex number has the magnitude $|z|$ as well as an angle $\theta$ with respect to the horizontal axis of the complex plane.
+\begin{align}
+|z|^2 &= z^* z=x^2+y^2=|z|e^{-i\theta}|z|e^{i\theta} \\
+\tan(\theta) &= \frac{\mathfrak{I}(z)}{\mathfrak{R}(z)}  = \frac{y}{x} = \frac{i(z-z^*)}{(z+z^*)}
+\end{align}
+A complex number can thus be expressed in terms of magnitude and the phase angle
+\begin{align}
+z=|z|(\cos(\theta)+i\sin(\theta))
+\end{align}
+Euler's Identity\index{Euler's Identity}/relation
+\begin{align}
+e^{i\theta}&=cos(\theta)+i\sin(\theta)
+\end{align}
+With the aid of Eulers identity, we can write any complex number as
+\begin{align}
+z&=|z|e^{i\theta} \\
+z^n&=|z|^ne^{in\theta}
+\end{align}
+A useful property of conjugates is
+\begin{align}
+	a^*+b^*=(a+b)^*
+\end{align}
+\end{multicols}
+Powers and roots of a complex number can be determined from the exponential form of a complex number
+\begin{align}
+	z^n &= (re^{i\theta})^n = r^n e^{in\theta} \\
+	(e^{i\theta})^n &= e^{in\theta} = (\cos\theta+i\sin\theta)^n = \cos (n\theta) + i\sin (n\theta) \\
+	z^{1/n} &= (re^{i\theta})^{1/n} = r^{1/n} e^{i\theta/n} = \sqrt[n]{r}\left(\cos\frac{\theta}{n}+i\sin\frac{\theta}{n}\right)
+\end{align}
+Much like in trigonometry, we can define complex numbers using trigonometric identities:
+\begin{align}
+	\sin z = \frac{e^{iz}-e^{-iz}}{2i},\hspace{1cm}\cos z = \frac{e^{iz}+e^{-iz}}{2},\hspace{1cm}\sinh z = \frac{e^{z}-e^{-z}}{2},\hspace{1cm}\cosh z = \frac{e^{z}+e^{-z}}{2}
+\end{align}
+The logarithm of a complex number can be manipulated as a normal log with
+\begin{align}
+	\ln (z) = \ln(re^{i\theta}) = \ln(r)+\ln(e^{i\theta}) = \ln(r)+i\theta 
+\end{align}
+A few Trigonometric identities follow as:
+\begin{align}
+	\arcsin z &= -i \ln (iz\pm \sqrt{1-z^2})\\ \arccos z &= i \ln (z\pm \sqrt{z^2-1}) \\ \arctan z &= \frac{1}{2i} \ln \left(\frac{1+iz}{1-iz}\right)
+\end{align}
+
+\section{Complex Functions}
+A complex function of $z$ can be expressed in terms of two real functions $u(x,y)$ and $v(x,y)$,
+\begin{align}
+	f(z) = f(x+iy) = u(x,y)+iv(x,y).
+\end{align}
+The derivative of $f(z)$ is defined by
+\begin{align}
+	f'(z) = \frac{df}{dz} = \lim\limits_{\Delta z \rightarrow 0}\frac{\Delta f}{\Delta z} =\lim\limits_{\Delta z \rightarrow 0} \frac{f(z+\Delta z)-f(z)}{\Delta z}=\lim\limits_{\Delta x, \Delta y \rightarrow 0} \frac{f(z+\Delta x+i\Delta y)-f(z)}{\Delta x+i\Delta y}.
+\end{align}
+\begin{defn}[Analytic Function \cite{bib:Methods_Of_Theoretical}]{AnalyticFunc}
+A function $f(z)$ is \textbf{analytic} (or regular or holomorphic or mono-genic) in a region$^∗$ of the complex plane if it has a (unique) derivative at every point of the region. The statement “$f(z)$ is analytic at a point $z = a$” means that $f(z)$ has a derivative at every point inside some small circle about $z = a$.
+\end{defn}
+The \textbf{Cauchy-Riemann conditions}\index{Cauchy-Riemann conditions} state that if $f(z) = u(x, y) + iv(x, y)$ is analytic in a region, then in that region
+\begin{align}
+	\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \hspace{1cm}\textrm{and}\hspace{1cm} \frac{\partial v}{\partial x} = - \frac{\partial u}{\partial y}.
+\end{align}
+From this we also have
+\begin{align}
+	\frac{\partial f}{\partial x} =\frac{\partial u}{\partial x} + i\frac{\partial v}{\partial x}, \hspace{1cm}\textrm{and}\hspace{1cm} \frac{\partial f}{\partial y} =\frac{\partial u}{\partial y} + i\frac{\partial v}{\partial y}.
+\end{align}
+\begin{defn}[Regular and Singular Points\index{Singular Points} \cite{bib:Methods_Of_Theoretical}]{singularPoints}
+	A \textbf{regular point} of $f(z)$ is a point at which $f (z)$ is analytic.
+	A \textbf{singular point} or singularity of $f (z)$ is a point at which $f (z)$ is not analytic.
+	It is called an isolated singular point if $f (z)$ is analytic everywhere else inside
+	some small circle about the singular point.
+\end{defn}
+A few useful theorems \cite{bib:Methods_Of_Theoretical} include 
+	\begin{enumerate}
+	\item If $f(z)$ is analytic in a region, then it has derivatives of all orders at points inside the region and can be expanded in a Taylor series about any point $z_0$ inside the region.
+	The power series converges inside the circle about $z_0$ that extends to the nearest
+	singular point. 
+	
+	\item If $f(z) = u + iv$ is analytic in a region, then $u$ and $v$ satisfy Laplace's equation in the region (that is, u and v are harmonic functions).
+		
+	\item Any function $u$ (or $v$) satisfying Laplace's equation in a simply-connected region, is the real or imaginary part of an analytic function $f(z)$.
+	\end{enumerate}
+	Given a complex function $f(z)=u(x,y)+iv(x,y)$, we can take the integral along a path $\ell$ using
+	\begin{align}
+		\int_\ell f(z) dz = \int_\ell f(x+iy) (dx+idy) = \int_\ell u(x,y)dx - v(x,y)dy + i\int_\ell u(x,y)dy + v(x,y)dx.
+	\end{align}
+\begin{fancybox}[Cauchy's Theorem\index{Cauchy's!Theorem} \cite{bib:Methods_Of_Theoretical}]{}
+Let C be a simple closed curve (one which does not cross itself) with a continuously turning tangent except possibly at a finite number of points (that is, we allow a finite number of corners, but otherwise the curve must be “smooth”). If $f(z)$ is analytic on and inside $C$, then
+\begin{align}
+	\oint_C f(z) dz =0
+\end{align}
+\end{fancybox}
+
+\begin{fancybox}[Cauchy's Integral Formula\index{Cauchy's!Integral Formula} \cite{bib:Methods_Of_Theoretical}]{}
+	If $f(z)$ is analytic on and inside a simple closed curve $C$, the value of $f (z)$ at a point $z = a$ inside $C$ is given by the following contour integral along $C$:
+	\begin{align}
+		f(a) = \frac{1}{2\pi i}\oint_C \frac{f(z)}{z-a}dz	
+	\end{align}
+\end{fancybox}
+
+
+
+
+
+
+
+
+
+\begin{fancybox}[Laurent's Theorem \cite{bib:Methods_Of_Theoretical}, \cite{bib:Wolfram}]{}
+	Let $C_1$ and $C_2$ be two circles with center at $z=z_0$ with radii $r_1$ and $r_2 < r_1$ respectively. Let $f(z)$ be analytic in the region $R$ between the circles. Then $f(z)$ can be expanded in a series of the form
+	\begin{align}
+		f(z) &= a_0+a_1(z-z_0)+a_2(z-z_0)^2+\cdots + \frac{b_1}{z-z_0}+\frac{b_2}{(z-z_0)^2}+\cdots \\&= \sum_{k=0}^{\infty}a_k(z-z_0)^k+\sum_{k=1}^{\infty}b_k(z-z_0)^{-k},
+	\end{align}
+	convergent in $R$. Such a series is called a Laurent series. The “b” series is called the principal part of the Laurent series. The coefficients have the solutions 
+	\begin{align}
+		a_k=\frac{1}{2\pi i} \oint_{C_1}\frac{f(z')dz'}{(z' -z_0)^{k+1}},\hspace{1cm}\textrm{and}\hspace{1cm}b_k=\frac{1}{2\pi i} \oint_{C_2}(z' -z_0)^{k-1}f(z')dz'
+	\end{align}
+\end{fancybox}
+
+\begin{defn}[Poles, Residue and Singularities \cite{bib:Methods_Of_Theoretical}]{singularPoints}
+	\begin{enumerate}
+		\item If all the b's are zero, $f (z)$ is analytic at $z = z_0$ , and we call $z_0$ a \textbf{regular point}.
+		
+		\item If $b_n \neq 0$, but all the b's after $b_n$ are zero, $f(z)$ is said to have a \textbf{pole} of order $n$ at $z = z_0$ . If $n = 1$, we say that $f(z)$ has a simple pole.
+		
+		\item If there are an infinite number of b's different from zero, $f(z)$ has an \textbf{essential
+		singularity} at $z = z_0$.
+		
+		\item The coefficient $b_1$ of $1/(z-z_0)$ is called the \textbf{residue} of $f(z)$ at $z = z_0$.
+	\end{enumerate}
+\end{defn}
+	

@@ -1,0 +1,141 @@
+\chapter{Nuclear and High Energy Physics}
+\thispagestyle{fancy}
+\section{Nuclear Physics}
+The atomic nucleus consists of protons and neutrons collectively called nucleons. Nuclei with different number of neutrons but with the same number of protons are isotopes of the same element. The mass number of an isotope os the sum of the number of protons (Z) and the number of neutrons (N)
+\begin{align}
+A=Z+N.
+\end{align}
+Nuclei are approximately spherical in shape, with the radius of the sphere depending on the mass number ($R_0=1.12$ fm)
+\begin{align}
+R(A)=R_0A^{1/3}.
+\end{align}
+The nucleon density in the interior of a nucleus is $n=0.17$ fm$^{-3}$, and the mass density is $\rho=m_{nucleon}n=2.8\times 10^{17}$kg/m$^3$. The dependence of the density on the radial coordinate is given by the Fermi function ($a=0.54$ fm):
+\begin{align}
+n(r)=\frac{n_0}{1+e^{(r-R(A))/a}}.
+\end{align}
+The Nuclear (or ``strong'') force\index{Nuclear Force} is what binds the protons and neutrons together into nuclei with the following properties:
+\begin{enumerate}[(i)]
+	\item Within the nucleus, it is about 100 times stronger than the electromagnetic force and approximately $10^{38}$ times stronger than gravity.
+	\item It is charge-independent.
+	\item It is spin-dependent.
+\end{enumerate}
+In any nuclear reaction, the following quantities are conserved: 
+\begin{center}
+	Nuclean Number (A), electric charge, total energy and total momentum.
+\end{center}
+The mass of a nucleus with Z protons and N neutrons is smaller than the sum of the individual nucleon masses, and the binding energy is defined as the mass difference times $c^2$:
+\begin{align}
+B(N,Z)=Zm(0,1)c^2+Nm_nc^2-m(N,Z)c^2.
+\end{align}
+The \textbf{mass excess} of a nucleus is defined as the difference between the mass of a nucleus expressed in atomic mass units and the mass number:
+\begin{align}
+\textrm{mass excess}=m(N,Z)-(A)(1 u).
+\end{align} 
+The binding energies of different isotopes can be reproduced well by the Bethe-Weizs\"{a}cher formula from the liquid-drop model, as the sum of volume, surface, Coulomb, asymmetry, and pairing contributions:
+\begin{align}
+B(N,Z)&=B_v(N,Z)+B_s(N,Z)+B_c(N,Z)+B_a(N,Z)+B_p(N,Z) \\
+&=a_vA-a_sA^{2/3}-a_cZ^2A^{-1/3}-a_a\bigg(Z-\frac{1}{2}A \bigg)^2A^{-1}+a_p\big((-1)^Z+(-1)^N \big)A^{-1/2}.
+\end{align}
+Dividing this expression by the mass number gives the binding energy per nucleon:
+\begin{align}
+\frac{B(N,Z)}{A}=a_v-a_sA^{-1/3}-a_c\frac{Z^2}{A^{4/3}}-a_a\bigg(\frac{Z}{A}-\frac{1}{2} \bigg)^2+a_p\frac{(-1)^Z+(-1)^N}{A^{3/2}}.
+\end{align}
+Several successful fits have been published for the empirical mass formula above. Using the values obtained by Bertulani and Schechter (2002), we have
+\begin{center}
+	$a_v=15.85$ MeV, $a_s=18.34$ MeV, $a_c=0.71$ MeV, $a_a=92.86$ MeV, $a_p=11.46$ MeV. 
+\end{center}
+The Fermi gas model proposes a quantum gas of nucleons that can move freely inside the nucleus but are confined by the nuclear surface. The density of states in the Fermi gas model is 
+\begin{align}
+dN(E)=\frac{1}{\pi^2 a^3\hbar^3}\sqrt{\frac{m^3E}{2}}dE.
+\end{align}
+The \textbf{Fermi energy}\index{Fermi energy} is
+\begin{align}
+E_F=\frac{\hbar^2}{2m}\sqrt[3]{\frac{9}{4}\pi^4n_0^2}=38 \textrm{ MeV}.
+\end{align}
+In a nuclear reaction, the difference between final and initial
+kinetic energies is called the $Q$-value:
+\begin{align}
+Q&=\Delta KE=-\Delta Mc^2 \hspace{1cm}
+\begin{cases}
+Q>0 \implies \textrm{Exothermic} \\
+Q<0 \implies \textrm{Endothermic}
+\end{cases}
+\end{align}
+
+
+
+
+
+
+
+\section{Nuclear Decay}
+\begin{multicols}{2}
+Nuclear decays\index{Nuclear Decay} follow an exponential decay law. The decay constant $\lambda$, half life $t_{1/2}$, and mean lifetime $\tau$ are related:
+\begin{align}
+N(t)&=N_0e^{-\lambda t}\\
+t_{1/2}&=\frac{\ln(2)}{\lambda}=\tau \ln(2).
+\end{align}
+In alpha ($\alpha$) decay, a heavier nucleus (Nuc) emits a helium-4 nucleus:
+\begin{align}
+{}^A_Z\textrm{Nuc} \to {}^{4}_{2}\textrm{He} + {}^{A-4}_{Z-2}\textrm{Nuc'}
+\end{align}
+In a $\beta^-$ decay, an electron and an anti-neutrino are emitted:
+\begin{align}
+{}^A_Z\textrm{Nuc} \to {}^{A}_{Z+1}\textrm{Nuc'} + e^- +\bar{v}_e
+\end{align}
+In a $\beta^+$ decay can proceed via a positron emission:
+\begin{align}
+{}^A_Z\textrm{Nuc} \to {}^{A}_{Z-1}\textrm{Nuc'} + e^+ +v_e
+\end{align}
+This type of decay can also occur via electron capture
+\begin{align}
+e^-+{}^A_Z\textrm{Nuc} \to {}^{A}_{Z-1}\textrm{Nuc'} +v_e
+\end{align}
+A \textbf{gamma decay}\index{Gamma decay} is an emission of a high-energy photon from an excited nucleus, a process that does not transmute the nucleus:
+\begin{align}
+{}^A_Z\textrm{Nuc} \to {}^{A}_{Z}\textrm{Nuc'} +\gamma
+\end{align}
+\end{multicols}
+
+
+
+\section{Elementary Particle Physics}
+Substructure is probed using scattering experiments. The scattering cross section is defined as
+\begin{align}
+\sigma = \frac{\textrm{\# of reactions per scattering center/s}}{\textrm{\# of impinging particles/s/m$^2$}}.
+\end{align}
+The scattering cross section has the physical dimension of area and is measured in the unit barn (b) or millibarn (mb):
+\begin{align}
+1 \textrm{ b} &= 10^{-28} \textrm{ m}^2\hspace{1cm}\textrm{and}\hspace{1cm}
+1 \textrm{ mb} = 10^{-31} \textrm{ m}^2.
+\end{align}
+The classical \textbf{Rutherford cross section}\index{Rutherford cross section} for scattering from a pointlike target by the Coulomb interaction is
+\begin{align}
+\frac{d \sigma}{d \Omega}=\bigg(\frac{kZ_PZ_te^2}{4K} \bigg)^2\frac{1}{\sin^4(\theta/2)}.
+\end{align}
+For scattering of a plane wave off a point source, the scattering wave function is
+\begin{align}
+\psi_{total}(\vec{r})&=\psi_i(\vec{r})+\psi_f(\vec{r})
+=N\bigg(e^{ikz}+f(\theta)\frac{e^{ikr}}{r} \bigg) \hspace{1cm}\textrm{and}\hspace{1cm}
+\frac{d \sigma}{d \Omega}=|f(\theta)|^2.
+\end{align}
+The form factor is the Fourier transform of the density distribution and measures the deviation of the scattering cross section from the Rutherford cross-section of a point-like target:
+\begin{align}
+F^2(\Delta p)&= \bigg|\frac{1}{e}\int\rho(\vec{r})e^{i\Delta \vec{p} \cdot \vec{r}/\hbar}dV\bigg|^2\hspace{1cm}\textrm{and}\hspace{1cm}
+\frac{d \sigma}{d \Omega}= \bigg(\frac{d \sigma}{d \Omega} \bigg)_{point} \cdot F^2(\Delta p).
+\end{align}
+\begin{itemize}
+	\item Elementary fermions have spin $\frac{1}{2}\hbar$ and include the six quarks (up, down, strange, charm, bottom, and top), the electron, muon, and tau leptons, and the electron-, muon-, and tau-neutrinos. Each of these 12 fermions has an antiparticle. Quarks all have a non-integer charge of $-\frac{1}{3}e$ or $+\frac{2}{3}e$ and cannot be observed in isolation.
+	\item Elementary bosons are the mediators of the interactions between the fermions. They are the photon (electromagnetic), the W and Z bosons (electroweak), the gluon (strong), and the graviton (gravitational). The graviton is yet to be found experimentally. Gluons can also interact with other gluons. 
+	\item Elementary quarks and antiquarks can combine to form color singlets, which are particles that can be observed in isolation. A quark and an antiquark can form a meson (pion, kaon, etx.). Three quarks can form a baryon (proton, neutron, delta baryon, etc.). The only stable baryon is the proton, and none of the mesons is stable. Lifetimes of the unstable particles vary from $10^{-23}$ seconds to 15 minutes.
+	\item The quark-gluon plasma phase transition of the early universe can be probed in the laboratory with relativistic heavy ion collisions. The primordial fraction of 23\% helium in the universe can be explained from the neutron-proton mass difference, which fixes the ratio of proton and neutron numbers to $n_n/n_p = e^{(m_n-m_p)c^2/k_BT}$.
+\end{itemize}
+Single and double nucleon separation energies\index{Separation energy} ($S_{n_1}$ and $S_{n_2}$) are given by
+\begin{align}
+	S_{n_1} &= B(N,Z)-B(N-1,Z) \andspace{1cm} S_{n_2} = B(N,Z)-B(N-2,Z) \\
+	S_{p_1} &= B(N,Z)-B(N,Z-1) \andspace{1cm} S_{p_2} = B(N,Z)-B(N,Z-2).
+\end{align}
+The neutron pairing gap as related to the separation energies is given by
+\begin{align}
+\Delta_{n} = \frac{(-1)^N}{2} \left[S_{n_1}(N,Z)-S_{n_1}(N-1,Z)\right].
+\end{align}

@@ -1,0 +1,80 @@
+\documentclass[openany,twoside, notitlepage,letterpaper,11pt]{book}
+
+%%% These are the packages that are used
+\input{./Resources/Packages}
+
+%This is where settings for the latex file are stored.
+\input{./Resources/Settings}
+
+%This is where custom definitions and variables are defined and stored.
+\input{./Resources/Definitions}
+
+%creates the title page
+\title{\includegraphics[scale=.2]{./Images/Covers/AH2.png}
+	\\ \vspace{1.5cm} Useful Formulas, Constants, Units and Definitions \\ Volume II - Programmers Paradise \\ Version \Version}
+\date{}
+\author{Compiled by: Antonius William Torode\\ Natural Science Department: Michigan State University \\ Written in: \LaTeX}
+
+\makeindex
+%\addcontentsline{toc}{chapter}{Index}
+
+
+%%% Document Starts now
+\begin{document}
+
+%Begin the front matter.
+\frontmatter
+%Begins title page.
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+\begin{center}
+	\includegraphics[scale=1.8]{./Images/Covers/background_tunnel.png}
+\end{center}
+
+%Copywrite page
+\include{./Resources/Copywrite}
+
+%Preface page
+\include{./Resources/Preface}
+
+%Begins blank page.
+\thispagestyle{empty}
+\newpage
+\vspace*{\stretch{1}}
+\begin{center}
+	\textit{This page intentionally left blank.\\ (Yes, this is a contradiction.)}
+\end{center}
+\vspace*{\stretch{1}}
+
+%Begins table of contents
+\tableofcontents
+
+
+%Begin the mainmatter.
+\setlength{\parindent}{0pt}
+\mainmatter
+\pagestyle{fancy}
+\include{./Chapters/Linux}
+
+\newpage
+\include{./Chapters/C}
+
+\newpage
+\include{./Chapters/Cpp}
+
+\newpage
+\include{./Chapters/Python}
+
+\newpage
+\include{./Chapters/ROOT}
+
+\unchapter{Resources}
+
+
+%Begin the backmatter.
+\backmatter
+\input{./Resources/References}
+\printindex
+
+\end{document}

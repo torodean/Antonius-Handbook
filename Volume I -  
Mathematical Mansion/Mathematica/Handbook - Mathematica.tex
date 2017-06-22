@@ -1,0 +1,88 @@
+%% AMS-LaTeX Created with the Wolfram Language : www.wolfram.com
+
+\documentclass{article}
+\usepackage{amsmath, amssymb, graphics, setspace}
+
+\newcommand{\mathsym}[1]{{}}
+\newcommand{\unicode}[1]{{}}
+
+\newcounter{mathematicapage}
+\begin{document}
+
+\title{Antonius{'} Handbook - Computational Notebook:}
+\author{}
+\date{}
+\maketitle
+
+$\sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim
+\sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim $\\
+Differential Equations:\\
+$\sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim
+\sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim $
+
+\begin{doublespace}
+\noindent\(\pmb{\text{DSolve}[y\text{''}[x]+A/x y[x]==0,y[x],x]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{\left\{y[x]\to \sqrt{A} \sqrt{x} \text{BesselJ}\left[1,2 \sqrt{A} \sqrt{x}\right] C[1]+2 i \sqrt{A} \sqrt{x} \text{BesselY}\left[1,2
+\sqrt{A} \sqrt{x}\right] C[2]\right\}\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{DSolve}[y\text{''}[x]-A/x y[x]==0,y[x],x]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{\left\{y[x]\to -\sqrt{A} \sqrt{x} \text{BesselI}\left[1,2 \sqrt{A} \sqrt{x}\right] C[1]+2 \sqrt{A} \sqrt{x} \text{BesselK}\left[1,2
+\sqrt{A} \sqrt{x}\right] C[2]\right\}\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{DSolve}[y\text{''}[x]+ A/x\text{  }y'[x]==0,y[x],x]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{\left\{y[x]\to \frac{x^{1-A} C[1]}{1-A}+C[2]\right\}\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{DSolve}[y\text{''}[x]- A/x\text{  }y'[x]==0,y[x],x]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{\left\{y[x]\to \frac{x^{1+A} C[1]}{1+A}+C[2]\right\}\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{DSolve}[y\text{''}[x]+A/x{}^{\wedge}n\text{  }y'[x]==0,y[x],x]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{\left\{y[x]\to C[2]+\frac{x \left(-\frac{A x^{1-n}}{-1+n}\right)^{\frac{1}{-1+n}} C[1] \text{Gamma}\left[\frac{1}{1-n},-\frac{A
+x^{1-n}}{-1+n}\right]}{-1+n}\right\}\right\}\)
+\end{doublespace}
+
+$\sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim
+\sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim $\\
+Integration:\\
+$\sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim
+\sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim \sim $
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Integrate}[\text{Sqrt}[x]/(\text{Exp}[x]-1),\{x,0,\text{Infinity}\}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\frac{1}{2} \sqrt{\pi } \text{Zeta}\left[\frac{3}{2}\right]\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{N\left[\frac{1}{2}\text{  }\text{Zeta}\left[\frac{3}{2}\right]\right]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(1.30619\)
+\end{doublespace}
+
+\end{document}

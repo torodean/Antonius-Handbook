@@ -1,0 +1,334 @@
+\chapter{Quantum Mechanics}
+\thispagestyle{fancy}
+\begin{multicols}{2}
+[Plane waves with electromagnetic wave frequencies and wavelengths]
+	\noindent
+	\begin{align}
+		\psi(x,t) &=A\cos[2\pi(x-ct)/\lambda] \\
+		c &= f \lambda \Longleftrightarrow f = \frac{c}{\lambda} \Longleftrightarrow \lambda = \frac{c}{f} \\
+		T &=1/f \\
+		\psi(x,t) &= A \cos(kx-\omega t) \\
+		k &= 2\pi /\lambda \\
+		\omega &= 2\pi f = 2 \pi /T
+	\end{align}
+	The energy in a photon (packet of light)
+	\begin{align}
+		E &=h f  = \frac{hc}{\lambda} = \hbar \omega \\
+		dE &= -\frac{hc}{\lambda^2}d\lambda=-\frac{E^2}{hc}d\lambda \\ |\Delta \lambda | &= hc\frac{\Delta E}{E^2}
+	\end{align}
+\end{multicols}
+The wave equation
+\begin{align}
+	\frac{1}{v^2}\frac{\partial^2 \psi}{\partial t^2} = \nabla^2\psi
+\end{align}
+A periodic wave can be constructed from a sum of plane waves
+\begin{align}
+	\psi(x,t) &= \sum_{i=1}^{n} A_i \cos(k_ix_i-\omega_i t) 
+\end{align}
+The \textbf{cubit}\index{Cubit} is defined as
+\begin{align}
+	|\psi\rangle &= c_1|1\rangle + c_0|0\rangle \\
+	|\psi\rangle &= c_{11}|11\rangle+c_{01}|01\rangle+c_{10}|10\rangle+c_{00}|00\rangle \\
+	&\vdots \nonumber
+\end{align}
+The quantum mechanical \textbf{expectation value} of an observable $\hat{X}$ in a normalized state $\psi$ is found by integrating over the entire space $\psi^*$ times the result obtained when the corresponding operator  acts on $\psi$. 
+\begin{align}
+	\langle \psi | \hat{X} | \psi \rangle = \int_{-\infty}^{\infty}\psi^* \hat{X}\psi dx
+\end{align}
+The state of the system is given by a wavefunction $\psi(\vec{r},t)$.  The probability density is the square modulus of the amplitude
+\begin{align}
+	P(\vec{r}) d\vec{r} = |\psi(\vec{r})|^2d\vec{r}
+\end{align}
+The probability of a particle being between $x_1$ and $x_2$ given a normalized wave function $\psi(x,t)$ is
+\begin{align}
+	P_{x\in x_1:x_2}(t)=\int_{x_1}^{x_2}|\psi(x,t)|^2dx=\int_{x_1}^{x_2} \psi^*(x,t)\psi(x,t) dx
+\end{align}
+The normalization of a wave function implies the probability over all space is 1.
+\begin{align}
+	P_{x\in -\infty:\infty}(t) = \int_{-\infty}^{\infty}|\psi(x,t)|^2dx=1
+\end{align}
+The \textbf{Schr\"{o}dingr Equation}\index{Schr\"{o}dingr Equation} is a partial differential equation that describes how the wavefunction of a physical system evolves over time. The (non-relativistic) Schr\"{o}dingr Equation for a particle moving in a 3-dimensional potential energy field $V(\vec{r})$ is
+\begin{align}
+	\hat{E}\psi(\vec{r},t) &= \frac{-\hbar^2}{2m} \nabla^2 \psi(\vec{r},t)+V(\vec{r})\psi(\vec{r},t)  \equiv \hat{H}\psi(\vec{r},t)
+\end{align}
+The general solution to the time-dependent \textbf{Schr\"{o}dingr Equation} is
+\begin{align}
+	\psi(\vec{r},t) = \sum c_n \psi_n(\vec{r})e^{-iE_n t/\hbar}.
+\end{align}
+\textbf{The Dirac equation}\index{Dirac!equation}: the generalization of the time dependent Schr\"{o}dinger equation for the relativistically correct relationship between energy and momentum. It leads to negative energy states and antiparticles.
+\begin{align}
+	\bigg[\gamma^0mc^2+\sum_{i=1}^{3}\gamma^i\hat{p}_ic \bigg]\psi(\vec{r},t)=i\hbar\frac{\partial}{\partial t}\psi(\vec{r},t)
+\end{align}
+Each observable corresponds to a linear operator. A linear operator is something that acts on a state and gives another state.
+The Hamiltonian operator is defined as the operator $\hat{H}$ such the energy $E$ of a system with wavefunction $\psi$ is an eigenvalue of $\hat{H}\psi$ or $\hat{H}\psi = E \psi$. 
+\begin{align}
+	\hat{H} &= \hat{K}+V(\hat{r}) = \frac{\hat{p}^2}{2m}+V(\hat{r})= \frac{-\hbar^2}{2m}\nabla^2	+V(\vec{r})
+\end{align}
+The Energy operator
+\begin{align}
+	i\hbar\frac{\partial \psi}{\partial t}=i\hbar\frac{\partial}{\partial t}Ae^{i(kx-\omega t)}=i\hbar(-i\omega)\psi&=\hbar\omega\psi=E\psi \implies\hat{E} = i\hbar \frac{\partial}{\partial t} \\
+	\langle\psi| E |\psi \rangle = \int_{-\infty}^{\infty} \psi^* \hat{E} \psi dx &= i\hbar \int_{-\infty}^{\infty} \psi^* \frac{\partial \psi}{\partial t} dx
+\end{align}
+The operator for a particles kinetic energy is
+\begin{align}
+	\hat{K}&=\frac{-\hbar^2}{2m}\nabla^2 \\
+	\hat{K}\psi = \frac{1}{2m}\hat{p}^2\psi &= \frac{1}{2m}\bigg(-i\hbar\frac{\partial}{\partial x}\bigg)^2\psi = \frac{-\hbar^2}{2m}\frac{\partial^2}{\partial x^2}\psi \\
+	\langle\psi| \hat{K}|\psi \rangle = \int_{-\infty}^{\infty}\psi^*\hat{K}\psi dx &= \int_{-\infty}^{\infty}\psi^*\frac{1}{2m}\hat{p}^2\psi dx = \frac{-\hbar^2}{2m}\int_{-\infty}^{\infty}\psi^*\frac{\partial^2}{\partial x^2}\psi dx
+\end{align}
+The momentum operator
+\begin{align}
+	\hat{p}&\equiv-i\hbar\nabla = \frac{\hbar}{i}\nabla \\
+	\frac{\partial \psi}{\partial x}=\frac{\partial}{\partial x}Ae^{i(kx-\omega t)}=ik\psi&=\frac{ip}{\hbar}\psi \implies\hat{p} = -i\hbar \frac{\partial}{\partial x} \\
+	\langle\psi| \hat{p}|\psi \rangle = \int_{-\infty}^{\infty} \psi^* \hat{p} \psi dx &= -i\hbar \int_{-\infty}^{\infty} \psi^* \frac{\partial \psi}{\partial x} dx
+\end{align}
+The wave function solution for a particle confined to an infinite potential well with walls at $x=0$ and $x=a$ is as follows, with the corresponding energy eigenvalues (with $n\in\mathbb{N}$)
+\begin{align}
+	\psi(x) &=
+	\begin{cases}
+		\sqrt{\frac{2}{a}}\sin\left(\frac{n\pi x}{a}\right) &  0\leq x \leq a\\
+		0 &  \textrm{ otherwise }
+	\end{cases} \\
+	E_n &=\frac{\hbar^2\pi^2}{2ma^2}n^2
+\end{align}
+The solution to The Schr\"{o}dingr Equation for a finite potential well with the potential
+\begin{align}
+	V(x)=
+	\begin{cases}
+		\infty & \textrm{ for } x<0 \\
+		0 & \textrm{ for } 0 \leq x \leq a \\
+		V_1 & \textrm{ for } x>a
+	\end{cases}
+\end{align}
+with $E>V_1$ is
+\begin{align}
+	\psi(x) &=
+	\begin{cases}
+		0 & \textrm{ for } x<0 \\
+		D\sin(kx) & \textrm{ for } 0 \leq x \leq a \\
+		F\cos(k'x)+G\sin(k'x) & \textrm{ for } x>a
+	\end{cases} \\
+	& \textrm{ with } k'=\sqrt{k^2-\frac{2mV_1}{\hbar^2}}
+\end{align}
+with $E<V_1$ is
+\begin{align}
+	\psi(x) &=
+	\begin{cases}
+		0 & \textrm{ for } x<0 \\
+		D\sin(kx) & \textrm{ for } 0 \leq x \leq a \\
+		Fe^{-\gamma x} & \textrm{ for } x>a
+	\end{cases} \\
+	& \textrm{ with } \gamma^2=\frac{2m(V_1-E)}{\hbar^2}=\frac{2mV_1}{\hbar^2}-k^2
+\end{align}
+The solutions for a finite barrier (with the probability of reflection as $R=|B|^2/|A|^2$ and the probability of transmission as $T=|F|^2/|A|^2$) are
+\begin{align}
+	\psi_1&=Ae^{ikx}+Be^{-ikx} \hspace{1cm}\textrm{(incident + reflected)} \\
+	\psi_2&=Ce^{ik'x}+De^{-ik'x} \hspace{1cm}\textrm{(intermediate)}\\
+	\psi_3&=Fe^{ikx} \hspace{1cm}\textrm{(transmitted)} \\
+	k&=\sqrt{2mE/\hbar^2}\\
+	k'&=\sqrt{2m(E-U_0)/\hbar^2}
+\end{align}
+For any two Hermitian operators $A$ and $B$,
+\begin{align}
+	\Delta A \Delta B \geq \frac{1}{2}| \langle i [A, B] \rangle |
+\end{align}
+Atomic quantum numbers
+\begin{align}
+	n &= \textrm{ Principle Quantum Number } [n \in \mathbb{N}]\\
+	\ell &= \textrm{ Orbital Angular Momentum Quantum Number } [\ell \in \mathbb{N}\union\{0\}, \ell < n] \\
+	m_\ell &= \textrm{ Magnetic Quantum Number }[m_\ell \in [-\ell, \ell], m_\ell \in \mathbb{Z}]
+\end{align}
+\section{Simple Harmonic Oscillator\index{Harmonic oscillator}}
+For a simple harmonic oscillator\index{Harmonic oscillator}, the potential energy is given by
+\begin{align}
+	V(x)&=\frac{1}{2}kx^2=\frac{1}{2}m\omega^2x^2\implies k=m\omega^2 \Longleftrightarrow \omega=\sqrt{\frac{k}{m}} 
+\end{align}
+The energies and wave functions are then given by
+\begin{align}
+	\psi_n & = \frac{1}{\sqrt{n!}}(a_+)^n\psi_0 \hspace{1.5cm} \psi_0(x) = \left(\frac{m\omega}{\pi \hbar}\right)^{1/4}e^{-\frac{m\omega}{2\hbar}x^2}  \\ E_n&=\left(n+\frac{1}{2}\right)\hbar\omega=\left(n+\frac{1}{2}\right)\hbar\sqrt{\frac{k}{m}}=\left(n+\frac{1}{2}\right)\frac{\hbar}{x}\sqrt{\frac{2V(x)}{m}}
+\end{align}
+The eigenfunctions, raising, and lowering operators are related to the eigenstates/vectors by
+\begin{align}
+	a_\pm = \frac{1}{ \sqrt{2\hbar m\omega} }(\mp i p + m\omega x), \hspace{1cm}
+	H | n \rangle &= E_n |n \rangle, \hspace{1cm} H = \hbar \omega \left(a^\dagger a + \frac{1}{2}\right), \hspace{1cm}[a,a^\dagger]=1 \\	
+	|n\rangle = \frac{(a^\dagger)^n|0\rangle}{\sqrt{n!}}, \hspace{1cm} a^\dagger|n\rangle \equiv a_+|n \rangle &= \sqrt{n+1}|n+1\rangle, \hspace{1cm} a|n \rangle \equiv a_-|n \rangle = \sqrt{n}|n-1\rangle
+\end{align}
+For the harmonic oscillator, x and p can be expressed in terms of the raising and lowering operators
+\begin{align}
+	x = \sqrt{\frac{\hbar}{2m\omega}}(a_++a_-) \hspace{2cm} p =i\sqrt{\frac{\hbar m \omega}{2}}(a_+-a_-).
+\end{align}
+\section{Spherical Harmonics}
+The normalized angular wave functions are called \textbf{spherical harmonics}\index{Spherical!harmonics} and are given by
+\begin{align}
+	Y_\ell^m(\theta,\phi) = \epsilon\sqrt{\frac{(2\ell+1)}{4\pi}\frac{(\ell-|m|)!}{(\ell+|m|)!}}e^{im\phi}P_\ell^m(\cos\theta), \hspace{1cm} \textrm{with} \hspace{1cm}\epsilon = \begin{cases} (-1)^m & m \geq 0 \\ 1 & m < 0 \end{cases}.
+\end{align}
+The \textbf{spherical harmonics} are automatically orthogonal so,
+\begin{align}
+	\int_0^{2\pi}\int_0^\pi[Y_\ell^m(\theta,\phi)]^*[Y_{\ell'}^{m'}(\theta,\phi)]\sin\theta d\theta d\phi=\delta_{\ell \ell'}\delta_{m m'}
+\end{align}
+The normalized \textbf{hydrogen wave functions} containing the quantum numbers $n, m,$ and $\ell$ are
+\begin{align}
+	\Psi_{n\ell m}(r,\theta,\phi) = \sqrt{\left(\frac{2}{na}\right)^3\frac{(n-\ell-1)!}{2n[(n+\ell)!]^3}}e^{-r/na}\left(\frac{2r}{na}\right)^\ell\left[L_{n-\ell-1}^{2\ell+1}(2r/na)\right]Y_{\ell}^{m}(\theta,\phi).
+\end{align}
+The ground state wave functions and energy of Hydrogen is
+\begin{align}
+	\Psi_{100}(r,\theta,\phi) = \frac{1}{\sqrt{\pi a^3}}e^{-r/a} \andspace{1cm} E_1 = -\left[\frac{m}{2\hbar^2}\left(\frac{e^2}{4\pi\epsilon_0}\right)^2\right] = -13.6 eV
+\end{align}
+Each operator $\hat{Y}$ has a set of eigenvalues y which are the possible values you can get on doing a measurement of Y. Each eigenvalues y is associated with an eigenstate $\phi_y(x)$ which is the state for which the values of Y is exactly y with no uncertainty. You can find the eigenstates and eigenvalues of an operator by 
+\begin{align}
+	\hat{Y}\phi_y(x) = y \phi_y(x).
+\end{align}
+The eigenstates of any operator $\hat{Y}$ form a complete orthonormal basis of states so we can write any state $\psi(x)$ in terms of them.
+\begin{align}
+	\psi(x) \equiv \sum_{y}A_y\phi_y(x) \hspace{0.5cm}\textrm{or}\hspace{0.5cm} \psi(x) \equiv \int A(y)\phi_y(x)dy.
+\end{align}
+To solve for the coefficients in the above expression we can use Fouriers trick, or
+\begin{align}
+	A(y) = \int \phi_y^*(x)\psi(x)dx 	
+\end{align}
+If you are within operator space you can find the expectation value of an operator by
+\begin{align}
+	\langle \hat{y} \rangle = \int y |A(y)|^2 dy.
+\end{align}
+The commutation relation is a relationship between two operators and given by
+\begin{align}
+	[x,y] \equiv xy-yx &\implies [x,y] = -[y,x] \\
+	[x,y]=[y,x]=0 &\implies \textrm{$x$ and $y$ commute} \\
+	[xy,z] = x[y,z]+[x,z]y \hspace{1cm} &\textrm{and} \hspace{1cm}[x,yz] = y[x,z]+[x,y]z.adv
+\end{align} 
+Position and momentum are related via commutation by the following:
+\begin{align}
+	[x,p_x]=[y,p_y]=[z,p_z]=i\hbar \\
+	[x,p_y]=[x,p_z]=[y,p_x]=[y,p_z]=[z,p_x]=[z,p_y]=0.
+\end{align} 
+\section{Angular Momentum and Spin}
+The angular momentum operators are related via commutation by the following:
+\begin{align}
+	[L_x,L_y]=i\hbar L_z \andspace{1cm} &[L_y,L_z]=i\hbar L_x \andspace{1cm} [L_z,L_x]=i\hbar L_y \\
+	[L_x,\vec{r}]=i\hbar (z-y) \andspace{1cm} &[L_x,\vec{L}] = i\hbar (L_z-L_y) \andspace{1cm} [L_x,\vec{p}] = i\hbar(p_z-p_y) \\
+	[\vec{L}^2,L_\pm]=0 \andspace{1cm}&[\vec{L}^2,L_z] = 0 \andspace{1cm} [L_z,L_\pm]=\pm \hbar L_\pm
+\end{align}
+The angular momentum operators as well as the raising and lowering operators are given by
+\begin{align}
+	\vec{L} &= \frac{\hbar}{i}\left(\hat{\phi}\frac{\partial}{\partial \theta}- \frac{\hat{\theta}}{\sin \theta}\frac{\partial}{\partial \phi}\right) \hspace{1cm} \textrm{and} \hspace{1cm} L_z =\frac{\hbar}{i} \frac{\partial}{\partial \phi}\\
+	L_x &= \frac{L_++L_-}{2}= \frac{\hbar}{i}\left(-\sin\phi \frac{\partial}{\partial \theta}-\cot\theta \cos \phi \frac{\partial}{\partial \phi}\right) \\  L_y &= \frac{L_+-L_-}{2i}= \frac{\hbar}{i}\left(\cos\phi \frac{\partial}{\partial \theta}-\cot\theta \sin \phi \frac{\partial}{\partial \phi}\right) \\
+	L_{\pm} &= L_x\pm i L_y = \pm \hbar e^{\pm i \phi} \left(\frac{\partial}{\partial \theta}\pm  i \cot(\theta)\frac{\partial}{\partial \phi}\right) \\
+	\vec{L}^2 &= L_x+L_y+L_z =-\hbar^2 \left[\frac{1}{\sin\theta}\frac{\partial}{\partial \theta}\left(\sin\theta\frac{\partial }{\partial \theta}\right)+\frac{1}{\sin^2\theta}\frac{\partial^2}{\partial \phi^2}\right]
+\end{align}
+The angular momentum operators satisfy
+\begin{align}
+	\vec{L}^2 | \ell, m \rangle = \hbar^2\ell(\ell+1)| \ell, m \rangle \andspace{1cm} L_z| \ell, m \rangle = \hbar m | \ell, m \rangle \\
+	L_{\pm} | \ell, m \rangle = \hbar \sqrt{(\ell \mp m)(\ell \pm m +1)} | \ell, m \pm 1 \rangle
+\end{align}
+The fundamental commutation relations for spin are
+\begin{align}
+[S_x,S_y]=i\hbar S_z \andspace{1cm} [S_y,S_z]=i\hbar S_x \andspace{1cm} [S_z,S_x]=i\hbar S_y.
+\end{align}
+The general state of a spin-1/2 particle can be expressed as a two element column matrix (or spinor):
+\begin{align}
+\chi= \begin{pmatrix}
+a\\b
+\end{pmatrix} = a \begin{pmatrix}
+1\\0
+\end{pmatrix}+b\begin{pmatrix}
+0\\1
+\end{pmatrix}= a \chi_++b\chi_-.
+\end{align}
+The spin matrices are given by
+\begin{align}
+\vec{S}_x &= \frac{\hbar}{2}\begin{pmatrix}
+0 & 1 \\ 1 & 0
+\end{pmatrix}, \hspace{1cm}\vec{S}_y = \frac{\hbar}{2}\begin{pmatrix}
+0 & -i \\ i & 0
+\end{pmatrix}, \hspace{1cm}\vec{S}_z = \frac{\hbar}{2}\begin{pmatrix}
+1 & 0 \\ 0 & -1
+\end{pmatrix}, \\ \vec{S}_+ &= \hbar\begin{pmatrix}
+0 & 1 \\ 0 & 0
+\end{pmatrix}, \hspace{1cm}\vec{S}_- = \hbar\begin{pmatrix}
+0 & 0 \\ 1 & 0
+\end{pmatrix}, \hspace{1.3cm}\vec{S}^2 = \frac{3\hbar^2}{4}\begin{pmatrix}
+1 & 0 \\ 0 & 1
+\end{pmatrix}
+\end{align}
+The \textbf{Pauli Spin Matrices}\index{Pauli Spin Matrices} are then given by
+\begin{align}
+\sigma_x \equiv \begin{pmatrix}
+0 & 1 \\ 1 & 0
+\end{pmatrix}, \hspace{1cm}\sigma_y \equiv \begin{pmatrix}
+0 & -i \\ i & 0
+\end{pmatrix}, \hspace{1cm}\sigma_z \equiv \begin{pmatrix}
+1 & 0 \\ 0 & -1
+\end{pmatrix}
+\end{align}
+The combined state $| s, m \rangle$  with total spin s and z-component m will be some linear combination of the composite states $| s_1, m_1 \rangle$ and $| s_2, m_2 \rangle$ and depends on the Clebsch-Gordan\index{Clebsch-Gordan} Coefficients $C_{m_1m_2m}^{s_1s_2s}$ (page \pageref{Clebsch-Gordan}):
+\begin{align}
+| s, m \rangle = \sum_{m=m_1+m_2} C_{m_1m_2m}^{s_1s_2s}| s_1, m_1 \rangle| s_2, m_2 \rangle, \hspace{1.5cm} | s_1, m_1 \rangle| s_2, m_2 \rangle = \sum_{s} C_{m_1m_2m}^{s_1s_2s}| s, m \rangle
+\end{align}
+
+\begin{fancybox}[Hund's Rules]{}
+To find the state with the lowest energy configuration,
+	\begin{enumerate}
+		\item Choose the largest S.
+		\item Choose the Largest L (consistent with the Pauli Exclusion Principle).
+		\item If the shell is less than one half filled, choose the smallest J. If the shell is greater than one half filled, choose the largest J. If the shell is half filled, then $L=0 \implies J=S$.
+	\end{enumerate}
+\end{fancybox}
+
+From the \textbf{Time-independent perturbation theory} at an approximation gives the correction energy ($1^{st}$ and $2^{nd}$ order given) and wave function ($1^{st}$ order) as
+\begin{align}
+	| \psi_n^{(1)} \rangle = \sum_{\ell \neq n} | \psi_\ell^{(0)} \rangle \frac{\langle \psi_\ell^{(0)}|H^1| \psi_n^{(0)} \rangle }{E_n^{(0)}-E_\ell^{(0)}} \hspace{1cm} E_n^{(1)}=\langle \psi_n^{(0)}|H^1| \psi_n^{(0)}\rangle  \hspace{1cm} E_n^{(2)} = \sum_{m \neq n} \frac{|\langle \psi_m^{(0)}|H^1| \psi_n^{(0)} \rangle|^2 }{E_n^{(0)}-E_m^{(0)}}  
+\end{align}
+
+For a two state system and a time dependent Hamiltonian, we can derive a relationship for the probability coefficients of the system by solving Shr\"{o}dinger's equation which is used with $H_{ij}'(t)=\langle \psi_i|H(t)|\psi_j\rangle$ (and with $\omega = \frac{E_2-E_1}{\hbar}$) which gives
+\begin{align}
+	\frac{dc_1(t)}{dt} = -\frac{i}{\hbar}H_{12}'(t)e^{-i \omega t}c_2(t) \hspace{2cm} 	\frac{dc_2(t)}{dt} = -\frac{i}{\hbar}H_{21}'(t)e^{i \omega t}c_1(t).
+\end{align}
+
+For a two state system the coefficients of the system up to second order given an initial state of $c_a^{(0)}(t)=a$ and $c_b^{(0)}(t)=b$, with $\omega_0=(E_b-E_a)/\hbar$ are
+\begin{align}
+	c_a^{(2)}(t) &= a-\frac{ib}{\hbar}\int_{0}^{t}H_{ab}'(t')e^{-i \omega_0 t'}dt' - \frac{a}{\hbar^2}\int_{0}^{t}H_{ab}'e^{-i\omega_0 t'} \left[\int_{0}^{t'}H_{ba}'(t'')e^{i\omega_0 t}dt''\right]dt' \\
+	c_b^{(2)}(t) &= b-\frac{ia}{\hbar}\int_{0}^{t}H_{ba}'(t')e^{i \omega_0 t'}dt' - \frac{b}{\hbar^2}\int_{0}^{t}H_{ba}'e^{i\omega_0 t'} \left[\int_{0}^{t'}H_{ab}'(t'')e^{-i\omega_0 t}dt''\right]dt'
+\end{align}
+
+The \textbf{variational principle}\index{Variational principle} will give an upper bound for the ground state energy for a system described by the Hamiltonian H. This is often useful when you are unable to solve Schr\"{o}dinger's equation.
+\begin{align}
+	E_{gs} \leq \langle \psi|H|\psi\rangle
+\end{align}
+The \textbf{Rabi-Flopping frequency}\index{Rabi-Flopping frequency} is defined as
+\begin{align}
+	\omega_r \equiv \frac{1}{2}\sqrt{(\omega-\omega_0)^2+(|V|/\hbar)^2}
+\end{align}
+The \textbf{transition rate}\index{Transition rate} for stimulated emmision from state b to state a, under the influence of incoherent, unpolarized light incident from all directions (where $\mathfrak{p}$ is the matrix element of the electric dipole moment between the two states and $\rho(\omega_0)$ is the energy density in the fields with $\omega_0=(E_b-E_a)/\hbar$ \cite{bib:Griffiths_QM} is
+\begin{align}
+	R_{b\rightarrow a} = \frac{\pi}{3\epsilon_0 \hbar^2}|\mathfrak{p}|^2\rho(\omega_0)
+\end{align} 
+The \textbf{spontaneous emission}\index{Spontaneous emission} rate is
+\begin{align}
+	A=\frac{\omega_0^3|\mathfrak{p}|^2}{3\pi\epsilon_0\hbar c^3}
+\end{align}
+
+\section{Scattering}
+The impact parameter b is given by
+\begin{align}
+	b=R\sin\left(\frac{\pi}{2}-\frac{\theta}{2}\right) = R\cos\left(\frac{\theta}{2}\right).	
+\end{align}
+Particles incident in the area $d\sigma$ scatter into the solid angle $d\Omega$,
+\begin{align}
+	d\sigma = D(\theta)d\Omega = \underbrace{\frac{b}{\sin(\theta)}\left|\frac{db}{d\theta}\right|}_{D(\theta)} \underbrace{\sin(\theta) d\theta d\phi}_{d\Omega} = b db d\phi \implies D(\theta) = \frac{d\sigma}{d\Omega} = |f(\theta)|^2
+\end{align}
+In the case of \textbf{hard sphere scattering}\index{hard sphere scattering},
+\begin{align}
+	\frac{db}{d\theta} = -\frac{1}{2}R\sin\left(\frac{\theta}{2}\right) \implies D(\theta) = \frac{R\cos(\theta/2)}{\sin(\theta)}\left(\frac{\sin(\theta/2)}{2}\right) =\frac{R^2}{4}
+\end{align}
+In the quantum theory of scattering, for an incident plane wave $\psi=e^{ikz}$ traveling in the z direction and for large r we can find solutions to the Schr\"{o}dinger equation (with $k\equiv \frac{\sqrt{2mE}}{\hbar}$ and $a_\ell$ which is called the partial wave amplitude\index{partial wave amplitude}) of the general form
+\begin{align}
+	\psi(r,\theta) = A\left( e^{ikz}+k\sum_{\ell=0}^\infty i^{\ell+1}(2\ell+1)a_{\ell}h_{\ell}^{(1)}(kr)P_\ell(\cos\theta)\right)\approx A\left(e^{ikz}+f(\theta)\frac{e^{ikr}}{r}\right)
+\end{align}
+The differential cross section can be written as
+\begin{align}
+	D(\theta) = |f(\theta)|^2 = \left|\sum_{\ell=0}^\infty(2\ell+1)a_{\ell}P_\ell(\cos\theta)\right|^2= \sum_{\ell}\sum_{\ell'}(2\ell+1)(2\ell'+1)a_\ell^*a_{\ell'}P_\ell(\cos\theta)P_{\ell'}(\cos\theta)
+\end{align}
+The total cross section is then given by
+\begin{align}
+	\sigma=4\pi\sum_{\ell=0}^{\infty}(2\ell+1)|a_\ell|^2
+\end{align}
+

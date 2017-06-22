@@ -1,0 +1,130 @@
+\chapter{General Mathematics}
+\thispagestyle{fancy}
+Definitions
+\begin{multicols}{2}
+	\noindent
+	\begin{align}
+	\sin(x) &=\frac{1}{2i}(e^{ix}-e^{-ix}) \\
+	\sinh(x) &= \frac{1}{2}(e^{x}-e^{-x}) \\
+	&= -i\sin(ix)
+	\end{align}
+	\begin{align}
+	\cos(x) &=\frac{1}{2}(e^{ix}+e^{-ix}) \\
+	\cosh(x) &=\frac{1}{2}(e^{x}+e^{-x}) \\
+	&= \cos(ix)
+	\end{align}
+\end{multicols}
+\textbf{Curl Theorem:}\index{Curl Theorem} A special case of Stokes' theorem\index{Stokes' theorem} in which $\vec{F}$ is a vector field and $M$ is an oriented, compact embedded 2-manifold with boundary in $\mathbb{R}^3$, and a generalization of Green's theorem from the plane into three-dimensional space. The curl theorem states 
+\begin{align}
+	\int_S (\nabla \times \vec{F})\cdot d\vec{a} = \int_{\partial S}\vec{F} \cdot d\vec{s}
+\end{align}
+\textbf{Green's theorem}\index{Green's theorem} is a vector identity which is equivalent to the curl theorem 
+\begin{align}
+	\iint_S \left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right) dxdy = \oint_{\partial S} P(x,y)dx+Q(x,y)dy
+\end{align}
+The \textbf{divergence theorem}\index{Divergence theorem} is also known as Gauss's theorem (e.g., Arfken 1985) or the Gauss-Ostrogradsky theorem. Let $V$	 be a region in space with boundary $\partial V$. Then the volume integral of the divergence $\nabla \cdot \vec{F}$ of $\vec{F}$ over $V$ and the surface integral of $\vec{F}$ over the boundary $\partial V$ of $V$ are related by 
+\begin{align}
+	\int_V (\nabla \cdot \vec{F}) dV = \int_{\partial V}\vec{F} \cdot d\vec{a}
+\end{align}
+The \textbf{gradient theorem}\index{Gradient theorem} (where the integral is a line integral) is
+\begin{align}
+	\int_a^b (\nabla f) \cdot d\vec{s} = f(b)-f(a)
+\end{align}
+The \textbf{Gamma function}\index{Gamma function} $\Gamma$ and the \textbf{Riemann zeta function} $\zeta$ are given by
+\begin{align}
+\Gamma(z) &\equiv\int_{0}^{\infty}t^{z-1}e^{-t}dt \\
+\zeta(z)&=\sum_{k=1}^{\infty}\frac{1}{k^z}\implies \zeta'(z)=-\sum_{k=1}^{\infty}\frac{\ln(k)}{k^z} \\
+\zeta(z)\Gamma(z)&=\int_{0}^{\infty}\frac{u^{z-1}}{e^u-1}du
+\end{align}
+The most general case of the \textbf{binomial theorem} \index{Binomial theorem} is the binomial series identity 
+\begin{align}
+(x+y)^n &= \sum_{i=1}^{n} {{n}\choose{k}}x^{n-k}y^{k}
+\end{align}
+The \textbf{binomial coefficient} is defined as follows, with Pascals Formula implied.
+\begin{align}
+_nC_r\equiv{{n}\choose{k}} &\equiv \frac{n!}{(n-k)!k!} \equiv \frac{\Gamma(n+1)}{\Gamma(k+1)\Gamma(n-k+1)} \\
+{{n}\choose{k}}&={{n-1}\choose{k-1}}+{{n-1}\choose{k}}
+\end{align}
+The general formula for the power sum of the first $n$ positive integers, 
+\begin{align}
+\sum_{k=1}^{n}k^p=\frac{1}{p+1}\sum_{i=1}^{p+1}(-1)^{\delta_{ip}}{{p+1}\choose{i}}B_{p+1-i}n^i,
+\end{align}
+where $\delta_{ip}$ is the Kronecker delta  and $B_i$ is the $i$th Bernoulli number. The Bernoulli numbers $B_n$ are a sequence of signed rational numbers that can be defined by the exponential generating function 
+\begin{align}
+\frac{x}{e^x-1}\equiv\sum_{n=0}^{\infty}\frac{B_nx^n}{n!}.
+\end{align}
+The simplest interpretation of the \textbf{Kronecker delta}\index{Kronecker delta} is as the discrete version of the delta function defined by 
+\begin{align}
+\delta_{ij}\equiv
+\begin{cases}
+0 & \textrm{for } i \neq j \\
+1 & \textrm{for } i = j.
+\end{cases}
+\end{align}
+Determining the sums for the first few terms of the power sum give
+\begin{align}
+\sum_{i=0}^{n}i   &=\frac{1}{2}n(n+1) \\
+\sum_{i=0}^{n}i^2 &=\frac{1}{6}(2n^3+3n^2+n)=\frac{1}{6}n(2n+1)(n+1) \\
+\sum_{i=0}^{n}i^3 &=\frac{1}{4}(n^4+2n^3+n^2)=\frac{1}{4}n^2(n+1)^2 \\
+\sum_{i=0}^{n}i^4 &=\frac{1}{30}(6n^5+15n^4+10n^3-n) \\
+\sum_{i=0}^{n}i^5 &=\frac{1}{12}(2n^6+6n^5+5n^4-n^2).
+\end{align}
+A \textbf{Taylor series}\index{Taylor series} is an expansion of a function about a point. A one-dimensional Taylor series of a real function $f(x)$ about the point x=a is given by 
+\begin{align}
+f(x)&=f(a)+f'(a)(x-a)+\frac{1}{2!}f''(a)(x-a)^2+\frac{1}{3!}f'''(a)(x-a)^4+\cdots 
+\end{align}
+Some common series expansions include: 
+\begin{align}
+e^x&=\sum_{n=0}^{\infty} \frac{x^n}{n!}=1+x+\frac{1}{2!}x^2 +\frac{1}{3!}x^3 +\cdots \\ 
+\ln(1+x)&=\sum_{n=0}^{\infty} \frac{(-1)^{n}x^{n+1}}{n+1}=x-\frac{1}{2}x^2 +\frac{1}{3}x^3 -\cdots\hspace{0.5cm} \textrm{with }|x|<1\\ 
+\sin(x)&=\sum_{n=0}^{\infty}\frac{(-1)^{n}x^{2n+1}}{(2n+1)!} = x-\frac{x^3}{3!}+\frac{x^5}{5!}-\cdots \\
+\cos(x)&=\sum_{n=0}^{\infty}\frac{(-1)^{n}x^{2n}}{(2n)!} = 1-\frac{x^2}{2!}+\frac{x^4}{4!}-\cdots \\
+\tan(x)&= x+\frac{1}{3}x^3+\frac{2}{15}x^5+\cdots[|x|<\pi/2] \\
+\sinh(x)&=\sum_{n=0}^{\infty}\frac{x^{2n+1}}{(2n+1)!} = x+\frac{x^3}{3!}+\frac{x^5}{5!}+\cdots \\
+\cosh(x)&=\sum_{n=0}^{\infty}\frac{x^{2n}}{(2n)!} = 1+\frac{x^2}{2!}+\frac{x^4}{4!}+\cdots \\
+\tanh(x)&= x-\frac{1}{3}x^3+\frac{2}{15}x^5-\cdots[|x|<\pi/2]\\
+(1+x)^n&=1+nx+\frac{n(n-1)}{2!}x^2+\cdots[|x| < 1]
+\end{align}	
+\textbf{Dirac Delta Function:}\index{Dirac!Delta Function} The delta function is a generalized function that can be defined as the limit of a class of delta sequences.
+\begin{align}
+	\delta(x) = \frac{1}{\pi}\lim_{\epsilon\rightarrow 0}\frac{\epsilon}{x^2+\epsilon^2} = \frac{1}{2}\lim_{\epsilon\rightarrow 0}\epsilon|x|^{\epsilon-1} =\lim_{\epsilon\rightarrow 0} \frac{1}{\pi x}\sin\left(\frac{x}{\epsilon}\right) = \lim_{\epsilon\rightarrow 0^+}\frac{1}{2\sqrt{\pi \epsilon}}e^{-x^2/(4\epsilon)}
+\end{align}
+The Dirac delta can be thought of as a function on the real line which is zero everywhere except where the arguments of the function are zero, where it is infinite,
+\begin{align}
+	\delta(x) = 
+	\begin{cases} 
+		\infty & x=0 \\
+			 0 & x \neq 0 
+	\end{cases}
+\end{align}
+For any $\epsilon > 0$, the delta function has the fundamental property that 
+\begin{align}
+	\int_{-\infty}^{\infty}f(x)\delta(x-a)dx = f(a) \hspace{1cm}\textrm{and}\hspace{1cm}\int_{x-\epsilon}^{x+\epsilon}f(x)\delta(x-a)dx = f(a)
+\end{align}
+The fundamental equation that defines derivatives of the delta function $\delta(x)$ is
+\begin{align}
+	\int f(x)\delta^{(n)}(x)dx \equiv -\int \frac{\partial f}{\partial x}\delta^{(n-1)}(x)dx
+\end{align} 
+This implies 
+\begin{align}
+	x^n\delta^{(n)}(x)=(-1)^nn!\delta(x)
+\end{align}
+A few identities and common expressions using the delta function are
+\begin{align}
+	\int_{-\infty}^{\infty}f(x)\delta(ax)dx &= \frac{1}{|a|}f(0) \\
+	\int_{-1}^{1}\delta\bigg(\frac{1}{x}\bigg)dx = 0
+\end{align}
+
+
+
+\input{./Chapters/Mathematics/CoordinateSystems}
+
+\input{./Chapters/Mathematics/VectorOperations}
+
+\input{./Chapters/Mathematics/Triangles}
+
+\newpage
+
+\input{./Chapters/Mathematics/TrigIdentities}
+
+\input{./Chapters/Mathematics/OrthogonalCoords}

@@ -1,0 +1,189 @@
+\chapter{Special Relativity}
+\thispagestyle{fancy}
+\begin{multicols}{2}
+Relativistic time dilation and length contraction (where $\Delta t_0$ and $\Delta \ell_0$ are the proper time and length)
+\begin{align}
+\Delta t &= \frac{\Delta t_o}{\sqrt{1-\beta^2}} = \gamma \Delta t_0 \\
+\Delta l &= \Delta l_0 \sqrt{1 - \beta^2} = \frac{\Delta l_0}{\gamma} \\
+\beta &= \frac{v}{c} \\
+\gamma &= \frac{1}{\sqrt{1-\beta^2}}
+\end{align}
+
+\textbf{Lorentz Transformations}\index{Lorentz Transformations} for space and time coordinates for a frame moving at a constant velocity $v$ in the $\hat{x}$ direction.
+\begin{align}
+\bar{x}&= \gamma(x-vt) \\
+\bar{y}&=y \hspace{0.5cm}\textrm{ and }\hspace{0.5cm} \bar{z} = z \\
+\bar{t}&= \gamma (t-vx/c^2)
+\end{align}
+
+The relativistic velocity transformation is.
+\begin{align}
+\bar{u}_x &= \frac{u_x-v}{1-vu_x/c^2} \Longleftrightarrow
+u_x = \frac{\bar{u}_x+v}{1+v\bar{u}_x/c^2}
+\end{align}
+
+The rest energy of a particle
+\begin{align}
+E_0=mc^2
+\end{align}
+The lorentz transformation for momentum and energy is.
+\begin{align}
+\bar{p}_x &= \gamma(p_x-vE/c^2) \\
+\bar{p}_y &= p_y \hspace{0.5cm}\textrm{ and }\hspace{0.5cm} \bar{p}_z = p_z \\
+\bar{E} &= \gamma(E-vp_x)
+\end{align}
+Relativistic mass and momentum (where $m$ is the rest mass of an object measured in its rest frame).
+\begin{align}
+E &=\gamma mc^2 = c p^0 \\
+p &= \gamma mv
+\end{align}
+Combining the above equations give 
+\begin{align}
+\frac{E}{p} = \frac{c^2}{v} \implies E=\frac{pc^2}{v}
+\end{align}
+Mass-energy equivalence and kinetic energy ($K_E$).
+\begin{align}
+E^2 &=(mc^2)^2 + (pc)^2 \\
+E &= K_E + E_0 \\
+K_E &= (\gamma - 1)mc^2 
+\end{align}
+
+Combining the above equations gives
+\begin{align}
+p=\frac{1}{c}\sqrt{K_E^2 + 2K_EE_0}
+\end{align}
+
+Invariant dot product in c=1 notation
+\begin{align}
+A \cdot B = (E, \vec{p}) \cdot (U, \vec{q}) = EU - \vec{p} \cdot \vec{q}
+\end{align}
+Relativistic frequency and wavelength shifts
+\begin{align}
+f &= f_0 \sqrt{\frac{c \pm v}{c \mp v}} 
+\Longleftrightarrow \pm v=\frac{f^2-f_0^2}{f^2+f_0^2}  \\
+\lambda &= \lambda_0 \sqrt{\frac{c \mp v}{c \pm v}} 
+\Longleftrightarrow \mp v =\frac{\lambda^2-\lambda_0^2}{\lambda^2+\lambda_0^2}
+\end{align}
+Space-time equivalence (same in all reference frames)
+\begin{align}
+S \equiv (c \Delta t)^2 - (\Delta x)^2 \equiv E^2-(pc)^2
+\end{align}
+Assuming a frame moving with a constant velocity to another, we can relate the accelerations observed between two frames by
+\begin{align}
+	\bar{a}_x &= a_x\left(1-\frac{u_x }{c}\beta\right)^{-3}\left(1-\beta^2\right)^{3/2} \\
+	&\implies \bar{a}_x \approx a_x \left(1+3\beta\frac{u_x}{c}-\frac{3}{2}\beta^2\right)
+\end{align}
+\subsection{Einstein Notation}
+The Lorentz components can be defined by $X^0\equiv ct$, $X^1\equiv x$, $X^2\equiv y$, and $X^3\equiv z$, from which the Lorentz transformations follow as
+\begin{align}
+	\bar{X}^0  &= \gamma (X^0-\beta X^1) \\
+	\bar{X}^1  &= \gamma (X^1-\beta X^0) \\
+	\bar{X}^2  &= X^2 \\
+	\bar{X}^3  &= X^3
+\end{align}
+In relativity, it is useful to work with what is known as \textbf{4-vectors}\index{4 vectors}. We can summarize the above transformations with matrix notation by
+\begin{align}
+	\begin{pmatrix}
+		\bar{X}^0 \\\bar{X}^1\\\bar{X}^2\\\bar{X}^3
+	\end{pmatrix} = 
+	\begin{pmatrix}
+		\gamma & -\beta \gamma & 0 & 0 \\
+		-\beta \gamma & \gamma & 0 & 0 \\
+		0 & 0 & 1 & 0 \\
+		0 & 0 & 0 & 1
+	\end{pmatrix}
+	\begin{pmatrix}
+	X^0 \\ X^1 \\ X^2 \\ X^3
+\end{pmatrix}
+\end{align}
+This notation can be compacted as
+\begin{align}
+	\bar{X}^\mu = \sum_{\nu=0}^{3}\Lambda_\nu^\mu X^\nu \equiv \Lambda_\nu^\mu X^\nu
+\end{align}
+The displacement is a contra-variant 4-vector
+\begin{align}
+	(\Delta\bar{X})^\mu = \Lambda_\nu^\mu (\Delta X)^\nu
+\end{align} 
+The dot product between 4-vectors are defined by
+\begin{align}
+	a_\mu b^\mu \equiv -a^0b^0+a^1b^1+a^2b^2+a^3b^3
+\end{align}
+With respect to the Lorentz transformations, the following products are invariant
+\begin{align}
+	X_\mu X^\mu &\equiv \bar{X}_\mu\bar{X}^\mu 
+\end{align}
+Similarly, the \textbf{space-time interval}\index{Space-time interval} is invariant and defined as follows. The spacial and time separation of an event is $d$ and $\Delta t$ respectively. 
+\begin{align}
+	I &\equiv (\Delta X)_\mu (\Delta X)^\mu \equiv (\Delta \bar{X})_\mu(\Delta \bar{X})^\mu \\
+	&= -(c\Delta t)^2+(\Delta x)^2+(\Delta y)^2+(\Delta z)^2 \\
+	& = d^2-c \Delta t^2
+\end{align}
+A 4-velocity can be transformed as follows which is similarly invariant in all frames (the proper time is $\tau$). 
+\begin{align}
+	\bar{u}^\mu=\frac{(\Delta \bar{X})^\mu}{\Delta \tau} = \Lambda_\nu^\mu(\Delta x)^\mu
+\end{align}
+We define $\eta^\mu$ as the 4-velocity
+\begin{align}
+	\eta^\mu = \frac{dX^\mu}{d\tau}
+\end{align} 
+From which it follows that the 4-momentum (where $m$ is the rest mass of an object measured in its rest frame) is
+\begin{align}
+	p^\mu &= m\eta^\mu = m\frac{dX^\mu}{d\tau} \\
+	\bar{p}^\mu &= \Lambda_\nu^\mu p^\nu
+\end{align}
+Given a velocity in any direction $\vec{v}$ while treating $\vec{\beta} = \beta_x \hat{x}+\beta_y \hat{y}+\beta_z \hat{z}$, the transformation matrix element becomes
+\begin{align}
+	\Lambda_\nu^\mu = 
+	\begin{pmatrix}
+		\gamma & -\gamma \beta_x & -\gamma \beta_y & -\gamma \beta_z \\
+		-\gamma \beta_x & \frac{\beta^2+(\gamma-1)\beta_x^2}{\beta^2} & \frac{(\gamma-1)\beta_x\beta_y}{\beta^2} & \frac{(\gamma-1)\beta_x\beta_z}{\beta^2}\\
+		-\gamma \beta_y & \frac{(\gamma-1)\beta_x\beta_y}{\beta^2} &  \frac{\beta^2+(\gamma-1)\beta_y^2}{\beta^2} & \frac{(\gamma-1)\beta_y\beta_z}{\beta^2}  \\
+		-\gamma \beta_z & \frac{(\gamma-1)\beta_x\beta_z}{\beta^2} & \frac{(\gamma-1)\beta_y\beta_z}{\beta^2} &  \frac{\beta^2+(\gamma-1)\beta_z^2}{\beta^2}  \\
+	\end{pmatrix}
+\end{align}
+It is often useful to refer to the \textbf{rapidity}\index{Rapidity} of a particle defined as $\phi = \cosh^{-1}\gamma$. From this,
+\begin{align}
+\beta &= \tanh \phi \\
+\beta \gamma &= \sinh \phi
+\end{align} 
+\subsection{Electromagnetic Fields}
+The \textbf{Minkowski Force}\index{Minkowski Force} $K^\mu$ is defined and related to the non-relativistic force by
+\begin{align}
+	K^\mu &\equiv \frac{dp^\mu}{d\tau} \\
+	\vec{K} &= \frac{d\vec{p}}{d\tau} =\frac{d\vec{p}}{dt}\frac{dt}{d\tau} =  \gamma \vec{F}
+\end{align}
+The electric field Lorentz transformations are
+\begin{align}
+	\bar{E}_x &= E_x \\
+	\bar{E}_y &= \gamma (E_y - vB_z) \\
+	\bar{E}_z &= \gamma (E_z+vB_y)
+\end{align}
+The magnetic field Lorentz transformations are
+	\begin{align}
+	\bar{B}_x &= B_x \\
+	\bar{B}_y &= \gamma (B_y + vE_z/c^2) \\
+	\bar{B}_z &= \gamma (B_z-vE_y/c^2)
+	\end{align}
+The \textbf{field tensor}\index{Field tensor} $F^{\mu\nu}$ can be written
+\begin{align}
+F^{\mu\nu} = \left(
+\begin{array}{cccc}
+0 & E_x/c & E_y/c & E_z/c\\
+-E_x/c & 0 & B_z & -B_y\\
+-E_y/c & -B_z & 0 & B_x\\
+-E_z/c & B_y & -B_x & 0\\
+\end{array}
+\right) 
+\end{align}
+The \textbf{dual tensor}\index{Dual tensor} $G^{\mu\nu}$ can be written
+\begin{align}
+G^{\mu\nu}=\left(
+\begin{array}{cccc}
+0 & B_x & B_y & B_z\\
+-B_x & 0 & -E_z/c & E_y/c\\
+-B_y & E_z/c & 0 & -E_x/c\\
+-B_z & -E_y/c & E_x/c & 0\\
+\end{array}
+\right)
+\end{align}
+\end{multicols}

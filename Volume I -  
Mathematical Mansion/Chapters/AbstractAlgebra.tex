@@ -1,0 +1,170 @@
+\chapter{Abstract Algebra and Number Theory}
+\thispagestyle{fancy}
+\begin{defn}[Ring]{Ring}
+	A \textbf{ring}\index{Ring} is a triple $(R,\oplus, \odot)$ such that
+	\begin{enumerate}[(i)]
+		\item $R$ is a set.
+		\item $\oplus$ is a function (called ring addition) and $R\times R$ is a subset of the domain of $\oplus$. For $(a, b) \in
+		R \times R$, $a \oplus b$ denotes the image of $(a, b)$ under $\oplus$.
+		\item $\odot$ is a function (called ring multiplication) and $R \times R$ is a subset of the domain of $\odot$. For
+		$(a, b) \in R \times R$, $a \odot b$ (and also $ab$) denotes the image of $(a, b)$ under $\odot$.
+	\end{enumerate} 
+	and such that the following eight statements (axioms) hold:
+	\begin{enumerate}[(1)]
+		\item $[$Closure of addition$]$: $a + b \in R$ for all $a, b \in R$.
+		\item $[$Associative addition] $]$: $a+(b+c)=(a+b)+c$ for all $a,b,c \in R$. 
+		\item $[$Commutative addition $]$: $a+b = b+a$ for all $a,b \in R$.
+		\item $[$Additive identity $]$: There exists an element in 
+		$R$, denoted by $0_R$ and called 'zero $R$',
+		such that $a = a + 0_R = a$ and $a = 0_R + a$ for all $a \in R$.
+		\item $[$Additive inverses $]$: For each $a \in R$ there exists an element in $R$, denoted by $-a$ and called 'negative $a$', such that $a+(-a)=0_R$.
+		\item $[$Closure for multiplication $]$: $ab \in R$ for all $a,b \in R$.
+		\item $[$Associative multiplication $]$: $a(bc)=(ab)c$ for all $a,b,c \in R$.
+		\item $[$Distributive laws $]$: $a(b+c)=ab+ac$ and $(a+b)c = ac+bc$ for all $a,b,c \in R$.
+	\end{enumerate}
+\end{defn}
+\begin{defn}[Commutative Ring]{CommutativeRing}
+	Let $R$ be a ring. Then $R$ is called commutative if
+	\begin{enumerate}[(9)]
+		\item $[$Commutative multiplication$]$: $ab=ba$ for all $a,b \in R$.
+	\end{enumerate}
+\end{defn}
+\begin{defn}[Ring With Identity]{RingWithIdentity}
+	Let $R$ be a ring. We say that $R$ is a ring with identity if there exists an element,
+	denoted by $1_R$ and called 'one $R$', such that
+	\begin{enumerate}[(10)]
+		\item $[$Multiplicative identity$]$: $a=1_R\cdot a$ and $a=a\cdot 1_R$ for all $a \in R$.
+	\end{enumerate}
+\end{defn}
+\begin{defn}[Subring]{subring}
+	Let $(R, \oplus, \odot)$ be a ring and $S$ a subset of $R$. Then $(S, \oplus, \odot)$ is called a subring of	$(R, \oplus, \odot)$ provided that $(S, \oplus, \odot)$ is a ring.
+\end{defn}
+\begin{theo}[Subring Theorem\index{Subring Theorem}]{SubringTheorem}
+	Suppose that $R$ is a ring and $S \subseteq R$. Then $S$ is a subring of $R$ if and only if the following four conditions hold:
+	\begin{enumerate}[(i)]
+		\item $0_R \in S$.
+		\item $S$ is closed under addition (that is: if $a, b \in S$, then $a + b \in S$).
+		\item $S$ is closed under multiplication (that is: if $a, b \in S$, then $ab \in S$).
+		\item $S$ is closed under negatives (that is: if $a \in S$, then $-a \in S$).
+	\end{enumerate}
+\end{theo}
+\begin{defn}[Integral Domain\index{Integral Domain}]{1}
+	An ring $R$ is called an integral domain provided that $R$ is commutative, $R$ has identity, $1_R \neq 0_R$ and for any $a,b \in R$, $ab=0_R \implies a=0_R$ or $b=0_R$.
+\end{defn}
+\begin{defn}[Injective\index{Injective} \& Surjective\index{Surjective}]{Injective and Surjective}
+	Let $f:R\rightarrow S$ be a function.
+	\begin{enumerate}[(a)]
+		\item $f$ is said to be injective provided: $f(a)=f(b)\implies a=b$ for all $a,b \in R$.
+		\item $f$ is said to be surjective provided: for every $y \in S$ there exists $x \in R$ such that $f(x)=y$.
+		\item $f$ is bijective if it is both injective and surjective.
+	\end{enumerate}
+\end{defn}
+\begin{defn}[Equivalence Relation]{equivalence relation}
+	Let $\sim$ be a relation on a set $A$ (that is a relation from $A$ to $A$). Then
+	\begin{enumerate}[(a)]
+		\item $\sim$ is called reflexive if $a \sim a$ for all $a \in A$.
+		\item $\sim$ is called symmetric if $[a \sim b \implies b \sim a]$ for all $a,b \in A$.
+		\item $\sim$ is called transitive if $[a \sim b$ and $b \sim c \implies a \sim c]$ for all $a,b,c \in A$. 
+		\item $\sim$ is called an equivalence relation if $\sim$ is reflexive, symmetric and transitive.
+	\end{enumerate}
+\end{defn}
+\begin{defn}[Unit]{unit}
+	Let $R$ be a ring with identity.
+	\begin{enumerate}[(a)]
+		\item Let $u \in R$. Then $u$ is called a unit in $R$ if there exists an element in $R$, denoted by $u^{-1}$ and called `$u$-inverse', with	$uu^{-1}=1_R=u^{-1}u$.
+		\item Let $u, v \in R$. Then $v$ is called an (multiplicative) inverse of $u$ if $uv = 1_R = vu$.
+		\item Let $e \in R$. Then $e$ is called an (multiplicative) identity of $R$, if $ea = a = ae$ for all $a \in R$.
+	\end{enumerate}
+\end{defn}
+\begin{defn}[Common divisor]{common divisor}
+	\begin{enumerate}[(a)]
+		\item Let $R$ be a ring and $a, b, c \in R$. We say that $c$ is a common divisor of a
+		and $b$ in $R$ provided that $c|a$ and $c|b$.
+		\item Let $a, b$ and $d$ be integers. We say that $d$ is a greatest common divisor of $a$ and $b$ in $\mathbb{Z}$, and
+		we write $d=\gcd(a,b)$ provided that
+		\begin{enumerate}[(i)]
+		\item $d$ is a common divisor of a and $b$ in $\mathbb{Z}$.
+		\item If $c$ is a common divisor of $a$ and $b$ in $\mathbb{Z}$ then $c \leq d$. 
+		\end{enumerate}
+	\end{enumerate}
+\end{defn}
+\begin{defn}[Isomorphism\index{Isomorphism} and Homomorphism\index{Homomorphism}]{1}
+	Let $(R,+,\cdot)$ and $(S,\oplus,\odot)$ be rings and let $f:R\rightarrow S$ be a function.
+	\begin{enumerate}[(a)]
+		\item $f$ is called a homomorphism from $(R, +, \cdot)$ to $(S, \oplus,\odot)$ if
+		\begin{enumerate}[(i)]
+			\item $[f$ respects addition$]$: $f(a+b)=f(a)\oplus f(b)$, and
+			\item  $[f$ respects multiplication$]$: $f(a\cdot b)=f(a)\odot f(b)$
+		\end{enumerate}
+		for all $a,b \in R$.
+		\item $f$ is called an isomorphism from $(R, +, \cdot)$ to $(S, \oplus, \odot)$, if $f$ is a homomorphism from $(R, +, \cdot)$
+		to $(S, \oplus, \odot)$ and $f$ is bijective.
+		\item $(R, +, \cdot)$ is called isomorphic to $(S, \oplus, \odot)$, if there exists an isomorphism from $(R, +, \cdot)$ to	$(S, \oplus, \odot)$.
+	\end{enumerate}
+\end{defn}
+\begin{defn}[Ideal]{Ideals}
+	Let $I$ be a subset of the ring $R$
+	\begin{enumerate}[(a)]
+		\item We say that $I$ absorbs $R$ if $ra \in I$ and $ar \in I$ for all $a \in I$, $r\in R$.
+		\item We say that $I$ is an ideal of $R$ (denoted $I \lhd R$) if $I$ is a subring of $R$ and $I$ absorbs $R$. 
+	\end{enumerate}
+\end{defn}
+\begin{theo}[Ideal Theorem\index{Ideal Theorem}]{Ideal theorem}
+	Let $I$ be a subset of the ring $R$. Then $I$ is an ideal in $R$ ($I \lhd R$) if and only if the following four conditions hold:
+	\begin{enumerate}[(i)]
+		\item $0_R \in I$.
+		\item $a+b\in I$ for all $a,b \in I$.
+		\item $ra \in I$ and $ar \in I$ for all $a \in I$ and $r \in R$.
+		\item $-a\in I$ for all $a \in I$.
+	\end{enumerate}
+\end{theo}
+\begin{defn}[Principle Ideal]{principle ideal}
+	Let $R$ be a ring.
+	\begin{enumerate}[(a)]
+		\item Let $a \in R$. Then $aR = \{ar: a \in R \}$.
+		\item Suppose $R$ is commutative and $I \subseteq R$. Then $I$ is called a principal ideal in $R$ if $I = aR$ for
+		some $a \in R$. This can be denoted $(a)$.
+	\end{enumerate}
+\end{defn}
+\begin{defn}[Ideal modulus]{modIdeal}
+	Let $I$ be an ideal in the ring $R$. The relation `$\equiv ($mod $I)$' on $R$ is defined by $a \equiv b$ (mod $I$) if $a-b \in I$.
+\end{defn}
+\begin{defn}[Cosets\index{Cosets}]{1}
+	\begin{enumerate}[(a)]
+		\item Let $a \in I$. Then $a+I$ (the coset of $I$ in $R$ containing a) denotes the equivalence class of `$\equiv $mod $I$' containing $a$. so
+		\begin{align}
+		a+I = \{b \in R| a \equiv b \mod I\} = \{b \in R| a-b \in I\}.
+		\end{align}
+		\item $R/I$ is the set of cosets if $I$ in $R/I$ and the set of equivalence classes of `$\equiv$ mod $I$'. So
+		\begin{align}
+		R/I=\{a+I|a \in R\}.
+		\end{align} 
+	\end{enumerate}
+\end{defn}
+\begin{defn}[Ideal operations]{}
+	Let $I$ be an ideal in the ring $R$. Then we define an addition $+$ and multiplication $\cdot$ on R by
+	\begin{align*}
+	(a+I)+(b+I)=(a+b)+I \hspace{.5cm} \textrm{and}\hspace{0.5cm} (a+I)\cdot(b+I)=ab+I
+	\end{align*}
+	for all $a,b \in R$.
+\end{defn}
+\begin{defn}[Kernal\index{Kernal}]{1}
+	Let $f: R\rightarrow S$ be a homomorphism of rings. Then $\ker f$ (the kernel of $f$) is
+	\begin{align*}
+	\ker f = \{a \in R | f(a)=0_R \}.
+	\end{align*}
+\end{defn}
+\begin{defn}[natural homomorphism]{1}
+	Let $I$ be an ideal in the ring R. The function 
+	\begin{align*}
+	\pi: R \rightarrow R/I, r\rightarrow r+I
+	\end{align*} 
+	is called the natural homomorphism from $R$ to $R/I$.
+\end{defn}
+\begin{theo}[First Isomorphism Theorem\index{First Isomorphism Theorem}]{1}
+	Let $f: R \rightarrow S$ be a ring homomorphism. Recall that $\Im f=\{f(a) |a \in R \}$. The function
+	\begin{align}
+	\bar{f}: R/\ker f \rightarrow \Im f, \hspace{.3 cm} (a+\ker f)\longmapsto f(a)
+	\end{align}
+	is a well-defined ring isomorphism. In particular $R/\ker f$ and $\Im f$ are isomorphic rings.
+\end{theo}
