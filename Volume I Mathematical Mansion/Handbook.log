@@ -1,12 +1,9 @@
-<<<<<<< HEAD:Volume I -  
-Mathematical Mansion/Handbook.log
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  22 JUN 2017 11:14
-=======
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.14)  25 MAY 2017 11:23
->>>>>>> 3b2eac66c90fb4395f3a156a8dc0c6bbe9ec1527:Handbook.log
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.14)  22 JUN 2017 11:49
 entering extended mode
 **Handbook.tex
-(C:\Users\torodean\Desktop\Antonius-Handbook\Handbook.tex
+
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Han
+dbook.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -36,7 +33,8 @@ File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(C:\Users\torodean\Desktop\Antonius-Handbook\Resources\Packages.tex
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Res
+ources\Packages.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \fancy@headwidth=\skip43
@@ -1065,8 +1063,10 @@ LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen295
 ))
-(C:\Users\torodean\Desktop\Antonius-Handbook\Resources\Settings.tex)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Resources\Definitions.tex
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Res
+ources\Settings.tex")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Res
+ources\Definitions.tex"
 \c@theo=\count186
 \c@lemm=\count187
 \c@prf=\count188
@@ -1097,10 +1097,14 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip155
 \JustifyingParindent=\skip156
 )
-(C:\Users\torodean\Desktop\Antonius-Handbook\Handbook.aux
-(C:\Users\torodean\Desktop\Antonius-Handbook\Resources\Copywrite.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Resources\Preface.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Constants.aux
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Han
+dbook.aux"
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Res
+ources\Copywrite.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Res
+ources\Preface.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Constants.aux"
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -1113,8 +1117,11 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
-) (C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Mathematics.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\ComplexAnalysis.aux
+)
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Mathematics.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\ComplexAnalysis.aux"
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -1127,8 +1134,11 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `singularPoints' multiply defined.
 
-) (C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\MatrixAlgebra.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\AbstractAlgebra.aux
+)
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\MatrixAlgebra.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\AbstractAlgebra.aux"
 
 LaTeX Warning: Label `1' multiply defined.
 
@@ -1150,7 +1160,9 @@ LaTeX Warning: Label `1' multiply defined.
 
 LaTeX Warning: Label `1' multiply defined.
 
-) (C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\DiffEQ.aux
+)
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\DiffEQ.aux"
 
 LaTeX Warning: Label `1' multiply defined.
 
@@ -1178,26 +1190,43 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `1' multiply defined.
 
-) (C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Integrals.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\FourierSeries.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Astronomy.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Mechanics.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Electrostatics.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Electronics.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\SpecialRelativity.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Statistics.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Thermodynamics.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\ThermalStatistical.aux
+)
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Integrals.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\FourierSeries.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Astronomy.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Mechanics.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Electrostatics.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Electronics.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\SpecialRelativity.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Statistics.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Thermodynamics.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\ThermalStatistical.aux"
 
 LaTeX Warning: Label `' multiply defined.
 
-) (C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Quantum.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\QM.aux
+)
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Quantum.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\QM.aux"
 
 LaTeX Warning: Label `' multiply defined.
 
-) (C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Nuclear.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Advanced.aux))
+)
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Nuclear.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Advanced.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
@@ -1280,11 +1309,12 @@ LaTeX Info: Redefining \ref on input line 23.
 LaTeX Info: Redefining \pageref on input line 23.
 LaTeX Info: Redefining \nameref on input line 23.
 
-(C:\Users\torodean\Desktop\Antonius-Handbook\Handbook.out)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Handbook.out)
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Han
+dbook.out")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Han
+dbook.out")
 \@outlinefile=\write5
-
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
 Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
 
@@ -1333,12 +1363,13 @@ ne 32.
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/torodean/Desktop
-/Antonius-Handbook/Images/Covers/AH2.png> <C:/Users/torodean/Desktop/Antonius-H
-andbook/Images/Covers/background_tunnel.png>]
-(C:\Users\torodean\Desktop\Antonius-Handbook\Resources\Copywrite.tex
+/Antonius-Handbook/Volume I Mathematical Mansion/Images/Covers/AH2.png> <C:/Use
+rs/torodean/Desktop/Antonius-Handbook/Volume I Mathematical Mansion/Images/Cove
+rs/background_tunnel.png>]
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Res
+ources\Copywrite.tex"
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
@@ -1346,78 +1377,88 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
- [2
+
+[2
 
 ])
-(C:\Users\torodean\Desktop\Antonius-Handbook\Resources\Preface.tex
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Res
+ources\Preface.tex"
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
 ) [3
 
 
 
-]
-[4
+] [4
 
-] (C:\Users\torodean\Desktop\Antonius-Handbook\Handbook.toc [5
+]
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Han
+dbook.toc" [5
 
 ])
 \tf@toc=\write6
  [6]
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Constants.tex
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Constants.tex"
 Chapter 1.
 Package mdframed Info: mdframed works in twoside mode on input line 3.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 3.
+
+Overfull \hbox (272.47853pt too wide) in paragraph at lines 5--38
+ [] 
+ []
+
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 34.
-Package mdframed Info: mdframed works in twoside mode on input line 36.
+(mdframed)              on input line 39.
+Package mdframed Info: mdframed works in twoside mode on input line 41.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 36.
+(mdframed)              on input line 41.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 50.
+(mdframed)              on input line 55.
 [1
 
 
 
 ]
-Package mdframed Info: mdframed works in twoside mode on input line 55.
+Package mdframed Info: mdframed works in twoside mode on input line 60.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 55.
+(mdframed)              on input line 60.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 83.
-Package mdframed Info: Not enough space on this page on input line 83.
-Package mdframed Info: mdframed works in twoside mode on input line 85.
+(mdframed)              on input line 88.
+Package mdframed Info: Not enough space on this page on input line 88.
+Package mdframed Info: mdframed works in twoside mode on input line 90.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 85.
+(mdframed)              on input line 90.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 100.
+(mdframed)              on input line 105.
  [2]
-Package mdframed Info: mdframed works in twoside mode on input line 103.
+Package mdframed Info: mdframed works in twoside mode on input line 108.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 103.
+(mdframed)              on input line 108.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 125.
-Package mdframed Info: Not enough space on this page on input line 125.
-Package mdframed Info: mdframed works in twoside mode on input line 128.
+(mdframed)              on input line 130.
+Package mdframed Info: Not enough space on this page on input line 130.
+Package mdframed Info: mdframed works in twoside mode on input line 133.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 128.
+(mdframed)              on input line 133.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 141.
+(mdframed)              on input line 146.
 ) [3]
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Mathematics.tex
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Mathematics.tex"
 Chapter 2.
 
 Package amsmath Warning: Foreign command \atopwithdelims;
@@ -1429,10 +1470,10 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 
 
 ] [5] [6]
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Mathematics\CoordinateSys
-tems.tex)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Mathematics\VectorOperati
-ons.tex
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Mathematics\CoordinateSystems.tex")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Mathematics\VectorOperations.tex"
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 14.
@@ -1442,13 +1483,14 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 14.
 
 [7])
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Mathematics\Triangles.tex
-) [8]
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Mathematics\TrigIdentitie
-s.tex [9])
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Mathematics\OrthogonalCoo
-rds.tex [10])) [11]
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\ComplexAnalysis.tex
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Mathematics\Triangles.tex") [8]
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Mathematics\TrigIdentities.tex" [9])
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Mathematics\OrthogonalCoords.tex" [10])) [11]
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\ComplexAnalysis.tex"
 Chapter 3.
 LaTeX Font Info:    Try loading font information for U+euf on input line 18.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\ueuf.fd"
@@ -1525,14 +1567,16 @@ Package mdframed Info: mdframed detected package amsthm
  changed the theorem header of amsthm
 (mdframed)              on input line 145.
 ) [14]
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\MatrixAlgebra.tex
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\MatrixAlgebra.tex"
 Chapter 4.
 [15
 
 
 
 ]) [16]
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\AbstractAlgebra.tex
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\AbstractAlgebra.tex"
 Chapter 5.
 Package mdframed Info: mdframed works in twoside mode on input line 3.
 Package mdframed Info: mdframed detected package amsthm 
@@ -1689,7 +1733,8 @@ Package mdframed Info: mdframed detected package amsthm
  changed the theorem header of amsthm
 (mdframed)              on input line 170.
 ) [21]
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\DiffEQ.tex
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\DiffEQ.tex"
 Chapter 6.
 Package mdframed Info: mdframed works in twoside mode on input line 3.
 Package mdframed Info: mdframed detected package amsthm 
@@ -1780,7 +1825,8 @@ File: Resources/DiffEQTable.pdf Graphic file (type pdf)
 Package pdftex.def Info: Resources/DiffEQTable.pdf, page1 used on input line 66
 .
 (pdftex.def)             Requested size: 368.86656pt x 512.25043pt.
- [24 <C:/Users/torodean/Desktop/Antonius-Handbook/Resources/DiffEQTable.pdf>]
+ [24 <C:/Users/torodean/Desktop/Antonius-Handbook/Volume I Mathematical Mansion
+/Resources/DiffEQTable.pdf>]
 Package mdframed Info: mdframed works in twoside mode on input line 68.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -1789,7 +1835,8 @@ Package mdframed Info: mdframed detected package amsthm
  changed the theorem header of amsthm
 (mdframed)              on input line 73.
 Package mdframed Info: Not enough space on this page on input line 73.
- [25] [26] [27]
+ [25]
+[26] [27]
 Package mdframed Info: mdframed works in twoside mode on input line 229.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -1817,7 +1864,9 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 323.
-) [30] (C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Integrals.tex
+) [30]
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Integrals.tex"
 Chapter 7.
 <Resources/IntegralTable.pdf, id=957, 514.56241pt x 660.54782pt>
 File: Resources/IntegralTable.pdf Graphic file (type pdf)
@@ -1872,15 +1921,19 @@ File: Resources/IntegralTable.pdf Graphic file (type pdf)
 Package pdftex.def Info: Resources/IntegralTable.pdf, page1 used on input line 
 48.
 (pdftex.def)             Requested size: 411.65048pt x 528.43896pt.
- [32 <C:/Users/torodean/Desktop/Antonius-Handbook/Resources/IntegralTable.pdf>]
- [33]) [34]
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\FourierSeries.tex
+ [32 <C:/Users/torodean/Desktop/Antonius-Handbook/Volume I Mathematical Mansion
+/Resources/IntegralTable.pdf>]
+[33]) [34]
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\FourierSeries.tex"
 Chapter 8.
 ) [35
 
 
 
-] (C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Astronomy.tex
+]
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Astronomy.tex"
 Chapter 9.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -1904,23 +1957,26 @@ File: ./Images/Diagrams/meanfreepath.png Graphic file (type png)
 Package pdftex.def Info: ./Images/Diagrams/meanfreepath.png used on input line 
 189.
 (pdftex.def)             Requested size: 199.55719pt x 224.56776pt.
- [38 <C:/Users/torodean/Desktop/Antonius-Handbook/Images/Diagrams/meanfreepath.
-png (PNG copy)>]) [39]
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Mechanics.tex
+ [38 <C:/Users/torodean/Desktop/Antonius-Handbook/Volume I Mathematical Mansion
+/Images/Diagrams/meanfreepath.png (PNG copy)>]) [39]
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Mechanics.tex"
 Chapter 10.
 [40
 
 
 
 ] [41])
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Electrostatics.tex
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Electrostatics.tex"
 Chapter 11.
 [42
 
 
 
 ] [43] [44]) [45]
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Electronics.tex
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Electronics.tex"
 Chapter 12.
 
 Overfull \hbox (2.61809pt too wide) in paragraph at lines 28--29
@@ -1947,7 +2003,8 @@ Overfull \hbox (1.30219pt too wide) in paragraph at lines 66--67
 
 
 ] [47]) [48]
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\SpecialRelativity.tex
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\SpecialRelativity.tex"
 Chapter 13.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
@@ -1962,20 +2019,25 @@ Overfull \hbox (4.00192pt too wide) in paragraph at lines 143--143
 [] 
  []
 
-[50]) (C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Statistics.tex
+[50])
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Statistics.tex"
 Chapter 14.
 ) [51
 
 
 
-] (C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Thermodynamics.tex
+]
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Thermodynamics.tex"
 Chapter 15.
 [52
 
 
 
 ]) [53]
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\ThermalStatistical.tex
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\ThermalStatistical.tex"
 Chapter 16.
 [54
 
@@ -2024,7 +2086,9 @@ Overfull \hbox (0.19545pt too wide) in paragraph at lines 336--349
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 350.
-) [58] (C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Quantum.tex
+) [58]
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Quantum.tex"
 Chapter 17.
 [59
 
@@ -2047,10 +2111,12 @@ File: ./Images/Diagrams/crystalscattering.png Graphic file (type png)
 Package pdftex.def Info: ./Images/Diagrams/crystalscattering.png used on input 
 line 123.
 (pdftex.def)             Requested size: 190.21016pt x 140.52466pt.
- [60 <C:/Users/torodean/Desktop/Antonius-Handbook/Images/Diagrams/1280px-BraggP
-laneDiffraction.png> <C:/Users/torodean/Desktop/Antonius-Handbook/Images/Diagra
-ms/crystalscattering.png>])
-[61] (C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\QM.tex
+ [60 <C:/Users/torodean/Desktop/Antonius-Handbook/Volume I Mathematical Mansion
+/Images/Diagrams/1280px-BraggPlaneDiffraction.png> <C:/Users/torodean/Desktop/A
+ntonius-Handbook/Volume I Mathematical Mansion/Images/Diagrams/crystalscatterin
+g.png>]) [61]
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\QM.tex"
 Chapter 18.
 [62
 
@@ -2065,14 +2131,16 @@ Package mdframed Info: mdframed detected package amsthm
  changed the theorem header of amsthm
 (mdframed)              on input line 274.
  [67]) [68]
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Nuclear.tex
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Nuclear.tex"
 Chapter 19.
 [69
 
 
 
 ] [70]) [71]
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Advanced.tex
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Advanced.tex"
 Chapter 20.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -2121,7 +2189,8 @@ Package pdftex.def Info: Resources/CGtable.pdf, page1 used on input line 124.
  [73
 
 
- <C:/Users/torodean/Desktop/Antonius-Handbook/Resources/CGtable.pdf>]
+ <C:/Users/torodean/Desktop/Antonius-Handbook/Volume I Mathematical Mansion/Res
+ources/CGtable.pdf>]
 <Resources/IsotopicMassNaturalAbundance.pdf, id=1820, 614.295pt x 794.97pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
@@ -2167,11 +2236,10 @@ File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page1 used
  on input line 128.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [74 <C:/Users/torodean/Desktop/Antonius-Handbook/Resources/IsotopicMassNatural
-Abundance.pdf>]
+ [74 <C:/Users/torodean/Desktop/Antonius-Handbook/Volume I Mathematical Mansion
+/Resources/IsotopicMassNaturalAbundance.pdf>]
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-
-<use Resources/IsotopicMassNaturalAbundance.pdf>
+ <use Resources/IsotopicMassNaturalAbundance.pdf>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 129.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
@@ -2213,11 +2281,10 @@ File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page2 used
  on input line 129.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [75 <C:/Users/torodean/Desktop/Antonius-Handbook/Resources/IsotopicMassNatural
-Abundance.pdf>]
+ [75 <C:/Users/torodean/Desktop/Antonius-Handbook/Volume I Mathematical Mansion
+/Resources/IsotopicMassNaturalAbundance.pdf>]
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-
-<use Resources/IsotopicMassNaturalAbundance.pdf>
+ <use Resources/IsotopicMassNaturalAbundance.pdf>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 130.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
@@ -2259,11 +2326,10 @@ File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page3 used
  on input line 130.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [76 <C:/Users/torodean/Desktop/Antonius-Handbook/Resources/IsotopicMassNatural
-Abundance.pdf>]
+ [76 <C:/Users/torodean/Desktop/Antonius-Handbook/Volume I Mathematical Mansion
+/Resources/IsotopicMassNaturalAbundance.pdf>]
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-
-<use Resources/IsotopicMassNaturalAbundance.pdf>
+ <use Resources/IsotopicMassNaturalAbundance.pdf>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 131.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
@@ -2305,11 +2371,10 @@ File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page4 used
  on input line 131.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [77 <C:/Users/torodean/Desktop/Antonius-Handbook/Resources/IsotopicMassNatural
-Abundance.pdf>]
+ [77 <C:/Users/torodean/Desktop/Antonius-Handbook/Volume I Mathematical Mansion
+/Resources/IsotopicMassNaturalAbundance.pdf>]
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-
-<use Resources/IsotopicMassNaturalAbundance.pdf>
+ <use Resources/IsotopicMassNaturalAbundance.pdf>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 132.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
@@ -2351,8 +2416,8 @@ File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page5 used
  on input line 132.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [78 <C:/Users/torodean/Desktop/Antonius-Handbook/Resources/IsotopicMassNatural
-Abundance.pdf>]
+ [78 <C:/Users/torodean/Desktop/Antonius-Handbook/Volume I Mathematical Mansion
+/Resources/IsotopicMassNaturalAbundance.pdf>]
 <Resources/PeriodicTableMuted2.pdf, id=1867, 1927.2pt x 1084.05pt>
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 
@@ -2398,15 +2463,18 @@ File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 Package pdftex.def Info: Resources/PeriodicTableMuted2.pdf, page1 used on input
  line 136.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
- [79 <C:/Users/torodean/Desktop/Antonius-Handbook/Resources/PeriodicTableMuted2
-.pdf>]
-(C:\Users\torodean\Desktop\Antonius-Handbook\Resources\References.tex
+ [79 <C:/Users/torodean/Desktop/Antonius-Handbook/Volume I Mathematical Mansion
+/Resources/PeriodicTableMuted2.pdf>]
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Res
+ources\References.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 35--36
 []\OT1/cmr/m/n/9 ``Table of Iso-topic Masses and Nat-u-ral Abun-dances." (n.d.)
 : n. pag. NC State Uni-ver-sity. Web.
  []
 
-) (C:\Users\torodean\Desktop\Antonius-Handbook\Handbook.ind [80
+)
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Han
+dbook.ind" [80
 
 
 ]
@@ -2419,48 +2487,54 @@ Missing character: There is no ™ in font cmr9!
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
 
-<<<<<<< HEAD:Volume I -  
-Mathematical Mansion/Handbook.log
-(./Handbook.aux (./Resources/Copywrite.aux) (./Resources/Preface.aux)
-(./Chapters/Constants.aux) (./Chapters/Mathematics.aux)
-(./Chapters/ComplexAnalysis.aux) (./Chapters/MatrixAlgebra.aux)
-(./Chapters/AbstractAlgebra.aux) (./Chapters/DiffEQ.aux)
-(./Chapters/Integrals.aux) (./Chapters/FourierSeries.aux)
-(./Chapters/Astronomy.aux) (./Chapters/Mechanics.aux)
-(./Chapters/Electrostatics.aux) (./Chapters/Electronics.aux)
-(./Chapters/SpecialRelativity.aux) (./Chapters/Statistics.aux)
-(./Chapters/Thermodynamics.aux) (./Chapters/ThermalStatistical.aux)
-(./Chapters/Quantum.aux) (./Chapters/QM.aux) (./Chapters/Nuclear.aux)
-(./Chapters/Advanced.aux))
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Han
+dbook.aux"
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Res
+ources\Copywrite.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Res
+ources\Preface.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Constants.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Mathematics.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\ComplexAnalysis.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\MatrixAlgebra.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\AbstractAlgebra.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\DiffEQ.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Integrals.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\FourierSeries.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Astronomy.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Mechanics.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Electrostatics.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Electronics.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\SpecialRelativity.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Statistics.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Thermodynamics.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\ThermalStatistical.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Quantum.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\QM.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Nuclear.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume I Mathematical Mansion\Cha
+pters\Advanced.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
-=======
-(C:\Users\torodean\Desktop\Antonius-Handbook\Handbook.aux
-(C:\Users\torodean\Desktop\Antonius-Handbook\Resources\Copywrite.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Resources\Preface.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Constants.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Mathematics.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\ComplexAnalysis.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\MatrixAlgebra.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\AbstractAlgebra.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\DiffEQ.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Integrals.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\FourierSeries.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Astronomy.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Mechanics.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Electrostatics.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Electronics.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\SpecialRelativity.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Statistics.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Thermodynamics.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\ThermalStatistical.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Quantum.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\QM.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Nuclear.aux)
-(C:\Users\torodean\Desktop\Antonius-Handbook\Chapters\Advanced.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
->>>>>>> 3b2eac66c90fb4395f3a156a8dc0c6bbe9ec1527:Handbook.log
 Package rerunfilecheck Info: File `Handbook.out' has not changed.
 (rerunfilecheck)             Checksum: F7153F7A2DDE541EAD7D8A489DE56D9E;11959.
 
@@ -2469,45 +2543,9 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD:Volume I -  
-Mathematical Mansion/Handbook.log
- 40010 strings out of 494953
- 799393 string characters out of 6180977
- 977627 words of memory out of 5000000
- 41365 multiletter control sequences out of 15000+600000
- 25444 words of font info for 97 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 57i,20n,54p,10456b,869s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/s
-ymbols/msbm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
-Output written on Handbook.pdf (87 pages, 4510980 bytes).
-=======
  41124 strings out of 493921
- 838444 string characters out of 3147272
- 1022840 words of memory out of 3000000
+ 843484 string characters out of 3147272
+ 1021860 words of memory out of 3000000
  42494 multiletter control sequences out of 15000+200000
  25444 words of font info for 97 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -2537,8 +2575,7 @@ X 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2
 fonts/type1/public/amsfonts/symbols/msbm7.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/hoekwater/rsfs/rsfs10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/wasy/wasy10.pfb>
-Output written on Handbook.pdf (87 pages, 4770153 bytes).
->>>>>>> 3b2eac66c90fb4395f3a156a8dc0c6bbe9ec1527:Handbook.log
+Output written on Handbook.pdf (87 pages, 4772652 bytes).
 PDF statistics:
  3186 PDF objects out of 3580 (max. 8388607)
  1200 named destinations out of 1200 (max. 500000)
