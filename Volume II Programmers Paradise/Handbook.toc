@@ -4,11 +4,14 @@
 \contentsline {section}{\numberline {3.1}Basic Input and Output}{3}{section.3.1}
 \contentsline {section}{\numberline {3.2}Converting Between Types}{3}{section.3.2}
 \contentsline {section}{\numberline {3.3}Mathematical Commands}{3}{section.3.3}
-\contentsline {chapter}{\numberline {4}CSS}{4}{chapter.4}
-\contentsline {chapter}{\numberline {5}HTML}{5}{chapter.5}
-\contentsline {chapter}{\numberline {6}Linux}{6}{chapter.6}
-\contentsline {chapter}{\numberline {7}PHP}{7}{chapter.7}
-\contentsline {chapter}{\numberline {8}Python}{8}{chapter.8}
-\contentsline {chapter}{\numberline {9}ROOT}{9}{chapter.9}
-\contentsline {chapter}{\numberline {10}Resources}{10}{chapter.10}
-\contentsline {chapter}{References}{10}{chapter*.2}
+\contentsline {chapter}{\numberline {4}C\#}{4}{chapter.4}
+\contentsline {chapter}{\numberline {5}CSS}{5}{chapter.5}
+\contentsline {chapter}{\numberline {6}HTML}{6}{chapter.6}
+\contentsline {chapter}{\numberline {7}Linux}{7}{chapter.7}
+\contentsline {section}{\numberline {7.1}System Related Commands}{7}{section.7.1}
+\contentsline {chapter}{\numberline {8}PHP}{8}{chapter.8}
+\contentsline {chapter}{\numberline {9}Python}{9}{chapter.9}
+\contentsline {section}{\numberline {9.1}Plotting and Graphs}{9}{section.9.1}
+\contentsline {chapter}{\numberline {10}ROOT}{10}{chapter.10}
+\contentsline {chapter}{\numberline {11}Resources}{11}{chapter.11}
+\contentsline {chapter}{References}{11}{chapter*.2}

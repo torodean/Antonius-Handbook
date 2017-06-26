@@ -1,5 +1,6 @@
 \chapter{C++}
 \thispagestyle{fancy}
+\lstset{language=C++, style=cpp}
 
 \section{Basic Input and Output}
 To output text via a terminal you can use:
@@ -29,15 +30,15 @@ int number = std::stoi(text);
 \subsection*{Prime Number}
 A simple brute for method to determines if a number of type long is prime or not.
 \begin{lstlisting}
-bool isPrime(long number) {  
-	int Counter = 0;   //P is a counter for how many numbers can divide evenly into x
-	if (number == 0 || number == 1 || number == 4) {
+bool isPrime(long num) {  
+	int c = 0;   //c is a counter for how many numbers can divide evenly into num
+	if (num == 0 || num == 1 || num == 4) {
 		return false;
 	}
-	for (long i = 1; i <= ((number + 1) / 2); i++) {
-		if (Counter < 2) {
-			if (number % i == 0) {
-				Counter++;
+	for (long i = 1; i <= ((num + 1) / 2); i++) {
+		if (c < 2) {
+			if (num % i == 0) {
+				c++;
 			}
 		} else {
 			return false;

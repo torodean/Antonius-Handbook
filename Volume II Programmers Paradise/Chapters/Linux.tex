@@ -1,2 +1,36 @@
 \chapter{Linux}
 \thispagestyle{fancy}
+\lstset{language=Bash, style=bash}
+
+\section{System Related Commands}
+
+How to display the processes that are currently running.
+\begin{lstlisting}
+ps aux
+\end{lstlisting}
+
+To search the results of a command for a string of characters one can use the grep command. For example:
+\begin{lstlisting}
+ps aux | grep "firefox"
+\end{lstlisting}
+
+Restore power/battery icon if it disappears.
+\begin{lstlisting}
+/usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service &disown 
+\end{lstlisting}
+
+Restore volume icon/control button if it disappears.
+\begin{lstlisting}
+gsettings set com.canonical.indicator.sound visible true
+\end{lstlisting}
+
+Reset wifi services in case the connection gets lost.
+\begin{lstlisting}
+sudo systemctl restart network-manager.service
+\end{lstlisting}
+
+Turn off LCD display.
+\begin{lstlisting}
+xset dpms force off
+\end{lstlisting}
+
