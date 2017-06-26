@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.14)  26 JUN 2017 09:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.14)  26 JUN 2017 11:30
 entering extended mode
 **Handbook.tex
 
@@ -1252,7 +1252,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 23.
 
-<./Images/Covers/AHANSCII.png, id=50, 1132.98282pt x 253.69781pt>
+<./Images/Covers/AHANSCII.png, id=62, 1132.98282pt x 253.69781pt>
 File: ./Images/Covers/AHANSCII.png Graphic file (type png)
 
 <use ./Images/Covers/AHANSCII.png>
@@ -1278,7 +1278,7 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 29.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-<./Images/Covers/background_tunnel.png, id=52, 239.57504pt x 138.15614pt>
+<./Images/Covers/background_tunnel.png, id=64, 239.57504pt x 138.15614pt>
 File: ./Images/Covers/background_tunnel.png Graphic file (type png)
 
 <use ./Images/Covers/background_tunnel.png>
@@ -1340,6 +1340,12 @@ Chapter 2.
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
 apters\Cpp.tex"
 Chapter 3.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 8.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 8.
 ) [3
 
 
@@ -1438,29 +1444,30 @@ apters\ROOT.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `Handbook.out' has not changed.
-(rerunfilecheck)             Checksum: 7988FA18F8D7C6A9C15B35CC6F279C21;788.
+(rerunfilecheck)             Checksum: B3A54E113B2D7FF6B0E5857D35258CAA;1309.
  ) 
 Here is how much of TeX's memory you used:
- 38964 strings out of 493921
- 785405 string characters out of 3147272
- 924782 words of memory out of 3000000
- 41615 multiletter control sequences out of 15000+200000
- 18165 words of font info for 72 fonts, out of 3000000 for 9000
+ 39127 strings out of 493921
+ 787371 string characters out of 3147272
+ 992782 words of memory out of 3000000
+ 41745 multiletter control sequences out of 15000+200000
+ 19077 words of font info for 75 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 57i,11n,54p,10456b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,11n,54p,10456b,1256s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-msy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Handbook.pdf (16 pages, 670407 bytes).
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Handbook.pdf (16 pages, 692878 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 241 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
