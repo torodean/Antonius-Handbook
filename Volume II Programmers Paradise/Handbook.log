@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.14)  22 JUN 2017 11:49
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.14)  26 JUN 2017 09:33
 entering extended mode
 **Handbook.tex
 
@@ -1132,11 +1132,19 @@ sources\Copywrite.aux")
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Re
 sources\Preface.aux")
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
-apters\Linux.aux")
+apters\Introduction.aux")
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
 apters\C.aux")
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
 apters\Cpp.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
+apters\css.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
+apters\html.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
+apters\Linux.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
+apters\php.aux")
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
 apters\Python.aux")
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
@@ -1244,7 +1252,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 23.
 
-<./Images/Covers/AHANSCII.png, id=34, 1132.98282pt x 253.69781pt>
+<./Images/Covers/AHANSCII.png, id=50, 1132.98282pt x 253.69781pt>
 File: ./Images/Covers/AHANSCII.png Graphic file (type png)
 
 <use ./Images/Covers/AHANSCII.png>
@@ -1270,7 +1278,7 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 29.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-<./Images/Covers/background_tunnel.png, id=36, 239.57504pt x 138.15614pt>
+<./Images/Covers/background_tunnel.png, id=52, 239.57504pt x 138.15614pt>
 File: ./Images/Covers/background_tunnel.png Graphic file (type png)
 
 <use ./Images/Covers/background_tunnel.png>
@@ -1315,7 +1323,7 @@ ndbook.toc")
 
 ]
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
-apters\Linux.tex"
+apters\Introduction.tex"
 Chapter 1.
 ) [1
 
@@ -1338,7 +1346,7 @@ Chapter 3.
 
 ]
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
-apters\Python.tex"
+apters\css.tex"
 Chapter 4.
 ) [4
 
@@ -1346,14 +1354,46 @@ Chapter 4.
 
 ]
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
-apters\ROOT.tex"
+apters\html.tex"
 Chapter 5.
 ) [5
 
 
 
 ]
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
+apters\Linux.tex"
 Chapter 6.
+) [6
+
+
+
+]
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
+apters\php.tex"
+Chapter 7.
+) [7
+
+
+
+]
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
+apters\Python.tex"
+Chapter 8.
+) [8
+
+
+
+]
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
+apters\ROOT.tex"
+Chapter 9.
+) [9
+
+
+
+]
+Chapter 10.
 
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Re
 sources\References.tex"
@@ -1362,14 +1402,14 @@ LaTeX Warning: Empty `thebibliography' environment on input line 4.
 
 )
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ha
-ndbook.ind") [6
+ndbook.ind") [10
 
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 80.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
 
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ha
 ndbook.aux"
@@ -1378,25 +1418,33 @@ sources\Copywrite.aux")
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Re
 sources\Preface.aux")
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
-apters\Linux.aux")
+apters\Introduction.aux")
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
 apters\C.aux")
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
 apters\Cpp.aux")
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
+apters\css.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
+apters\html.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
+apters\Linux.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
+apters\php.aux")
+("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
 apters\Python.aux")
 ("C:\Users\torodean\Desktop\Antonius-Handbook\Volume II Programmers Paradise\Ch
 apters\ROOT.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 80.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 80.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `Handbook.out' has not changed.
-(rerunfilecheck)             Checksum: D48C929497A45CC28FB661619C790F5A;499.
+(rerunfilecheck)             Checksum: 7988FA18F8D7C6A9C15B35CC6F279C21;788.
  ) 
 Here is how much of TeX's memory you used:
- 38920 strings out of 493921
- 782954 string characters out of 3147272
+ 38964 strings out of 493921
+ 785405 string characters out of 3147272
  924782 words of memory out of 3000000
- 41607 multiletter control sequences out of 15000+200000
+ 41615 multiletter control sequences out of 15000+200000
  18165 words of font info for 72 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  57i,11n,54p,10456b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1410,9 +1458,9 @@ fonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 msy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Handbook.pdf (12 pages, 662037 bytes).
+Output written on Handbook.pdf (16 pages, 670407 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 188 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
