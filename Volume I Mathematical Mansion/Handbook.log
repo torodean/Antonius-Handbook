@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.14)  22 JUN 2017 11:49
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.14)  27 JUN 2017 10:25
 entering extended mode
 **Handbook.tex
 
@@ -1331,7 +1331,7 @@ File: ./Images/Covers/AH2.png Graphic file (type png)
 
 <use ./Images/Covers/AH2.png>
 Package pdftex.def Info: ./Images/Covers/AH2.png used on input line 29.
-(pdftex.def)             Requested size: 456.89891pt x 98.96799pt.
+(pdftex.def)             Requested size: 502.59926pt x 108.86705pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 29.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
@@ -2575,7 +2575,7 @@ X 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2
 fonts/type1/public/amsfonts/symbols/msbm7.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/hoekwater/rsfs/rsfs10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/wasy/wasy10.pfb>
-Output written on Handbook.pdf (87 pages, 4772652 bytes).
+Output written on Handbook.pdf (87 pages, 4772653 bytes).
 PDF statistics:
  3186 PDF objects out of 3580 (max. 8388607)
  1200 named destinations out of 1200 (max. 500000)
