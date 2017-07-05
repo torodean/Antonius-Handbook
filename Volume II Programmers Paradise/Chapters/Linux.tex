@@ -4,6 +4,29 @@
 
 \section{System Related Commands}
 
+Retreive information and valid arguments for a command.
+\begin{lstlisting}
+COMMAND --help   #COMMAND must be a valid command such as cd, ls, etc...
+\end{lstlisting}
+
+List information about File(s) (in the current directory by default).
+\begin{lstlisting}
+ls        #list all items in a directory
+ls -1     #list all items in a directory (one item per line)
+ls -lh    #list all items in a directory with size, owner, and date modified
+\end{lstlisting}
+
+Changing directory via terminal
+\begin{lstlisting}
+cd /directory #Changes the directory to the subdirectory /directory
+cd ..         #Goes back one directory
+\end{lstlisting}
+
+Show information about the file system on which each FILE resides, or all file systems by default.
+\begin{lstlisting}
+df 
+\end{lstlisting}
+
 How to display the processes that are currently running.
 \begin{lstlisting}
 ps aux
@@ -34,3 +57,20 @@ Turn off LCD display.
 xset dpms force off
 \end{lstlisting}
 
+\section{Networking}
+
+View IP configuration information
+\begin{lstlisting}
+ifconfig
+\end{lstlisting}
+
+Enable/Disable IPv6
+\begin{lstlisting}
+#Use these two commands to disable IPv6
+sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
+sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
+
+#Use these two commands to re-enable IPv6
+sudo sysctl -w net.ipv6.conf.all.disable_ipv6=0
+sudo sysctl -w net.ipv6.conf.default.disable_ipv6=0
+\end{lstlisting}

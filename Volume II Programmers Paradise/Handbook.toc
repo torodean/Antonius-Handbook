@@ -9,6 +9,7 @@
 \contentsline {chapter}{\numberline {6}HTML}{6}{chapter.6}
 \contentsline {chapter}{\numberline {7}Linux}{7}{chapter.7}
 \contentsline {section}{\numberline {7.1}System Related Commands}{7}{section.7.1}
+\contentsline {section}{\numberline {7.2}Networking}{7}{section.7.2}
 \contentsline {chapter}{\numberline {8}PHP}{8}{chapter.8}
 \contentsline {chapter}{\numberline {9}Python}{9}{chapter.9}
 \contentsline {section}{\numberline {9.1}Plotting and Graphs}{9}{section.9.1}
