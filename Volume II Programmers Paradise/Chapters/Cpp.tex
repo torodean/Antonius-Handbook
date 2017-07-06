@@ -2,7 +2,7 @@
 \thispagestyle{fancy}
 \lstset{language=C++, style=cpp}
 
-\section{Basic Input and Output}
+\section{Basic Input and Output\index{Input and Output}}
 To output text via a terminal you can use:
 \begin{lstlisting}
 std::string text = "Hello World!";
@@ -16,9 +16,94 @@ std::cout << "Enter some text: ";
 std::getline(std::cin, input);
 \end{lstlisting}
 
-\section{Converting Between Types}
+\subsection{Simulate Key Strokes (Windows Only)\index{Simulate Key Strokes}}
 
-\subsection*{std::string to int}
+First the correct files must be included and an event must be setup.
+\begin{lstlisting}
+#define WINVER 0x0500
+#include <windows.h> 
+
+INPUT ip;
+
+ip.type = INPUT_KEYBOARD; // Set up a generic keyboard event.    
+ip.ki.wScan = 0; // hardware scan code for key                                   
+ip.ki.time = 0;
+ip.ki.dwExtraInfo = 0;
+\end{lstlisting}
+
+After this, functions can be setup to simulate various keys based on the specific key codes, two examples of such are
+\begin{lstlisting}
+void space(){ 
+	// Press the "space" key.  
+	ip.ki.wVk = VK_SPACE; // virtual-key code for the "space" key.                                                                                
+	ip.ki.dwFlags = 0; // 0 for key press                                                                                                        
+	SendInput(1, &ip, sizeof(INPUT));
+	
+	// Release the "space" key                                                                                                                   
+	ip.ki.wVk = VK_SPACE; // virtual-key code for the "space" key.                                                                                
+	ip.ki.dwFlags = KEYEVENTF_KEYUP; // KEYEVENTF_KEYUP for key release                                                                          
+	SendInput(1, &ip, sizeof(INPUT));
+	Sleep(50);
+}
+
+void one(){ 
+	// Press the "1" key.    
+	ip.ki.wVk = 0x31; // virtual-key code for the "1" key.                                          
+	ip.ki.dwFlags = 0; // 0 for key press                                                                                                        
+	SendInput(1, &ip, sizeof(INPUT));
+	
+	// Release the "1" key.                                                                                                                    
+	ip.ki.wVk = 0x31; // virtual-key code for the "1" key.                                                                                      
+	ip.ki.dwFlags = KEYEVENTF_KEYUP; // KEYEVENTF_KEYUP for key release.                                                                          
+	SendInput(1, \&ip, sizeof(INPUT));
+	Sleep(50);
+}
+\end{lstlisting}
+
+A similar method can be used to simulate mouse clicks. And example for left click follows
+\begin{lstlisting}
+void leftclick(){
+	INPUT ip={0};
+	// left down                                                                                                                                   
+	ip.type = INPUT_MOUSE;
+	ip.mi.dwFlags = MOUSEEVENTF_LEFTDOWN;
+	SendInput(1,&Input,sizeof(INPUT));
+	
+	// left up                                                                                                                                     
+	ZeroMemory(&Input,sizeof(INPUT));
+	ip.type = INPUT_MOUSE;
+	ip.mi.dwFlags = MOUSEEVENTF_LEFTUP;
+	SendInput(1,&Input,sizeof(INPUT));
+	Sleep(50);
+}
+\end{lstlisting}
+
+
+\section{Variable Types\index{Variable Types}}
+
+Creating and using a vector\index{Vector}.
+\begin{lstlisting}
+#include <vector>
+
+int size1 = 5;
+int size2 = 6;
+
+//Creates a vector named V1 containing int's with a size of 5 and sets each element to 0. 
+std::vector<int> V1(size1); 
+
+//Creates a 2-D vector (vector containing vectors) of size 5x6 named V2 containing doubles;
+std::vector< std::vector<double>> V2(size1, std::vector<double>(size2)); 
+
+V1[0] = 8; //Sets the first element in V1 to 8.
+
+V2[0][3] = 3.1415; //Sets the 4th element in the first row of V2 to 3.1415.
+
+\end{lstlisting}
+
+
+\subsection{Converting Between Types\index{Converting Between Types}}
+
+\subsection*{std::string to int\index{std::string to int}}
 To convert a string to an integer you can use:
 \begin{lstlisting}
 std::string text = "31415";
@@ -27,7 +112,7 @@ int number = std::stoi(text);
 
 \section{Mathematical Commands}
 
-\subsection*{Prime Number}
+\subsection*{Prime Number\index{Prime Number}}
 A simple brute for method to determines if a number of type long is prime or not.
 \begin{lstlisting}
 bool isPrime(long num) {  
@@ -47,3 +132,26 @@ bool isPrime(long num) {
 	return true;
 }
 \end{lstlisting}
+
+\section{System Commands\index{System Commands}}
+
+\subsection*{Sleep\index{Sleep}}
+Make the thread sleep for some amount of time using the std::chrono to determine the duration \cite{cpp:chrono}.
+\begin{lstlisting}
+#include <thread>
+#include <chrono>
+
+std::this_thread::sleep_for(std::chrono::milliseconds(50)); //Makes the system sleep for 50 milliseconds.
+
+std::this_thread::sleep_for(std::chrono::seconds(50)); //Makes the system sleep for 50 seconds.
+\end{lstlisting}
+
+On a Windows specific program this can be simplified by including the windows.h header
+\begin{lstlisting}
+#include <windows.h>
+
+Sleep(50); //Makes the system sleep for 50 milliseconds.
+
+Sleep(5000); //Makes the system sleep for 50 seconds.
+\end{lstlisting}
+

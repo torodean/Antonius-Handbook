@@ -2,24 +2,24 @@
 \thispagestyle{fancy}
 \lstset{language=Bash, style=bash}
 
-\section{System Related Commands}
+\section{System Related Commands\index{System Related Commands}}
 
 Retreive information and valid arguments for a command.
 \begin{lstlisting}
-COMMAND --help   #COMMAND must be a valid command such as cd, ls, etc...
+COMMAND --help   # COMMAND must be a valid command such as cd, ls, etc...
 \end{lstlisting}
 
 List information about File(s) (in the current directory by default).
 \begin{lstlisting}
-ls        #list all items in a directory
-ls -1     #list all items in a directory (one item per line)
-ls -lh    #list all items in a directory with size, owner, and date modified
+ls        # list all items in a directory
+ls -1     # list all items in a directory (one item per line)
+ls -lh    # list all items in a directory with size, owner, and date modified
 \end{lstlisting}
 
 Changing directory via terminal
 \begin{lstlisting}
-cd /directory #Changes the directory to the subdirectory /directory
-cd ..         #Goes back one directory
+cd /directory # Changes the directory to the subdirectory /directory
+cd ..         # Goes back one directory
 \end{lstlisting}
 
 Show information about the file system on which each FILE resides, or all file systems by default.
@@ -57,7 +57,19 @@ Turn off LCD display.
 xset dpms force off
 \end{lstlisting}
 
-\section{Networking}
+Change or view the host name of a computer with the hostname file.
+\begin{lstlisting}
+sudo nano /etc/hostname # Opens this file using nano for editing.
+hostname                # Command to see what the current hostname is.
+\end{lstlisting}
+
+Make a file executable and execute a file
+\begin{lstlisting}
+chmod a+x /location/of/FILE # Makes a file executable
+./FILE                      # Executes a file.
+\end{lstlisting}
+
+\section{Networking\index{Networking}}
 
 View IP configuration information
 \begin{lstlisting}

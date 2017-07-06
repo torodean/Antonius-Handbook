@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  2 JUL 2017 15:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  6 JUL 2017 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1108,10 +1108,8 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \JustifyingParindent=\skip156
 ) (./Handbook.aux
 (./Resources/Copywrite.aux) (./Resources/Preface.aux)
-(./Chapters/Introduction.aux) (./Chapters/C.aux) (./Chapters/Cpp.aux)
-(./Chapters/CSharp.aux) (./Chapters/css.aux) (./Chapters/html.aux)
-(./Chapters/Linux.aux) (./Chapters/php.aux) (./Chapters/Python.aux)
-(./Chapters/ROOT.aux))
+(./Chapters/Introduction.aux) (./Chapters/Cpp.aux) (./Chapters/Linux.aux)
+(./Chapters/Python.aux))
 \openout1 = `Handbook.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -1230,7 +1228,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 23.
 
-<./Images/Covers/AH3.png, id=79, 2284.535pt x 494.84875pt>
+<./Images/Covers/AH3.png, id=67, 2284.535pt x 494.84875pt>
 File: ./Images/Covers/AH3.png Graphic file (type png)
 
 <use ./Images/Covers/AH3.png>
@@ -1256,7 +1254,7 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 29.
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-<./Images/Covers/background_tunnel.png, id=81, 239.57504pt x 138.15614pt>
+<./Images/Covers/background_tunnel.png, id=69, 239.57504pt x 138.15614pt>
 File: ./Images/Covers/background_tunnel.png Graphic file (type png)
 
 <use ./Images/Covers/background_tunnel.png>
@@ -1311,19 +1309,10 @@ Chapter 1.
 
 
 ]
-\openout2 = `./Chapters/C.aux'.
-
- (./Chapters/C.tex
-Chapter 2.
-) [2
-
-
-
-]
 \openout2 = `./Chapters/Cpp.aux'.
 
  (./Chapters/Cpp.tex
-Chapter 3.
+Chapter 2.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -1340,138 +1329,74 @@ File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 9.
-) [3
+ [2
 
 
 
-]
-\openout2 = `./Chapters/CSharp.aux'.
-
-
-(./Chapters/CSharp.tex
-Chapter 4.
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)) [4
-
-
-
-]
-\openout2 = `./Chapters/css.aux'.
-
-
-(./Chapters/css.tex
-Chapter 5.
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-)) [5
-
-
-
-]
-\openout2 = `./Chapters/html.aux'.
-
-
-(./Chapters/html.tex
-Chapter 6.
-) [6
-
-
-
-]
+] [3]) [4]
 \openout2 = `./Chapters/Linux.aux'.
 
- (./Chapters/Linux.tex
-Chapter 7.
+
+(./Chapters/Linux.tex
+Chapter 3.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-)) [7
+) [5
 
 
 
-]
-\openout2 = `./Chapters/php.aux'.
-
-
-(./Chapters/php.tex
-Chapter 8.
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2015/06/04 1.6 listings language file
-)) [8
-
-
-
-]
+]) [6]
 \openout2 = `./Chapters/Python.aux'.
 
 
 (./Chapters/Python.tex
-Chapter 9.
+Chapter 4.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-<./Images/Figures/figure_1-4.png, id=235, 578.16pt x 433.62pt>
+<./Images/Figures/figure_1-4.png, id=299, 578.16pt x 433.62pt>
 File: ./Images/Figures/figure_1-4.png Graphic file (type png)
 
 <use ./Images/Figures/figure_1-4.png>
 Package pdftex.def Info: ./Images/Figures/figure_1-4.png used on input line 33.
 
 (pdftex.def)             Requested size: 256.55872pt x 192.41443pt.
-) [9
+) [7
 
 
 
  <./Images/Figures/figure_1-4.png>]
-\openout2 = `./Chapters/ROOT.aux'.
-
-
-(./Chapters/ROOT.tex
-Chapter 10.
-) [10
+Chapter 5.
+(./Resources/References.tex) (./Handbook.ind [8
 
 
 
-]
-Chapter 11.
-(./Resources/References.tex
 
-LaTeX Warning: Empty `thebibliography' environment on input line 4.
-
-) (./Handbook.ind) [11
-
-
-
+]) [9
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
- (./Handbook.aux (./Resources/Copywrite.aux)
-(./Resources/Preface.aux) (./Chapters/Introduction.aux) (./Chapters/C.aux)
-(./Chapters/Cpp.aux) (./Chapters/CSharp.aux) (./Chapters/css.aux)
-(./Chapters/html.aux) (./Chapters/Linux.aux) (./Chapters/php.aux)
-(./Chapters/Python.aux) (./Chapters/ROOT.aux))
+ (./Handbook.aux
+(./Resources/Copywrite.aux) (./Resources/Preface.aux)
+(./Chapters/Introduction.aux) (./Chapters/Cpp.aux) (./Chapters/Linux.aux)
+(./Chapters/Python.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 Package rerunfilecheck Info: File `Handbook.out' has not changed.
-(rerunfilecheck)             Checksum: 37DC7F2E5DEAE4B76E7B334B20DCC6EC;1790.
+(rerunfilecheck)             Checksum: B926B22EFD85BABE04CD18A193545C53;1959.
  ) 
 Here is how much of TeX's memory you used:
- 38605 strings out of 494953
- 757554 string characters out of 6180977
- 1205646 words of memory out of 5000000
- 41120 multiletter control sequences out of 15000+600000
+ 38676 strings out of 494953
+ 757797 string characters out of 6180977
+ 1004366 words of memory out of 5000000
+ 41162 multiletter control sequences out of 15000+600000
  19077 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 57i,11n,60p,10456b,1276s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,12n,60p,10456b,1707s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texli
@@ -1483,10 +1408,10 @@ lic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Handbook.pdf (17 pages, 997426 bytes).
+Output written on Handbook.pdf (15 pages, 1006204 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 295 compressed objects within 3 object streams
- 116 named destinations out of 1000 (max. 500000)
- 172 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 428 PDF objects out of 1000 (max. 8388607)
+ 389 compressed objects within 4 object streams
+ 198 named destinations out of 1000 (max. 500000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,6 @@
 This is makeindex, version 2.15 [TeX Live 2015] (kpathsea + Thai support).
-Scanning input file Handbook.idx...done (0 entries accepted, 0 rejected).
-Nothing written in Handbook.ind.
+Scanning input file Handbook.idx....done (12 entries accepted, 0 rejected).
+Sorting entries....done (44 comparisons).
+Generating output file Handbook.ind....done (31 lines written, 0 warnings).
+Output written in Handbook.ind.
 Transcript written in Handbook.ilg.
