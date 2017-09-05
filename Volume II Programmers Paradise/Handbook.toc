@@ -6,10 +6,12 @@
 \contentsline {subsection}{\numberline {2.2.1}Converting Between Types}{3}{subsection.2.2.1}
 \contentsline {section}{\numberline {2.3}Mathematical Commands}{3}{section.2.3}
 \contentsline {section}{\numberline {2.4}System Commands}{4}{section.2.4}
-\contentsline {chapter}{\numberline {3}Linux}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}System Related Commands}{5}{section.3.1}
-\contentsline {section}{\numberline {3.2}Networking}{5}{section.3.2}
-\contentsline {chapter}{\numberline {4}Python}{7}{chapter.4}
-\contentsline {section}{\numberline {4.1}Plotting and Graphs}{7}{section.4.1}
-\contentsline {chapter}{\numberline {5}Resources}{8}{chapter.5}
-\contentsline {chapter}{References}{8}{chapter*.2}
+\contentsline {section}{\numberline {2.5}Qt Specific}{4}{section.2.5}
+\contentsline {chapter}{\numberline {3}ROOT}{5}{chapter.3}
+\contentsline {chapter}{\numberline {4}Linux}{6}{chapter.4}
+\contentsline {section}{\numberline {4.1}System Related Commands}{6}{section.4.1}
+\contentsline {section}{\numberline {4.2}Networking}{6}{section.4.2}
+\contentsline {chapter}{\numberline {5}Python}{8}{chapter.5}
+\contentsline {section}{\numberline {5.1}Plotting and Graphs}{8}{section.5.1}
+\contentsline {chapter}{\numberline {6}Resources}{9}{chapter.6}
+\contentsline {chapter}{References}{9}{chapter*.2}

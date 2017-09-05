@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  5 SEP 2017 10:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  5 SEP 2017 10:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1372,57 +1372,52 @@ Package mdframed Info: mdframed works in twoside mode on input line 3.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 3.
-
-Overfull \hbox (272.47853pt too wide) in paragraph at lines 5--38
- [] 
- []
-
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 39.
-Package mdframed Info: mdframed works in twoside mode on input line 41.
+(mdframed)              on input line 35.
+Package mdframed Info: mdframed works in twoside mode on input line 37.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 41.
+(mdframed)              on input line 37.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 55.
+(mdframed)              on input line 51.
 [1
 
 
 
 ]
-Package mdframed Info: mdframed works in twoside mode on input line 60.
+Package mdframed Info: mdframed works in twoside mode on input line 56.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 60.
+(mdframed)              on input line 56.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 88.
-Package mdframed Info: Not enough space on this page on input line 88.
-Package mdframed Info: mdframed works in twoside mode on input line 90.
+(mdframed)              on input line 84.
+Package mdframed Info: Not enough space on this page on input line 84.
+Package mdframed Info: mdframed works in twoside mode on input line 86.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 90.
+(mdframed)              on input line 86.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 105.
+(mdframed)              on input line 101.
  [2]
-Package mdframed Info: mdframed works in twoside mode on input line 108.
+Package mdframed Info: mdframed works in twoside mode on input line 104.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 108.
+(mdframed)              on input line 104.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 130.
-Package mdframed Info: Not enough space on this page on input line 130.
-Package mdframed Info: mdframed works in twoside mode on input line 133.
+(mdframed)              on input line 126.
+Package mdframed Info: Not enough space on this page on input line 126.
+Package mdframed Info: mdframed works in twoside mode on input line 129.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 133.
+(mdframed)              on input line 129.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 146.
+(mdframed)              on input line 142.
 ) [3]
 \openout2 = `./Chapters/Mathematics.aux'.
 
@@ -1709,7 +1704,7 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 4.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 10.
+(mdframed)              on input line 12.
 ) [22
 
 
@@ -1759,7 +1754,7 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 63.
- <Resources/DiffEQTable.pdf, id=840, 461.08258pt x 640.31218pt>
+ <Resources/DiffEQTable.pdf, id=841, 461.08258pt x 640.31218pt>
 File: Resources/DiffEQTable.pdf Graphic file (type pdf)
 
 <use Resources/DiffEQTable.pdf>
@@ -1770,7 +1765,7 @@ File: Resources/DiffEQTable.pdf Graphic file (type pdf)
 Package pdftex.def Info: Resources/DiffEQTable.pdf used on input line 66.
 (pdftex.def)             Requested size: 461.08145pt x 640.31061pt.
 
-<Resources/DiffEQTable.pdf, id=843, page=1, 461.08258pt x 640.31218pt>
+<Resources/DiffEQTable.pdf, id=844, page=1, 461.08258pt x 640.31218pt>
 File: Resources/DiffEQTable.pdf Graphic file (type pdf)
 
 <use Resources/DiffEQTable.pdf, page 1>
@@ -1851,7 +1846,7 @@ Package mdframed Info: mdframed detected package amsthm
 
  (./Chapters/Integrals.tex
 Chapter 8.
-<Resources/IntegralTable.pdf, id=979, 514.56241pt x 660.54782pt>
+<Resources/IntegralTable.pdf, id=980, 514.56241pt x 660.54782pt>
 File: Resources/IntegralTable.pdf Graphic file (type pdf)
 
 <use Resources/IntegralTable.pdf>
@@ -1862,7 +1857,7 @@ File: Resources/IntegralTable.pdf Graphic file (type pdf)
 Package pdftex.def Info: Resources/IntegralTable.pdf used on input line 48.
 (pdftex.def)             Requested size: 514.56116pt x 660.5462pt.
 
-<Resources/IntegralTable.pdf, id=982, page=1, 514.56241pt x 660.54782pt>
+<Resources/IntegralTable.pdf, id=983, page=1, 514.56241pt x 660.54782pt>
 File: Resources/IntegralTable.pdf Graphic file (type pdf)
 
 <use Resources/IntegralTable.pdf, page 1>
@@ -1931,7 +1926,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
  [38]
-<./Images/Diagrams/meanfreepath.png, id=1130, 368.37625pt x 414.54875pt>
+<./Images/Diagrams/meanfreepath.png, id=1131, 368.37625pt x 414.54875pt>
 File: ./Images/Diagrams/meanfreepath.png Graphic file (type png)
 
 <use ./Images/Diagrams/meanfreepath.png>
@@ -2077,7 +2072,7 @@ Chapter 18.
 
 
 ]
-<./Images/Diagrams/1280px-BraggPlaneDiffraction.png, id=1612, 1284.8pt x 602.25
+<./Images/Diagrams/1280px-BraggPlaneDiffraction.png, id=1613, 1284.8pt x 602.25
 pt>
 File: ./Images/Diagrams/1280px-BraggPlaneDiffraction.png Graphic file (type png
 )
@@ -2086,7 +2081,7 @@ Package pdftex.def Info: ./Images/Diagrams/1280px-BraggPlaneDiffraction.png use
 d on input line 123.
 (pdftex.def)             Requested size: 256.95544pt x 120.44786pt.
 
-<./Images/Diagrams/crystalscattering.png, id=1613, 760.8425pt x 562.1pt>
+<./Images/Diagrams/crystalscattering.png, id=1614, 760.8425pt x 562.1pt>
 File: ./Images/Diagrams/crystalscattering.png Graphic file (type png)
 
 <use ./Images/Diagrams/crystalscattering.png>
@@ -2135,7 +2130,7 @@ Missing character: There is no “ in font cmr10!
 
 ]
 Chapter 22.
-<Resources/CGtable.pdf, id=1837, 614.295pt x 794.97pt>
+<Resources/CGtable.pdf, id=1838, 614.295pt x 794.97pt>
 File: Resources/CGtable.pdf Graphic file (type pdf)
 
 <use Resources/CGtable.pdf>
@@ -2146,7 +2141,7 @@ File: Resources/CGtable.pdf Graphic file (type pdf)
 Package pdftex.def Info: Resources/CGtable.pdf used on input line 127.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/CGtable.pdf, id=1840, page=1, 614.295pt x 794.97pt>
+<Resources/CGtable.pdf, id=1841, page=1, 614.295pt x 794.97pt>
 File: Resources/CGtable.pdf Graphic file (type pdf)
 
 <use Resources/CGtable.pdf, page 1>
@@ -2174,7 +2169,7 @@ Package pdftex.def Info: Resources/CGtable.pdf, page1 used on input line 127.
 
 
  <./Resources/CGtable.pdf>]
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1849, 614.295pt x 794.97pt>
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1850, 614.295pt x 794.97pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 
 <use Resources/IsotopicMassNaturalAbundance.pdf>
@@ -2188,7 +2183,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 131.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1852, page=1, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1853, page=1, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 1>
@@ -2232,7 +2227,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 132.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1871, page=2, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1872, page=2, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
@@ -2276,7 +2271,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 133.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1878, page=3, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1879, page=3, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
@@ -2320,7 +2315,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 134.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1885, page=4, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1886, page=4, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
@@ -2364,7 +2359,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf used on inp
 ut line 135.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Resources/IsotopicMassNaturalAbundance.pdf, id=1892, page=5, 614.295pt x 794.9
+<Resources/IsotopicMassNaturalAbundance.pdf, id=1893, page=5, 614.295pt x 794.9
 7pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
  <use Resources/IsotopicMassNaturalAbundance.pdf, page 5>
@@ -2396,7 +2391,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf, page5 used
  on input line 135.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [79 <./Resources/IsotopicMassNaturalAbundance.pdf>]
-<Resources/PeriodicTableMuted2.pdf, id=1898, 1927.2pt x 1084.05pt>
+<Resources/PeriodicTableMuted2.pdf, id=1899, 1927.2pt x 1084.05pt>
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 
 <use Resources/PeriodicTableMuted2.pdf>
@@ -2410,7 +2405,7 @@ Package pdftex.def Info: Resources/PeriodicTableMuted2.pdf used on input line 1
 39.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
 
-<Resources/PeriodicTableMuted2.pdf, id=1901, page=1, 1927.2pt x 1084.05pt>
+<Resources/PeriodicTableMuted2.pdf, id=1902, page=1, 1927.2pt x 1084.05pt>
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 
 <use Resources/PeriodicTableMuted2.pdf, page 1>
@@ -2490,10 +2485,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 40028 strings out of 494953
- 799793 string characters out of 6180977
- 979250 words of memory out of 5000000
- 41370 multiletter control sequences out of 15000+600000
+ 40029 strings out of 494953
+ 799798 string characters out of 6180977
+ 979305 words of memory out of 5000000
+ 41371 multiletter control sequences out of 15000+600000
  25444 words of font info for 97 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,20n,54p,10456b,869s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2522,10 +2517,10 @@ nts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/s
 ymbols/msbm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
-Output written on Handbook.pdf (89 pages, 4514562 bytes).
+Output written on Handbook.pdf (89 pages, 4514371 bytes).
 PDF statistics:
- 3229 PDF objects out of 3580 (max. 8388607)
- 2262 compressed objects within 23 object streams
+ 3230 PDF objects out of 3580 (max. 8388607)
+ 2263 compressed objects within 23 object streams
  1206 named destinations out of 1440 (max. 500000)
  758 words of extra memory for PDF output out of 10000 (max. 10000000)
 
