@@ -43,116 +43,117 @@
 \indexentry{Cosets|hyperpage}{20}
 \indexentry{Kernal|hyperpage}{21}
 \indexentry{First Isomorphism Theorem|hyperpage}{21}
-\indexentry{Gradient|hyperpage}{22}
-\indexentry{Curl|hyperpage}{22}
-\indexentry{Divergence|hyperpage}{22}
-\indexentry{Legendre polynomials|hyperpage}{25}
-\indexentry{Laguerre polynomials|hyperpage}{27}
-\indexentry{Frobenius Method|hyperpage}{30}
-\indexentry{Fuchs's Theorem|hyperpage}{30}
-\indexentry{Integration by parts|hyperpage}{31}
-\indexentry{Wallis cosine formula|hyperpage}{33}
-\indexentry{Saddle point approximation|hyperpage}{34}
-\indexentry{Fourier Series|hyperpage}{35}
-\indexentry{Parsec|hyperpage}{36}
-\indexentry{Flux|hyperpage}{36}
-\indexentry{Distance modulus|hyperpage}{36}
-\indexentry{Hydrostatic equilibrium|hyperpage}{37}
-\indexentry{Boltzmann’s formula|hyperpage}{37}
-\indexentry{Dynamical timescale|hyperpage}{38}
-\indexentry{Hooke's Law|hyperpage}{40}
-\indexentry{parseval's theorem|hyperpage}{41}
-\indexentry{Hamilton's equations|hyperpage}{41}
-\indexentry{Maxwell!'s Equations|hyperpage}{42}
-\indexentry{Wave equation|hyperpage}{42}
-\indexentry{Polarization field|hyperpage}{42}
-\indexentry{Gauss's Law|hyperpage}{43}
-\indexentry{Poisson's equation|hyperpage}{43}
-\indexentry{Multi-pole expansion|hyperpage}{43}
-\indexentry{Lorentz force law|hyperpage}{44}
-\indexentry{Current|hyperpage}{44}
-\indexentry{Biot-Savart law|hyperpage}{44}
-\indexentry{Continuity equation|hyperpage}{44}
-\indexentry{Ampere's Law|hyperpage}{44}
-\indexentry{Magnetic!Dipole moment|hyperpage}{45}
-\indexentry{Magnetizing field|hyperpage}{45}
-\indexentry{Magnetic!Susceptibility|hyperpage}{45}
-\indexentry{Kirchhoff's Laws|hyperpage}{45}
-\indexentry{Voltage divider|hyperpage}{47}
-\indexentry{Current divider|hyperpage}{47}
-\indexentry{Impedance|hyperpage}{47}
-\indexentry{Ohms law|hyperpage}{47}
-\indexentry{Phaser|hyperpage}{47}
-\indexentry{Low pass filter|hyperpage}{47}
-\indexentry{High pass filter|hyperpage}{47}
-\indexentry{Lorentz Transformations|hyperpage}{49}
-\indexentry{4 vectors|hyperpage}{50}
-\indexentry{Space-time interval|hyperpage}{50}
-\indexentry{Rapidity|hyperpage}{50}
-\indexentry{Minkowski Force|hyperpage}{50}
-\indexentry{Field tensor|hyperpage}{50}
-\indexentry{Dual tensor|hyperpage}{50}
-\indexentry{Stefan-Boltzmann equation|hyperpage}{52}
-\indexentry{Ideal gas law|hyperpage}{52}
-\indexentry{Dalton's law|hyperpage}{52}
-\indexentry{Multiplicity function|hyperpage}{54}
-\indexentry{Stirling approximation|hyperpage}{54}
-\indexentry{Magnetic!Moment|hyperpage}{54}
-\indexentry{Entropy|hyperpage}{54}
-\indexentry{Partition function|hyperpage}{55}
-\indexentry{Helmholtz Free Energy|hyperpage}{55}
-\indexentry{Planck!distribution function|hyperpage}{55}
-\indexentry{Stefan-Boltzmann law|hyperpage}{55}
-\indexentry{Planck!radiation law|hyperpage}{55}
-\indexentry{Debye|hyperpage}{55}
-\indexentry{Chemical potential|hyperpage}{56}
-\indexentry{Monatomic gas|hyperpage}{56}
-\indexentry{Gibbs!Factor|hyperpage}{56}
-\indexentry{Gibbs!Sum|hyperpage}{56}
-\indexentry{Absolute activity|hyperpage}{56}
-\indexentry{Entropy|hyperpage}{56}
-\indexentry{Heat|hyperpage}{57}
-\indexentry{Carnot!Energy|hyperpage}{57}
-\indexentry{Carnot!Coefficient|hyperpage}{57}
-\indexentry{Gibbs!Free energy|hyperpage}{57}
-\indexentry{Law of!mass action|hyperpage}{57}
-\indexentry{Maxwell!Relations|hyperpage}{57}
-\indexentry{Acidity|hyperpage}{57}
-\indexentry{Reaction quotient|hyperpage}{57}
-\indexentry{Enthalpy|hyperpage}{57}
-\indexentry{Clausius-Clapeyron equation|hyperpage}{57}
-\indexentry{Van der Waals|hyperpage}{57}
-\indexentry{Maxwelldistribution|hyperpage}{58}
-\indexentry{Diffusion|hyperpage}{58}
-\indexentry{Thermal conductivity|hyperpage}{58}
-\indexentry{viscosity|hyperpage}{58}
-\indexentry{Wiedemann-Franz ratio|hyperpage}{58}
-\indexentry{Boltzmann transport equation|hyperpage}{58}
-\indexentry{Ruthford Scattering Formula|hyperpage}{59}
-\indexentry{Compton effect|hyperpage}{59}
-\indexentry{De Broglie|hyperpage}{59}
-\indexentry{Rydberg formula|hyperpage}{60}
-\indexentry{Bragg's Law|hyperpage}{60}
-\indexentry{Cubit|hyperpage}{62}
-\indexentry{Schr\"{o}dingr Equation|hyperpage}{63}
-\indexentry{Dirac!equation|hyperpage}{63}
-\indexentry{Harmonic oscillator|hyperpage}{64}
-\indexentry{Harmonic oscillator|hyperpage}{64}
-\indexentry{Spherical!harmonics|hyperpage}{65}
-\indexentry{Pauli Spin Matrices|hyperpage}{67}
-\indexentry{Clebsch-Gordan|hyperpage}{67}
-\indexentry{Variational principle|hyperpage}{68}
-\indexentry{Rabi-Flopping frequency|hyperpage}{68}
-\indexentry{Transition rate|hyperpage}{68}
-\indexentry{Spontaneous emission|hyperpage}{68}
-\indexentry{hard sphere scattering|hyperpage}{68}
-\indexentry{partial wave amplitude|hyperpage}{68}
-\indexentry{Nuclear Force|hyperpage}{69}
-\indexentry{Fermi energy|hyperpage}{70}
-\indexentry{Nuclear Decay|hyperpage}{70}
-\indexentry{Gamma decay|hyperpage}{70}
-\indexentry{Rutherford cross section|hyperpage}{71}
-\indexentry{Separation energy|hyperpage}{71}
-\indexentry{Quantum!Chromodynamics|hyperpage}{72}
-\indexentry{Quantum!Electrodynamics|hyperpage}{72}
-\indexentry{Clebsch-Gordan|hyperpage}{73}
+\indexentry{Rational Zeros Theorem|hyperpage}{22}
+\indexentry{Gradient|hyperpage}{23}
+\indexentry{Curl|hyperpage}{23}
+\indexentry{Divergence|hyperpage}{23}
+\indexentry{Legendre polynomials|hyperpage}{26}
+\indexentry{Laguerre polynomials|hyperpage}{28}
+\indexentry{Frobenius Method|hyperpage}{31}
+\indexentry{Fuchs's Theorem|hyperpage}{31}
+\indexentry{Integration by parts|hyperpage}{32}
+\indexentry{Wallis cosine formula|hyperpage}{34}
+\indexentry{Saddle point approximation|hyperpage}{35}
+\indexentry{Fourier Series|hyperpage}{36}
+\indexentry{Parsec|hyperpage}{37}
+\indexentry{Flux|hyperpage}{37}
+\indexentry{Distance modulus|hyperpage}{37}
+\indexentry{Hydrostatic equilibrium|hyperpage}{38}
+\indexentry{Boltzmann’s formula|hyperpage}{38}
+\indexentry{Dynamical timescale|hyperpage}{39}
+\indexentry{Hooke's Law|hyperpage}{41}
+\indexentry{parseval's theorem|hyperpage}{42}
+\indexentry{Hamilton's equations|hyperpage}{42}
+\indexentry{Maxwell!'s Equations|hyperpage}{43}
+\indexentry{Wave equation|hyperpage}{43}
+\indexentry{Polarization field|hyperpage}{43}
+\indexentry{Gauss's Law|hyperpage}{44}
+\indexentry{Poisson's equation|hyperpage}{44}
+\indexentry{Multi-pole expansion|hyperpage}{44}
+\indexentry{Lorentz force law|hyperpage}{45}
+\indexentry{Current|hyperpage}{45}
+\indexentry{Biot-Savart law|hyperpage}{45}
+\indexentry{Continuity equation|hyperpage}{45}
+\indexentry{Ampere's Law|hyperpage}{45}
+\indexentry{Magnetic!Dipole moment|hyperpage}{46}
+\indexentry{Magnetizing field|hyperpage}{46}
+\indexentry{Magnetic!Susceptibility|hyperpage}{46}
+\indexentry{Kirchhoff's Laws|hyperpage}{46}
+\indexentry{Voltage divider|hyperpage}{48}
+\indexentry{Current divider|hyperpage}{48}
+\indexentry{Impedance|hyperpage}{48}
+\indexentry{Ohms law|hyperpage}{48}
+\indexentry{Phaser|hyperpage}{48}
+\indexentry{Low pass filter|hyperpage}{48}
+\indexentry{High pass filter|hyperpage}{48}
+\indexentry{Lorentz Transformations|hyperpage}{50}
+\indexentry{4 vectors|hyperpage}{51}
+\indexentry{Space-time interval|hyperpage}{51}
+\indexentry{Rapidity|hyperpage}{51}
+\indexentry{Minkowski Force|hyperpage}{51}
+\indexentry{Field tensor|hyperpage}{51}
+\indexentry{Dual tensor|hyperpage}{51}
+\indexentry{Stefan-Boltzmann equation|hyperpage}{53}
+\indexentry{Ideal gas law|hyperpage}{53}
+\indexentry{Dalton's law|hyperpage}{53}
+\indexentry{Multiplicity function|hyperpage}{55}
+\indexentry{Stirling approximation|hyperpage}{55}
+\indexentry{Magnetic!Moment|hyperpage}{55}
+\indexentry{Entropy|hyperpage}{55}
+\indexentry{Partition function|hyperpage}{56}
+\indexentry{Helmholtz Free Energy|hyperpage}{56}
+\indexentry{Planck!distribution function|hyperpage}{56}
+\indexentry{Stefan-Boltzmann law|hyperpage}{56}
+\indexentry{Planck!radiation law|hyperpage}{56}
+\indexentry{Debye|hyperpage}{56}
+\indexentry{Chemical potential|hyperpage}{57}
+\indexentry{Monatomic gas|hyperpage}{57}
+\indexentry{Gibbs!Factor|hyperpage}{57}
+\indexentry{Gibbs!Sum|hyperpage}{57}
+\indexentry{Absolute activity|hyperpage}{57}
+\indexentry{Entropy|hyperpage}{57}
+\indexentry{Heat|hyperpage}{58}
+\indexentry{Carnot!Energy|hyperpage}{58}
+\indexentry{Carnot!Coefficient|hyperpage}{58}
+\indexentry{Gibbs!Free energy|hyperpage}{58}
+\indexentry{Law of!mass action|hyperpage}{58}
+\indexentry{Maxwell!Relations|hyperpage}{58}
+\indexentry{Acidity|hyperpage}{58}
+\indexentry{Reaction quotient|hyperpage}{58}
+\indexentry{Enthalpy|hyperpage}{58}
+\indexentry{Clausius-Clapeyron equation|hyperpage}{58}
+\indexentry{Van der Waals|hyperpage}{58}
+\indexentry{Maxwelldistribution|hyperpage}{59}
+\indexentry{Diffusion|hyperpage}{59}
+\indexentry{Thermal conductivity|hyperpage}{59}
+\indexentry{viscosity|hyperpage}{59}
+\indexentry{Wiedemann-Franz ratio|hyperpage}{59}
+\indexentry{Boltzmann transport equation|hyperpage}{59}
+\indexentry{Ruthford Scattering Formula|hyperpage}{60}
+\indexentry{Compton effect|hyperpage}{60}
+\indexentry{De Broglie|hyperpage}{60}
+\indexentry{Rydberg formula|hyperpage}{61}
+\indexentry{Bragg's Law|hyperpage}{61}
+\indexentry{Cubit|hyperpage}{63}
+\indexentry{Schr\"{o}dingr Equation|hyperpage}{64}
+\indexentry{Dirac!equation|hyperpage}{64}
+\indexentry{Harmonic oscillator|hyperpage}{65}
+\indexentry{Harmonic oscillator|hyperpage}{65}
+\indexentry{Spherical!harmonics|hyperpage}{66}
+\indexentry{Pauli Spin Matrices|hyperpage}{68}
+\indexentry{Clebsch-Gordan|hyperpage}{68}
+\indexentry{Variational principle|hyperpage}{69}
+\indexentry{Rabi-Flopping frequency|hyperpage}{69}
+\indexentry{Transition rate|hyperpage}{69}
+\indexentry{Spontaneous emission|hyperpage}{69}
+\indexentry{hard sphere scattering|hyperpage}{69}
+\indexentry{partial wave amplitude|hyperpage}{69}
+\indexentry{Nuclear Force|hyperpage}{70}
+\indexentry{Fermi energy|hyperpage}{71}
+\indexentry{Nuclear Decay|hyperpage}{71}
+\indexentry{Gamma decay|hyperpage}{71}
+\indexentry{Rutherford cross section|hyperpage}{72}
+\indexentry{Separation energy|hyperpage}{72}
+\indexentry{Quantum!Chromodynamics|hyperpage}{73}
+\indexentry{Quantum!Electrodynamics|hyperpage}{73}
+\indexentry{Clebsch-Gordan|hyperpage}{74}

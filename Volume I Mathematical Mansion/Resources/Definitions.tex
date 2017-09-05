@@ -47,7 +47,7 @@
 
 %theorem
 \newcounter{theo}[section] \setcounter{theo}{0}
-\renewcommand{\thetheo}{\arabic{section}.\arabic{theo}}
+\renewcommand{\thetheo}{\arabic{chapter}.\arabic{theo}}
 \newenvironment{theo}[2][]{%
 	\refstepcounter{theo}%
 	\ifstrempty{#1}%
@@ -70,6 +70,7 @@
 	\begin{mdframed}[]\relax%
 		\label{#2}}{\end{mdframed}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %Lemma
 \newcounter{lemm}[section] \setcounter{lemm}{0}
 \renewcommand{\thelemm}{\arabic{chapter}.\arabic{lemm}}
@@ -95,6 +96,7 @@
 	\begin{mdframed}[]\relax%
 		\label{#2}}{\end{mdframed}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %Proof
 \newcounter{prf}[section]\setcounter{prf}{0}
 \renewcommand{\theprf}{\arabic{chapter}.\arabic{prf}}
@@ -120,6 +122,7 @@
 	\begin{mdframed}[]\relax%
 		\label{#2}}{\qed\end{mdframed}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %Definition
 \newcounter{defn}[section] \setcounter{defn}{0}
 \renewcommand{\thedefn}{\arabic{chapter}.\arabic{defn}}

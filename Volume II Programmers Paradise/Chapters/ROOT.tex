@@ -1,2 +1,16 @@
 \chapter{ROOT}
 \thispagestyle{fancy}
+
+Formatting a TString can be simplified by use of the Form function.
+
+\begin{lstlisting}
+const char *someText = "Hello World!";
+int someInt = 2314;
+
+//%s corresponts to a const char*
+//%d corresponds to an integer
+TString output = Form("I want to say %s a total of %d times", someText, someInt);
+
+//This will output "I want to say Hello World! a total of 2314 times"
+std::cout << output;
+\end{lstlisting}
