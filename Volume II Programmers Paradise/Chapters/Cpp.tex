@@ -89,10 +89,10 @@ int size1 = 5;
 int size2 = 6;
 
 //Creates a vector named V1 containing int's with a size of 5 and sets each element to 0. 
-std::vector<int> V1(size1); 
+std::vector<int> V1(size1, 0); 
 
 //Creates a 2-D vector (vector containing vectors) of size 5x6 named V2 containing doubles;
-std::vector< std::vector<double>> V2(size1, std::vector<double>(size2)); 
+std::vector< std::vector<double>> V2(size1, std::vector<double>(size2, 0)); 
 
 V1[0] = 8; //Sets the first element in V1 to 8.
 
