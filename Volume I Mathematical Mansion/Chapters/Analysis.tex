@@ -1,6 +1,10 @@
 \chapter{Mathematical Analysis}
 \thispagestyle{fancy}
 
+\begin{defn}[Field]{1}
+	A \textit{field} $F$ can be defined as a commutative ring with identity such that for each $a\in F$ where $a \neq 0$, there is an element $a^{-1} \in F$ such that $a a^{-1}=1$.
+\end{defn}
+
 \begin{theo}[Rational Zeros Theorem\index{Rational Zeros Theorem}\cite{Elementary Analysis}]{1}
 	Suppose $c_0, c_1, \dots,c_n$ are integers and r is a rational number satisfying the polynomial equation
 	\begin{align}
@@ -10,3 +14,30 @@
 	
 	\hspace{1cm} In other words, the only rational candidates for solutions to (\ref{RZT}) have the form $\frac{c}{d}$ where $c$ divides $c_0$ and $d$ divides $c_n$.
 \end{theo}
+
+\begin{theo}[Properties of Absolute Values in $\mathbb{R}$]{1}
+	For all $a,b \in \mathbb{R}$, $|a| \geq 0$, $|ab| = |a|\cdot|b|$, and $|a+b| \leq |a|+|b|$.
+\end{theo}
+
+\begin{defn}[Minimum\index{Minimum} and Maximum\index{Maximum} \cite{Elementary Analysis}]{1}
+	Let $S$ be a non-empty subset of $\mathbb{R}$.
+	\begin{enumerate}
+		\item[(a)] If $S$ contains a largest element $s_m$ [that is $s_m \in S$ and $s \leq s_m$ for all $s \in S$], then we call $s_m$ the \textit{maximum} of $S$ and write $s_m = \max S$.
+		
+		\item[(b)] If $S$ contains a smallest element $s_m$ [that is $s_m \in S$ and $s_m \leq s$ for all $s \in S$], then we call $s_m$ the \textit{minimum} of $S$ and write $s_m = \min S$.
+	\end{enumerate}
+\end{defn}
+
+\begin{defn}[Bounded Sets \cite{Elementary Analysis}]{1}
+	Let $S$ be a non-empty subset of $\mathbb{R}$.
+	\begin{enumerate}
+		\item[(a)] If $M \in \mathbb{R}$ satisfies $s \leq M$ for all $s \in S$, then $M$ is
+		called an \textit{upper bound} of $S$ and the set $S$ is said to be bounded above.
+		
+		\item[(b)] If $m \in \mathbb{R}$ satisfies $m \leq s$ for all $s \in S$, then $m$ is
+		called a \textit{lower bound} of $S$ and the set $S$ is said to be bounded below.
+		
+		\item[(c)] The set $S$ is said to be bounded if it is bounded above and bounded below. Thus $S$ is bounded if there exist $m,M \in \mathbb{R}$ such that $S \subseteq [m, M]$
+	\end{enumerate}
+\end{defn}
+
