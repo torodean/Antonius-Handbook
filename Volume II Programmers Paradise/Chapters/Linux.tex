@@ -22,6 +22,15 @@ cd /directory # Changes the directory to the subdirectory /directory
 cd ..         # Goes back one directory
 \end{lstlisting}
 
+Copy a file or directory to a different linux computer
+\begin{lstlisting}
+#To copy a file.
+scp <File Path> username@computer:"<path to copy to>"
+
+#To copy a directory.
+scp -r <File Path> username@computer:"<path to copy to>"
+\end{lstlisting}
+
 Show information about the file system on which each FILE resides, or all file systems by default.
 \begin{lstlisting}
 df 
