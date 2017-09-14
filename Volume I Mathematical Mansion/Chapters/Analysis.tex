@@ -64,8 +64,41 @@
 	If $a,b \in \mathbb{R}$ and $a < b$, then there is a rational $r \in \mathbb{Q}$ such that $a < r < b$.
 \end{defn}
 
+\begin{defn}[A Sequence\index{Sequence}]{1}
+	A sequence is a function $\{n\in\mathbb{Z}:n\geq m\} \rightarrow \mathbb{R},n\mapsto s_n$.
+	\begin{enumerate}
+		\item $m=0$ or $m=1$ most often.
+		\item Often denoted as $(s_1,s_2,s_3,\dots)$, $(s_n)_{n=m}^\infty$, $(s_n)_{n\in\mathbb{N}}$, or $(s_n)$.		
+	\end{enumerate}
+\end{defn}
+
 \begin{defn}[Limits\index{Limit}, Converging\index{Converge}, and Diverging\index{Diverge} \cite{Elementary Analysis}]{1}
 	A sequence $(s_n)$ of real numbers is said to \textit{converge} to the real number $s$ provided that for each $\epsilon > 0$ there exists a number $N$	such that $n > N \implies |s_n-s|<\epsilon$. If $(s_n)$ converges to $s$, we will write $\lim_{n\rightarrow\infty} s_n = s$, or $s_n \rightarrow s$. The	number $s$ is called the \textit{limit} of the sequence $(s_n)$. A sequence that does not converge to some real number is said to \textit{diverge}.
+\end{defn}
+
+\newpage
+
+\begin{theo}[Sequence and Limit Properties\index{Limit}\index{Sequence} \cite{Elementary Analysis}]{1}
+	\begin{enumerate}[i]
+		\item Convergent sequences are bounded.
+		\item If the sequence $(s_n)$ converges to $s$ and $k\in\mathbb{R}$, then the sequence $(ks_n)$ converges to $ks$. That is, $\lim ks_n=k\cdot \lim s_n$.
+		\item If the sequence $(s_n)$ converges to $s$ and $(t_n)$ converges to $t$, then $(s_n+t_n)$ converges to $s+t$. That is, $\lim s_n+t_n=\lim s_n+\lim t_n$.
+		\item If the sequence $(s_n)$ converges to $s$ and $(t_n)$ converges to $t$, then $(s_n t_n)$ converges to $st$. That is, $\lim s_n\cdot t_n=(\lim s_n)(\lim t_n)$.
+		\item Suppose $(s_n)$ converges to $s$ and $(t_n)$ converges to $t$. If $s \neq 0$ and
+		$s_n \neq 0$ for all $n$, then $(\frac{t_n}{s_n})$ converges to $\frac{t}{s}$.		
+		\item Let $(s_n)$ and $(t_n)$ be sequences such that $\lim s_n=\pm\infty$ and $\lim t_n > 0$. Then $\lim s_n t_n = \pm\infty$.
+		\item For a sequence $(s_n)$ of positive real numbers, we have $\lim s_n = \infty$
+		if and only if $\lim(\frac{1}{s_n}) = 0$.
+	\end{enumerate}
+\end{theo}
+
+
+\begin{defn}[Divergence\index{Divergence} \cite{Elementary Analysis}]{1}
+	Let $(s_n)$ be a sequence.
+	\begin{enumerate}[i]
+		\item We write $\lim s_n = \infty$ (diverges to $+\infty$) provided for each $M>0$, there is a number $N$ such that $n>N \implies s_n>M$.
+		\item We write $\lim s_n = -\infty$ (diverges to $-\infty$) provided for each $M<0$, there is a number $N$ such that $n>N \implies s_n<M$.
+	\end{enumerate}	
 \end{defn}
 
 
