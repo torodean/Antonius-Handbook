@@ -29,7 +29,7 @@
 \contentsline {section}{\numberline {10.2}Celestial \& Stellar Atmospheres}{40}{section.10.2}
 \contentsline {section}{\numberline {10.3}Convection}{41}{section.10.3}
 \contentsline {section}{\numberline {10.4}Main Sequence Stars}{42}{section.10.4}
-\contentsline {section}{\numberline {10.5}Galaxies}{42}{section.10.5}
+\contentsline {section}{\numberline {10.5}Galaxies}{43}{section.10.5}
 \contentsline {chapter}{\numberline {11}Classical Mechanics}{44}{chapter.11}
 \contentsline {chapter}{\numberline {12}Electricity and Magnetism}{46}{chapter.12}
 \contentsline {chapter}{\numberline {13}Electronics}{50}{chapter.13}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  14 SEP 2017 15:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  15 SEP 2017 12:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2066,11 +2066,7 @@ File: ./Images/Diagrams/meanfreepath.png Graphic file (type png)
 Package pdftex.def Info: ./Images/Diagrams/meanfreepath.png used on input line 
 189.
 (pdftex.def)             Requested size: 199.55719pt x 224.56776pt.
- [41 <./Images/Diagrams/meanfreepath.png (PNG copy)>]
-Underfull \vbox (badness 2197) has occurred while \output is active []
-
- [42])
-[43]
+ [41 <./Images/Diagrams/meanfreepath.png (PNG copy)>] [42]) [43]
 \openout2 = `./Chapters/Mechanics.aux'.
 
  (./Chapters/Mechanics.tex
@@ -2614,7 +2610,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  40088 strings out of 494953
  800735 string characters out of 6180977
- 979605 words of memory out of 5000000
+ 979606 words of memory out of 5000000
  41399 multiletter control sequences out of 15000+600000
  25444 words of font info for 97 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -2644,7 +2640,7 @@ nts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/s
 ymbols/msbm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
-Output written on Handbook.pdf (92 pages, 4530175 bytes).
+Output written on Handbook.pdf (92 pages, 4530408 bytes).
 PDF statistics:
  3308 PDF objects out of 3580 (max. 8388607)
  2337 compressed objects within 24 object streams
