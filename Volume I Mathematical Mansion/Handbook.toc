@@ -58,14 +58,15 @@
 \contentsline {section}{\numberline {19.2}Spherical Harmonics}{69}{section.19.2}
 \contentsline {section}{\numberline {19.3}Angular Momentum and Spin}{70}{section.19.3}
 \contentsline {section}{\numberline {19.4}Scattering}{72}{section.19.4}
-\contentsline {chapter}{\numberline {20}Nuclear and High Energy Physics}{73}{chapter.20}
-\contentsline {section}{\numberline {20.1}Nuclear Physics}{73}{section.20.1}
-\contentsline {section}{\numberline {20.2}Nuclear Decay}{74}{section.20.2}
-\contentsline {section}{\numberline {20.3}Elementary Particle Physics}{74}{section.20.3}
-\contentsline {chapter}{\numberline {21}Advanced Physics}{76}{chapter.21}
-\contentsline {section}{\numberline {21.1}Quantum Chromodynamics}{76}{section.21.1}
-\contentsline {chapter}{\numberline {22}Resources}{77}{chapter.22}
-\contentsline {section}{\numberline {22.1}Clebsch-Gordan Coefficients, spherical harmonics, and d functions.}{77}{section.22.1}
-\contentsline {section}{\numberline {22.2}Table of Isotopic Masses and Natural Abundances}{78}{section.22.2}
-\contentsline {section}{\numberline {22.3}Periodic Table of Elements}{83}{section.22.3}
-\contentsline {chapter}{References}{84}{chapter*.2}
+\contentsline {chapter}{\numberline {20}Nuclear and High Energy Physics}{74}{chapter.20}
+\contentsline {section}{\numberline {20.1}Nuclear Physics}{74}{section.20.1}
+\contentsline {section}{\numberline {20.2}Nuclear Decay}{75}{section.20.2}
+\contentsline {section}{\numberline {20.3}Elementary Particle Physics}{75}{section.20.3}
+\contentsline {chapter}{\numberline {21}Advanced Physics}{77}{chapter.21}
+\contentsline {section}{\numberline {21.1}Quantum Chromodynamics}{77}{section.21.1}
+\contentsline {chapter}{\numberline {22}Resources}{78}{chapter.22}
+\contentsline {section}{\numberline {22.1}Clebsch-Gordan Coefficients, spherical harmonics, and d functions.}{78}{section.22.1}
+\contentsline {section}{\numberline {22.2}Ground State Electron Configurations of Elements}{79}{section.22.2}
+\contentsline {section}{\numberline {22.3}Table of Isotopic Masses and Natural Abundances}{79}{section.22.3}
+\contentsline {section}{\numberline {22.4}Periodic Table of Elements}{85}{section.22.4}
+\contentsline {chapter}{References}{86}{chapter*.2}

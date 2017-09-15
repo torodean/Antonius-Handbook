@@ -28,7 +28,7 @@
   \item Cauchy-Riemann conditions, \hyperpage{13}
   \item Chemical potential, \hyperpage{60}
   \item Clausius-Clapeyron equation, \hyperpage{61}
-  \item Clebsch-Gordan, \hyperpage{71}, \hyperpage{77}
+  \item Clebsch-Gordan, \hyperpage{71}, \hyperpage{78}
   \item Completeness Axiom, \hyperpage{23}
   \item Compton effect, \hyperpage{63}
   \item Continuity equation, \hyperpage{48}
@@ -70,7 +70,7 @@
 
   \indexspace
 
-  \item Fermi energy, \hyperpage{74}
+  \item Fermi energy, \hyperpage{75}
   \item Field, \hyperpage{22}
   \item Field tensor, \hyperpage{54}
   \item First Isomorphism Theorem, \hyperpage{21}
@@ -81,7 +81,7 @@
 
   \indexspace
 
-  \item Gamma decay, \hyperpage{74}
+  \item Gamma decay, \hyperpage{75}
   \item Gamma function, \hyperpage{4}
   \item Gauss's Law, \hyperpage{47}
   \item Gibbs
@@ -163,8 +163,8 @@
 
   \indexspace
 
-  \item Nuclear Decay, \hyperpage{74}
-  \item Nuclear Force, \hyperpage{73}
+  \item Nuclear Decay, \hyperpage{75}
+  \item Nuclear Force, \hyperpage{74}
 
   \indexspace
 
@@ -189,8 +189,8 @@
   \indexspace
 
   \item Quantum
-    \subitem Chromodynamics, \hyperpage{76}
-    \subitem Electrodynamics, \hyperpage{76}
+    \subitem Chromodynamics, \hyperpage{77}
+    \subitem Electrodynamics, \hyperpage{77}
 
   \indexspace
 
@@ -199,7 +199,7 @@
   \item Rational Zeros Theorem, \hyperpage{22}
   \item Reaction quotient, \hyperpage{61}
   \item Ring, \hyperpage{17}
-  \item Rutherford cross section, \hyperpage{75}
+  \item Rutherford cross section, \hyperpage{76}
   \item Ruthford Scattering Formula, \hyperpage{63}
   \item Rydberg formula, \hyperpage{64}
 
@@ -207,7 +207,7 @@
 
   \item Saddle point approximation, \hyperpage{37}
   \item Schr\"{o}dingr Equation, \hyperpage{67}
-  \item Separation energy, \hyperpage{75}
+  \item Separation energy, \hyperpage{76}
   \item Sequence, \hyperpage{23, 24}
   \item Singular Points, \hyperpage{13}
   \item Space-time interval, \hyperpage{54}
@@ -245,5 +245,9 @@
   \item Wave equation, \hyperpage{46}
   \item Weierstrass substitution, \hyperpage{9}
   \item Wiedemann-Franz ratio, \hyperpage{62}
+
+  \indexspace
+
+  \item Zeeman effect, \hyperpage{73}
 
 \end{theindex}
