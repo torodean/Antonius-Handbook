@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  1 OCT 2017 23:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.8)  2 OCT 2017 12:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2688,10 +2688,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 40154 strings out of 494953
- 801975 string characters out of 6180977
- 979756 words of memory out of 5000000
- 41425 multiletter control sequences out of 15000+600000
+ 40136 strings out of 494953
+ 801531 string characters out of 6180977
+ 979365 words of memory out of 5000000
+ 41407 multiletter control sequences out of 15000+600000
  25444 words of font info for 97 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,20n,54p,10456b,869s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2720,7 +2720,7 @@ nts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/s
 ymbols/msbm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
-Output written on Handbook.pdf (96 pages, 5096709 bytes).
+Output written on Handbook.pdf (96 pages, 5096686 bytes).
 PDF statistics:
  3394 PDF objects out of 3580 (max. 8388607)
  2414 compressed objects within 25 object streams
