@@ -64,6 +64,8 @@
 	If $a,b \in \mathbb{R}$ and $a < b$, then there is a rational $r \in \mathbb{Q}$ such that $a < r < b$.
 \end{defn}
 
+\section{Sequences and Series}
+
 \begin{defn}[A Sequence\index{Sequence}]{1}
 	A sequence is a function $\{n\in\mathbb{Z}:n\geq m\} \rightarrow \mathbb{R},n\mapsto s_n$.
 	\begin{enumerate}
@@ -155,8 +157,76 @@
 		\item $S$ is non-empty.
 		\item $\sup S = \lim \sup s_n$ and $\inf S = \lim \inf s_n$.
 		\item $\lim s_n$ exists if and only if $S$ has exactly one element, namely	$\lim s_n$.
-		\item Suppose $(t_n)$ is a sequence in $S\cap R$ and that $t = \lim t_n$. Then $t$ belongs
-		to $S$.
+		\item Suppose $(t_n)$ is a sequence in $S\cap R$ and that $t = \lim t_n$. Then $t$ belongs to $S$.
 	\end{enumerate}
 \end{defn}
+
+\begin{defn}[Cauchy Critereon\index{Cauchy Critereon} \cite{Elementary Analysis}]{1}
+	We say a series $\sum a_n$ satisfies the \textit{Cauchy Critereon} if its subsequence ($s_n$) of partial sums is a Cauchy sequence: for each $\epsilon > 0$ there exists a number $N$ such that $m,n >N$ implies $|s_n-s_m|<\epsilon$. 
+	\begin{enumerate}
+		\item A series converges if and only if it satisfies the Cauchy criterion.
+	\end{enumerate}
+\end{defn}
+
+\section{Convergence/Divergence Tests}
+
+\begin{fancybox}[Comparison Test\index{Comparison Test} \cite{Elementary Analysis}]{1}
+	Let $\sum a_n$ be a series where $a_n \geq 0$ for all $n$.
+	\begin{enumerate}[(i)]
+		\item If $\sum a_n$ converges and $|b_n| \leq a_n$ for all $n$, then $\sum b_n$ converges.
+		\item If $\sum a_n = \infty$ and $b_n \geq a_n$ for all $n$, then $\sum b_n = \infty$. 
+	\end{enumerate}
+\end{fancybox}
+
+\begin{fancybox}[Ratio Test\index{Ratio Test} \cite{Elementary Analysis}]{1}
+	Let $\sum a_n$ be a series of nonzero terms.
+	\begin{enumerate}[(i)]
+		\item $\sum a_n$ converges absolutely if $\lim \sup \left| \frac{a_{n+1}}{a_n}\right| <1$.
+		\item $\sum a_n$ diverges if $\lim \inf \left| \frac{a_{n+1}}{a_n}\right| >1$.
+		\item Otherwise, $\lim \inf \left| \frac{a_{n+1}}{a_n}\right| \leq 1 \leq \lim \sup \left| \frac{a_{n+1}}{a_n}\right|$ and the test gives no information.
+	\end{enumerate}
+\end{fancybox}
+
+\begin{fancybox}[Root Test\index{Root Test} \cite{Elementary Analysis}]{1}
+	Let $\sum a_n$ be a series and let $\alpha = \lim \sum |a_n|^{1/n}$.
+	\begin{enumerate}[(i)]
+		\item The series $\sum a_n$ converges absolutely if $\alpha <1$.
+		\item The series $\sum a_n$ diverges if $\alpha >1$.
+	\end{enumerate}
+\end{fancybox}
+
+
+\begin{fancybox}[Integral Test\index{Integral Test} \cite{Elementary Analysis}]{1}
+	\begin{enumerate}[(i)]
+		\item If $\lim\limits_{n \rightarrow \infty} \int_{0}^{n} f(x) dx =\infty$ then the series $\sum f(x)$ will diverge.
+		\item If $\lim\limits_{n \rightarrow \infty} \int_{0}^{n} f(x) dx <\infty$ then the series $\sum f(x)$ will converge.
+	\end{enumerate}
+\end{fancybox}
+
+\newpage
+
+\begin{theo}[Miscellaneous Convergent Properties and Theorems \cite{Elementary Analysis}]{1}
+	\begin{enumerate}[(i)]
+		\item If a series $\sum a_n$ converges, then $\lim a_n = 0$. 
+		\item $\sum \frac{1}{n^p}$ converges if and only if $p > 1$. 
+	\end{enumerate}
+\end{theo}
+
+
+
+\begin{theo}[Alternating Series Theorem\index{Alternating Series} \cite{Elementary Analysis}]{1}
+	If $a_1 \geq a_2 \geq \cdots \geq a_n \geq \cdots \geq 0$ and $\lim a_n =0$, then the alternating series $\sum(-1)^{n+1}a_n$ converges. Moreover, the partial sums $s_n = \sum_{k=1}^{n}(-1)^{k+1}a_k$ satisfy $|s-s_n|\leq a_n$ for all $n$.
+\end{theo}
+
+\section{Functions}
+
+\begin{defn}[Continuous Function\index{Continuous function} \cite{Elementary Analysis}]{1}
+	Let $f$ be a real-valued function whose domain is a subset of $\mathbb{R}$. The function $f$ is \textit{continuous} at $x_0$ in dom($f$) if, for every sequence ($x_n$)	in dom($f$) converging to $x_0$, we have $\lim_n f(x_n) = f(x_0)$. If $f$ is continuous at each point of a set $S \subseteq$ dom($f$), then $f$ is said to	be \textit{continuous} on $S$. The function $f$ is said to be \textit{continuous} if it is continuous on dom($f$).
+\end{defn}
+
+\begin{theo}[Continuous Function\cite{Elementary Analysis}]{1}
+	Let $f$ be a real-valued function with dom($f$) $\subseteq \mathbb{R}$. Then
+	$f$ is \textit{continuous} at $x_0$ in dom($f$) if and only if for each $\epsilon > 0$, there exists $\delta > 0$ such that $x\in$ dom($f$) and $|x-x_0|<\delta$ imply $|f(x)-f(x_0)|<\epsilon$.
+\end{theo}
+
 
