@@ -229,4 +229,73 @@
 	$f$ is \textit{continuous} at $x_0$ in dom($f$) if and only if for each $\epsilon > 0$, there exists $\delta > 0$ such that $x\in$ dom($f$) and $|x-x_0|<\delta$ imply $|f(x)-f(x_0)|<\epsilon$.
 \end{theo}
 
+\begin{defn}[Continuous Functions\index{Continuous functions} \cite{Elementary Analysis}]{1}
+	Let $f$ be a real-valued function whose domain is a subset of $\mathbb{R}$.
+	\begin{enumerate}[(i)]
+		\item $f$ is continuous at $x_0$ in dom($f$) if, for every sequence ($x_n$)
+		in dom($f$) converging to $x_0$ , we have $\lim_n f (x_n) = f(x_0)$. If $f$ is
+		continuous at each point of a set $S \subseteq $ dom($f$), then $f$ is said to
+		be continuous on $S$. The function $f$ is said to be continuous if it is continuous on dom($f$).
+		\item $f$ is continuous at $x_0$ in dom($f$) if and only if for each $\epsilon > 0$ there exists $\delta >0$ such that $x\in$ dom($f$) and $|x-x_0|<\delta$ imply $|f(x)-f(x_0)|<\epsilon$.
+		\item If $f$ is continuous
+		at $x_0$ in dom($f$), then $|f|$ and $kf , k \in\mathbb{R}$, are continuous at $x_0$.
+	\end{enumerate}
+\end{defn}
+
+\begin{theo}[\cite{Elementary Analysis}]{1}
+	If $f$ is continuous at $x_0$ and $g$ is continuous at $f(x_0)$, then $g \circ f$ is continuous at $x_0$.
+\end{theo}
+
+\newpage
+
+\begin{theo}[\cite{Elementary Analysis}]{1}
+	Let $f$ and $g$ be real-valued functions that are continuous at $x_0$ in $\mathbb{R}$. Then
+	\begin{enumerate}[(i)]
+		\item $f+g$ is continuous at $x_0$;
+		\item $fg$ is continuous at $x_0$;
+		\item $\frac{f}{g}$ is continuous at $x_0$ if $g(x_0) \neq 0$.
+	\end{enumerate}
+\end{theo}
+
+\begin{theo}[\cite{Elementary Analysis}]{1}
+	Let $f$ be a continuous real-valued function on a closed interval $[a, b]$.
+	Then $f$ is a bounded function. Moreover, $f$ assumes its maximum and minimum values on $[a, b]$; that is, there exist $x_0, y_0 \in [a, b]$ such that $f(x_0) \leq f(x) \leq f(y_0)$ for all $x \in [a, b]$.
+\end{theo}
+
+\begin{theo}[Intermediate Value Theorem\index{Intermediate Value Theorem}\cite{Elementary Analysis}]{1}
+	If $f$ is a continuous real-valued function on an interval $I$, then $f$ has
+	the intermediate value property on $I$: Whenever $a, b \in I, a < b$ and $y$
+	lies between $f(a)$ and $f(b)$ [i.e., $f(a) < y < f(b)$ or $f(b) < y < f(a)$],
+	there exists at least one $x \in (a, b)$ such that $f(x) = y$.
+	\begin{enumerate}[(i)]
+		\item \textit{Corollary.} If $f$ is a continuous real-valued function on an interval $I$, then the set $f(I) = \{f(x) : x \in I\}$ is also an interval or a single point.
+	\end{enumerate}
+\end{theo}
+
+\begin{theo}[\cite{Elementary Analysis}]{1}
+	Let $f$ be a continuous strictly increasing function on some interval $I$. Then $f(I)$ is an interval $J$ by the Intermediate Value Theorem and $f^{−1}$ represents a function with domain $J$. The function $f^{−1}$ is a continuous strictly increasing function on $J$.
+\end{theo}
+
+\begin{theo}[\cite{Elementary Analysis}]{1}
+	Let $g$ be a strictly increasing function on an interval $J$ such that $g(J)$ is an interval $I$. Then $g$ is continuous on $J$.
+\end{theo}
+
+\begin{theo}[\cite{Elementary Analysis}]{1}
+	Let $f$ be a one-to-one continuous function on an interval $I$. Then
+	$f$ is strictly increasing $[x_1 < x_2 \implies f(x_1) < f(x_2)]$ or strictly
+	decreasing $[x_1 < x_2 \implies f(x_1) > f(x_2)]$.
+\end{theo}
+
+\newpage
+
+\begin{defn}[Uniformly Continuous\index{Uniformly Continuous}\cite{Elementary Analysis}]{1}
+	Let $f$ be a real-valued function defined on a set $S \subseteq \mathbb{R}$. Then $f$ is \textit{Uniformly Continuous} on $S$ if for each $\epsilon > 0$ there exists $\delta > 0$ such that $x, y \in S$ and |$x-y| < \delta$ imply $|f(x)- f(y)| < \epsilon$. We will say $f$ is uniformly continuous if $f$ is \textit{uniformly continuous} on dom($f$).
+	\begin{enumerate}
+		\item If $f$ is continuous on a closed interval $[a, b]$, then $f$ is uniformly continuous on $[a, b]$.
+		\item If $f$ is uniformly continuous on a set $S$ and ($s_n$) is a Cauchy sequence in $S$, then ($f(s_n)$) is a Cauchy sequence.
+		\item A real-valued function $f$ on $(a, b)$ is uniformly continuous on $(a, b)$ if and only if it can be extended to a continuous function $\bar{f}$ on $[a, b]$.
+	\end{enumerate}
+\end{defn}
+
+
 
