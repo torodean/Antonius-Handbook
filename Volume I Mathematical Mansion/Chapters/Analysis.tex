@@ -93,7 +93,7 @@
 		if and only if $\lim(\frac{1}{s_n}) = 0$.
 		\item All bounded monotonic sequences converge.
 		\item If $(s_n)$ is an unbounded increasing or decreasing sequence, then $\lim s_n = \pm\infty$ respectively.
-		\item If $t \in \mathbb{R}$, then there is a subsequence of $(s_n)$ converging to $t$ if and only if the set $\{n \in \mathbb{N} : |s_n − t| < \epsilon\}$ is infinite for all $\epsilon > 0$.
+		\item If $t \in \mathbb{R}$, then there is a subsequence of $(s_n)$ converging to $t$ if and only if the set $\{n \in \mathbb{N} : |s_n - t| < \epsilon\}$ is infinite for all $\epsilon > 0$.
 		\item If the sequence $(s_n)$ is unbounded above or below, it has a subsequence with limit $\pm \infty$ respectively.
 		\item Let $(s_n)$ be any sequence. There exists a monotonic subsequence	whose limit is $\lim \sup s_n$, and there exists a monotonic subsequence	whose limit is $\lim \inf s_n$.
 	\end{enumerate}
@@ -273,7 +273,7 @@
 \end{theo}
 
 \begin{theo}[\cite{Elementary Analysis}]{1}
-	Let $f$ be a continuous strictly increasing function on some interval $I$. Then $f(I)$ is an interval $J$ by the Intermediate Value Theorem and $f^{−1}$ represents a function with domain $J$. The function $f^{−1}$ is a continuous strictly increasing function on $J$.
+	Let $f$ be a continuous strictly increasing function on some interval $I$. Then $f(I)$ is an interval $J$ by the Intermediate Value Theorem and $f^{-1}$ represents a function with domain $J$. The function $f^{-1}$ is a continuous strictly increasing function on $J$.
 \end{theo}
 
 \begin{theo}[\cite{Elementary Analysis}]{1}
@@ -294,8 +294,48 @@
 		\item If $f$ is continuous on a closed interval $[a, b]$, then $f$ is uniformly continuous on $[a, b]$.
 		\item If $f$ is uniformly continuous on a set $S$ and ($s_n$) is a Cauchy sequence in $S$, then ($f(s_n)$) is a Cauchy sequence.
 		\item A real-valued function $f$ on $(a, b)$ is uniformly continuous on $(a, b)$ if and only if it can be extended to a continuous function $\bar{f}$ on $[a, b]$.
+		\item Let f be a continuous function on an interval $I$ [$I$ may be bounded	or unbounded]. Let $I^\circ$ be the interval obtained by removing from $I$	any endpoints that happen to be in $I$. If $f$ is differentiable on $I^\circ$ and if $f'$ is bounded on $I^\circ$, then $f$ is uniformly continuous on $I$.
 	\end{enumerate}
 \end{defn}
 
+\begin{defn}[Limits of Functions\cite{Elementary Analysis}]{1}
+	\begin{enumerate}[(i)]
+		\item Let $S\subseteq\mathbb{R}$. Let $a$ and $L$ be real numbers or $\pm\infty$, where $a$ is the limit of some sequence in $S$. We write $\lim_{x\rightarrow a} s f(x) = L$ if $f$ is a function defined on $S$ and for every sequence $(x_n)$ in $S$ with limit $a$, we have $\lim_{n\rightarrow \infty} f(x_n) = L$.
+		\item For $a \in \mathbb{R}$ and a function $f$ we write $\lim_{x\rightarrow a} f(x) = L$ provided $\lim_{x\rightarrow a} s f(x) = L$ for some set $S = J \ \{a\}$ where $J$ is an open interval containing $a$. $\lim_{x\rightarrow a} f(x)$ is called the \textit{two-sided} limit of $f$ at $a$. Note $f$ need not be defined at $a$ and, even if $f$	is defined at $a$, the value $f (a)$ need not equal $\lim_{x\rightarrow a} f(x)$. In fact, $f (a) = \lim_{x\rightarrow a} f(x)$ if and only if $f$ is defined on an open interval containing $a$ and $f$ is continuous at $a$.
+		\item For $a \in\mathbb{R}$ and a function $f$ we write $\lim_{x\rightarrow a} + f(x) = L$ provided $\lim_{x\rightarrow a} s f(x) = L$ for some open interval $S = (a, b)$. $\lim_{x\rightarrow a} + f(x)$ is the \textit{right-hand} limit of $f$ at $a$. Again $f$ need not be defined at $a$.
+		\item For $a \in\mathbb{R}$ and a function $f$ we write $\lim_{x\rightarrow a} - f(x) = L$ provided $\lim_{x\rightarrow a} s f(x) = L$ for some open interval $S = (c, a)$. $\lim_{x\rightarrow a} - f(x)$ is the \textit{left-hand} limit of $f$ at a.
+		\item For a function $f$ we write $\lim_{x\rightarrow \infty} f(x) = L$ provided $\lim_{x\rightarrow \infty} s f(x) = L$ for some interval $S = (c, \infty)$. Likewise,	we write $\lim_{x\rightarrow -\infty} f(x) = L$ provided $\lim_{x\rightarrow -\infty} s f(x) = L$ for some interval $S = (-\infty, b)$.
+	\end{enumerate}
+\end{defn}
 
+\newpage
+
+\begin{theo}[Limits of Functions\cite{Elementary Analysis}]{1}
+	Let $f_1$ and $f_2$ be functions for which the limits $L_1 = \lim_{x\rightarrow a} s f_1(x)$	and $L_2 = \lim_{x\rightarrow a} s f_2(x)$ exist and are finite. Then
+	\begin{enumerate}[(i)]
+		\item $\lim_{x\rightarrow a} s (f_1 + f_2)(x)$ exists and equals $L_1 + L_2$
+		\item $\lim_{x\rightarrow a} s (f_1 f_2 )(x)$ exists and equals $L_1 L_2$
+		\item $\lim_{x\rightarrow a} s (f_1 /f_2)(x)$ exists and equals $L_1 /L_2$ provided $L_2 \neq 0$
+		and $f_2(x) \neq 0$ for $x \in S$.
+	\end{enumerate}
+\end{theo}
+
+
+\begin{theo}[Limits of Functions\cite{Elementary Analysis}]{1}
+	Let $f$ be a function for which the limit $L = \lim_{x\rightarrow a} s f(x)$ exists and
+	is finite. If $g$ is a function defined on $\{f(x) : x \in S\} \cup \{L\}$ that is
+	continuous at $L$, then $\lim_{x\rightarrow a} s g \odot f(x)$ exists and equals $g(L)$.
+\end{theo}
+
+\begin{theo}[Limits of Functions\cite{Elementary Analysis}]{1}
+	Let $f$ be a function defined on a subset $S$ of $\mathbb{R}$, let $a$ be a real number that is the limit of some sequence in $S$, and let $L$ be a real number, then $\lim_{x\rightarrow a} s f(x) = L$ if and only if	for each $\epsilon > 0$ there exists $\delta > 0$ such that $x \in S$ and $|x - a| < \delta$ imply $|f(x) - L| < \epsilon$.
+	\begin{enumerate}
+		\item Let $f$ be a function defined on $J \ \{a\}$ for some open interval $J$ containing $a$, and let $L$ be a real number. Then $\lim_{x\rightarrow a} f(x) = L$ if and only if for each $\epsilon > 0$ there exists $\delta > 0$ such that $0 < |x - a| < \delta \implies |f(x) - L| < \epsilon$.
+		\item Let $f$ be a function defined on some interval $(a, b)$, and let $L$ be a	real number. Then $\lim_{x\rightarrow a^+}  f(x) = L$ if and only if	for each $\epsilon > 0$ there exists $\delta > 0$ such that $0 < x < a + \delta \implies |f(x) - L| < \epsilon$.
+	\end{enumerate}
+\end{theo}
+
+\begin{theo}[]{1}
+	Let $f$ be a function defined on $J \ \{a\}$ for some open interval $J$ containing $a$. Then $\lim_{x\rightarrow a} f(x)$ exists if and only if the limits $\lim_{x\rightarrow a^+} f(x)$ and $\lim_{x\rightarrow a^-} f(x)$ both exist and are equal, in which case all three limits are equal.
+\end{theo}
 
