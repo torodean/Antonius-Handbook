@@ -224,7 +224,7 @@
 	Let $f$ be a real-valued function whose domain is a subset of $\mathbb{R}$. The function $f$ is \textit{continuous} at $x_0$ in dom($f$) if, for every sequence ($x_n$)	in dom($f$) converging to $x_0$, we have $\lim_n f(x_n) = f(x_0)$. If $f$ is continuous at each point of a set $S \subseteq$ dom($f$), then $f$ is said to	be \textit{continuous} on $S$. The function $f$ is said to be \textit{continuous} if it is continuous on dom($f$).
 \end{defn}
 
-\begin{theo}[Continuous Function\cite{Elementary Analysis}]{1}
+\begin{theo}[Continuous Function \cite{Elementary Analysis}]{1}
 	Let $f$ be a real-valued function with dom($f$) $\subseteq \mathbb{R}$. Then
 	$f$ is \textit{continuous} at $x_0$ in dom($f$) if and only if for each $\epsilon > 0$, there exists $\delta > 0$ such that $x\in$ dom($f$) and $|x-x_0|<\delta$ imply $|f(x)-f(x_0)|<\epsilon$.
 \end{theo}
@@ -262,7 +262,7 @@
 	Then $f$ is a bounded function. Moreover, $f$ assumes its maximum and minimum values on $[a, b]$; that is, there exist $x_0, y_0 \in [a, b]$ such that $f(x_0) \leq f(x) \leq f(y_0)$ for all $x \in [a, b]$.
 \end{theo}
 
-\begin{theo}[Intermediate Value Theorem\index{Intermediate Value Theorem}\cite{Elementary Analysis}]{1}
+\begin{theo}[Intermediate Value Theorem\index{Intermediate Value Theorem} \cite{Elementary Analysis}]{1}
 	If $f$ is a continuous real-valued function on an interval $I$, then $f$ has
 	the intermediate value property on $I$: Whenever $a, b \in I, a < b$ and $y$
 	lies between $f(a)$ and $f(b)$ [i.e., $f(a) < y < f(b)$ or $f(b) < y < f(a)$],
@@ -288,7 +288,7 @@
 
 \newpage
 
-\begin{defn}[Uniformly Continuous\index{Uniformly Continuous}\cite{Elementary Analysis}]{1}
+\begin{defn}[Uniformly Continuous\index{Uniformly Continuous} \cite{Elementary Analysis}]{1}
 	Let $f$ be a real-valued function defined on a set $S \subseteq \mathbb{R}$. Then $f$ is \textit{Uniformly Continuous} on $S$ if for each $\epsilon > 0$ there exists $\delta > 0$ such that $x, y \in S$ and $|x-y| < \delta$ imply $|f(x)- f(y)| < \epsilon$. We will say $f$ is uniformly continuous if $f$ is \textit{uniformly continuous} on dom($f$).
 	\begin{enumerate}
 		\item If $f$ is continuous on a closed interval $[a, b]$, then $f$ is uniformly continuous on $[a, b]$.
@@ -298,7 +298,7 @@
 	\end{enumerate}
 \end{defn}
 
-\begin{defn}[Limits of Functions\cite{Elementary Analysis}]{1}
+\begin{defn}[Limits of Functions \cite{Elementary Analysis}]{1}
 	\begin{enumerate}[(i)]
 		\item Let $S\subseteq\mathbb{R}$. Let $a$ and $L$ be real numbers or $\pm\infty$, where $a$ is the limit of some sequence in $S$. We write $\lim_{x\rightarrow a} s f(x) = L$ if $f$ is a function defined on $S$ and for every sequence $(x_n)$ in $S$ with limit $a$, we have $\lim_{n\rightarrow \infty} f(x_n) = L$.
 		\item For $a \in \mathbb{R}$ and a function $f$ we write $\lim_{x\rightarrow a} f(x) = L$ provided $\lim_{x\rightarrow a} s f(x) = L$ for some set $S = J \ \{a\}$ where $J$ is an open interval containing $a$. $\lim_{x\rightarrow a} f(x)$ is called the \textit{two-sided} limit of $f$ at $a$. Note $f$ need not be defined at $a$ and, even if $f$	is defined at $a$, the value $f (a)$ need not equal $\lim_{x\rightarrow a} f(x)$. In fact, $f (a) = \lim_{x\rightarrow a} f(x)$ if and only if $f$ is defined on an open interval containing $a$ and $f$ is continuous at $a$.
@@ -310,7 +310,7 @@
 
 \newpage
 
-\begin{theo}[Limits of Functions\cite{Elementary Analysis}]{1}
+\begin{theo}[Limits of Functions \cite{Elementary Analysis}]{1}
 	Let $f_1$ and $f_2$ be functions for which the limits $L_1 = \lim_{x\rightarrow a} s f_1(x)$	and $L_2 = \lim_{x\rightarrow a} s f_2(x)$ exist and are finite. Then
 	\begin{enumerate}[(i)]
 		\item $\lim_{x\rightarrow a} s (f_1 + f_2)(x)$ exists and equals $L_1 + L_2$
@@ -321,13 +321,13 @@
 \end{theo}
 
 
-\begin{theo}[Limits of Functions\cite{Elementary Analysis}]{1}
+\begin{theo}[Limits of Functions \cite{Elementary Analysis}]{1}
 	Let $f$ be a function for which the limit $L = \lim_{x\rightarrow a} s f(x)$ exists and
 	is finite. If $g$ is a function defined on $\{f(x) : x \in S\} \cup \{L\}$ that is
 	continuous at $L$, then $\lim_{x\rightarrow a} s g \odot f(x)$ exists and equals $g(L)$.
 \end{theo}
 
-\begin{theo}[Limits of Functions\cite{Elementary Analysis}]{1}
+\begin{theo}[Limits of Functions \cite{Elementary Analysis}]{1}
 	Let $f$ be a function defined on a subset $S$ of $\mathbb{R}$, let $a$ be a real number that is the limit of some sequence in $S$, and let $L$ be a real number, then $\lim_{x\rightarrow a} s f(x) = L$ if and only if	for each $\epsilon > 0$ there exists $\delta > 0$ such that $x \in S$ and $|x - a| < \delta$ imply $|f(x) - L| < \epsilon$.
 	\begin{enumerate}
 		\item Let $f$ be a function defined on $J \ \{a\}$ for some open interval $J$ containing $a$, and let $L$ be a real number. Then $\lim_{x\rightarrow a} f(x) = L$ if and only if for each $\epsilon > 0$ there exists $\delta > 0$ such that $0 < |x - a| < \delta \implies |f(x) - L| < \epsilon$.
@@ -335,7 +335,182 @@
 	\end{enumerate}
 \end{theo}
 
-\begin{theo}[]{1}
+\begin{theo}[\cite{Elementary Analysis}]{1}
 	Let $f$ be a function defined on $J \ \{a\}$ for some open interval $J$ containing $a$. Then $\lim_{x\rightarrow a} f(x)$ exists if and only if the limits $\lim_{x\rightarrow a^+} f(x)$ and $\lim_{x\rightarrow a^-} f(x)$ both exist and are equal, in which case all three limits are equal.
 \end{theo}
+
+\section{Sequences and Series of Functions}
+
+\begin{theo}[Convergence of Power Series \cite{Elementary Analysis}]{1}
+	For a power series $\sum a_n x^n$, we say $\beta = \lim \sup |a_n|^{1/n}$ and the radius of convergence $R=\frac{1}{\beta}$. For $\beta = 0$, we set $R=\infty$ and for $\beta = \infty$, we set $R=0$. The power series will converge for $|x| < R$ and diverge for $|x| > R$.
+\end{theo}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
+
+\begin{defn}[Pointwise Convergence\index{Pointwise Convergence} \cite{Elementary Analysis}]{1}
+	Let $(f_n)$ be a sequence of real-valued functions defined on a set $S \subseteq R$. The sequence $(f_n)$ converges pointwise [i.e., at each point] to a	function $f$ defined on $S$ if $\lim\limits_{n->\infty} f_n(x) = f(x)$	for all $x \in S$.
+\end{defn}
+
+\begin{defn}[\cite{Elementary Analysis}]{1}
+	Let $(f_n)$ be a sequence of real-valued functions defined on a set
+	$S \subseteq R$. The sequence $(f_n)$ converges uniformly on $S$ to a function $f$ defined on $S$ if for each $\epsilon > 0$ there exists a number $N$ such that $|f_n(x) − f(x)| < \epsilon$ for all $x \in S$ and all $n > N$. We write $\lim f_n = f$ uniformly on $S$ or $f_n \rightarrow f$ uniformly on $S$.
+\end{defn}
+
+\begin{theo}[Uniform Limits of Continuous Functions \cite{Elementary Analysis}]{1}
+	The uniform limit of continuous functions is continuous. More precisely, let $(f_n)$ be a sequence of functions on a set $S \subseteq R$, suppose $f_n \rightarrow f$ uniformly on $S$, and suppose $S = \textrm{dom}(f)$. If each $f_n$ is
+	continuous at $x_0 \in S$, then $f$ is continuous at $x_0$ . [So if each $f_n$ is
+	continuous on $S$, then $f$ is continuous on $S$.]
+\end{theo}
+
+
+\begin{theo}[\cite{Elementary Analysis}]{1}
+	Let $(f_n)$ be a sequence of continuous functions on $[a, b]$, and suppose $f_n \rightarrow f$ uniformly on $[a, b]$. Then $\lim\limits_{n\rightarrow \infty} \int_{a}^{b}f_n(x) dx = \int_{a}^{b} f(x) dx$
+\end{theo}
+
+\begin{defn}[Uniformly Cauchy \cite{Elementary Analysis}]{1}
+	A sequence $(f_n)$ of functions defined on a set $S \subseteq R$ is uniformly Cauchy on $S$ if for each $\epsilon > 0$ there exists a number $N$ such that $|f_n(x) - f_m(x)| < \epsilon$ for all $x \in S$ and all $m, n > N$.
+\end{defn}
+
+\begin{theo}[\cite{Elementary Analysis}]{1}
+	Let $(f_n)$ be a sequence of functions defined and uniformly Cauchy on a set $S \subseteq R$. Then there exists a function f on $S$ such that $f_n \rightarrow f$ uniformly on $S$.
+\end{theo}
+
+\begin{theo}[\cite{Elementary Analysis}]{1}
+	Consider a series $\sum_{k=0}^{\infty}g_k$ of functions on a set $S \subseteq R$. Suppose each $g_k$ is continuous on $S$ and the series converges uniformly on $S$. Then the series $\sum_{k=0}^{\infty}g_k$ represents a continuous function on $S$.
+\end{theo}
+
+\begin{theo}[\cite{Elementary Analysis}]{1}
+	If a series	$\sum_{k=0}^{\infty}g_k$ of functions satisfies the Cauchy criterion uniformly on a set $S$, then the series converges uniformly on $S$.
+\end{theo}
+
+\begin{defn}[Weierstrass M-test\index{Weierstrass M-test} \cite{Elementary Analysis}]{1}
+	Let $(M_k)$ be a sequence of nonnegative real numbers where $\sum M_k < \infty$. If $|g_k(x)| \leq M_k$ for all $x$ in a set $S$, then $\sum g_k$ converges uniformly on $S$.
+\end{defn}
+
+\begin{defn}[Uniformly Converging Power Series \cite{Elementary Analysis}]{1}
+	Let $\sum a_n x^n$ be a power series with radius of convergence $R > 0$
+	[possibly $R = \infty$]. If $0 < R_1 < R$, then the power series converges uniformly on $[−R_1 , R_1]$ to a continuous function.
+\end{defn}
+
+\begin{theo}[\cite{Elementary Analysis}]{1}
+	If the power series $\sum_{n=0}^{\infty}a_nx^n$ has radius of convergence $R$, then the power series $\sum_{n=0}^{\infty}na_nx^{n-1}$ and $\sum_{n=0}^{\infty}\frac{a_n}{n+1}x^{n+1}$	also have radius of convergence $R$.
+\end{theo}
+
+\begin{theo}[\cite{Elementary Analysis}]{1}
+	Suppose $f (x) = \sum_{n=0}^{\infty} a_n x^n$ has radius of convergence $R > 0$. Then $\int_{0}^{x}f(t)dt = \sum_{n=0}^{\infty}\frac{a_n}{n+1}x^{n+1}$ for $|x|<R$
+\end{theo}
+
+\begin{theo}[\cite{Elementary Analysis}]{1}
+	Let $f(x) = \sum_{n=0}^{\infty} a_n x^n$ have radius of convergence $R > 0$. Then $f$ is differentiable on $(−R, R)$ and $f'(x) = \sum_{n=0}^{\infty} na_nx^{n-1}$ for $|x|<R$.
+\end{theo}
+
+\begin{theo}[Abel’s Theorem \cite{Elementary Analysis}]{1}
+	Let $f(x) = \sum_{n=0}^{\infty} a_n x^n$ be a power series with finite positive radius of convergence $R$. If the series converges at $x = R$, then $f$ is continuous at $x = R$. If the series converges at $x = −R$, then $f$ is continuous	at $x = −R$.
+\end{theo}
+
+\newpage
+
+\section{Derivatives}
+
+\begin{defn}[\cite{Elementary Analysis}]{1}
+	Let $f$ be a real-valued function defined on an open interval containing a point $a$. We say $f$ is differentiable at $a$, or $f$ has a derivative at $a$, if the limit $\lim\limits_{x\rightarrow a} \frac{f(x)-f(a)}{x-a}$ exists and is finite. We will write $f'(a)$ for the derivative of $f$ at $a$: 
+	\begin{align}
+		f'(a) = \lim\limits_{x\rightarrow a} \frac{f(x)-f(a)}{x-a} = \lim\limits_{h\rightarrow 0} \frac{f(x+h)-f(x)}{h} = \lim\limits_{h\rightarrow 0} \frac{f(x+h)-f(x-h)}{2h},
+	\end{align}
+	whenever this limit exists and is finite.
+\end{defn}
+
+\begin{theo}[\cite{Elementary Analysis}]{1}
+	If $f$ is differentiable at a point $a$, then $f$ is continuous at $a$.
+\end{theo}
+
+\begin{theo}[Differentiation formulas \cite{Elementary Analysis}]{1}
+	Let $f$ and $g$ be functions that are differentiable at the point $a$. Each of the functions $cf$ (c a constant), $f +g$, $f g$ and $f /g$ is also differentiable at $a$, except $f /g$ if $g(a) = 0$ since $f /g$ is not defined at $a$ in this case. The formulas are
+	\begin{enumerate}
+		\item $(cf)'(a) = cf'(a)$;
+		\item $(f + g)'(a) = f'(a) + g'(a)$;
+		\item (product rule) $(fg)'(a) = f(a)g'(a) + f'(a)g(a)$;
+		\item (quotient rule) $(f/g)'(a) = [g(a)f'(a) − f (a)g'(a)]/g^2(a)$ if $g(a) \neq 0$.
+	\end{enumerate}
+\end{theo}
+
+\begin{theo}[Chain Rule\index{Chain Rule} \cite{Elementary Analysis}]{1}
+	If $f$ is differentiable at $a$ and $g$ is differentiable at $f(a)$, then the composite function $g \circ f$ is differentiable at $a$ and we have $(g\circ f)'(a) = g'(f(a))f'(a)$.
+\end{theo}
+
+\begin{theo}[\cite{Elementary Analysis}]{1}
+	If $f$ is defined on an open interval containing $x_0$, if $f$ assumes its	maximum or minimum at $x_0$, and if $f$ is differentiable at $x_0$ , then $f'(x_0) = 0$.
+\end{theo}
+
+\newpage
+
+\begin{theo}[Rolle's Theorem \cite{Elementary Analysis}]{1}
+	Let $f$ be a continuous function on $[a, b]$ that is differentiable on $(a, b)$ and satisfies $f (a) = f (b)$. There exists [at least one] $x \in (a, b)$ such that $f'(x) = 0$.
+\end{theo}
+
+\begin{theo}[Mean Value Theorem\index{Mean Value Theorem} \cite{Elementary Analysis}]{1}
+	Let $f$ be a continuous function on $[a, b]$ that is differentiable on $(a, b)$. Then there exists [at least one] $x \in (a, b)$ such that $f'(a) = \frac{f(x)-f(a)}{x-a}$.
+	\begin{enumerate}
+		\item Let $f$ be a differentiable function on $(a, b)$ such that $f'(x) = 0$ for all	$x \in (a, b)$. Then $f$ is a constant function on $(a, b)$.
+		\item Let $f$ and $g$ be differentiable functions on $(a, b)$ such that $f' = g'$ on $(a, b)$. Then there exists a constant $c$ such that $f (x) = g(x) + c$ for	all $x \in (a, b)$.
+	\end{enumerate}
+\end{theo}
+
+\begin{defn}[Increasing and Decreasing Functions \cite{Elementary Analysis}]{1}
+	Let f be a real-valued function defined on an interval I. 
+	\begin{enumerate}[(i)]
+		\item We say $f$ is \textit{strictly increasing} on $I$ if ($x_1,x_2 \in I$ and $x_1 < x_2) \implies f(x_1) < f(x_2)$.
+		\item We say $f$ is \textit{strictly decreasing} on $I$ if ($x_1,x_2 \in I$ and $x_1 < x_2) \implies f(x_1) > f(x_2)$.
+		\item We say $f$ is \textit{increasing} on $I$ if ($x_1,x_2 \in I$ and $x_1 < x_2) \implies f(x_1) \leq f(x_2)$.
+		\item We say $f$ is \textit{decreasing} on $I$ if ($x_1,x_2 \in I$ and $x_1 < x_2) \implies f(x_1) \geq f(x_2)$.
+	\end{enumerate}
+	
+\end{defn}
+
+\begin{theo}[\cite{Elementary Analysis}]{1}
+	Let $f$ be a differentiable function on an interval $(a, b)$. Then
+	\begin{enumerate}[(i)]
+		\item $f$ is \textit{strictly increasing} if $f'(x) > 0$ for all $x \in (a, b)$.
+		\item $f$ is \textit{strictly decreasing} if $f'(x)< 0$ for all $x \in (a, b)$.
+		\item $f$ is \textit{increasing} if $f'(x) \geq 0$ for all $x \in (a, b)$.
+		\item $f$ is \textit{decreasing} if $f'(x) \leq 0$ for all $x \in (a, b)$.
+	\end{enumerate}
+\end{theo}
+
+\begin{theo}[Intermediate Value Theorem\index{Intermediate Value Theorem} for Derivatives \cite{Elementary Analysis}]{1}
+	Let $f$ be a differentiable function on $(a, b)$. If $a < x_1 < x_2 < b$, and	if $c$ lies between $f'(x_1)$ and $f'(x_2)$, there exists [at least one] $x$ in $(x_1 , x_2)$ such that $f'(x) = c$.
+\end{theo}
+
+\begin{theo}[\cite{Elementary Analysis}]{1}
+	Let $f$ be a one-to-one continuous function on an open interval $I$, and	let $J = f (I)$. If $f$ is differentiable at $x_0 \in I$ and if $f'(x_0) \neq 0$, then $f^{−1}$ is differentiable at $y_0 = f(x_0)$ and	$(f^{-1})'(y_0) = \frac{1}{f'(x_0)}$.
+\end{theo}
+
+\begin{theo}[Generalized Mean Value Theorem\index{Mean Value Theorem} \cite{Elementary Analysis}]{1}
+	Let $f$ and $g$ be continuous functions on $[a, b]$ that are differentiable on $(a, b)$. Then there exists [at least one] $x \in (a, b)$ such that $f'(x)[g(b) - g(a)] = g'(x)[f (b) - f (a)]$.
+\end{theo}
+
+\begin{defn}[L'Hospital's Rule \cite{Elementary Analysis}]{1}
+	Let $s$ signify $a, a^+ , a^-$, or $\pm \infty$ where $a\in R$, and suppose $f$ and	$g$ are differentiable functions for which the limit $\lim\limits_{x\rightarrow s}\frac{f'(x)}{g'(x)}=L$ exists. If $\lim\limits_{x\rightarrow s} f(x) = \lim\limits_{x\rightarrow s} g(x)=0$ or $\lim\limits_{x\rightarrow s} |g(x)| = \infty$ then $\lim\limits_{x\rightarrow s}\frac{f(x)}{g(x)}=L$.
+\end{defn}
+
+\begin{defn}[Taylor Series \cite{Elementary Analysis}]{1}
+	Let $f$ be a function defined on some open interval containing $c$. If $f$	possesses derivatives of all orders at $c$, then the series $\sum_{k=0}^{\infty} \frac{f^(k)(c)}{k!}(x-c)^k$ is called the \textit{Taylor series} for $f$ about $c$. For $n \geq 1$, remainder $R_n (x)$ is defined by $R_n(x) = f(x) - \sum_{k=0}^{n-1} \frac{f^(k)(c)}{k!}(x-c)^k$.
+	is defined by
+\end{defn}
+
+\begin{theo}[Taylor's Theorem\index{Taylor's Theorem} \cite{Elementary Analysis}]{1}
+	Let $f$ be defined on $(a, b)$ where $a < c < b$. Here we allow $a = -\infty$ or $b = \infty$. Suppose the nth derivative $f(n)$ exists on $(a, b)$. Then for each $x \neq c$ in $(a, b)$ there is some $y$ between $c$ and $x$ such that $R_n(x) = \frac{f^(n)(y)}{n!}(x-c)^n$.
+\end{theo}
+
+\begin{theo}[\cite{Elementary Analysis}]{1}
+	Let $f$ be defined on $(a, b)$ where $a < c < b$, and suppose the nth
+	derivative $f(n)$ exists and is continuous on $(a, b)$. Then for $x \in (a, b)$ we have $R_n(x) = \int_{c}^{x} \frac{(x-t)^{n-1}}{(n-1)!}f^{(n)}(t) dt$.
+\end{theo}
+
+\begin{theo}[Binomial Series Theorem\index{Binomial Series Theorem} \cite{Elementary Analysis}]{1}
+	If $\alpha \in \mathbb{R}$ and $|x| < 1$, then $(1+x)^\alpha = 1+\sum_{k=1}^{\infty} \frac{\alpha(\alpha-1)\cdots(\alpha-k+1)}{k!}x^k$.
+\end{theo}
+	
 
