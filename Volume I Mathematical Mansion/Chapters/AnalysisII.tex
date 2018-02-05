@@ -1,0 +1,31 @@
+\section{Groups}
+
+\begin{defn}[Group \cite{Abstract Algebra}\index{Group}]{1}
+	A \textit{group} $(G,\circ)$ is a set G together with the law of composition $(a,b)\mapsto a \circ b$ that satisfies the following axioms:
+	\begin{enumerate}[(i)]
+		\item The law of composition is associate, and so $(a \circ b) \circ c = a \circ (b \circ c)$ for all $a,b,c \in G$.
+		\item There exists an element $e \in G$, called the identity element, such that for any element $a \in G$, $e \circ a = a \circ e = a$.
+		\item For each element $a \in G$, there exists an inverse element $a^{-1}\in G$ such that $a \circ a^{-1} = a^{-1} \circ e = e$. 
+	\end{enumerate}
+\end{defn}
+
+\begin{defn}[Abelian Group \cite{Abstract Algebra}\index{Abelian Group}]{1}
+	A group $G$ with the property that $a \circ b = b \circ a$ for all $a,b \in G$ is called \textit{abelian} or	\textit{commutative}. Groups not satisfying this property are said to be \textit{nonabelian} or \textit{noncommutative}.
+\end{defn}
+
+\begin{defn}[General Linear Group $(2 \times 2)$ \cite{Abstract Algebra}\index{General Linear Group}]{1}
+	The set of all $n \times n$ matrices is denoted by $\mathbb{M}_n(\mathbb{R})$. The set of invertible matrices, denoted $GL_n(\mathbb{R})$ form a group called the \textit{general linear group}. 
+\end{defn}
+
+\begin{theo}[Group Properties \cite{Abstract Algebra}\index{Group}]{1}
+	Let G be a group.
+	\begin{enumerate}
+		\item The identity element $e\in G$ is unique. There exists only one element $e$ such that $eg=ge=e$ for all $g\in G$.
+		\item If $g\in G$, then the inverse of $g$ denoted $g^{-1}$ is unique.
+		\item If $a,b\in G$, then $(ab)^{-1} = b^{-1}a^{-1}$. 
+		\item For any $a \in G$, $(a^{-1})^{-1}=a$.
+		\item If $a,b \in G$, then the equations $ax=b$ and $xa=b$ have unique solutions.
+		\item If $a,b,c \in G$, then $ba=ca \implies b=c$ and $ab=ac \implies b=c$.
+		\item If $a,b \in G$, then $a^ma^n=a^{m+n}$, $(a^m)^n = a^{mn}$ and $(ab)^n = (b^{-1}a^{-1})^{-n}$ for all $m,n \in \mathbb{Z}$.
+	\end{enumerate}
+\end{theo}
