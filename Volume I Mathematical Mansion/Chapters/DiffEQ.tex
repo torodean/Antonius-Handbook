@@ -1,17 +1,27 @@
 \chapter{Differential Equations}
 \thispagestyle{fancy}
 \begin{defn}[Del Operator]{1}
-	The Del operator with respect to $n$-dimensions:
+	The \textbf{Del} operator with respect to $n$-dimensions:
 \begin{align}
 \nabla &= \bigg( \frac{\partial}{\partial x_1}, \frac{\partial}{\partial x_2}, \dots, \frac{\partial}{\partial x_n} \bigg) = \sum_{i=1}^{n}\vec{e}_i\frac{\partial}{\partial x_i}
 \end{align}
 \end{defn}
+
+\begin{defn}[Laplace Operator\index{Laplace Operator}]{1}
+	The Laplace Operator (expanded in 3-dimensions below)
+	\begin{align}
+		\Delta = \nabla \cdot \nabla = \nabla^2 =  \frac{\partial^2}{\partial x^2}+ \frac{\partial^2}{\partial y^2}+ \frac{\partial^2}{\partial z^2}
+	\end{align}
+\end{defn}
+
+\begin{defn}[Gradient\index{Gradient}]{1}
 The \textbf{gradient}\index{Gradient} of a 3-dimensional function (cartesian, spherical, and cylindrical coordinates)
 \begin{align}
-\textrm{grad } f = \nabla f &= \frac{\partial f}{\partial x}\hat{x}+\frac{\partial f}{\partial y}\hat{y}+\frac{\partial f}{\partial z}\hat{z} \\
-&=\frac{\partial f}{\partial r}\hat{r}+\frac{1}{r}\frac{\partial f}{\partial \theta}\hat{\theta}+\frac{1}{r\sin(\theta)}\frac{\partial f}{\partial \phi}\hat{\phi} \\
-&=\frac{\partial f}{\partial \rho}\hat{\rho}+\frac{1}{\rho}\frac{\partial f}{\partial \phi}\hat{\phi}+\frac{\partial f}{\partial z}\hat{z}
+\textrm{grad } f = \nabla f &= \frac{\partial f}{\partial x}\hat{x}+\frac{\partial f}{\partial y}\hat{y}+\frac{\partial f}{\partial z}\hat{z} =\frac{\partial f}{\partial r}\hat{r}+\frac{1}{r}\frac{\partial f}{\partial \theta}\hat{\theta}+\frac{1}{r\sin(\theta)}\frac{\partial f}{\partial \phi}\hat{\phi} =\frac{\partial f}{\partial \rho}\hat{\rho}+\frac{1}{\rho}\frac{\partial f}{\partial \phi}\hat{\phi}+\frac{\partial f}{\partial z}\hat{z}
 \end{align}
+\end{defn}
+
+\begin{defn}[\textbf{Curl}\index{Curl}]{1}
 The \textbf{curl}\index{Curl} of a vector is the limit as the volume goes to zero of the ratio of the integral of it's cross product (with respect to the normal) over a closed surface, to the volume enclosed by the surface \cite{bib:ReitzEMTheory}. The curl of a 3-dimensional function (cartesian, spherical, and cylindrical coordinates)
 \begin{align}
 \textrm{curl } \vec{A} = \nabla \times \vec{A} &= \lim\limits_{V\rightarrow 0}\frac{1}{V}\oint_S(\hat{n}\times \vec{A})da\hspace{2cm}\textrm{(definition)} \\
@@ -19,20 +29,23 @@ The \textbf{curl}\index{Curl} of a vector is the limit as the volume goes to zer
 & \hspace{6cm}+ \frac{1}{r}\bigg[\frac{\partial}{\partial r}(rA_\theta)-\frac{\partial A_r}{\partial \theta} \bigg]\hat{\phi} \\
 &= \bigg[\frac{1}{\rho}\frac{\partial A_z}{\partial \phi}-\frac{\partial A_\phi}{\partial z} \bigg] \hat{\rho} + \bigg[\frac{\partial A_\rho}{\partial z}-\frac{\partial A_z}{\partial \rho}  \bigg]\hat{\phi} + \frac{1}{\rho}\bigg[\frac{\partial}{\partial \rho}(\rho A_\phi)-\frac{\partial A_\rho}{\partial \phi} \bigg]\hat{z} 
 \end{align}
+\end{defn}
+
+\begin{defn}[\textbf{Divergence}\index{Divergence}]{1}
 The \textbf{divergence}\index{Divergence} of a vector is the limit of its surface integral per unit volume as the volume enclosed by the surface goes to zero \cite{bib:ReitzEMTheory}. The divergence of a 3-dimensional function (cartesian, spherical, and cylindrical coordinates) is
 \begin{align}
 \textrm{div }\vec{A}=\nabla \cdot \vec{A} &= \lim\limits_{V\rightarrow 0}\frac{1}{V}\oint_S (\vec{A}\cdot \hat{n}) da \hspace{2cm}\textrm{(definition)} \\ &=\frac{\partial A_x}{\partial x} + \frac{\partial A_y}{\partial y} + \frac{\partial A_z}{\partial z} \\
 &= \frac{1}{r^2}\frac{\partial}{\partial r}(r^2A_r)+\frac{1}{r\sin(\theta)}\frac{\partial}{\partial \theta}\sin(\theta)A_\theta+\frac{1}{r\sin(\theta)} \frac{\partial A_\phi}{\partial \phi} \\
 &= \frac{1}{\rho}\frac{\partial}{\partial \rho}(\rho A_\rho) + \frac{1}{\rho}\frac{\partial A_\phi}{\partial \phi}+ \frac{\partial A_z}{\partial z}
 \end{align}
-The Laplace Operator (expanded in 3-dimensions below)
-\begin{align}
-\Delta = \nabla \cdot \nabla = \nabla^2 =  \frac{\partial^2}{\partial x^2}+ \frac{\partial^2}{\partial y^2}+ \frac{\partial^2}{\partial z^2}
-\end{align}
-The general solution to Laplaces equation in spherical coordinates with no $\phi$ dependence (where $P_\ell$ denotes the Legendre polynomials) is
-\begin{align}
-	\nabla^2 V(r,\theta) = 0 \implies V(r,\theta) = \sum_{\ell=0}^{\infty}\left(A_\ell r^\ell+\frac{B_\ell}{r^{\ell+1}}\right)P_\ell(\cos\theta)
-\end{align}
+\end{defn}
+
+\begin{theo}[Solving Laplaces equation]{1}
+	The general solution to Laplaces equation in spherical coordinates with no $\phi$ dependence (where $P_\ell$ denotes the Legendre polynomials) is
+	\begin{align}
+		\nabla^2 V(r,\theta) = 0 \implies V(r,\theta) = \sum_{\ell=0}^{\infty}\left(A_\ell r^\ell+\frac{B_\ell}{r^{\ell+1}}\right)P_\ell(\cos\theta)
+	\end{align}
+\end{theo}
 
 
 

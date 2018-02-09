@@ -29,3 +29,19 @@
 		\item If $a,b \in G$, then $a^ma^n=a^{m+n}$, $(a^m)^n = a^{mn}$ and $(ab)^n = (b^{-1}a^{-1})^{-n}$ for all $m,n \in \mathbb{Z}$.
 	\end{enumerate}
 \end{theo}
+
+\begin{defn}[Subgroup\index{Subgroup}]{1}
+		Let $G$ be a group. We say for some set $S$ such that $S\subseteq G$, that $S$ is a subgroup of $G$, denoted $S \trianglelefteq G$ if $S$ is a group on it's own when restricted to the operation of $G$.
+\end{defn}
+
+\newpage
+
+\begin{theo}[Subgroup Theorem\index{Subgroup theorem} \cite{Abstract Algebra}]{1}
+	A subset S of G is a subgroup if and only if it satisfies the following conditions.
+	\begin{enumerate}
+		\item The identity $e \in G$ is contained in $S$.
+		\item If $a,b \in S$, then $ab \in S$.
+		\item if $a \in S$, then $a^{-1} \in S$.	
+	\end{enumerate}
+	Similarly, Let $G$ be a group and $S\subseteq G$. Then $S \trianglelefteq G \Longleftrightarrow$ $(S \neq \emptyset$, and $a,b \in S \implies ab^{-1}\in S)$.
+\end{theo}

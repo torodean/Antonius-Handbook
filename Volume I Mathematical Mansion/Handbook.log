@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  5 FEB 2018 14:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  9 FEB 2018 15:29
 entering extended mode
 **./Handbook.tex
 (Handbook.tex
@@ -1447,6 +1447,12 @@ LaTeX Warning: Label `1' multiply defined.
 
 LaTeX Warning: Label `1' multiply defined.
 
+
+LaTeX Warning: Label `1' multiply defined.
+
+
+LaTeX Warning: Label `1' multiply defined.
+
 ) (Chapters/DiffEQ.aux
 
 LaTeX Warning: Label `1' multiply defined.
@@ -1458,6 +1464,21 @@ LaTeX Warning: Label `1' multiply defined.
 LaTeX Warning: Label `1' multiply defined.
 
 
+LaTeX Warning: Label `1' multiply defined.
+
+
+LaTeX Warning: Label `1' multiply defined.
+
+
+LaTeX Warning: Label `1' multiply defined.
+
+
+LaTeX Warning: Label `1' multiply defined.
+
+
+LaTeX Warning: Label `1' multiply defined.
+
+
 LaTeX Warning: Label `' multiply defined.
 
 
@@ -1475,11 +1496,20 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `1' multiply defined.
 
-) (Chapters/Integrals.aux) (Chapters/FourierSeries.aux)
-(Chapters/Statistics.aux) (Chapters/Astronomy.aux) (Chapters/Mechanics.aux)
-(Chapters/Electrostatics.aux) (Chapters/Electronics.aux)
-(Chapters/SpecialRelativity.aux) (Chapters/Thermodynamics.aux)
-(Chapters/ThermalStatistical.aux
+) (Chapters/Integrals.aux
+
+LaTeX Warning: Label `1' multiply defined.
+
+
+LaTeX Warning: Label `1' multiply defined.
+
+
+LaTeX Warning: Label `1' multiply defined.
+
+) (Chapters/FourierSeries.aux) (Chapters/Statistics.aux)
+(Chapters/Astronomy.aux) (Chapters/Mechanics.aux) (Chapters/Electrostatics.aux)
+(Chapters/Electronics.aux) (Chapters/SpecialRelativity.aux)
+(Chapters/Thermodynamics.aux) (Chapters/ThermalStatistical.aux
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -2599,10 +2629,26 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 31.
-) [36
+Package mdframed Info: mdframed works in twoside mode on input line 33.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 33.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 35.
+ [36
 
 
 ]
+Package mdframed Info: mdframed works in twoside mode on input line 39.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 39.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 47.
+Package mdframed Info: Not enough space on this page on input line 47.
+) [37]
 \openout2 = `./Chapters/DiffEQ.aux'.
 
 
@@ -2615,135 +2661,173 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 8.
-[37
+Package mdframed Info: mdframed works in twoside mode on input line 10.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 10.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 15.
+Package mdframed Info: mdframed works in twoside mode on input line 17.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 17.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 22.
+Package mdframed Info: mdframed works in twoside mode on input line 24.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 24.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 32.
+Package mdframed Info: mdframed works in twoside mode on input line 34.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 34.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 41.
+[38
 
 
 
 ]
-Package mdframed Info: mdframed works in twoside mode on input line 40.
+Package mdframed Info: mdframed works in twoside mode on input line 43.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 40.
+(mdframed)              on input line 43.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 45.
-Package mdframed Info: mdframed works in twoside mode on input line 46.
+(mdframed)              on input line 48.
+Package mdframed Info: mdframed works in twoside mode on input line 53.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 46.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 51.
-Package mdframed Info: mdframed works in twoside mode on input line 52.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 52.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 57.
-Package mdframed Info: mdframed works in twoside mode on input line 58.
+(mdframed)              on input line 53.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 58.
+Package mdframed Info: mdframed works in twoside mode on input line 59.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 63.
-<Resources/DiffEQTable.pdf, id=1186, pagebox=cropbox, 461.08258pt x 640.31218pt
+(mdframed)              on input line 59.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 64.
+Package mdframed Info: mdframed works in twoside mode on input line 65.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 65.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 70.
+Package mdframed Info: Not enough space on this page on input line 70.
+ [39]
+Package mdframed Info: Not enough space on this page on input line 70.
+Package mdframed Info: mdframed works in twoside mode on input line 71.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 71.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 76.
+<Resources/DiffEQTable.pdf, id=1209, pagebox=cropbox, 461.08258pt x 640.31218pt
 >
 File: Resources/DiffEQTable.pdf Graphic file (type pdf)
 <use Resources/DiffEQTable.pdf>
-Package pdftex.def Info: Resources/DiffEQTable.pdf  used on input line 66. on i
-nput line 66.
+Package pdftex.def Info: Resources/DiffEQTable.pdf  used on input line 79. on i
+nput line 79.
 Package pdftex.def Info: Requested size: 461.08145pt x 640.31061pt on input lin
-e 66.
+e 79.
 File: Resources/DiffEQTable.pdf Graphic file (type pdf)
 <use Resources/DiffEQTable.pdf>
-Package pdftex.def Info: Resources/DiffEQTable.pdf  used on input line 66. on i
-nput line 66.
+Package pdftex.def Info: Resources/DiffEQTable.pdf  used on input line 79. on i
+nput line 79.
 Package pdftex.def Info: Requested size: 461.08145pt x 640.31061pt on input lin
-e 66.
-<Resources/DiffEQTable.pdf, id=1189, page=1, pagebox=cropbox, 461.08258pt x 640
+e 79.
+<Resources/DiffEQTable.pdf, id=1212, page=1, pagebox=cropbox, 461.08258pt x 640
 .31218pt>
 File: Resources/DiffEQTable.pdf Graphic file (type pdf)
 <use Resources/DiffEQTable.pdf, page 1>
-Package pdftex.def Info: Resources/DiffEQTable.pdf , page1 used on input line 6
-6. on input line 66.
+Package pdftex.def Info: Resources/DiffEQTable.pdf , page1 used on input line 7
+9. on input line 79.
 Package pdftex.def Info: Requested size: 461.08145pt x 640.31061pt on input lin
-e 66.
+e 79.
 File: Resources/DiffEQTable.pdf Graphic file (type pdf)
 <use Resources/DiffEQTable.pdf, page 1>
-Package pdftex.def Info: Resources/DiffEQTable.pdf , page1 used on input line 6
-6. on input line 66.
+Package pdftex.def Info: Resources/DiffEQTable.pdf , page1 used on input line 7
+9. on input line 79.
 Package pdftex.def Info: Requested size: 368.86656pt x 512.25043pt on input lin
-e 66.
- [38]
+e 79.
+ [40]
 File: Resources/DiffEQTable.pdf Graphic file (type pdf)
 <use Resources/DiffEQTable.pdf, page 1>
-Package pdftex.def Info: Resources/DiffEQTable.pdf , page1 used on input line 6
-6. on input line 66.
+Package pdftex.def Info: Resources/DiffEQTable.pdf , page1 used on input line 7
+9. on input line 79.
 Package pdftex.def Info: Requested size: 368.86656pt x 512.25043pt on input lin
-e 66.
+e 79.
 File: Resources/DiffEQTable.pdf Graphic file (type pdf)
 <use Resources/DiffEQTable.pdf, page 1>
-Package pdftex.def Info: Resources/DiffEQTable.pdf , page1 used on input line 6
-6. on input line 66.
+Package pdftex.def Info: Resources/DiffEQTable.pdf , page1 used on input line 7
+9. on input line 79.
 Package pdftex.def Info: Requested size: 368.86656pt x 512.25043pt on input lin
-e 66.
+e 79.
 pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.66 ...original format.}}]{Resources/DiffEQTable}
+l.79 ...original format.}}]{Resources/DiffEQTable}
                                                   
 File: Resources/DiffEQTable.pdf Graphic file (type pdf)
 <use Resources/DiffEQTable.pdf, page 1>
-Package pdftex.def Info: Resources/DiffEQTable.pdf , page1 used on input line 6
-6. on input line 66.
+Package pdftex.def Info: Resources/DiffEQTable.pdf , page1 used on input line 7
+9. on input line 79.
 Package pdftex.def Info: Requested size: 368.86656pt x 512.25043pt on input lin
-e 66.
- [39 <./Resources/DiffEQTable.pdf>]
-Package mdframed Info: mdframed works in twoside mode on input line 68.
+e 79.
+ [41 <./Resources/DiffEQTable.pdf>]
+Package mdframed Info: mdframed works in twoside mode on input line 81.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 68.
+(mdframed)              on input line 81.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 73.
-Package mdframed Info: Not enough space on this page on input line 73.
- [40] [41] [42]
-Package mdframed Info: mdframed works in twoside mode on input line 229.
+(mdframed)              on input line 86.
+Package mdframed Info: Not enough space on this page on input line 86.
+ [42] [43] [44]
+Package mdframed Info: mdframed works in twoside mode on input line 242.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 229.
+(mdframed)              on input line 242.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 249.
+(mdframed)              on input line 262.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
-Package mdframed Info: mdframed works in twoside mode on input line 282.
+ [45]
+Package mdframed Info: mdframed works in twoside mode on input line 295.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 282.
+(mdframed)              on input line 295.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 291.
+(mdframed)              on input line 304.
 
-[44]
-Package mdframed Info: mdframed works in twoside mode on input line 321.
+[46]
+Package mdframed Info: mdframed works in twoside mode on input line 334.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 321.
+(mdframed)              on input line 334.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 323.
-) [45]
+(mdframed)              on input line 336.
+) [47]
 \openout2 = `./Chapters/Integrals.aux'.
 
  (Chapters/Integrals.tex
 Chapter 8.
-<Resources/IntegralTable.pdf, id=1323, pagebox=cropbox, 514.56241pt x 660.54782
+<Resources/IntegralTable.pdf, id=1341, pagebox=cropbox, 514.56241pt x 660.54782
 pt>
 File: Resources/IntegralTable.pdf Graphic file (type pdf)
 <use Resources/IntegralTable.pdf>
@@ -2757,7 +2841,7 @@ Package pdftex.def Info: Resources/IntegralTable.pdf  used on input line 48. on
  input line 48.
 Package pdftex.def Info: Requested size: 514.56116pt x 660.5462pt on input line
  48.
-<Resources/IntegralTable.pdf, id=1326, page=1, pagebox=cropbox, 514.56241pt x 6
+<Resources/IntegralTable.pdf, id=1344, page=1, pagebox=cropbox, 514.56241pt x 6
 60.54782pt>
 File: Resources/IntegralTable.pdf Graphic file (type pdf)
 <use Resources/IntegralTable.pdf, page 1>
@@ -2771,7 +2855,7 @@ Package pdftex.def Info: Resources/IntegralTable.pdf , page1 used on input line
  48. on input line 48.
 Package pdftex.def Info: Requested size: 411.65048pt x 528.43896pt on input lin
 e 48.
-[46
+[48
 
 
 
@@ -2800,12 +2884,35 @@ Package pdftex.def Info: Resources/IntegralTable.pdf , page1 used on input line
  48. on input line 48.
 Package pdftex.def Info: Requested size: 411.65048pt x 528.43896pt on input lin
 e 48.
- [47 <./Resources/IntegralTable.pdf>] [48]) [49]
+ [49 <./Resources/IntegralTable.pdf>]
+Package mdframed Info: mdframed works in twoside mode on input line 55.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 55.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 69.
+Package mdframed Info: mdframed works in twoside mode on input line 71.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 71.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 79.
+ [50]
+Package mdframed Info: mdframed works in twoside mode on input line 130.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 130.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 136.
+) [51]
 \openout2 = `./Chapters/FourierSeries.aux'.
 
  (Chapters/FourierSeries.tex
 Chapter 9.
-) [50
+) [52
 
 
 
@@ -2814,7 +2921,7 @@ Chapter 9.
 
  (Chapters/Statistics.tex
 Chapter 10.
-) [51
+) [53
 
 
 
@@ -2826,7 +2933,7 @@ Chapter 11.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-[52
+[54
 
 
 
@@ -2834,21 +2941,21 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [53]
-<./Images/Diagrams/meanfreepath.png, id=1484, 368.37625pt x 414.54875pt>
+ [55]
+<./Images/Diagrams/meanfreepath.png, id=1504, 368.37625pt x 414.54875pt>
 File: ./Images/Diagrams/meanfreepath.png Graphic file (type png)
 <use ./Images/Diagrams/meanfreepath.png>
 Package pdftex.def Info: ./Images/Diagrams/meanfreepath.png  used on input line
  193. on input line 193.
 Package pdftex.def Info: Requested size: 199.55719pt x 224.56776pt on input lin
 e 193.
- [54 <./Images/Diagrams/meanfreepath.png (PNG copy)>] [55]) [56]
+ [56 <./Images/Diagrams/meanfreepath.png (PNG copy)>] [57]) [58]
 \openout2 = `./Chapters/Mechanics.aux'.
 
 
 (Chapters/Mechanics.tex
 Chapter 12.
-[57
+[59
 
 
 
@@ -2856,16 +2963,16 @@ Chapter 12.
 Overfull \vbox (10.83464pt too high) has occurred while \output is active []
 
 
-[58])
+[60])
 \openout2 = `./Chapters/Electrostatics.aux'.
 
  (Chapters/Electrostatics.tex
 Chapter 13.
-[59
+[61
 
 
 
-] [60] [61]) [62]
+] [62] [63]) [64]
 \openout2 = `./Chapters/Electronics.aux'.
 
  (Chapters/Electronics.tex
@@ -2890,11 +2997,11 @@ Overfull \hbox (1.30219pt too wide) in paragraph at lines 66--67
 [][] 
  []
 
-[63
+[65
 
 
 
-] [64]) [65]
+] [66]) [67]
 \openout2 = `./Chapters/SpecialRelativity.aux'.
 
  (Chapters/SpecialRelativity.tex
@@ -2903,7 +3010,7 @@ Chapter 15.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 76.
 
-[66
+[68
 
 
 
@@ -2912,21 +3019,21 @@ Overfull \hbox (4.00192pt too wide) detected at line 143
 []
  []
 
-[67])
+[69])
 \openout2 = `./Chapters/Thermodynamics.aux'.
 
  (Chapters/Thermodynamics.tex
 Chapter 16.
-[68
+[70
 
 
 
-]) [69]
+]) [71]
 \openout2 = `./Chapters/ThermalStatistical.aux'.
 
  (Chapters/ThermalStatistical.tex
 Chapter 17.
-[70
+[72
 
 
 
@@ -2940,12 +3047,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--140
 |[]\OT1/cmr/bx/n/14.4 Chemical Po-ten-tial and
  []
 
-[71] [72]
+[73] [74]
 Underfull \hbox (badness 10000) in paragraph at lines 236--236
 |[]\OT1/cmr/bx/n/14.4 Gibbs Free En-ergy and
  []
 
-[73]
+[75]
 Package mdframed Info: mdframed works in twoside mode on input line 334.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -2973,17 +3080,17 @@ Overfull \hbox (0.19545pt too wide) in paragraph at lines 336--349
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 350.
-) [74]
+) [76]
 \openout2 = `./Chapters/Quantum.aux'.
 
  (Chapters/Quantum.tex
 Chapter 18.
-[75
+[77
 
 
 
 ]
-<./Images/Diagrams/1280px-BraggPlaneDiffraction.png, id=1964, 1284.8pt x 602.25
+<./Images/Diagrams/1280px-BraggPlaneDiffraction.png, id=1985, 1284.8pt x 602.25
 pt>
 File: ./Images/Diagrams/1280px-BraggPlaneDiffraction.png Graphic file (type png
 )
@@ -2992,24 +3099,24 @@ Package pdftex.def Info: ./Images/Diagrams/1280px-BraggPlaneDiffraction.png  us
 ed on input line 123. on input line 123.
 Package pdftex.def Info: Requested size: 256.95544pt x 120.44786pt on input lin
 e 123.
-<./Images/Diagrams/crystalscattering.png, id=1965, 760.8425pt x 562.1pt>
+<./Images/Diagrams/crystalscattering.png, id=1986, 760.8425pt x 562.1pt>
 File: ./Images/Diagrams/crystalscattering.png Graphic file (type png)
 <use ./Images/Diagrams/crystalscattering.png>
 Package pdftex.def Info: ./Images/Diagrams/crystalscattering.png  used on input
  line 123. on input line 123.
 Package pdftex.def Info: Requested size: 190.21016pt x 140.52466pt on input lin
 e 123.
- [76 <./Images/Diagrams/1280px-BraggPlaneDiffraction.png> <./Images/Diagrams/cr
-ystalscattering.png>]) [77]
+ [78 <./Images/Diagrams/1280px-BraggPlaneDiffraction.png> <./Images/Diagrams/cr
+ystalscattering.png>]) [79]
 \openout2 = `./Chapters/QM.aux'.
 
  (Chapters/QM.tex
 Chapter 19.
-[78
+[80
 
 
 
-] [79] [80] [81] [82]
+] [81] [82] [83] [84]
 Package mdframed Info: mdframed works in twoside mode on input line 265.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -3017,16 +3124,16 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 272.
- [83] [84]) [85]
+ [85] [86]) [87]
 \openout2 = `./Chapters/Nuclear.aux'.
 
  (Chapters/Nuclear.tex
 Chapter 20.
-[86
+[88
 
 
 
-] [87]) [88]
+] [89]) [90]
 \openout2 = `./Chapters/Advanced.aux'.
 
  (Chapters/Advanced.tex
@@ -3034,13 +3141,13 @@ Chapter 21.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
-) [89
+) [91
 
 
 
 ]
 Chapter 22.
-<Resources/CGtable.pdf, id=2189, pagebox=cropbox, 614.295pt x 794.97pt>
+<Resources/CGtable.pdf, id=2209, pagebox=cropbox, 614.295pt x 794.97pt>
 File: Resources/CGtable.pdf Graphic file (type pdf)
 <use Resources/CGtable.pdf>
 Package pdftex.def Info: Resources/CGtable.pdf  used on input line 133. on inpu
@@ -3053,7 +3160,7 @@ Package pdftex.def Info: Resources/CGtable.pdf  used on input line 133. on inpu
 t line 133.
 Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
 e 133.
-<Resources/CGtable.pdf, id=2192, page=1, pagebox=cropbox, 614.295pt x 794.97pt>
+<Resources/CGtable.pdf, id=2212, page=1, pagebox=cropbox, 614.295pt x 794.97pt>
 
 File: Resources/CGtable.pdf Graphic file (type pdf)
 <use Resources/CGtable.pdf, page 1>
@@ -3085,11 +3192,11 @@ Package pdftex.def Info: Resources/CGtable.pdf , page1 used on input line 133.
 on input line 133.
 Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
  133.
-[90
+[92
 
 
  <./Resources/CGtable.pdf>]
-<./Images/Tables/electron_configuration.png, id=2201, 843.90282pt x 494.59781pt
+<./Images/Tables/electron_configuration.png, id=2221, 843.90282pt x 494.59781pt
 >
 File: ./Images/Tables/electron_configuration.png Graphic file (type png)
 <use ./Images/Tables/electron_configuration.png>
@@ -3097,7 +3204,7 @@ Package pdftex.def Info: ./Images/Tables/electron_configuration.png  used on in
 put line 138. on input line 138.
 Package pdftex.def Info: Requested size: 506.3456pt x 296.76097pt on input line
  138.
-<./Images/Tables/electron_configuration_2.png, id=2202, 843.90282pt x 471.26062
+<./Images/Tables/electron_configuration_2.png, id=2222, 843.90282pt x 471.26062
 pt>
 File: ./Images/Tables/electron_configuration_2.png Graphic file (type png)
 <use ./Images/Tables/electron_configuration_2.png>
@@ -3105,16 +3212,16 @@ Package pdftex.def Info: ./Images/Tables/electron_configuration_2.png  used on
 input line 140. on input line 140.
 Package pdftex.def Info: Requested size: 506.3456pt x 282.75856pt on input line
  140.
- [91 <./Images/Tables/electron_configuration.png (PNG copy)> <./Images/Tables/e
+ [93 <./Images/Tables/electron_configuration.png (PNG copy)> <./Images/Tables/e
 lectron_configuration_2.png (PNG copy)>]
-<./Images/Diagrams/electronshell.png, id=2209, 496.9767pt x 515.0442pt>
+<./Images/Diagrams/electronshell.png, id=2229, 496.9767pt x 515.0442pt>
 File: ./Images/Diagrams/electronshell.png Graphic file (type png)
 <use ./Images/Diagrams/electronshell.png>
 Package pdftex.def Info: ./Images/Diagrams/electronshell.png  used on input lin
 e 148. on input line 148.
 Package pdftex.def Info: Requested size: 496.97548pt x 515.04295pt on input lin
 e 148.
-<Resources/IsotopicMassNaturalAbundance.pdf, id=2211, pagebox=cropbox, 614.295p
+<Resources/IsotopicMassNaturalAbundance.pdf, id=2231, pagebox=cropbox, 614.295p
 t x 794.97pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 <use Resources/IsotopicMassNaturalAbundance.pdf>
@@ -3128,7 +3235,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf  used on in
 put line 155. on input line 155.
 Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
 e 155.
-<Resources/IsotopicMassNaturalAbundance.pdf, id=2214, page=1, pagebox=cropbox, 
+<Resources/IsotopicMassNaturalAbundance.pdf, id=2234, page=1, pagebox=cropbox, 
 614.295pt x 794.97pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 1>
@@ -3142,7 +3249,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page1 use
 d on input line 155. on input line 155.
 Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
  155.
- [92 <./Images/Diagrams/electronshell.png>]
+ [94 <./Images/Diagrams/electronshell.png>]
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 1>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page1 use
@@ -3161,145 +3268,145 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page1 use
 d on input line 155. on input line 155.
 Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
  155.
- [93 <./Resources/IsotopicMassNaturalAbundance.pdf>]
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf  used on in
-put line 156. on input line 156.
-Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
-e 156.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf  used on in
-put line 156. on input line 156.
-Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
-e 156.
-<Resources/IsotopicMassNaturalAbundance.pdf, id=2237, page=2, pagebox=cropbox, 
-614.295pt x 794.97pt>
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page2 use
-d on input line 156. on input line 156.
-Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
-e 156.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page2 use
-d on input line 156. on input line 156.
-Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
- 156.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page2 use
-d on input line 156. on input line 156.
-Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
- 156.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page2 use
-d on input line 156. on input line 156.
-Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
- 156.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page2 use
-d on input line 156. on input line 156.
-Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
- 156.
- [94 <./Resources/IsotopicMassNaturalAbundance.pdf>]
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf  used on in
-put line 157. on input line 157.
-Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
-e 157.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf  used on in
-put line 157. on input line 157.
-Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
-e 157.
-<Resources/IsotopicMassNaturalAbundance.pdf, id=2244, page=3, pagebox=cropbox, 
-614.295pt x 794.97pt>
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page3 use
-d on input line 157. on input line 157.
-Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
-e 157.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page3 use
-d on input line 157. on input line 157.
-Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
- 157.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page3 use
-d on input line 157. on input line 157.
-Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
- 157.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page3 use
-d on input line 157. on input line 157.
-Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
- 157.
-File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page3 use
-d on input line 157. on input line 157.
-Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
- 157.
  [95 <./Resources/IsotopicMassNaturalAbundance.pdf>]
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 <use Resources/IsotopicMassNaturalAbundance.pdf>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf  used on in
-put line 158. on input line 158.
+put line 156. on input line 156.
 Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
-e 158.
+e 156.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 <use Resources/IsotopicMassNaturalAbundance.pdf>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf  used on in
-put line 158. on input line 158.
+put line 156. on input line 156.
 Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
-e 158.
-<Resources/IsotopicMassNaturalAbundance.pdf, id=2252, page=4, pagebox=cropbox, 
+e 156.
+<Resources/IsotopicMassNaturalAbundance.pdf, id=2258, page=2, pagebox=cropbox, 
 614.295pt x 794.97pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page4 use
-d on input line 158. on input line 158.
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page2 use
+d on input line 156. on input line 156.
 Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
-e 158.
+e 156.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page4 use
-d on input line 158. on input line 158.
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page2 use
+d on input line 156. on input line 156.
 Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
- 158.
+ 156.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page4 use
-d on input line 158. on input line 158.
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page2 use
+d on input line 156. on input line 156.
 Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
- 158.
+ 156.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page4 use
-d on input line 158. on input line 158.
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page2 use
+d on input line 156. on input line 156.
 Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
- 158.
+ 156.
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
-<use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
-Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page4 use
-d on input line 158. on input line 158.
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page2 use
+d on input line 156. on input line 156.
 Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
- 158.
+ 156.
  [96 <./Resources/IsotopicMassNaturalAbundance.pdf>]
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 <use Resources/IsotopicMassNaturalAbundance.pdf>
 Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf  used on in
+put line 157. on input line 157.
+Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
+e 157.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+<use Resources/IsotopicMassNaturalAbundance.pdf>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf  used on in
+put line 157. on input line 157.
+Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
+e 157.
+<Resources/IsotopicMassNaturalAbundance.pdf, id=2265, page=3, pagebox=cropbox, 
+614.295pt x 794.97pt>
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page3 use
+d on input line 157. on input line 157.
+Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
+e 157.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page3 use
+d on input line 157. on input line 157.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 157.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page3 use
+d on input line 157. on input line 157.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 157.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page3 use
+d on input line 157. on input line 157.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 157.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page3 use
+d on input line 157. on input line 157.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 157.
+ [97 <./Resources/IsotopicMassNaturalAbundance.pdf>]
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+<use Resources/IsotopicMassNaturalAbundance.pdf>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf  used on in
+put line 158. on input line 158.
+Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
+e 158.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+<use Resources/IsotopicMassNaturalAbundance.pdf>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf  used on in
+put line 158. on input line 158.
+Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
+e 158.
+<Resources/IsotopicMassNaturalAbundance.pdf, id=2272, page=4, pagebox=cropbox, 
+614.295pt x 794.97pt>
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page4 use
+d on input line 158. on input line 158.
+Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
+e 158.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page4 use
+d on input line 158. on input line 158.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 158.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page4 use
+d on input line 158. on input line 158.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 158.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page4 use
+d on input line 158. on input line 158.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 158.
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+<use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page4 use
+d on input line 158. on input line 158.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 158.
+ [98 <./Resources/IsotopicMassNaturalAbundance.pdf>]
+File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
+<use Resources/IsotopicMassNaturalAbundance.pdf>
+Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf  used on in
 put line 159. on input line 159.
 Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
 e 159.
@@ -3309,7 +3416,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf  used on in
 put line 159. on input line 159.
 Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
 e 159.
-<Resources/IsotopicMassNaturalAbundance.pdf, id=2259, page=5, pagebox=cropbox, 
+<Resources/IsotopicMassNaturalAbundance.pdf, id=2279, page=5, pagebox=cropbox, 
 614.295pt x 794.97pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 5>
@@ -3341,8 +3448,8 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf , page5 use
 d on input line 159. on input line 159.
 Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
  159.
- [97 <./Resources/IsotopicMassNaturalAbundance.pdf>]
-<Resources/PeriodicTableMuted2.pdf, id=2264, pagebox=cropbox, 1927.2pt x 1084.0
+ [99 <./Resources/IsotopicMassNaturalAbundance.pdf>]
+<Resources/PeriodicTableMuted2.pdf, id=2284, pagebox=cropbox, 1927.2pt x 1084.0
 5pt>
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 <use Resources/PeriodicTableMuted2.pdf>
@@ -3356,7 +3463,7 @@ Package pdftex.def Info: Resources/PeriodicTableMuted2.pdf  used on input line
 163. on input line 163.
 Package pdftex.def Info: Requested size: 1927.19533pt x 1084.04736pt on input l
 ine 163.
-<Resources/PeriodicTableMuted2.pdf, id=2267, page=1, pagebox=cropbox, 1927.2pt 
+<Resources/PeriodicTableMuted2.pdf, id=2287, page=1, pagebox=cropbox, 1927.2pt 
 x 1084.05pt>
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 <use Resources/PeriodicTableMuted2.pdf, page 1>
@@ -3388,22 +3495,22 @@ Package pdftex.def Info: Resources/PeriodicTableMuted2.pdf , page1 used on inpu
 t line 163. on input line 163.
 Package pdftex.def Info: Requested size: 1927.19533pt x 1084.04736pt on input l
 ine 163.
- [98 <./Resources/PeriodicTableMuted2.pdf>] (Resources/References.tex
+ [100 <./Resources/PeriodicTableMuted2.pdf>] (Resources/References.tex
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 []\OT1/cmr/m/n/9 ``Table of Iso-topic Masses and Nat-u-ral Abun-dances." (n.d.)
 : n. pag. NC State Uni-ver-sity. Web.
  []
 
-) (Handbook.ind [99
+) (Handbook.ind [101
 
 
 ]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
- [100
+ [102
 
-]) [101]
+]) [103]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
  (Handbook.aux (Resources/Copywrite.aux)
@@ -3426,10 +3533,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 43618 strings out of 493312
- 900334 string characters out of 3138899
- 1090847 words of memory out of 3000000
- 45008 multiletter control sequences out of 15000+200000
+ 43651 strings out of 493312
+ 900948 string characters out of 3138899
+ 1091057 words of memory out of 3000000
+ 45028 multiletter control sequences out of 15000+200000
  552076 words of font info for 105 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,20n,54p,10458b,875s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3458,9 +3565,9 @@ X 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2
 fonts/type1/public/amsfonts/symbols/msbm7.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/rsfs/rsfs10.pfb><C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/fonts
 /type1/public/wasy/wasy10.pfb>
-Output written on Handbook.pdf (109 pages, 5449552 bytes).
+Output written on Handbook.pdf (111 pages, 5456275 bytes).
 PDF statistics:
- 3678 PDF objects out of 4296 (max. 8388607)
- 1410 named destinations out of 1440 (max. 500000)
+ 3701 PDF objects out of 4296 (max. 8388607)
+ 1423 named destinations out of 1440 (max. 500000)
  845 words of extra memory for PDF output out of 10000 (max. 10000000)
 

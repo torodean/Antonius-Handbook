@@ -52,7 +52,7 @@ Exponential integrals
 \begin{align}
 	&\int_{-\infty}^{\infty} \frac{e^{-iax}}{(1+x^2)}dx = \pi e^{-|a|}
 \end{align}
-Trigonometric integrals 
+\begin{fancybox}[Trigonometric Integrals\index{Trigonometric integrals}]{1}
 \begin{align}
 	&\int \tan(x)dx = -\ln(\cos(x)) +c\\
 	&\int \tanh(x)dx = \ln(\cosh(x))+c \\
@@ -66,7 +66,9 @@ Trigonometric integrals
 	&\int x^n \sin(ax)dx = -\frac{x^n}{a}\cos(ax)+ \frac{n}{a}\int x^{n-1}\cos(ax)dx \\
 	&\int x^n \cos(ax)dx = \frac{x^n}{a}\sin(ax)- \frac{n}{a}\int x^{n-1}\sin(ax)dx		
 \end{align}
-The \textbf{Wallis cosine formula}\index{Wallis cosine formula}:
+\end{fancybox}
+
+\begin{defn}[\textbf{The Wallis Cosine Formula}\index{Wallis cosine formula}]{1}
 \begin{align}
 \int_{0}^{\pi/2}\cos^n(x) dx = \int_{0}^{\pi/2}\sin^n(x) dx = \frac{(n-1)!!}{n!!}
 \begin{cases}
@@ -74,6 +76,7 @@ The \textbf{Wallis cosine formula}\index{Wallis cosine formula}:
 1 &\textrm{ for } n=3,5,\dots\\
 \end{cases}
 \end{align}
+\end{defn}
 
 
 
@@ -123,9 +126,12 @@ The below form of a gaussian integral evaluates to zero when $n$ is odd due to t
 \begin{align}
 \int_{-\infty}^{\infty} x^ne^{-\alpha x^2+\beta x}=\sqrt{\frac{\pi}{\alpha}}e^{\beta^2/(4\alpha)}\sum_{k=0}^{\lfloor n/2\rfloor} {{n}\choose{2k}} (2k-1)!!(2a)^{k-n}\beta^{n-2k}
 \end{align}
+
+\begin{defn}[\textbf{Saddle Point Approximation}\index{Saddle point approximation}]{1}
 One can use the \textbf{saddle point approximation}\index{Saddle point approximation} to approximate integrals of a certain form (where $x_0$ is the critical point of $f'(x)=0$ - specifically the minimum)
 \begin{align}
 I = \int_{-\infty}^{\infty}g(x)e^{-f(x)}dx \approx g(x_0)e^{-f(x)}\sqrt{\frac{2\pi}{f''(x_0)
 }}
 \end{align}
+\end{defn}
 
