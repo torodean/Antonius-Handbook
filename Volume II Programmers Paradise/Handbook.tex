@@ -1,3 +1,4 @@
+%BEGIN_FOLD
 \documentclass[openany,twoside, notitlepage,letterpaper,11pt]{book}
 
 %%% These are the packages that are used
@@ -17,7 +18,7 @@
 
 \makeindex
 %\addcontentsline{toc}{chapter}{Index}
-
+%END_FOLD
 
 %%% Document Starts now
 \begin{document}
@@ -57,6 +58,15 @@
 \pagestyle{fancy}
 \include{./Chapters/Introduction}
 
+\newpage
+\include{./Chapters/Linux}
+
+%\newpage
+%\include{./Chapters/Windows}
+
+\newpage
+\include{./Chapters/Mac}
+
 %\newpage
 %\include{./Chapters/C}
 
@@ -74,9 +84,6 @@
 
 %\newpage
 %\include{./Chapters/html}
-
-\newpage
-\include{./Chapters/Linux}
 
 %\newpage
 %\include{./Chapters/php}
