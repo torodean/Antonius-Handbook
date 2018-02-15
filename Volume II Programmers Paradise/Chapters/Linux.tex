@@ -78,6 +78,43 @@ chmod a+x /location/of/FILE # Makes a file executable
 ./FILE                      # Executes a file.
 \end{lstlisting}
 
+\section{Users and Groups}
+
+Create a new user
+\begin{lstlisting}
+sudo useradd [options] <USERNAME>             #Creates a user
+sudo useradd -e 2016-02-05 <NAME>             #Creates a user that expites on a day.
+sudo useradd <USERNAME> -G <GROUPNAME>        #Adds a user to a group upon creation.
+useradd --help                                #See full useradd options.
+\end{lstlisting}
+
+Change a users password
+\begin{lstlisting}
+passwd <USERNAME>
+\end{lstlisting}
+
+Change the user in terminal
+\begin{lstlisting}
+su - <USERNAME>
+\end{lstlisting}
+
+Add a user to the sudoers group
+\begin{lstlisting}
+usermod -aG sudo <USERNAME>
+\end{lstlisting}
+
+
+
+
+
+
+
+
+
+
+
+
+
 \section{Networking\index{Networking}}
 
 View IP configuration information

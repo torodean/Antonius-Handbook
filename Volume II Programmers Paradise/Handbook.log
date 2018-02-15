@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.14)  8 FEB 2018 09:00
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.14)  13 FEB 2018 08:39
 entering extended mode
 **Handbook.tex
 
@@ -1243,7 +1243,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 24.
 
-<./Images/Covers/AH3.png, id=78, 2284.535pt x 494.84875pt>
+<./Images/Covers/AH3.png, id=82, 2284.535pt x 494.84875pt>
 File: ./Images/Covers/AH3.png Graphic file (type png)
 
 <use ./Images/Covers/AH3.png>
@@ -1269,7 +1269,7 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 30.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-<./Images/Covers/background_tunnel.png, id=80, 239.57504pt x 138.15614pt>
+<./Images/Covers/background_tunnel.png, id=84, 239.57504pt x 138.15614pt>
 File: ./Images/Covers/background_tunnel.png Graphic file (type png)
 
 <use ./Images/Covers/background_tunnel.png>
@@ -1387,7 +1387,7 @@ Chapter 6.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-<./Images/Figures/figure_1-4.png, id=337, 578.16pt x 433.62pt>
+<./Images/Figures/figure_1-4.png, id=353, 578.16pt x 433.62pt>
 File: ./Images/Figures/figure_1-4.png Graphic file (type png)
 
 <use ./Images/Figures/figure_1-4.png>
@@ -1404,13 +1404,11 @@ Chapter 7.
 
 ("C:\cygwin64\home\torodean\Antonius-Handbook\Volume II Programmers Paradise\Re
 sources\References.tex")
-("C:\cygwin64\home\torodean\Antonius-Handbook\Volume II Programmers Paradise\Ha
-ndbook.ind" [10
+No file Handbook.ind.
+[10
 
 
 
-
-]) [11
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
@@ -1437,13 +1435,13 @@ apters\Python.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
 Package rerunfilecheck Info: File `Handbook.out' has not changed.
-(rerunfilecheck)             Checksum: 1DD1B6F74135BCA0B78383376943AD7B;2213.
+(rerunfilecheck)             Checksum: FE13DFD98951798DB57C2D1067024704;2355.
  ) 
 Here is how much of TeX's memory you used:
- 39767 strings out of 493921
- 794695 string characters out of 3147272
+ 39787 strings out of 493921
+ 794806 string characters out of 3147272
  1045440 words of memory out of 3000000
- 42233 multiletter control sequences out of 15000+200000
+ 42245 multiletter control sequences out of 15000+200000
  19077 words of font info for 75 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  57i,12n,60p,10456b,1706s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1458,9 +1456,9 @@ cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Handbook.pdf (17 pages, 1059905 bytes).
+Output written on Handbook.pdf (16 pages, 1059978 bytes).
 PDF statistics:
- 470 PDF objects out of 1000 (max. 8388607)
- 220 named destinations out of 1000 (max. 500000)
- 172 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 471 PDF objects out of 1000 (max. 8388607)
+ 230 named destinations out of 1000 (max. 500000)
+ 180 words of extra memory for PDF output out of 10000 (max. 10000000)
 
