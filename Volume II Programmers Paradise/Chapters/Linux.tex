@@ -9,31 +9,10 @@ Retreive information and valid arguments for a command.
 COMMAND --help   # COMMAND must be a valid command such as cd, ls, etc...
 \end{lstlisting}
 
-List information about File(s) (in the current directory by default).
-\begin{lstlisting}
-ls        # list all items in a directory
-ls -1     # list all items in a directory (one item per line)
-ls -lh    # list all items in a directory with size, owner, and date modified
-\end{lstlisting}
-
 Changing directory via terminal
 \begin{lstlisting}
 cd /directory # Changes the directory to the subdirectory /directory
 cd ..         # Goes back one directory
-\end{lstlisting}
-
-Copy a file or directory to a different linux computer
-\begin{lstlisting}
-#To copy a file.
-scp <File Path> username@computer:"<path to copy to>"
-
-#To copy a directory.
-scp -r <File Path> username@computer:"<path to copy to>"
-\end{lstlisting}
-
-Show information about the file system on which each FILE resides, or all file systems by default.
-\begin{lstlisting}
-df 
 \end{lstlisting}
 
 How to display the processes that are currently running.
@@ -76,6 +55,42 @@ Make a file executable and execute a file
 \begin{lstlisting}
 chmod a+x /location/of/FILE # Makes a file executable
 ./FILE                      # Executes a file.
+\end{lstlisting}
+
+\section{Files and Storage}
+
+Copy a file or directory to a different linux computer
+\begin{lstlisting}
+#To copy a file.
+scp <File Path> username@computer:"<path to copy to>"
+
+#To copy a directory.
+scp -r <File Path> username@computer:"<path to copy to>"
+\end{lstlisting}
+
+Show information about the file system on which each FILE resides, or all file systems by default.
+\begin{lstlisting}
+df 
+\end{lstlisting}
+
+List information about File(s) (in the current directory by default).
+\begin{lstlisting}
+ls        # list all items in a directory
+ls -1     # list all items in a directory (one item per line)
+ls -lh    # list all items in a directory with size, owner, and date modified
+\end{lstlisting}
+
+List all of the block devices (hence partitions) detected by the machine
+\begin{lstlisting}
+lsblk
+\end{lstlisting}
+
+Mount and unmount a partition
+\begin{lstlisting}
+sudo mount <DEVICE TO MOUNT> <MOUNT POINT>
+sudo mount /dev/sdb1/ /mnt/      #example of mounting
+sudo umount <DEVICE TO MOUNT> <MOUNT POINT>
+sudo umount /dev/sdb1/ /mnt/      #example of mounting
 \end{lstlisting}
 
 \section{Users and Groups}
