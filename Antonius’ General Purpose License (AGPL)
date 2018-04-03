@@ -1,43 +1,62 @@
-                 Antonius’ General Purpose License (AGPL)
-                       Version 1, 21 February 2017
-
- Copyright (C) 2017 Antonius Torode. <http://msu.edu/~torodean>
- This document was designed for use by the original writer and
- maintainer and is not to be distributed without permission of
- the current maintainer of this document.
-
-         Original Maintainer:     Antonius W. Torode
-         Current Maintainer:      Antonius W. Torode
+###################################################
+###  Antonius’ General Purpose License (AGPL)
+###  Version: 1.000
+###  Created on: 21 February 2017
+###  Modified on: 03 April 2018
+###################################################
 
 
-                            Preamble
+Copyright (C) 2017 Antonius Torode. <http://msu.edu/~torodean>
 
-   Antonius’ General Purpose License, also referred to as AGPL within 
-this document, is a personal license designed to outline the property
-rights of creations originally made by Antonius Torode. This license 
-is to not be distributed except for purposes explicitely outlined in 
-this document.
+This document was designed for use by the original writer and maintainer and is not to be distributed without permission of the current maintainer of this document.
 
+	Original Maintainer:     Antonius W. Torode
+	Current Maintainer:      Antonius W. Torode
 
-                       TERMS AND CONDITIONS
+#################
+###  Preamble
+#################
 
-  0. Definitions.
+Antonius’ General Purpose License, also referred to as AGPL within this document, is a personal license designed to outline the property rights of creations originally made by Antonius Torode. This license is to not be distributed except for purposes explicitly outlined in this document.
 
-  "This License" refers to version 1 of Antonius’ General Purpose License.
+#############################
+###  TERMS AND CONDITIONS
+#############################
 
-  "Copyright" also means copyright-like laws that apply to other kinds of
-works.
+0. Definitions.
 
-  "The Author" refers to the current maintainer of the work in question.
+"This License" refers to the current version of Antonius’ General Purpose License.
 
-  1. Permissions
+"Copyright" also means copyright-like laws that apply to other kinds of works.
 
-Under the permission of this document, any publically released document by the current maintainer of this dicument may be used freely. The document(s) contained with this license may not be modified in any way without written and signed permission by the original author of the work. All work contained with this license can me cited and information within it used as long as proper credit (or a proper citation) is provided with the use of the work.
+"The Author" refers to the current maintainer of the work in question.
 
-  2. License Modifications
+1. Permissions
+
+Under the permission of this document, any publicly released document, code, program, or image by the current maintainer of this document may be used freely as long as it follows the below permissions as well.
+
+The document(s) contained with this license may not be modified in any way without written and signed permission by the original author of the work unless explicitly intended to be modified. All work contained with this license can be cited and information within it used as long as proper credit (or a proper citation) is provided with the use of the work.
+
+The programs, codes, and images accompanying this document may be freely used and adapted for personal use as long as no profit is to be made by the usage and proper credit (or a proper citation) is provided with the use of the work. Usage of any code, program, or image may be used for profit if and only if the author gives explicit written permission to the party whom will obtain profit from use of the work.
+
+2. License Modifications
 
 This license may be modified at any time by the original maintainer.
 
+3. Exceptions and addendum to these permissions can be found below in the "Antonius Specific Projects" section.
 
+####################################
+###  Antonius Specific Projects
+####################################
 
+--------------------------
+--- Antonius-Templates ---
+--------------------------
 
+The templates located in the repository referred to as Antonius-Templates are free to use, distribute, share, or modify freely with a single caveat. The content within said templates belongs solely to the maintainer of this work and cannot be used unless cited properly. The "content" written here refers to any writing that does not pertain specifically to the format of the document itself.
+
+---------------------
+--- Antonius-GINA ---
+---------------------
+
+The GINA program and everything contained within it's repository can be freely used for academic purposes as long as proper credit (or a proper citation) is provided with the use of the work.
