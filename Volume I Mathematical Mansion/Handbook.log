@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  16 MAR 2018 18:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.10)  4 APR 2018 23:34
 entering extended mode
 **./Handbook.tex
 (Handbook.tex
@@ -1496,6 +1496,9 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `1' multiply defined.
 
+
+LaTeX Warning: Label `1' multiply defined.
+
 ) (Chapters/Integrals.aux
 
 LaTeX Warning: Label `1' multiply defined.
@@ -1775,7 +1778,7 @@ Chapter 2.
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 42.
+(amsmath)                 on input line 50.
 
 [4
 
@@ -2732,7 +2735,7 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 76.
-<Resources/DiffEQTable.pdf, id=1209, pagebox=cropbox, 461.08258pt x 640.31218pt
+<Resources/DiffEQTable.pdf, id=1214, pagebox=cropbox, 461.08258pt x 640.31218pt
 >
 File: Resources/DiffEQTable.pdf Graphic file (type pdf)
 <use Resources/DiffEQTable.pdf>
@@ -2746,7 +2749,7 @@ Package pdftex.def Info: Resources/DiffEQTable.pdf  used on input line 79. on i
 nput line 79.
 Package pdftex.def Info: Requested size: 461.08145pt x 640.31061pt on input lin
 e 79.
-<Resources/DiffEQTable.pdf, id=1212, page=1, pagebox=cropbox, 461.08258pt x 640
+<Resources/DiffEQTable.pdf, id=1217, page=1, pagebox=cropbox, 461.08258pt x 640
 .31218pt>
 File: Resources/DiffEQTable.pdf Graphic file (type pdf)
 <use Resources/DiffEQTable.pdf, page 1>
@@ -2827,7 +2830,7 @@ Package mdframed Info: mdframed detected package amsthm
 
  (Chapters/Integrals.tex
 Chapter 8.
-<Resources/IntegralTable.pdf, id=1341, pagebox=cropbox, 514.56241pt x 660.54782
+<Resources/IntegralTable.pdf, id=1346, pagebox=cropbox, 514.56241pt x 660.54782
 pt>
 File: Resources/IntegralTable.pdf Graphic file (type pdf)
 <use Resources/IntegralTable.pdf>
@@ -2841,7 +2844,7 @@ Package pdftex.def Info: Resources/IntegralTable.pdf  used on input line 48. on
  input line 48.
 Package pdftex.def Info: Requested size: 514.56116pt x 660.5462pt on input line
  48.
-<Resources/IntegralTable.pdf, id=1344, page=1, pagebox=cropbox, 514.56241pt x 6
+<Resources/IntegralTable.pdf, id=1349, page=1, pagebox=cropbox, 514.56241pt x 6
 60.54782pt>
 File: Resources/IntegralTable.pdf Graphic file (type pdf)
 <use Resources/IntegralTable.pdf, page 1>
@@ -2942,7 +2945,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
  [55]
-<./Images/Diagrams/meanfreepath.png, id=1504, 368.37625pt x 414.54875pt>
+<./Images/Diagrams/meanfreepath.png, id=1515, 368.37625pt x 414.54875pt>
 File: ./Images/Diagrams/meanfreepath.png Graphic file (type png)
 <use ./Images/Diagrams/meanfreepath.png>
 Package pdftex.def Info: ./Images/Diagrams/meanfreepath.png  used on input line
@@ -3090,7 +3093,7 @@ Chapter 18.
 
 
 ]
-<./Images/Diagrams/1280px-BraggPlaneDiffraction.png, id=1985, 1284.8pt x 602.25
+<./Images/Diagrams/1280px-BraggPlaneDiffraction.png, id=1996, 1284.8pt x 602.25
 pt>
 File: ./Images/Diagrams/1280px-BraggPlaneDiffraction.png Graphic file (type png
 )
@@ -3099,7 +3102,7 @@ Package pdftex.def Info: ./Images/Diagrams/1280px-BraggPlaneDiffraction.png  us
 ed on input line 123. on input line 123.
 Package pdftex.def Info: Requested size: 256.95544pt x 120.44786pt on input lin
 e 123.
-<./Images/Diagrams/crystalscattering.png, id=1986, 760.8425pt x 562.1pt>
+<./Images/Diagrams/crystalscattering.png, id=1997, 760.8425pt x 562.1pt>
 File: ./Images/Diagrams/crystalscattering.png Graphic file (type png)
 <use ./Images/Diagrams/crystalscattering.png>
 Package pdftex.def Info: ./Images/Diagrams/crystalscattering.png  used on input
@@ -3147,7 +3150,7 @@ Missing character: There is no “ in font cmr10!
 
 ]
 Chapter 22.
-<Resources/CGtable.pdf, id=2209, pagebox=cropbox, 614.295pt x 794.97pt>
+<Resources/CGtable.pdf, id=2220, pagebox=cropbox, 614.295pt x 794.97pt>
 File: Resources/CGtable.pdf Graphic file (type pdf)
 <use Resources/CGtable.pdf>
 Package pdftex.def Info: Resources/CGtable.pdf  used on input line 133. on inpu
@@ -3160,7 +3163,7 @@ Package pdftex.def Info: Resources/CGtable.pdf  used on input line 133. on inpu
 t line 133.
 Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
 e 133.
-<Resources/CGtable.pdf, id=2212, page=1, pagebox=cropbox, 614.295pt x 794.97pt>
+<Resources/CGtable.pdf, id=2223, page=1, pagebox=cropbox, 614.295pt x 794.97pt>
 
 File: Resources/CGtable.pdf Graphic file (type pdf)
 <use Resources/CGtable.pdf, page 1>
@@ -3196,7 +3199,7 @@ Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
 
 
  <./Resources/CGtable.pdf>]
-<./Images/Tables/electron_configuration.png, id=2221, 843.90282pt x 494.59781pt
+<./Images/Tables/electron_configuration.png, id=2232, 843.90282pt x 494.59781pt
 >
 File: ./Images/Tables/electron_configuration.png Graphic file (type png)
 <use ./Images/Tables/electron_configuration.png>
@@ -3204,7 +3207,7 @@ Package pdftex.def Info: ./Images/Tables/electron_configuration.png  used on in
 put line 138. on input line 138.
 Package pdftex.def Info: Requested size: 506.3456pt x 296.76097pt on input line
  138.
-<./Images/Tables/electron_configuration_2.png, id=2222, 843.90282pt x 471.26062
+<./Images/Tables/electron_configuration_2.png, id=2233, 843.90282pt x 471.26062
 pt>
 File: ./Images/Tables/electron_configuration_2.png Graphic file (type png)
 <use ./Images/Tables/electron_configuration_2.png>
@@ -3214,14 +3217,14 @@ Package pdftex.def Info: Requested size: 506.3456pt x 282.75856pt on input line
  140.
  [93 <./Images/Tables/electron_configuration.png (PNG copy)> <./Images/Tables/e
 lectron_configuration_2.png (PNG copy)>]
-<./Images/Diagrams/electronshell.png, id=2229, 496.9767pt x 515.0442pt>
+<./Images/Diagrams/electronshell.png, id=2240, 496.9767pt x 515.0442pt>
 File: ./Images/Diagrams/electronshell.png Graphic file (type png)
 <use ./Images/Diagrams/electronshell.png>
 Package pdftex.def Info: ./Images/Diagrams/electronshell.png  used on input lin
 e 148. on input line 148.
 Package pdftex.def Info: Requested size: 496.97548pt x 515.04295pt on input lin
 e 148.
-<Resources/IsotopicMassNaturalAbundance.pdf, id=2231, pagebox=cropbox, 614.295p
+<Resources/IsotopicMassNaturalAbundance.pdf, id=2242, pagebox=cropbox, 614.295p
 t x 794.97pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 <use Resources/IsotopicMassNaturalAbundance.pdf>
@@ -3235,7 +3238,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf  used on in
 put line 155. on input line 155.
 Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
 e 155.
-<Resources/IsotopicMassNaturalAbundance.pdf, id=2234, page=1, pagebox=cropbox, 
+<Resources/IsotopicMassNaturalAbundance.pdf, id=2245, page=1, pagebox=cropbox, 
 614.295pt x 794.97pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 1>
@@ -3281,7 +3284,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf  used on in
 put line 156. on input line 156.
 Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
 e 156.
-<Resources/IsotopicMassNaturalAbundance.pdf, id=2258, page=2, pagebox=cropbox, 
+<Resources/IsotopicMassNaturalAbundance.pdf, id=2269, page=2, pagebox=cropbox, 
 614.295pt x 794.97pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 2>
@@ -3326,7 +3329,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf  used on in
 put line 157. on input line 157.
 Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
 e 157.
-<Resources/IsotopicMassNaturalAbundance.pdf, id=2265, page=3, pagebox=cropbox, 
+<Resources/IsotopicMassNaturalAbundance.pdf, id=2276, page=3, pagebox=cropbox, 
 614.295pt x 794.97pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 3>
@@ -3371,7 +3374,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf  used on in
 put line 158. on input line 158.
 Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
 e 158.
-<Resources/IsotopicMassNaturalAbundance.pdf, id=2272, page=4, pagebox=cropbox, 
+<Resources/IsotopicMassNaturalAbundance.pdf, id=2283, page=4, pagebox=cropbox, 
 614.295pt x 794.97pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 4>
@@ -3416,7 +3419,7 @@ Package pdftex.def Info: Resources/IsotopicMassNaturalAbundance.pdf  used on in
 put line 159. on input line 159.
 Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
 e 159.
-<Resources/IsotopicMassNaturalAbundance.pdf, id=2279, page=5, pagebox=cropbox, 
+<Resources/IsotopicMassNaturalAbundance.pdf, id=2290, page=5, pagebox=cropbox, 
 614.295pt x 794.97pt>
 File: Resources/IsotopicMassNaturalAbundance.pdf Graphic file (type pdf)
 <use Resources/IsotopicMassNaturalAbundance.pdf, page 5>
@@ -3449,7 +3452,7 @@ d on input line 159. on input line 159.
 Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
  159.
  [99 <./Resources/IsotopicMassNaturalAbundance.pdf>]
-<Resources/PeriodicTableMuted2.pdf, id=2284, pagebox=cropbox, 1927.2pt x 1084.0
+<Resources/PeriodicTableMuted2.pdf, id=2295, pagebox=cropbox, 1927.2pt x 1084.0
 5pt>
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 <use Resources/PeriodicTableMuted2.pdf>
@@ -3463,7 +3466,7 @@ Package pdftex.def Info: Resources/PeriodicTableMuted2.pdf  used on input line
 163. on input line 163.
 Package pdftex.def Info: Requested size: 1927.19533pt x 1084.04736pt on input l
 ine 163.
-<Resources/PeriodicTableMuted2.pdf, id=2287, page=1, pagebox=cropbox, 1927.2pt 
+<Resources/PeriodicTableMuted2.pdf, id=2298, page=1, pagebox=cropbox, 1927.2pt 
 x 1084.05pt>
 File: Resources/PeriodicTableMuted2.pdf Graphic file (type pdf)
 <use Resources/PeriodicTableMuted2.pdf, page 1>
@@ -3496,7 +3499,7 @@ t line 163. on input line 163.
 Package pdftex.def Info: Requested size: 1927.19533pt x 1084.04736pt on input l
 ine 163.
  [100 <./Resources/PeriodicTableMuted2.pdf>] (Resources/References.tex
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 []\OT1/cmr/m/n/9 ``Table of Iso-topic Masses and Nat-u-ral Abun-dances." (n.d.)
 : n. pag. NC State Uni-ver-sity. Web.
  []
@@ -3533,10 +3536,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 43651 strings out of 493312
- 900948 string characters out of 3138899
- 1091056 words of memory out of 3000000
- 45028 multiletter control sequences out of 15000+200000
+ 43661 strings out of 493312
+ 901114 string characters out of 3138899
+ 1090492 words of memory out of 3000000
+ 45031 multiletter control sequences out of 15000+200000
  552076 words of font info for 105 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,20n,54p,10458b,875s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3565,9 +3568,9 @@ X 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2
 fonts/type1/public/amsfonts/symbols/msbm7.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/rsfs/rsfs10.pfb><C:/Users/awtor/AppData/Roaming/MiKTeX/2.9/fonts
 /type1/public/wasy/wasy10.pfb>
-Output written on Handbook.pdf (111 pages, 5456285 bytes).
+Output written on Handbook.pdf (111 pages, 5460155 bytes).
 PDF statistics:
- 3701 PDF objects out of 4296 (max. 8388607)
- 1423 named destinations out of 1440 (max. 500000)
+ 3713 PDF objects out of 4296 (max. 8388607)
+ 1430 named destinations out of 1440 (max. 500000)
  845 words of extra memory for PDF output out of 10000 (max. 10000000)
 

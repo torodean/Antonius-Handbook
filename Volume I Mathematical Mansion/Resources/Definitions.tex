@@ -47,7 +47,7 @@
 
 %theorem
 \newcounter{theo}[section] \setcounter{theo}{0}
-\renewcommand{\thetheo}{\arabic{chapter}.\arabic{theo}}
+\renewcommand{\thetheo}{\arabic{chapter}.\arabic{section}.\arabic{theo}}
 \newenvironment{theo}[2][]{%
 	\refstepcounter{theo}%
 	\ifstrempty{#1}%
@@ -73,7 +73,7 @@
 
 %Lemma
 \newcounter{lemm}[section] \setcounter{lemm}{0}
-\renewcommand{\thelemm}{\arabic{chapter}.\arabic{lemm}}
+\renewcommand{\thelemm}{\arabic{chapter}.\arabic{section}.\arabic{lemm}}
 \newenvironment{lemm}[2][]{%
 	\refstepcounter{lemm}%
 	\ifstrempty{#1}%
@@ -99,7 +99,7 @@
 
 %Proof
 \newcounter{prf}[section]\setcounter{prf}{0}
-\renewcommand{\theprf}{\arabic{chapter}.\arabic{prf}}
+\renewcommand{\theprf}{\arabic{chapter}.\arabic{section}.\arabic{prf}}
 \newenvironment{prf}[2][]{%
 	\refstepcounter{prf}%
 	\ifstrempty{#1}%
@@ -125,7 +125,7 @@
 
 %Definition
 \newcounter{defn}[section] \setcounter{defn}{0}
-\renewcommand{\thedefn}{\arabic{chapter}.\arabic{defn}}
+\renewcommand{\thedefn}{\arabic{chapter}.\arabic{section}.\arabic{defn}}
 \newenvironment{defn}[2][]{%
 	\refstepcounter{defn}%
 	\ifstrempty{#1}%
@@ -147,9 +147,10 @@
 	}
 	\begin{mdframed}[nobreak=true]\relax%
 		\label{#2}}{\end{mdframed}}
+	
 %Fancy Box
 \newcounter{fancybox}[section] \setcounter{fancybox}{0}
-\renewcommand{\thefancybox}{\arabic{chapter}.\arabic{fancybox}}
+\renewcommand{\thefancybox}{\arabic{chapter}.\arabic{section}.\arabic{fancybox}}
 \newenvironment{fancybox}[2][]{%
 	\refstepcounter{fancybox}%
 	\ifstrempty{#1}%

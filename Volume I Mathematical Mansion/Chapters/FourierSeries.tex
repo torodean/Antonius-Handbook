@@ -30,3 +30,17 @@ For a function f(x) periodic on an interval [-L,L] instead of [-pi,pi], a simple
 x &\equiv \frac{\pi x'}{L}  \Longleftrightarrow x'\equiv\frac{Lx}{\pi} \implies
 dx = \frac{\pi dx'}{L}
 \end{align}
+
+We can define the \textbf{Fourier transform}\index{Fourier transform} of $f(x)$ \cite{bib:PDE book} by
+\begin{align}
+F(\omega) = \frac{1}{2\pi}\int_{-\infty}^{\infty} f(x)e^{i\omega t} dx \Longleftrightarrow \frac{f(x^+)+f(x^-)}{2} = \int_{-\infty}^{\infty} F(\omega) e^{-i\omega t} d\omega.
+\end{align}
+The \textbf{Fourier transform} of a \textbf{Gaussian}\index{Gaussian} \cite{bib:PDE book} is given by
+\begin{align}
+F(\omega) = \frac{1}{\sqrt{4\pi\beta}}e^{-\omega^2/4\beta} &\Longleftrightarrow f(x) = \int_{-\infty}^{\infty} e^{-\beta x^2} e^{-i\omega t} d\omega \\
+F(\omega) = \frac{1}{2\pi}\int_{-\infty}^{\infty} e^{-\alpha\omega^2}e^{i\omega t} dx &\Longleftrightarrow f(x) = \sqrt{\frac{\pi}{\alpha}}e^{-x^2/4\alpha}.
+\end{align}
+The \textbf{Convolution theorem} states
+\begin{align}
+\int_{-\infty}^{\infty} F(\omega)G(\omega) e^{-i\omega t} d\omega = \frac{1}{2\pi}\int_{-\infty}^{\infty} g(\bar{x})f(x-\bar{x}) d\bar{x}= \frac{1}{2\pi}\int_{-\infty}^{\infty} f(\omega)g(x-\omega) d\omega
+\end{align}

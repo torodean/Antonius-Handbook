@@ -1,10 +1,12 @@
 \indexentry{Curl Theorem|hyperpage}{4}
 \indexentry{Stokes' theorem|hyperpage}{4}
+\indexentry{Lagrange's identity|hyperpage}{4}
+\indexentry{Greens formula|hyperpage}{4}
 \indexentry{Green's theorem|hyperpage}{4}
 \indexentry{Divergence theorem|hyperpage}{4}
 \indexentry{Gradient theorem|hyperpage}{4}
 \indexentry{Gamma function|hyperpage}{4}
-\indexentry{Binomial theorem|hyperpage}{4}
+\indexentry{Binomial theorem|hyperpage}{5}
 \indexentry{Kronecker delta|hyperpage}{5}
 \indexentry{Taylor series|hyperpage}{5}
 \indexentry{Dirac!Delta Function|hyperpage}{6}
@@ -108,6 +110,8 @@
 \indexentry{Saddle point approximation|hyperpage}{51}
 \indexentry{Saddle point approximation|hyperpage}{51}
 \indexentry{Fourier Series|hyperpage}{52}
+\indexentry{Fourier transform|hyperpage}{52}
+\indexentry{Gaussian|hyperpage}{52}
 \indexentry{Parsec|hyperpage}{54}
 \indexentry{Flux|hyperpage}{54}
 \indexentry{Distance modulus|hyperpage}{54}

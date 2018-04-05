@@ -1,6 +1,6 @@
 \chapter{General Mathematics}
 \thispagestyle{fancy}
-Definitions
+Trigonometric definitions
 \begin{multicols}{2}
 	\noindent
 	\begin{align}
@@ -17,6 +17,14 @@ Definitions
 \textbf{Curl Theorem:}\index{Curl Theorem} A special case of Stokes' theorem\index{Stokes' theorem} in which $\vec{F}$ is a vector field and $M$ is an oriented, compact embedded 2-manifold with boundary in $\mathbb{R}^3$, and a generalization of Green's theorem from the plane into three-dimensional space. The curl theorem states 
 \begin{align}
 	\int_S (\nabla \times \vec{F})\cdot d\vec{a} = \int_{\partial S}\vec{F} \cdot d\vec{s}
+\end{align}
+The differential form of \textbf{Lagrange's identity}\index{Lagrange's identity} where $L(u)=\frac{d}{dx}(p\frac{du}{dx})+qu$ and \textbf{Green's formula}\index{Greens formula} which is the integral form of Lagrange's identity \cite{bib:PDE book} are
+\begin{align}
+uL(v) - v L(u) = \frac{d}{dx}\left[p\left(u\frac{dv}{dx}-v\frac{du}{dx}\right)\right] \implies \int_{a}^{b} [uL(v) - v L(u)] dx = p\left(u\frac{dv}{dx}-v\frac{du}{dx}\right)\Big|_a^b
+\end{align}
+The two dimensional version of \textbf{Green's formula} \cite{bib:PDE book} is 
+\begin{align}
+\int \int (v\nabla^2 u - u \nabla^2 v)dA = \oint (v\nabla u - u \nabla v) \cdot \hat{n} ds
 \end{align}
 \textbf{Green's theorem}\index{Green's theorem} is a vector identity which is equivalent to the curl theorem 
 \begin{align}
