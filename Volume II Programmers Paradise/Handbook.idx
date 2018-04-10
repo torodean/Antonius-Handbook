@@ -1,12 +1,26 @@
 \indexentry{System Related Commands|hyperpage}{2}
 \indexentry{Networking|hyperpage}{3}
-\indexentry{Input and Output|hyperpage}{5}
-\indexentry{Simulate Key Strokes|hyperpage}{5}
-\indexentry{Variable Types|hyperpage}{6}
-\indexentry{Vector|hyperpage}{6}
-\indexentry{Converting Between Types|hyperpage}{6}
-\indexentry{std::string to int|hyperpage}{6}
-\indexentry{Prime Number|hyperpage}{6}
-\indexentry{System Commands|hyperpage}{7}
-\indexentry{Sleep|hyperpage}{7}
-\indexentry{Plotting and Graphs|hyperpage}{9}
+\indexentry{ifconfig|hyperpage}{3}
+\indexentry{traceroute|hyperpage}{3}
+\indexentry{dig|hyperpage}{3}
+\indexentry{telnet|hyperpage}{4}
+\indexentry{nslookup|hyperpage}{4}
+\indexentry{netstat|hyperpage}{4}
+\indexentry{nmap|hyperpage}{4}
+\indexentry{IPv6|hyperpage}{4}
+\indexentry{echo|hyperpage}{4}
+\indexentry{variables|hyperpage}{4}
+\indexentry{touch|hyperpage}{5}
+\indexentry{Input and Output|hyperpage}{7}
+\indexentry{Simulate Key Strokes|hyperpage}{7}
+\indexentry{Variable Types|hyperpage}{8}
+\indexentry{Vector|hyperpage}{8}
+\indexentry{Converting Between Types|hyperpage}{8}
+\indexentry{std::string to int|hyperpage}{8}
+\indexentry{stoi|hyperpage}{8}
+\indexentry{std::string to int|hyperpage}{8}
+\indexentry{stod|hyperpage}{8}
+\indexentry{Prime Number|hyperpage}{8}
+\indexentry{System Commands|hyperpage}{9}
+\indexentry{Sleep|hyperpage}{9}
+\indexentry{Plotting and Graphs|hyperpage}{11}

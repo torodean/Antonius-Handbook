@@ -79,6 +79,16 @@ void leftclick(){
 \end{lstlisting}
 
 
+
+
+
+
+
+
+
+
+
+
 \section{Variable Types\index{Variable Types}}
 
 Creating and using a vector\index{Vector}.
@@ -101,14 +111,48 @@ V2[0][3] = 3.1415; //Sets the 4th element in the first row of V2 to 3.1415.
 \end{lstlisting}
 
 
+
+
+
+
+
+
+
+
+
+
+
 \subsection{Converting Between Types\index{Converting Between Types}}
 
 \subsection*{std::string to int\index{std::string to int}}
-To convert a string to an integer you can use:
+To convert a string to an integer you can use the \textbf{stoi}\index{stoi} function:
 \begin{lstlisting}
 std::string text = "31415";
 int number = std::stoi(text);
 \end{lstlisting}
+
+\subsection*{std::string to double\index{std::string to int}}
+To convert a string to a double you can use the \textbf{stod}\index{stod} function:
+\begin{lstlisting}
+std::string text = "3.1415";
+double number = std::stof(text);
+\end{lstlisting}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \section{Mathematical Commands}
 
@@ -133,6 +177,20 @@ bool isPrime(long num) {
 }
 \end{lstlisting}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \section{System Commands\index{System Commands}}
 
 \subsection*{Sleep\index{Sleep}}
@@ -156,6 +214,16 @@ Sleep(5000); //Makes the system sleep for 50 seconds.
 \end{lstlisting}
 
 
-\section{Qt Specific}
+
+
+
+
+
+
+
+
+
+
+%\section{Qt Specific}
 
 

@@ -2,6 +2,8 @@
 \thispagestyle{fancy}
 \lstset{language=Bash, style=bash}
 
+Linux is a broad subcategory that encompass a large family of free and open sourced operating systems. Installing, setting up, and using a linux based operating system is the perfect way for anyone to gain knowledge, understanding, and practice of how a computer system truly works. Unlike the end user experience with Windows and Mac OS, linux has a much higher capability for customization and a higher degree of freedom. With that said, linux is not necessarily more user friendly to the new or average computer user, however it is free in most cases!
+
 \section{System Related Commands\index{System Related Commands}}
 
 Retreive information and valid arguments for a command.
@@ -59,13 +61,13 @@ chmod a+x /location/of/FILE # Makes a file executable
 
 \section{Files and Storage}
 
-Copy a file or directory to a different linux computer
+Copy a file or directory to a different computer
 \begin{lstlisting}
-#To copy a file.
-scp <File Path> username@computer:"<path to copy to>"
+# To copy a file.
+scp -v <File Path> username@computer:"<path to copy to>"
 
-#To copy a directory.
-scp -r <File Path> username@computer:"<path to copy to>"
+# To copy a directory.
+scp -rv <File Path> username@computer:"<path to copy to>"
 \end{lstlisting}
 
 Show information about the file system on which each FILE resides, or all file systems by default.
@@ -88,9 +90,9 @@ lsblk
 Mount and unmount a partition
 \begin{lstlisting}
 sudo mount <DEVICE TO MOUNT> <MOUNT POINT>
-sudo mount /dev/sdb1/ /mnt/      #example of mounting
+sudo mount /dev/sdb1/ /mnt/       # example of mounting
 sudo umount <DEVICE TO MOUNT> <MOUNT POINT>
-sudo umount /dev/sdb1/ /mnt/      #example of mounting
+sudo umount /dev/sdb1/ /mnt/      # example of mounting
 \end{lstlisting}
 
 \section{Users and Groups}
@@ -132,12 +134,53 @@ usermod -aG sudo <USERNAME>
 
 \section{Networking\index{Networking}}
 
-View IP configuration information
+The \textbf{ifconfig}\index{ifconfig} command is for viewing IP configuration information and configuring network interface parameters.
 \begin{lstlisting}
 ifconfig
 \end{lstlisting}
 
-Enable/Disable IPv6
+The \textbf{traceroute}\index{traceroute} command is for printing the route that packets take to a network host.
+\begin{lstlisting}
+traceroute
+\end{lstlisting}
+
+The \textbf{Domain Information Groper}\index{dig} is used to perform DNS lookups and display answers returned from the DNS servers.
+\begin{lstlisting}
+dig
+\end{lstlisting}
+
+The \textbf{telnet}\index{telnet} command connects the destination host:port via the telnet protocal. An established connection means connectivity between two hosts is properly working.
+\begin{lstlisting}
+telnet
+\end{lstlisting}
+
+The \textbf{nslookup}\index{nslookup} command is for querying Internet domain name servers.
+\begin{lstlisting}
+nslookup
+\end{lstlisting}
+
+The \textbf{netstat}\index{netstat} command is used to review open network connections and open sockets. 
+\begin{lstlisting}
+netstat
+\end{lstlisting}
+
+The \textbf{nmap}\index{nmap} command is used to check for opened ports on a server
+\begin{lstlisting}
+nmap <SERVER NAME>
+\end{lstlisting}
+
+The \textbf{ifup} and \textbf{ifdown} commands are used to disable network interfaces.
+\begin{lstlisting}
+# enables an ethernet parameter
+ifup <ETHERNET INTERFACE PARAMETER>
+ifup eth0  # example: enables 'eth0'
+
+# disables an ethernet parameter
+ifdown <ETHERNET INTERFACE PARAMETER>
+ifdown eth0  # example: disables 'eth0'
+\end{lstlisting}
+
+Enable/Disable \textbf{IPv6}\index{IPv6}. This is only a temporary solution as it may turn itself back on after some time.
 \begin{lstlisting}
 #Use these two commands to disable IPv6
 sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
@@ -146,4 +189,51 @@ sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
 #Use these two commands to re-enable IPv6
 sudo sysctl -w net.ipv6.conf.all.disable_ipv6=0
 sudo sysctl -w net.ipv6.conf.default.disable_ipv6=0
+\end{lstlisting}
+
+
+
+
+
+
+\section{Shell Scripting}
+
+To create a shell script you must create a new text file and save it as a '.sh' file. The file should start with the directory to the proper shell which is generally the default below. The first line (starting with '\#!') is not a comment, but instead is treated by Unix as "which shell do I use to run this code." In our case, the Bourne shell will be used \cite{linux: shell scripting}.
+\begin{lstlisting}
+#!/bin/sh
+# This is a comment!
+\end{lstlisting}
+
+To print text one can use the \textbf{echo}\index{echo} command as follows.
+\begin{lstlisting}
+#!/bin/sh
+echo Hello World
+echo "Hello World"
+\end{lstlisting}
+
+To make a file executable, the \textbf{chmod} command can be used and is typically used as follows.
+\begin{lstlisting}
+chmod a+rx <SCRIPTNAME>.sh
+\end{lstlisting}
+
+Shell script \textbf{variables}\index{variables} are created by use of the equal sign. spaces in lines containing variables need to be avoided. To reference a variable, the '\$' character is used. Quotations are used to avoid ambiguities with spaces.
+\begin{lstlisting}
+#!/bin/sh
+MY_VARIABLE="Hello World"    # Creates a variable.
+echo $MY_VARIABLE            # Prints the variable.
+\end{lstlisting}
+
+
+
+
+The \textbf{touch}\index{touch} command can be used to create a new empty file.
+\begin{lstlisting}
+#!/bin/sh
+echo "What is your name?"
+read USER_NAME
+echo "Hello $USER_NAME"
+echo "I will create you a file called ${USER_NAME}_file"
+
+# The quotations prevent multiple files from being called to touch.
+touch "${USER_NAME}_file"
 \end{lstlisting}
