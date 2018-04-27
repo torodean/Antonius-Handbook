@@ -1,0 +1,174 @@
+\newcommand{\andspace}[1]{\hspace{#1}\textrm{and}\hspace{#1}}
+
+\numberwithin{equation}{section}
+\setlength{\columnsep}{.5cm}
+\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{black}}
+
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\inner}[1]{\langle #1 \rangle}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\spanvect}{\textnormal{span}}
+\newcommand{\union}{\cup}
+\newcommand{\Union}{\bigcup}
+
+%create a section without making the section title.
+\newcommand\invisiblesection[1]{%
+	\refstepcounter{section}%
+	\addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}%
+	\sectionmark{#1}}
+
+%Makes a chapter with no title
+\makeatletter
+\newcommand{\unchapter}[1]{%
+	\begingroup
+	\let\@makechapterhead\@gobble % make \@makechapterhead do nothing
+	\chapter{#1}
+	\endgroup
+}
+\makeatother
+
+
+%%% This defines the solution environment for you to write your solutions
+\newenvironment{soln}
+{\let\oldqedsymbol=\qedsymbol
+	\renewcommand{\qedsymbol}{$ $}
+	\begin{proof}[\bfseries\upshape \color{blue}Derivation]\color{blue}}
+	{\end{proof}
+	\renewcommand{\qedsymbol}{\oldqedsymbol}}
+
+\newenvironment{note}
+{\let\oldqedsymbol=\qedsymbol
+	\renewcommand{\qedsymbol}{$ $}
+	\begin{proof}[\bfseries\upshape \color{red}Note]\color{red}}
+	{\end{proof}
+	\renewcommand{\qedsymbol}{\oldqedsymbol}}
+
+
+%theorem
+\newcounter{theo}[section] \setcounter{theo}{0}
+\renewcommand{\thetheo}{\arabic{chapter}.\arabic{section}.\arabic{theo}}
+\newenvironment{theo}[2][]{%
+	\refstepcounter{theo}%
+	\ifstrempty{#1}%
+	{\mdfsetup{%
+			frametitle={%
+				\tikz[baseline=(current bounding box.east),outer sep=0pt]
+				\node[anchor=east,rectangle,fill=blue!20]
+				{\strut Theorem~\thetheo};}}
+	}%
+	{\mdfsetup{%
+			frametitle={%
+				\tikz[baseline=(current bounding box.east),outer sep=0pt]
+				\node[anchor=east,rectangle,fill=blue!20]
+				{\strut Theorem~\thetheo:~#1};}}%
+	}%
+	\mdfsetup{innertopmargin=10pt,linecolor=blue!20,%
+		linewidth=2pt,topline=true,%
+		frametitleaboveskip=\dimexpr-\ht\strutbox\relax
+	}
+	\begin{mdframed}[]\relax%
+		\label{#2}}{\end{mdframed}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Lemma
+\newcounter{lemm}[section] \setcounter{lemm}{0}
+\renewcommand{\thelemm}{\arabic{chapter}.\arabic{section}.\arabic{lemm}}
+\newenvironment{lemm}[2][]{%
+	\refstepcounter{lemm}%
+	\ifstrempty{#1}%
+	{\mdfsetup{%
+			frametitle={%
+				\tikz[baseline=(current bounding box.east),outer sep=0pt]
+				\node[anchor=east,rectangle,fill=green!20]
+				{\strut Lemma~\thelem};}}
+	}%
+	{\mdfsetup{%
+			frametitle={%
+				\tikz[baseline=(current bounding box.east),outer sep=0pt]
+				\node[anchor=east,rectangle,fill=green!20]
+				{\strut Lemma~\thelem:~#1};}}%
+	}%
+	\mdfsetup{innertopmargin=10pt,linecolor=green!20,%
+		linewidth=2pt,topline=true,%
+		frametitleaboveskip=\dimexpr-\ht\strutbox\relax
+	}
+	\begin{mdframed}[]\relax%
+		\label{#2}}{\end{mdframed}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Proof
+\newcounter{prf}[section]\setcounter{prf}{0}
+\renewcommand{\theprf}{\arabic{chapter}.\arabic{section}.\arabic{prf}}
+\newenvironment{prf}[2][]{%
+	\refstepcounter{prf}%
+	\ifstrempty{#1}%
+	{\mdfsetup{%
+			frametitle={%
+				\tikz[baseline=(current bounding box.east),outer sep=0pt]
+				\node[anchor=east,rectangle,fill=red!20]
+				{\strut Proof~\theprf};}}
+	}%
+	{\mdfsetup{%
+			frametitle={%
+				\tikz[baseline=(current bounding box.east),outer sep=0pt]
+				\node[anchor=east,rectangle,fill=red!20]
+				{\strut Proof~\theprf:~#1};}}%
+	}%
+	\mdfsetup{innertopmargin=10pt,linecolor=red!20,%
+		linewidth=2pt,topline=true,%
+		frametitleaboveskip=\dimexpr-\ht\strutbox\relax
+	}
+	\begin{mdframed}[]\relax%
+		\label{#2}}{\qed\end{mdframed}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Definition
+\newcounter{defn}[section] \setcounter{defn}{0}
+\renewcommand{\thedefn}{\arabic{chapter}.\arabic{section}.\arabic{defn}}
+\newenvironment{defn}[2][]{%
+	\refstepcounter{defn}%
+	\ifstrempty{#1}%
+	{\mdfsetup{%
+			frametitle={%
+				\tikz[baseline=(current bounding box.east),outer sep=0pt]
+				\node[anchor=east,rectangle,fill=gray!20]
+				{\strut Definition~\thedefn};}}
+	}%
+	{\mdfsetup{%
+			frametitle={%
+				\tikz[baseline=(current bounding box.east),outer sep=0pt]
+				\node[anchor=east,rectangle,fill=gray!20]
+				{\strut Definition~\thedefn:~#1};}}%
+	}%
+	\mdfsetup{innertopmargin=10pt,linecolor=gray!20,%
+		linewidth=2pt,topline=true,%
+		frametitleaboveskip=\dimexpr-\ht\strutbox\relax
+	}
+	\begin{mdframed}[nobreak=true]\relax%
+		\label{#2}}{\end{mdframed}}
+	
+%Fancy Box
+\newcounter{fancybox}[section] \setcounter{fancybox}{0}
+\renewcommand{\thefancybox}{\arabic{chapter}.\arabic{section}.\arabic{fancybox}}
+\newenvironment{fancybox}[2][]{%
+	\refstepcounter{fancybox}%
+	\ifstrempty{#1}%
+	{\mdfsetup{%
+			frametitle={%
+				\tikz[baseline=(current bounding box.east),outer sep=0pt]
+				\node[anchor=east,rectangle,fill=orange!20]
+				{\strut ~\thefancybox};}}
+	}%
+	{\mdfsetup{%
+			frametitle={%
+				\tikz[baseline=(current bounding box.east),outer sep=0pt]
+				\node[anchor=east,rectangle,fill=orange!20]
+				{\strut ~\thefancybox:~#1};}}%
+	}%
+	\mdfsetup{innertopmargin=10pt,linecolor=orange!20,%
+		linewidth=2pt,topline=true,%
+		frametitleaboveskip=\dimexpr-\ht\strutbox\relax
+	}
+	\begin{mdframed}[]\relax%
+		\label{#2}}{\end{mdframed}}

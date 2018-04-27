@@ -1,0 +1,35 @@
+%%Version Number
+\newcommand{\Version}{2.034}
+%%Version
+
+%%% Page formatting
+%\setlength{\headsep}{30pt}
+\setlength{\parindent}{25pt}
+\setlength{\textheight}{9in}
+
+%Rename the bibliography to References.
+\renewcommand\bibname{References}
+
+
+%%% Header and Footer Info
+\pagestyle{fancy}
+\fancyhead[LO]{\small {\textbf{Antonius' Handbook -- Volume I. Version \Version}}}
+\fancyhead[RE]{\small {\textbf{Antonius' Handbook -- Volume I. Version \Version}}}
+\fancyhead[C]{}
+\fancyhead[RO]{\small \thepage}
+\fancyhead[LE]{\small \thepage}
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{}
+
+
+\patchcmd{\chapter}{plain}{empty}{}{}
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{}{0pt}{\Huge}
+\titlespacing*{\chapter} {0pt}{-50pt}{10pt}
+
+%re-defines the plain page style
+\fancypagestyle{plain}{%
+	\fancyhf{}
+	\rhead{\thepage}
+	\renewcommand{\headrulewidth}{0pt}}
