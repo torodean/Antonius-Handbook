@@ -1,30 +1,31 @@
 \begin{theindex}
 
-  \item 4 vectors, \hyperpage{66}
+  \item 4 vectors, \hyperpage{69}
 
   \indexspace
 
-  \item Absolute activity, \hyperpage{71}
-  \item Acidity, \hyperpage{72}
+  \item Abelian Group, \hyperpage{36}
+  \item Absolute activity, \hyperpage{74}
+  \item Acidity, \hyperpage{75}
   \item Alternating Series, \hyperpage{27}
-  \item Ampere's Law, \hyperpage{60}
+  \item Ampere's Law, \hyperpage{63}
   \item Archimedean property, \hyperpage{23}
 
   \indexspace
 
   \item Binomial Series Theorem, \hyperpage{35}
-  \item Binomial theorem, \hyperpage{4}
-  \item Biot-Savart law, \hyperpage{60}
-  \item Boltzmann transport equation, \hyperpage{73}
-  \item Boltzmann’s formula, \hyperpage{52}
+  \item Binomial theorem, \hyperpage{5}
+  \item Biot-Savart law, \hyperpage{63}
+  \item Boltzmann transport equation, \hyperpage{76}
+  \item Boltzmann’s formula, \hyperpage{55}
   \item Bolzano-Weierstrass Theorem, \hyperpage{25}
-  \item Bragg's Law, \hyperpage{75}
+  \item Bragg's Law, \hyperpage{78}
 
   \indexspace
 
   \item Carnot
-    \subitem Coefficient, \hyperpage{72}
-    \subitem Energy, \hyperpage{72}
+    \subitem Coefficient, \hyperpage{75}
+    \subitem Energy, \hyperpage{75}
   \item Cauchy Critereon, \hyperpage{26}
   \item Cauchy Sequence, \hyperpage{25}
   \item Cauchy's
@@ -32,101 +33,106 @@
     \subitem Theorem, \hyperpage{14}
   \item Cauchy-Riemann conditions, \hyperpage{13}
   \item Chain Rule, \hyperpage{33}
-  \item Chemical potential, \hyperpage{71}
-  \item Clausius-Clapeyron equation, \hyperpage{72}
-  \item Clebsch-Gordan, \hyperpage{82}, \hyperpage{89}
+  \item Chemical potential, \hyperpage{74}
+  \item Clausius-Clapeyron equation, \hyperpage{75}
+  \item Clebsch-Gordan, \hyperpage{85}, \hyperpage{92}
   \item Comparison Test, \hyperpage{26}
   \item Completeness Axiom, \hyperpage{23}
-  \item Compton effect, \hyperpage{74}
-  \item Continuity equation, \hyperpage{60}
+  \item Compton effect, \hyperpage{77}
+  \item Continuity equation, \hyperpage{63}
   \item Continuous function, \hyperpage{27}
   \item Continuous functions, \hyperpage{27}
   \item Converge, \hyperpage{23}
   \item Cosets, \hyperpage{20}
-  \item Cubit, \hyperpage{77}
-  \item Curl, \hyperpage{11}, \hyperpage{36}
+  \item Cubit, \hyperpage{80}
+  \item Curl, \hyperpage{11}, \hyperpage{38}
   \item Curl Theorem, \hyperpage{4}
-  \item Current, \hyperpage{60}
-  \item Current divider, \hyperpage{63}
+  \item Current, \hyperpage{63}
+  \item Current divider, \hyperpage{66}
   \item Cylindrical coordinates, \hyperpage{7}
 
   \indexspace
 
-  \item Dalton's law, \hyperpage{67}
-  \item De Broglie, \hyperpage{74}
-  \item Debye, \hyperpage{70}
+  \item Dalton's law, \hyperpage{70}
+  \item De Broglie, \hyperpage{77}
+  \item Debye, \hyperpage{73}
   \item Denseness of $\mathbb  {Q}$, \hyperpage{23}
   \item Determinant, \hyperpage{15}
-  \item Diffusion, \hyperpage{73}
+  \item Diffusion, \hyperpage{76}
   \item Dirac
     \subitem Delta Function, \hyperpage{6}
-    \subitem equation, \hyperpage{78}
-  \item Distance modulus, \hyperpage{51}
+    \subitem equation, \hyperpage{81}
+  \item Distance modulus, \hyperpage{54}
   \item Diverge, \hyperpage{23}
-  \item Divergence, \hyperpage{24}, \hyperpage{36}
+  \item Divergence, \hyperpage{24}, \hyperpage{39}
   \item Divergence theorem, \hyperpage{4}
-  \item Dual tensor, \hyperpage{66}
-  \item Dynamical timescale, \hyperpage{53}
+  \item Dual tensor, \hyperpage{69}
+  \item Dynamical timescale, \hyperpage{56}
 
   \indexspace
 
   \item Eigenvalues, \hyperpage{16}
   \item Eigenvectors, \hyperpage{16}
   \item Electron
-    \subitem Configurations, \hyperpage{90}
-    \subitem Shells, \hyperpage{91}
+    \subitem Configurations, \hyperpage{93}
+    \subitem Shells, \hyperpage{94}
   \item Elliptic cylindrical coordinates, \hyperpage{7}
-  \item Enthalpy, \hyperpage{72}
-  \item Entropy, \hyperpage{69}, \hyperpage{71}
+  \item Enthalpy, \hyperpage{75}
+  \item Entropy, \hyperpage{72}, \hyperpage{74}
   \item Euler's Identity, \hyperpage{12}
 
   \indexspace
 
-  \item Fermi energy, \hyperpage{86}
+  \item Fermi energy, \hyperpage{89}
   \item Field, \hyperpage{22}
-  \item Field tensor, \hyperpage{66}
+  \item Field tensor, \hyperpage{69}
   \item First Isomorphism Theorem, \hyperpage{21}
-  \item Flux, \hyperpage{51}
-  \item Fourier Series, \hyperpage{49}
-  \item Frobenius Method, \hyperpage{44}
-  \item Fuchs's Theorem, \hyperpage{44}
+  \item Flux, \hyperpage{54}
+  \item Fourier Series, \hyperpage{52}
+  \item Fourier transform, \hyperpage{52}
+  \item Frobenius Method, \hyperpage{47}
+  \item Fuchs's Theorem, \hyperpage{47}
 
   \indexspace
 
-  \item Gamma decay, \hyperpage{86}
+  \item Gamma decay, \hyperpage{89}
   \item Gamma function, \hyperpage{4}
-  \item Gauss's Law, \hyperpage{59}
+  \item Gauss's Law, \hyperpage{62}
+  \item Gaussian, \hyperpage{52}
+  \item General Linear Group, \hyperpage{36}
   \item Gibbs
-    \subitem Factor, \hyperpage{71}
-    \subitem Free energy, \hyperpage{72}
-    \subitem Sum, \hyperpage{71}
-  \item Gradient, \hyperpage{36}
+    \subitem Factor, \hyperpage{74}
+    \subitem Free energy, \hyperpage{75}
+    \subitem Sum, \hyperpage{74}
+  \item Gradient, \hyperpage{38}
   \item Gradient theorem, \hyperpage{4}
   \item Green's theorem, \hyperpage{4}
+  \item Greens formula, \hyperpage{4}
+  \item Group, \hyperpage{36}
 
   \indexspace
 
-  \item Hamilton's equations, \hyperpage{57}
-  \item hard sphere scattering, \hyperpage{83}
-  \item Harmonic oscillator, \hyperpage{79}
-  \item Heat, \hyperpage{72}
-  \item Helmholtz Free Energy, \hyperpage{70}
-  \item High pass filter, \hyperpage{63}
+  \item Hamilton's equations, \hyperpage{60}
+  \item hard sphere scattering, \hyperpage{86}
+  \item Harmonic oscillator, \hyperpage{82}
+  \item Heat, \hyperpage{75}
+  \item Helmholtz Free Energy, \hyperpage{73}
+  \item High pass filter, \hyperpage{66}
   \item Homomorphism, \hyperpage{19}
-  \item Hooke's Law, \hyperpage{56}
-  \item Hund's Rules, \hyperpage{82}
-  \item Hydrostatic equilibrium, \hyperpage{52}
+  \item Hooke's Law, \hyperpage{59}
+  \item Hund's Rules, \hyperpage{85}
+  \item Hydrostatic equilibrium, \hyperpage{55}
 
   \indexspace
 
-  \item Ideal gas law, \hyperpage{67}
+  \item Ideal gas law, \hyperpage{70}
   \item Ideal Theorem, \hyperpage{20}
-  \item Impedance, \hyperpage{63}
+  \item Impedance, \hyperpage{66}
   \item Infimum, \hyperpage{23}, \hyperpage{25}
   \item Injective, \hyperpage{18}
   \item Integral Domain, \hyperpage{18}
   \item Integral Test, \hyperpage{26}
-  \item Integration by parts, \hyperpage{45}
+  \item Integration by parts, \hyperpage{48}
   \item Intermediate Value Theorem, \hyperpage{28}, \hyperpage{34}
   \item Isomorphism, \hyperpage{19}
 
@@ -137,107 +143,111 @@
   \indexspace
 
   \item Kernal, \hyperpage{21}
-  \item Kirchhoff's Laws, \hyperpage{61}
+  \item Kirchhoff's Laws, \hyperpage{64}
   \item Kronecker delta, \hyperpage{5}
 
   \indexspace
 
-  \item Laguerre polynomials, \hyperpage{41}
+  \item Lagrange's identity, \hyperpage{4}
+  \item Laguerre polynomials, \hyperpage{44}
+  \item Laplace Operator, \hyperpage{38}
   \item Laplacian, \hyperpage{10}
   \item Law of
     \subitem Cosines, \hyperpage{8}
-    \subitem mass action, \hyperpage{72}
+    \subitem mass action, \hyperpage{75}
     \subitem Sines, \hyperpage{8}
     \subitem Tangents, \hyperpage{8}
-  \item Legendre polynomials, \hyperpage{39}
+  \item Legendre polynomials, \hyperpage{42}
   \item Limit, \hyperpage{23, 24}
-  \item Lorentz force law, \hyperpage{60}
-  \item Lorentz Transformations, \hyperpage{65}
-  \item Low pass filter, \hyperpage{63}
+  \item Lorentz force law, \hyperpage{63}
+  \item Lorentz Transformations, \hyperpage{68}
+  \item Low pass filter, \hyperpage{66}
 
   \indexspace
 
   \item Magnetic
-    \subitem Dipole moment, \hyperpage{61}
-    \subitem Moment, \hyperpage{69}
-    \subitem Susceptibility, \hyperpage{61}
-  \item Magnetizing field, \hyperpage{61}
+    \subitem Dipole moment, \hyperpage{64}
+    \subitem Moment, \hyperpage{72}
+    \subitem Susceptibility, \hyperpage{64}
+  \item Magnetizing field, \hyperpage{64}
   \item Matrix Algebra, \hyperpage{15}
   \item Maximum, \hyperpage{22}
   \item Maxwell
-    \subitem 's Equations, \hyperpage{58}
-    \subitem Relations, \hyperpage{72}
-  \item Maxwelldistribution, \hyperpage{73}
+    \subitem 's Equations, \hyperpage{61}
+    \subitem Relations, \hyperpage{75}
+  \item Maxwelldistribution, \hyperpage{76}
   \item Mean Value Theorem, \hyperpage{34, 35}
   \item Minimum, \hyperpage{22}
-  \item Minkowski Force, \hyperpage{66}
+  \item Minkowski Force, \hyperpage{69}
   \item Mollweide's Formulas:, \hyperpage{8}
-  \item Monatomic gas, \hyperpage{71}
+  \item Monatomic gas, \hyperpage{74}
   \item Monotonic Sequences, \hyperpage{24}
-  \item Multi-pole expansion, \hyperpage{59}
-  \item Multiplicity function, \hyperpage{69}
+  \item Multi-pole expansion, \hyperpage{62}
+  \item Multiplicity function, \hyperpage{72}
 
   \indexspace
 
-  \item Nuclear Decay, \hyperpage{86}
-  \item Nuclear Force, \hyperpage{85}
+  \item Nuclear Decay, \hyperpage{89}
+  \item Nuclear Force, \hyperpage{88}
 
   \indexspace
 
-  \item Ohms law, \hyperpage{63}
+  \item Ohms law, \hyperpage{66}
   \item Orthogonal Coordinates, \hyperpage{10}
 
   \indexspace
 
-  \item Parsec, \hyperpage{51}
-  \item parseval's theorem, \hyperpage{57}
-  \item partial wave amplitude, \hyperpage{83}
-  \item Partition function, \hyperpage{70}
-  \item Pauli Spin Matrices, \hyperpage{82}
-  \item Phaser, \hyperpage{63}
+  \item Parsec, \hyperpage{54}
+  \item parseval's theorem, \hyperpage{60}
+  \item partial wave amplitude, \hyperpage{86}
+  \item Partition function, \hyperpage{73}
+  \item Pauli Spin Matrices, \hyperpage{85}
+  \item Phaser, \hyperpage{66}
   \item Planck
-    \subitem distribution function, \hyperpage{70}
-    \subitem radiation law, \hyperpage{70}
+    \subitem distribution function, \hyperpage{73}
+    \subitem radiation law, \hyperpage{73}
   \item Pointwise Convergence, \hyperpage{31}
-  \item Poisson's equation, \hyperpage{59}
+  \item Poisson's equation, \hyperpage{62}
   \item Polar Coordinates, \hyperpage{7}
-  \item Polarization field, \hyperpage{58}
+  \item Polarization field, \hyperpage{61}
 
   \indexspace
 
   \item Quantum
-    \subitem Chromodynamics, \hyperpage{88}
-    \subitem Electrodynamics, \hyperpage{88}
+    \subitem Chromodynamics, \hyperpage{91}
+    \subitem Electrodynamics, \hyperpage{91}
 
   \indexspace
 
-  \item Rabi-Flopping frequency, \hyperpage{83}
-  \item Rapidity, \hyperpage{66}
+  \item Rabi-Flopping frequency, \hyperpage{86}
+  \item Rapidity, \hyperpage{69}
   \item Ratio Test, \hyperpage{26}
   \item Rational Zeros Theorem, \hyperpage{22}
-  \item Reaction quotient, \hyperpage{72}
+  \item Reaction quotient, \hyperpage{75}
   \item Ring, \hyperpage{17}
   \item Root Test, \hyperpage{26}
-  \item Rutherford cross section, \hyperpage{87}
-  \item Ruthford Scattering Formula, \hyperpage{74}
-  \item Rydberg formula, \hyperpage{75}
+  \item Rutherford cross section, \hyperpage{90}
+  \item Ruthford Scattering Formula, \hyperpage{77}
+  \item Rydberg formula, \hyperpage{78}
 
   \indexspace
 
-  \item Saddle point approximation, \hyperpage{48}
-  \item Schr\"{o}dingr Equation, \hyperpage{78}
-  \item Separation energy, \hyperpage{87}
+  \item Saddle point approximation, \hyperpage{51}
+  \item Schr\"{o}dingr Equation, \hyperpage{81}
+  \item Separation energy, \hyperpage{90}
   \item Sequence, \hyperpage{23, 24}
   \item Singular Points, \hyperpage{13}
-  \item Space-time interval, \hyperpage{66}
+  \item Space-time interval, \hyperpage{69}
   \item Spherical
     \subitem coordinates, \hyperpage{7}
-    \subitem harmonics, \hyperpage{80}
-  \item Spontaneous emission, \hyperpage{83}
-  \item Stefan-Boltzmann equation, \hyperpage{67}
-  \item Stefan-Boltzmann law, \hyperpage{70}
-  \item Stirling approximation, \hyperpage{69}
+    \subitem harmonics, \hyperpage{83}
+  \item Spontaneous emission, \hyperpage{86}
+  \item Stefan-Boltzmann equation, \hyperpage{70}
+  \item Stefan-Boltzmann law, \hyperpage{73}
+  \item Stirling approximation, \hyperpage{72}
   \item Stokes' theorem, \hyperpage{4}
+  \item Subgroup, \hyperpage{36}
+  \item Subgroup theorem, \hyperpage{37}
   \item Subring Theorem, \hyperpage{18}
   \item Subsequence, \hyperpage{25}
   \item Subsequential limit, \hyperpage{25}
@@ -248,11 +258,12 @@
 
   \item Taylor series, \hyperpage{5}
   \item Taylor's Theorem, \hyperpage{35}
-  \item Thermal conductivity, \hyperpage{73}
+  \item Thermal conductivity, \hyperpage{76}
   \item Trace, \hyperpage{15}
-  \item Transition rate, \hyperpage{83}
+  \item Transition rate, \hyperpage{86}
   \item Triangle inequality, \hyperpage{22}
   \item Trigonometric Identities, \hyperpage{9}
+  \item Trigonometric integrals, \hyperpage{50}
 
   \indexspace
 
@@ -260,21 +271,21 @@
 
   \indexspace
 
-  \item Van der Waals, \hyperpage{72}
-  \item Variational principle, \hyperpage{83}
-  \item viscosity, \hyperpage{73}
-  \item Voltage divider, \hyperpage{63}
+  \item Van der Waals, \hyperpage{75}
+  \item Variational principle, \hyperpage{86}
+  \item viscosity, \hyperpage{76}
+  \item Voltage divider, \hyperpage{65}
 
   \indexspace
 
-  \item Wallis cosine formula, \hyperpage{47}
-  \item Wave equation, \hyperpage{58}
+  \item Wallis cosine formula, \hyperpage{50}
+  \item Wave equation, \hyperpage{61}
   \item Weierstrass M-test, \hyperpage{32}
   \item Weierstrass substitution, \hyperpage{9}
-  \item Wiedemann-Franz ratio, \hyperpage{73}
+  \item Wiedemann-Franz ratio, \hyperpage{76}
 
   \indexspace
 
-  \item Zeeman effect, \hyperpage{84}
+  \item Zeeman effect, \hyperpage{87}
 
 \end{theindex}
