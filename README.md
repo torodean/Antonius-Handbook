@@ -1,5 +1,5 @@
 # Antonius-Handbook
-Description and information found: https://msu.edu/~torodean/AHandbook.html
+Description and information found: https://torodean.github.io/AHandbook.html
 
 This repository is the re-formatted version of Antonius's Handbook which is to be migrated to a latex document using a book document class rather than article. There are currently 2 volumes that both serve different purposes.
 
@@ -21,7 +21,7 @@ The current maintainer of this work is: Antonius Torode.
 
 Published by Antonius Torode.
 
-Hosted at: https://msu.edu/~torodean/AHandbook.html
+Hosted at: https://torodean.github.io/AHandbook.html
 
 Github Repository: https://github.com/torodean/Antonius-Handbook
 
@@ -31,7 +31,7 @@ Github Repository: https://github.com/torodean/Antonius-Handbook
 
 For Citation purposes you can use the following with the version used replaced in the :
 
-Torode, A. "Antonius’ Handbook" Michigan State University – Department of Physics & Astronomy. 2016, Student. Volume ## Version: #.###
+Torode, A. "Antonius’ Handbook". 2022. Volume ## Version: #.###
 
 
 
