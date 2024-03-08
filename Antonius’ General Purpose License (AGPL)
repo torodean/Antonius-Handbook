@@ -1,62 +1,63 @@
 ###################################################
 ###  Antonius’ General Purpose License (AGPL)
-###  Version: 1.000
+###  Version: 1.200
 ###  Created on: 21 February 2017
-###  Modified on: 03 April 2018
+###  Last modified: March 08 2024
 ###################################################
 
-
-Copyright (C) 2017 Antonius Torode. <http://msu.edu/~torodean>
+Copyright (C) 2024 Antonius Torode. <https://torodean.github.io/>
 
 This document was designed for use by the original writer and maintainer and is not to be distributed without permission of the current maintainer of this document.
 
-	Original Maintainer:     Antonius W. Torode
-	Current Maintainer:      Antonius W. Torode
+- Original Maintainer:     Antonius W. Torode
+- Current Maintainer:      Antonius W. Torode
 
 #################
 ###  Preamble
 #################
 
-Antonius’ General Purpose License, also referred to as AGPL within this document, is a personal license designed to outline the property rights of creations originally made by Antonius Torode. This license is to not be distributed except for purposes explicitly outlined in this document.
+Antonius’ General Purpose License, also referred to as AGPL within this document, is a personal license designed to outline the property rights of creations originally made by Antonius Torode. This license is not to be distributed except for purposes explicitly outlined in this document.
 
 #############################
 ###  TERMS AND CONDITIONS
 #############################
 
-0. Definitions.
+    Definitions.
 
 "This License" refers to the current version of Antonius’ General Purpose License.
 
 "Copyright" also means copyright-like laws that apply to other kinds of works.
 
-"The Author" refers to the current maintainer of the work in question.
+"Current Maintainer" refers to the current maintainer of the work in question.
 
-1. Permissions
+    Permissions
 
 Under the permission of this document, any publicly released document, code, program, or image by the current maintainer of this document may be used freely as long as it follows the below permissions as well.
 
-The document(s) contained with this license may not be modified in any way without written and signed permission by the original author of the work unless explicitly intended to be modified. All work contained with this license can be cited and information within it used as long as proper credit (or a proper citation) is provided with the use of the work.
+The document(s) contained within this license may not be modified in any way without written and signed permission by the original author of the work unless explicitly intended to be modified. All work contained within this license can be cited, and information within it used as long as proper credit (or a proper citation) is provided with the use of the work.
 
-The programs, codes, and images accompanying this document may be freely used and adapted for personal use as long as no profit is to be made by the usage and proper credit (or a proper citation) is provided with the use of the work. Usage of any code, program, or image may be used for profit if and only if the author gives explicit written permission to the party whom will obtain profit from use of the work.
+The programs, codes, and images accompanying this document may be freely used and adapted for personal use as long as no profit is to be made by the usage, and proper credit (or a proper citation) is provided with the use of the work. Usage of any code, program, or image may be used for profit if and only if the current maintainer gives explicit written permission to the party who will obtain profit from the use of the work.
 
-2. License Modifications
+    Attribution Requirement:
 
-This license may be modified at any time by the original maintainer.
+Users of this work must provide appropriate credit to the current maintainer, whenever the work or any derivative of it is used, modified, or distributed. Proper attribution ensures that the authorship of the work is acknowledged and respected. This may include, but is not limited to, displaying the current maintainer's name, the title of the work, and a link to the original source where applicable.
 
-3. Exceptions and addendum to these permissions can be found below in the "Antonius Specific Projects" section.
+    Non-Endorsement Clause:
 
-####################################
-###  Antonius Specific Projects
-####################################
+The use of this work or any derivatives thereof shall not imply endorsement by the current maintainer, for any products, services, or activities associated with the work. While the work may be freely used and distributed under the terms of this license, the creator does not endorse or support any modifications, adaptations, or uses of the work beyond those explicitly permitted herein.
 
---------------------------
---- Antonius-Templates ---
---------------------------
+    Indemnification Clause
 
-The templates located in the repository referred to as Antonius-Templates are free to use, distribute, share, or modify freely with a single caveat. The content within said templates belongs solely to the maintainer of this work and cannot be used unless cited properly. The "content" written here refers to any writing that does not pertain specifically to the format of the document itself.
+By using this work, users agree to assume all liability for its use and any consequences thereof. Users further agree to indemnify and hold harmless the current maintainer, from and against any and all claims, damages, liabilities, costs, and expenses, including legal fees, arising from their use of the work, including but not limited to any claims of infringement of intellectual property rights, violation of third-party rights, or breach of any applicable laws or regulations. This indemnification obligation shall survive the termination or expiration of this license.
 
----------------------
---- Antonius-GINA ---
----------------------
+    License Modifications
 
-The GINA program and everything contained within it's repository can be freely used for academic purposes as long as proper credit (or a proper citation) is provided with the use of the work.
+This license may be modified at any time by the original or current maintainer. Additionally, any individual or entity may freely reuse and modify this license for their own projects or works, provided that they update the 'current maintainer' information within the document so that 'the current maintainer' refers to them anywhere mentioned in the document. It is the responsibility of the user to ensure that the license is appropriately updated and applied to their own works in accordance with their preferences and legal requirements.
+
+    Warranty Disclaimer
+
+The software and code are provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the current maintainer be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or code or the use or other dealings in the software or code.
+
+    Exceptions and Addendum to these Permissions
+
+Contributors to any projects under this license acknowledge that the current maintainer reserves the right to monetize their contributions at any time.
